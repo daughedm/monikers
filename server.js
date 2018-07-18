@@ -83,8 +83,8 @@ app.put("/api/v1/cards/:id", (request, response) => {
       title,
       packed
     })
-    .then(updatedMarsItem => {
-      response.status(200).send(`Updated ${updatedMarsItem} item.`);
+    .then(updatedCard => {
+      response.status(200).send(`Updated ${updatedCard} item.`);
     })
     .catch(error => response.status(400).send(error));
 });
