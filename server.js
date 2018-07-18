@@ -75,8 +75,13 @@ app.delete("/api/v1/cards/:id", (request, response) => {
 });
 
 app.put("/api/v1/cards/:id", (request, response) => {
-  const { id } = request.params;
-  const { title, packed } = request.body;
+  const {
+    id
+  } = request.params;
+  const {
+    title,
+    packed
+  } = request.body;
   database("monikers")
     .where("id", id)
     .update({
