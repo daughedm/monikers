@@ -21,7 +21,7 @@ app.get('/api/v1/cards', (request, response) => {
 app.post('/api/v1/cards', (request, response) => {
   let newCard = request.body;
 
-  for (let requiredParameter of ['name', 'summary', 'pointValue', 'category']) {
+  for (let requiredParameter of ['name', 'description', 'pointValue', 'category']) {
     if (!newCard[requiredParameter]) {
       response.status(422).send({
         error: `You are missing a ${requiredParameter}`
@@ -37,11 +37,11 @@ app.post('/api/v1/cards', (request, response) => {
 
 app.put('/api/v1/cards/:id', (request, response) => {
   const { id } = request.params;
-  const { title, packed } = request.body;
+  const { name, description, pointValue, category } = request.body;
 
   database('cards')
     .where('id', id)
-    .update({ title, packed })
+    .update({ name, description, pointValue, category })
     .then(updatedCard =>
       response.status(200).send(`Updated ${updatedCard} item.`)
     )
