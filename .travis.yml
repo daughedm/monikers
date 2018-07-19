@@ -1,0 +1,15 @@
+language: node_js
+node_js: '9'
+services:
+- postgresql
+before_script:
+- psql -c 'create database monikers;' -U postgres
+- psql -c 'create database monikers_test;' -U postgres
+notifications:
+  email: false
+deploy:
+  provider: heroku
+  api_key:
+    secure: insert key here
+  app: monikers?????????????
+  skip_cleanup: true
