@@ -1,4 +1,3 @@
-export const teamNames = teamName => ({
-  type: 'TEAM_NAMES',
-  teamName
-});
+import {teamNames} from './gameActions.js'
+
+export default teamNames
