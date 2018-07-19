@@ -1,4 +1,4 @@
-export const someAction = stuff => ({
-  type: 'SOME_TYPE',
-  stuff
+export const teamNames = teamName => ({
+  type: 'TEAM_NAMES',
+  teamName
 });
