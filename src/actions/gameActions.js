@@ -3,4 +3,9 @@ const getTeamNames = teamName => ({
   teamName
 });
 
-export {getTeamNames}
+const numOfPlayers = number => ({
+  type: 'NUM_OF_PLAYERS',
+  number
+});
+
+export {getTeamNames,numOfPlayers}
