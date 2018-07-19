@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import teamNames from '../../actions';
+import {getTeamNames} from '../../actions';
 import './Setup.css';
 
 export class Setup extends Component {
@@ -24,16 +24,20 @@ export class Setup extends Component {
   handleSubmit = e => {
     e.preventDefault();
 
-    this.props.teamNames(this.state.teamName);
+    this.props.getTeamNames(this.state.teamName);
   };
 
   render() {
     return (
       <div>
         <form action="" onSubmit={this.handleSubmit}>
+          {this.props.teamNames.length === 0
+            ? <h3>Team One</h3>
+            : <h3>Team Two</h3>
+          }
           <input
             type="text"
-            placeholder="Enter Team Name"
+            placeholder="Enter team name"
             onChange={this.handleChange}
           />
           <button type="submit">Submit</button>
@@ -43,10 +47,12 @@ export class Setup extends Component {
   }
 }
 
-export const mapStateToProps = state => ({});
+export const mapStateToProps = state => ({
+  teamNames: state.teamNames
+});
 
 export const mapDispatchToProps = dispatch => ({
-  teamNames: teamName => dispatch(teamNames(teamName))
+  getTeamNames: teamName => dispatch(getTeamNames(teamName))
 });
 
 Setup.propTypes = {};
