@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { createStore } from 'redux';
 import { Provider } from 'react-redux';
-import App from './components/App';
+import App from './containers/App/App';
 import './index.css';
 import rootReducer from './reducers';
 
@@ -13,9 +13,7 @@ const store = createStore(rootReducer, devTools);
 
 const app = (
   <Provider store={store}>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
+    <App />
   </Provider>
 );
 
