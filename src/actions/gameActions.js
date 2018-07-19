@@ -1,6 +1,6 @@
-const teamNames = teamName => ({
+const getTeamNames = teamName => ({
   type: 'TEAM_NAMES',
   teamName
 });
 
-export {teamNames}
+export {getTeamNames}

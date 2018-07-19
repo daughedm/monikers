@@ -1,3 +1,3 @@
-import {teamNames} from './gameActions.js'
+import {getTeamNames} from './gameActions.js'
 
-export  {teamNames}
+export  {getTeamNames}
