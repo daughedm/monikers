@@ -2,9 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import * as actions from '../../actions/index';
-
 import Setup from '../../components/Setup/Setup';
-
 import './App.css';
 
 export class App extends Component {

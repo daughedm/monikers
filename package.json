@@ -5,6 +5,7 @@
   "dependencies": {
     "auth0-js": "^9.7.2",
     "body-parser": "^1.18.3",
+    "dexie": "^2.0.4",
     "express": "^4.16.3",
     "knex": "^0.15.1",
     "normalize.css": "^8.0.0",
