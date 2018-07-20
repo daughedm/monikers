@@ -1,6 +1,7 @@
 export const makeFetch = async (url, options) => {
   try {
     const response = await fetch(url, options);
+
     if (!response.ok) {
       throw new Error(`${response.status}`);
     }
@@ -11,6 +12,6 @@ export const makeFetch = async (url, options) => {
 };
 
 export const getCards = async () => {
-  const url = '/api/v1/cards';
+  const url = 'http://localhost:3001/api/v1/cards';
   return await makeFetch(url);
 };
