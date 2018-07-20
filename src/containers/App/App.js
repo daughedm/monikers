@@ -1,19 +1,31 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import Play from '../../components/Play/Play'
-import Setup from '../../components/Setup/Setup'
+import Play from '../../components/Play/Play';
+import Setup from '../../components/Setup/Setup';
+import indexedDB from '../../indexedBD';
+import * as api from '../../api/api';
 import './App.css';
 
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 export class App extends Component {
-  componentDidMount() {}
+  componentDidMount() {
+    this.storeCards();
+  }
+
+  storeCards = async () => {
+    const cards = await api.getCards();
+    console.log('cards: ', cards);
+
+    indexedDB.cards.clear();
+    indexedDB.cards.bulkAdd(cards);
+  };
 
   render() {
     return (
       <Router>
-          <Route path="/" exact={true} component={Setup} />
+        <Route path="/" exact={true} component={Setup} />
       </Router>
     );
   }
