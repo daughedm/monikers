@@ -7,10 +7,10 @@ export const teamNames = (state = [], action) => {
   }
 };
 
-export const numOfPlayers = (state = -1, action) => {
+export const numPlayers = (state = -1, action) => {
   switch (action.type) {
     case 'NUM_OF_PLAYERS':
-      return [action.number];
+      return action.number;
     default:
       return state;
   }
