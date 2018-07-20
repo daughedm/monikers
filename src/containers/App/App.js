@@ -4,6 +4,7 @@ import { connect } from 'react-redux';
 import Play from '../../components/Play/Play';
 import Setup from '../../components/Setup/Setup';
 import indexedDB from '../../indexedBD';
+import { addCards } from '../../actions/cardActions';
 import * as api from '../../api/api';
 import './App.css';
 
@@ -15,11 +16,14 @@ export class App extends Component {
   }
 
   storeCards = async () => {
-    const cards = await api.getCards();
-    console.log('cards: ', cards);
+    const cardsPG = await api.getCards();
 
     indexedDB.cards.clear();
-    indexedDB.cards.bulkAdd(cards);
+    indexedDB.cards.bulkAdd(cardsPG);
+
+    const cardsIDB = await indexedDB.cards.toArray();
+
+    this.props.addCards(cardsIDB);
   };
 
   render() {
@@ -33,7 +37,9 @@ export class App extends Component {
 
 export const mapStateToProps = state => ({});
 
-export const mapDispatchToProps = dispatch => ({});
+export const mapDispatchToProps = dispatch => ({
+  addCards: cards => dispatch(addCards(cards))
+});
 
 App.propTypes = {};
 
