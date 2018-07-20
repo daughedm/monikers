@@ -33,13 +33,11 @@ export class Setup extends Component {
     this.props.getTeamNames(teamOne);
     this.props.getTeamNames(teamTwo);
     this.props.numOfPlayers(numPlayers);
-    this.props.teamNames(this.state.teamName);
 
-    // add input value to redux
-    this.props.teamNames(this.state.teamName);
-
-    // add input value to indexedDB
-    indexedDB.teams.add({ name: this.state.teamName });
+    // add input values to indexedDB
+    indexedDB.teams.add({ teamOne: this.state.teamOne });
+    indexedDB.teams.add({ teamTwo: this.state.teamTwo });
+    indexedDB.teams.add({ numPlayers: this.state.numPlayers });
 
     // get teams from indexedDB
     const teamNamesDB = await indexedDB.teams.toArray();
