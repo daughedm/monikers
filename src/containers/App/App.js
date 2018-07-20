@@ -18,6 +18,7 @@ export class App extends Component {
     const cards = await api.getCards();
     console.log('cards: ', cards);
 
+    indexedDB.cards.clear();
     indexedDB.cards.bulkAdd(cards);
   };
 
