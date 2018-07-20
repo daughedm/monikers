@@ -1,9 +1,9 @@
 import { combineReducers } from 'redux';
-import { teamNames, numOfPlayers } from './gameReducer';
+import { teamNames, numPlayers } from './gameReducer';
 
 const rootReducer = combineReducers({
   teamNames: teamNames,
-  numOfPlayers: numOfPlayers
+  numPlayers: numPlayers
 });
 
 export default rootReducer;
