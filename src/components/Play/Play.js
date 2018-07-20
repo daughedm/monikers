@@ -11,12 +11,16 @@ export class Play extends Component {
     return (
     <div className="play">
       <div>
-        <h3>TeamOne</h3>
-        <h3>Round 1</h3>
+        {/* All text is placeholder calls to redux store. */}
+        <h3>this.props.currentTeam</h3>
+        <h3>this.props.currentRound</h3>
       </div>
       <div>
-        <h1>Blacula</h1>
-        <p>The title character from a horror film about an 18th century African prince turned vampire. Locked in a coffin for two centuries by Count Dracula, the box was purchased as part of an estate by two interior decorators who accidentally set him loose in 705 Los Angeles.</p>
+        <h1>this.props.cards[0].name</h1>
+        <h1>this.props.cards[0].pointValue</h1>
+
+        <p>this.props.cards[0].description</p>
+        <h3>this.props.cards[0].category</h3>
       </div>
       <button>Pass</button>
       <button>Got It!</button>
