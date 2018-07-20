@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import {getTeamNames} from '../../actions';
+import {getTeamNames, numOfPlayers} from '../../actions';
 import './Setup.css';
 
 export class Setup extends Component {
@@ -9,50 +9,68 @@ export class Setup extends Component {
     super(props);
 
     this.state = {
-      teamName: ''
+      teamOne: '',
+      teamTwo: '',
+      numPlayers: -1
     };
   }
 
   componentDidMount() {}
 
   handleChange = e => {
+    const { value, name } = e.target
     this.setState({
-      teamName: e.target.value
+      [name]: value
     });
   };
 
   handleSubmit = e => {
     e.preventDefault();
 
-    this.props.getTeamNames(this.state.teamName);
+    const { teamOne, teamTwo, numPlayers } = this.state
+
+    this.props.getTeamNames(teamOne);
+    this.props.getTeamNames(teamTwo);
+    this.props.numOfPlayers(numPlayers);
   };
 
   render() {
     return (
-      <div>
-        <form action="" onSubmit={this.handleSubmit}>
-          {this.props.teamNames.length === 0
-            ? <h3>Team One</h3>
-            : <h3>Team Two</h3>
-          }
+     <form action="" onSubmit={this.handleSubmit}>
+        <h3>Number of Players</h3>
+          <input
+            type='number'
+            name="numPlayers"
+            onChange={this.handleChange}
+          />
+          <h3>Team One</h3>
           <input
             type="text"
+            name="teamOne"
+            placeholder="Enter team name"
+            onChange={this.handleChange}
+          />
+          <h3>Team Two</h3>
+          <input
+            type="text"
+            name="teamTwo"
             placeholder="Enter team name"
             onChange={this.handleChange}
           />
           <button type="submit">Submit</button>
         </form>
-      </div>
     );
   }
 }
 
 export const mapStateToProps = state => ({
-  teamNames: state.teamNames
+  teamNames: state.teamNames,
+  numPlayers: state.numPlayers
 });
 
 export const mapDispatchToProps = dispatch => ({
-  getTeamNames: teamName => dispatch(getTeamNames(teamName))
+  getTeamNames: teamName => dispatch(getTeamNames(teamName)),
+  numOfPlayers: number => dispatch(numOfPlayers(number))
 });
 
 Setup.propTypes = {};
