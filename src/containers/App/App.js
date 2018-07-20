@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
+import Play from '../../components/Play/Play'
 import Setup from '../../components/Setup/Setup'
 import './App.css';
 
