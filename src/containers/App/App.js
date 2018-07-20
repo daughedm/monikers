@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
+import Play from '../../components/Play/Play'
 import Setup from '../../components/Setup/Setup'
 import './App.css';
 
@@ -12,7 +13,8 @@ export class App extends Component {
   render() {
     return (
       <Router>
-          <Route path="/" exact={true} component={Setup} />
+          <Route path="/" exact={true} component={Play} />
+          
       </Router>
     );
   }
