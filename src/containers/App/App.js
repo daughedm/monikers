@@ -13,8 +13,7 @@ export class App extends Component {
   render() {
     return (
       <Router>
-          <Route path="/" exact={true} component={Play} />
-          
+          <Route path="/" exact={true} component={Setup} />
       </Router>
     );
   }
