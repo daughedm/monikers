@@ -7,17 +7,31 @@ import Setup from '../../components/Setup/Setup';
 
 import './App.css';
 
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { Security, ImplicitCallback } from '@okta/okta-react';
+import Home from '../../components/Home/Home';
+
+const config = {
+  issuer: 'https://dev-458733.oktapreview.com/oauth2/default',
+  redirect_uri: window.location.origin + '/implicit/callback',
+  client_id: '0oafrod8i3NBZ6qCm0h7'
+};
+
 export class App extends Component {
   componentDidMount() {}
 
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <h1 className="App-title">Monikers</h1>
-        </header>
-        <Setup />
-      </div>
+      <Router>
+        <Security
+          issuer={config.issuer}
+          client_id={config.client_id}
+          redirect_uri={config.redirect_uri}
+        >
+          <Route path="/" exact={true} component={Home} />
+          <Route path="/implicit/callback" component={ImplicitCallback} />
+        </Security>
+      </Router>
     );
   }
 }
