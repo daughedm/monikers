@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
+const cors = require('express-cors');
 
 const environment = process.env.NODE_ENV || 'development';
 const configuration = require('./knexfile')[environment];
@@ -10,6 +11,15 @@ app.set('port', process.env.PORT || 3001);
 app.locals.title = 'Monikers';
 
 app.use(bodyParser.json());
+app.use(cors());
+app.use(function(req, res, next) {
+  res.header('Access-Control-Allow-Origin', '*');
+  res.header(
+    'Access-Control-Allow-Headers',
+    'Origin, X-Requested-With, Content-Type, Accept'
+  );
+  next();
+});
 
 app.get('/api/v1/cards', (request, response) => {
   database('cards')
@@ -21,7 +31,12 @@ app.get('/api/v1/cards', (request, response) => {
 app.post('/api/v1/cards', (request, response) => {
   let newCard = request.body;
 
-  for (let requiredParameter of ['name', 'description', 'pointValue', 'category']) {
+  for (let requiredParameter of [
+    'name',
+    'description',
+    'pointValue',
+    'category'
+  ]) {
     if (!newCard[requiredParameter]) {
       response.status(422).send({
         error: `You are missing a ${requiredParameter}`
