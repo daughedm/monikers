@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import indexedDB from '../../indexedBD';
 import { connect } from 'react-redux';
-import { getTeamNames, numOfPlayers } from '../../actions';
+import { getTeamNames, numOfPlayers } from '../../actions/gameActions';
 import './Setup.css';
 
 export class Setup extends Component {
