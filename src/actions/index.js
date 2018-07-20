@@ -1,3 +1,3 @@
-import {teamNames} from './gameActions.js'
+import {getTeamNames, numOfPlayers} from './gameActions.js'
 
-export default teamNames
+export  {getTeamNames, numOfPlayers}

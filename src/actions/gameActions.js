@@ -1,6 +1,11 @@
-const teamNames = teamName => ({
+const getTeamNames = teamName => ({
   type: 'TEAM_NAMES',
   teamName
 });
 
-export {teamNames}
+const numOfPlayers = number => ({
+  type: 'NUM_OF_PLAYERS',
+  number
+});
+
+export {getTeamNames,numOfPlayers}
