@@ -55,6 +55,38 @@
   box-shadow: 0px 2px 12px 0px rgba(0,0,0,0.37);
 }
 
+.ripple-pass {
+  background-position: center;
+  transition: background 0.8s;
+}
+
+.ripple-pass:hover {
+  background: rgba(239, 83, 63, 1) radial-gradient(circle, transparent 1%, 
+  rgba(239, 83, 63, 1) 1%) center/15000%;
+}
+
+.ripple-pass:active {
+  background-color: rgba(239, 83, 63, 0.75);
+  background-size: 100%;
+  transition: background 0s;
+}
+
+.ripple-got-it {
+  background-position: center;
+  transition: background 0.8s;
+}
+
+.ripple-got-it:hover {
+  background: rgba(76, 189, 159, 1) radial-gradient(circle, transparent 1%, 
+  rgba(76, 189, 159, 1) 1%) center/15000%;
+}
+
+.ripple-got-it:active {
+  background-color: rgba(239, 83, 63, 0.75);
+  background-size: 100%;
+  transition: background 0s;
+}
+
 .pass-button {
   width: 48%;
   height: 50px;
@@ -109,3 +141,4 @@
   margin: auto;
 
 }
+
