@@ -2,12 +2,14 @@ import {
   getTeamNames,
   numOfPlayers,
   addCards,
-  discardedCards
+  discardedCards,
+  currentTeam
 } from './gameActions.js';
 
 export  {
   getTeamNames,
   numOfPlayers,
   addCards,
-  discardedCards
+  discardedCards,
+  currentTeam
 };
