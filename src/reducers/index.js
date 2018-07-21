@@ -2,21 +2,23 @@ import { combineReducers } from 'redux';
 import {
   teamNames,
   numPlayers,
-  cards,
+  activeCards,
+  discardedCards,
   currentTeam,
   currentRound,
-  teamScores
+  teamOneScore,
+  teamTwoScore
 } from './gameReducer';
 
 const rootReducer = combineReducers({
   teamNames: teamNames,
   numPlayers: numPlayers,
-  cards: cards,
-  discarded: cards,
+  activeCards: activeCards,
+  discardedCards: discardedCards,
   currTeam: currentTeam,
   currRound: currentRound,
-  teamOneScore: teamScores,
-  teamTwoScores: teamScores
+  teamOneScore: teamOneScore,
+  teamTwoScore: teamTwoScore
 });
 
 export default rootReducer;
