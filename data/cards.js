@@ -1,3 +1,4 @@
+/* eslint-disable */
 module.exports = [
   {
     name: 'Doge',
@@ -298,7 +299,7 @@ module.exports = [
     category: 'ET CETERA',
     pointValue: 2
   },
-  { 
+  {
     name: 'An Illusionist',
     description: 'A performer of magic acts that often include demonstrating "impossible” tricks to a credulous audience. The term was preferred by the character Gob Bluth in the television series Arrested Development, whose performances often went horribly wrong.',
     category: 'ET CETERA',
@@ -599,3 +600,4 @@ module.exports = [
     pointValue: 2
   }
 ]
+/* eslint-disable */

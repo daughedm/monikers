@@ -4,7 +4,7 @@ import indexedDB from '../../indexedBD';
 import { connect } from 'react-redux';
 import { getTeamNames, numOfPlayers } from '../../actions/gameActions';
 import './Setup.css';
-import logo from "../../assets/monikers-logo-02.svg"
+import logo from "../../assets/monikers-logo-02.svg";
 
 export class Setup extends Component {
   constructor(props) {
@@ -41,8 +41,8 @@ export class Setup extends Component {
     indexedDB.teams.add({ numPlayers: this.state.numPlayers });
 
     // get teams from indexedDB
+    /* eslint-disable-next-line */
     const teamNamesDB = await indexedDB.teams.toArray();
-    console.log('teamNamesDB: ', teamNamesDB);
   };
 
   render() {
@@ -52,10 +52,10 @@ export class Setup extends Component {
         <h2 className="headline">Game Setup</h2>
         <form action="" onSubmit={this.handleSubmit}>
           <h3 className="label-name">Number of Players</h3>
-          <input 
-            className="input-field" 
-            placeholder="Player count" 
-            type="number" name="numPlayers" 
+          <input
+            className="input-field"
+            placeholder="Player count"
+            type="number" name="numPlayers"
             onChange={this.handleChange} />
           <h3 className="label-name">Team One</h3>
           <input
@@ -73,12 +73,12 @@ export class Setup extends Component {
             placeholder="Enter team name"
             onChange={this.handleChange}
           />
-          <button 
-            className="start-button" 
+          <button
+            className="start-button"
             type="submit">
           START GAME</button>
-          <button 
-            className="back-button" 
+          <button
+            className="back-button"
             type="submit">
           BACK</button>
         </form>
