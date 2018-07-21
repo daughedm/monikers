@@ -4,6 +4,7 @@ import indexedDB from '../../indexedBD';
 import { connect } from 'react-redux';
 import { getTeamNames, numOfPlayers } from '../../actions/gameActions';
 import './Setup.css';
+import logo from "../../assets/monikers-logo-02.svg"
 
 export class Setup extends Component {
   constructor(props) {
@@ -46,25 +47,33 @@ export class Setup extends Component {
 
   render() {
     return (
-      <form action="" onSubmit={this.handleSubmit}>
-        <h3>Number of Players</h3>
-        <input type="number" name="numPlayers" onChange={this.handleChange} />
-        <h3>Team One</h3>
-        <input
-          type="text"
-          name="teamOne"
-          placeholder="Enter team name"
-          onChange={this.handleChange}
-        />
-        <h3>Team Two</h3>
-        <input
-          type="text"
-          name="teamTwo"
-          placeholder="Enter team name"
-          onChange={this.handleChange}
-        />
-        <button type="submit">Submit</button>
-      </form>
+      <div className="wrapper">
+        <img className="logo" src={logo} alt="Monikers logo"/>
+        <form action="" onSubmit={this.handleSubmit}>
+          <h3 className="label-name">Number of Players</h3>
+          <input className="input-field" type="number" name="numPlayers" onChange={this.handleChange} />
+          <h3 className="label-name">Team One</h3>
+          <input
+            className="input-field"
+            type="text"
+            name="teamOne"
+            placeholder="Enter team name"
+            onChange={this.handleChange}
+          />
+          <h3 className="label-name">Team Two</h3>
+          <input
+            className="input-field"
+            type="text"
+            name="teamTwo"
+            placeholder="Enter team name"
+            onChange={this.handleChange}
+          />
+          <button 
+            className="start-button" 
+            type="submit">
+          START GAME</button>
+        </form>
+      </div>
     );
   }
 }
