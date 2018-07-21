@@ -12,3 +12,8 @@ export const addCards = cards => ({
   type: 'ADD_CARDS',
   cards
 });
+
+export const discardedCards = card => ({
+  type: 'DISCARDED_CARDS',
+  card
+});
