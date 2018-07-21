@@ -1,11 +1,13 @@
-import React from "react";
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const SplashPage = () => {
   return (
     <form>
       <h1>Monikers</h1>
-      <input type="submit" value="Start" />
-      <input type="submit" value="Instructions" />
+      <NavLink to="/setup">New Game</NavLink>
+      <br />
+      <NavLink to="/instructions">Instructions</NavLink>
     </form>
   );
 };
