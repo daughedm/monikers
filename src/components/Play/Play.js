@@ -18,16 +18,16 @@ export class Play extends Component {
           <h3 className="current-round">Round 1</h3>
 
         </div>
-        {this.props.cards.length && 
+        {this.props.activeCards.length && 
         <div className="card-container">
-          <h1 className="card-title">{this.props.cards[0].name}</h1>
+          <h1 className="card-title">{this.props.activeCards[0].name}</h1>
 
-          <p className="description">{this.props.cards[0].description}</p>
+          <p className="description">{this.props.activeCards[0].description}</p>
           <div className="dashed-line" ></div>
-          <h3 className="category">{this.props.cards[0].category}</h3>
+          <h3 className="category">{this.props.activeCards[0].category}</h3>
           {/* this divs colors will change based on category */}
           <div className="circle">
-            <h1 className="points">{this.props.cards[0].pointValue}</h1>
+            <h1 className="points">{this.props.activeCards[0].pointValue}</h1>
           </div>
         </div>
         }
@@ -41,7 +41,7 @@ export class Play extends Component {
 }
 
 export const mapStateToProps = state => ({
-  cards: state.cards
+  activeCards: state.activeCards
 });
 
 export const mapDispatchToProps = dispatch => ({});
