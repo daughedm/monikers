@@ -46,25 +46,29 @@ export class Setup extends Component {
 
   render() {
     return (
-      <form action="" onSubmit={this.handleSubmit}>
-        <h3>Number of Players</h3>
-        <input type="number" name="numPlayers" onChange={this.handleChange} />
-        <h3>Team One</h3>
-        <input
-          type="text"
-          name="teamOne"
-          placeholder="Enter team name"
-          onChange={this.handleChange}
-        />
-        <h3>Team Two</h3>
-        <input
-          type="text"
-          name="teamTwo"
-          placeholder="Enter team name"
-          onChange={this.handleChange}
-        />
-        <button type="submit">Submit</button>
-      </form>
+      <div className="wrapper">
+        <form action="" onSubmit={this.handleSubmit}>
+          <h3 className="label-name">Number of Players</h3>
+          <input className="input-field" type="number" name="numPlayers" onChange={this.handleChange} />
+          <h3 className="label-name">Team One</h3>
+          <input
+            className="input-field"
+            type="text"
+            name="teamOne"
+            placeholder="Enter team name"
+            onChange={this.handleChange}
+          />
+          <h3 className="label-name">Team Two</h3>
+          <input
+            className="input-field"
+            type="text"
+            name="teamTwo"
+            placeholder="Enter team name"
+            onChange={this.handleChange}
+          />
+          <button type="submit">Submit</button>
+        </form>
+      </div>
     );
   }
 }
