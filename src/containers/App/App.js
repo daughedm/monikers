@@ -4,11 +4,7 @@ import { connect } from 'react-redux';
 import Play from '../../components/Play/Play';
 import Setup from '../../components/Setup/Setup';
 import indexedDB from '../../indexedBD';
-<<<<<<< HEAD
 import { addCard } from '../../actions/cardActions';
-=======
-import { addCards } from '../../actions';
->>>>>>> Update import of addCards
 import * as api from '../../api/api';
 import './App.css';
 
@@ -17,7 +13,7 @@ import { Route } from 'react-router-dom';
 export class App extends Component {
   componentDidMount() {
     this.cardsPGtoIDB();
-    this.cardsIDBtoRDX();
+    // this.cardsIDBtoRDX();
   }
 
   cardsPGtoIDB = async () => {
