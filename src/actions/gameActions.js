@@ -1,13 +1,14 @@
-const getTeamNames = teamName => ({
+export const getTeamNames = teamName => ({
   type: 'TEAM_NAMES',
   teamName
 });
 
-const numOfPlayers = number => ({
+export const numOfPlayers = number => ({
   type: 'NUM_OF_PLAYERS',
   number
 });
 
-export {
-  getTeamNames, numOfPlayers
-};
+export const addCards = cards => ({
+  type: 'ADD_CARDS',
+  cards
+});
