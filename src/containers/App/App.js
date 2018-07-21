@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 import Play from '../../components/Play/Play';
 import Setup from '../../components/Setup/Setup';
 import indexedDB from '../../indexedBD';
-import { addCards } from '../../actions/cardActions';
+import { addCard } from '../../actions/cardActions';
 import * as api from '../../api/api';
 import './App.css';
 
@@ -12,18 +12,39 @@ import { Route } from 'react-router-dom';
 
 export class App extends Component {
   componentDidMount() {
-    this.storeCards();
+    this.cardsPGtoIDB();
+    this.cardsIDBtoRDX();
   }
 
-  storeCards = async () => {
+  cardsPGtoIDB = async () => {
     const cardsPG = await api.getCards();
-
     indexedDB.cards.clear();
     indexedDB.cards.bulkAdd(cardsPG);
+  };
 
-    const cardsIDB = await indexedDB.cards.toArray();
+  cardsIDBtoRDX = async () => {
+    const numberOfCardsInIDB = await indexedDB.cards.count();
 
-    this.props.addCards(cardsIDB);
+    const amount = 10;
+    const lowerBound = 1;
+    const upperBound = numberOfCardsInIDB;
+    const uniqueRandomNumbers = [];
+
+    while (uniqueRandomNumbers.length < amount) {
+      const randomNumber = Math.floor(
+        Math.random() * (upperBound - lowerBound) + lowerBound
+      );
+
+      if (uniqueRandomNumbers.indexOf(randomNumber) === -1) {
+        uniqueRandomNumbers.push(randomNumber);
+      }
+    }
+
+    const allCards = await indexedDB.cards.toArray();
+
+    uniqueRandomNumbers.forEach(num => {
+      this.props.addCard(allCards[num]);
+    });
   };
 
   render() {
@@ -39,7 +60,7 @@ export class App extends Component {
 export const mapStateToProps = state => ({});
 
 export const mapDispatchToProps = dispatch => ({
-  addCards: cards => dispatch(addCards(cards))
+  addCard: card => dispatch(addCard(card))
 });
 
 App.propTypes = {};

@@ -1,6 +1,6 @@
-const addCards = cards => ({
-  type: 'ADD_CARDS',
-  cards
+const addCard = card => ({
+  type: 'ADD_CARD',
+  card
 });
 
-export { addCards };
+export { addCard };
