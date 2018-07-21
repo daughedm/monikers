@@ -2,23 +2,28 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import * as actions from '../../actions';
-import './Round.css';
+import './Next.css';
 
-export class Round extends Component {
+export class Next extends Component {
+  constructor() {
+    super();
+  }
   componentDidMount() {}
 
   render() {
-    return <div>{/* {timer !== 0 ? <Play /> : <Next />} */}</div>;
+    return <div className="next" />;
   }
 }
 
-export const mapStateToProps = state => ({});
+export const mapStateToProps = state => ({
+  cards: state.cards
+});
 
 export const mapDispatchToProps = dispatch => ({});
 
-Round.propTypes = {};
+Next.propTypes = {};
 
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(Round);
+)(Next);
