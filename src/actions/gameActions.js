@@ -17,3 +17,8 @@ export const discardedCards = card => ({
   type: 'DISCARDED_CARDS',
   card
 });
+
+export const currentTeam = (currentTeam) => ({
+  type: 'CURRENT_TEAM',
+  currentTeam
+});
