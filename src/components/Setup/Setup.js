@@ -49,9 +49,14 @@ export class Setup extends Component {
     return (
       <div className="wrapper">
         <img className="logo" src={logo} alt="Monikers logo"/>
+        <h2 className="headline">Game Setup</h2>
         <form action="" onSubmit={this.handleSubmit}>
           <h3 className="label-name">Number of Players</h3>
-          <input className="input-field" type="number" name="numPlayers" onChange={this.handleChange} />
+          <input 
+            className="input-field" 
+            placeholder="Player count" 
+            type="number" name="numPlayers" 
+            onChange={this.handleChange} />
           <h3 className="label-name">Team One</h3>
           <input
             className="input-field"
@@ -72,6 +77,10 @@ export class Setup extends Component {
             className="start-button" 
             type="submit">
           START GAME</button>
+          <button 
+            className="back-button" 
+            type="submit">
+          BACK</button>
         </form>
       </div>
     );
