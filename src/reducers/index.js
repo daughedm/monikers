@@ -5,7 +5,8 @@ import {
   cards,
   discardedCards,
   currentTeam,
-  currentRound
+  currentRound,
+  teamScores
 } from './gameReducer';
 
 const rootReducer = combineReducers({
@@ -14,7 +15,9 @@ const rootReducer = combineReducers({
   cards: cards,
   discarded: discardedCards,
   currTeam: currentTeam,
-  currRound: currentRound
+  currRound: currentRound,
+  teamOneScore: teamScores,
+  teamTwoScores: teamScores
 });
 
 export default rootReducer;
