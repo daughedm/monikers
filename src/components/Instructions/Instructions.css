@@ -1,1 +1,34 @@
+.instructions {
+  padding: 10px 35px;
+}
 
+.headline {
+  color: #FFF;
+  text-align: center;
+  margin: 50px;
+}
+
+.subtitle {
+  color: #FFF;
+  font-size: 1.2rem;
+  margin: 0 0 10px 0;
+  text-align: center;
+
+}
+
+.body-text {
+  color: #FFF;
+  margin: 0 0 10px 0;
+  font-weight: 300;
+  line-height: 1.4rem;
+}
+
+.last-paragraph {
+ margin-bottom: 30px;
+}
+
+.dashed-line {
+  border-bottom: 1px dashed #FFF;
+  width: 40%;
+  margin: 0 auto 30px auto;
+}
