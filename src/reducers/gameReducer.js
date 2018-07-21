@@ -15,3 +15,12 @@ export const numPlayers = (state = -1, action) => {
     return state;
   }
 };
+
+export const cards = (state = [], action) => {
+  switch (action.type) {
+  case 'ADD_CARDS':
+    return action.cards;
+  default:
+    return state;
+  }
+};
