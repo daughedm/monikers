@@ -27,3 +27,13 @@ export const currentRound = (roundNumber) => ({
   type: 'CURRENT_ROUND',
   roundNumber
 });
+
+export const teamOneScore = (points) => ({
+  type: 'TEAM_ONE_SCORE',
+  points
+});
+
+export const teamTwoScore = (points) => ({
+  type: 'TEAM_TWO_SCORE',
+  points
+});
