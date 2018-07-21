@@ -32,8 +32,8 @@ export class Play extends Component {
         </div>
         }
         <div className="buttons-container">
-          <button className="pass-button">Pass</button>
-          <button className="got-it-button">Got It!</button>
+          <button className="pass-button ripple-pass">Pass</button>
+          <button className="got-it-button ripple-got-it">Got It!</button>
         </div>
       </div>
     );

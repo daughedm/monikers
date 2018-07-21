@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import Play from '../../components/Play/Play';
 import Setup from '../../components/Setup/Setup';
+import Instructions from '../../components/Instructions/Instructions'
 import indexedDB from '../../indexedBD';
 import { addCard } from '../../actions/cardActions';
 import * as api from '../../api/api';
@@ -52,6 +53,8 @@ export class App extends Component {
       <div>
         <Route path="/" exact={true} component={Setup} />
         <Route path="/play" exact={true} component={Play} />
+        <Route path="/instructions" exact={true} component={Instructions} />
+
       </div>
     );
   }
