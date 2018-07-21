@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
+import { withRouter } from 'react-router-dom';
+import SplashPage from '../../components/SplashPage/SplashPage';
 import Play from '../../components/Play/Play';
 import Setup from '../../components/Setup/Setup';
-import Instructions from '../../components/Instructions/Instructions'
+import Instructions from '../../components/Instructions/Instructions';
 import indexedDB from '../../indexedBD';
 import { addCard } from '../../actions/gameActions';
 import * as api from '../../api/api';
@@ -13,8 +15,8 @@ import { Route } from 'react-router-dom';
 
 export class App extends Component {
   componentDidMount() {
-    this.cardsPGtoIDB();
-    this.cardsIDBtoRDX();
+    // this.cardsPGtoIDB();
+    // this.cardsIDBtoRDX();
   }
 
   cardsPGtoIDB = async () => {
@@ -51,10 +53,10 @@ export class App extends Component {
   render() {
     return (
       <div>
-        <Route path="/" exact={true} component={Setup} />
-        <Route path="/play" exact={true} component={Play} />
+        <Route path="/" exact={true} component={SplashPage} />
         <Route path="/instructions" exact={true} component={Instructions} />
-
+        <Route path="/setup" exact={true} component={Setup} />
+        <Route path="/play" exact={true} component={Play} />
       </div>
     );
   }
@@ -68,7 +70,9 @@ export const mapDispatchToProps = dispatch => ({
 
 App.propTypes = {};
 
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(App);
+export default withRouter(
+  connect(
+    mapStateToProps,
+    mapDispatchToProps
+  )(App)
+);
