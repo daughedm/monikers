@@ -3,14 +3,16 @@ import {
   teamNames,
   numPlayers,
   cards,
-  discardedCards
+  discardedCards,
+  currentTeam
 } from './gameReducer';
 
 const rootReducer = combineReducers({
   teamNames: teamNames,
   numPlayers: numPlayers,
   cards: cards,
-  discarded: discardedCards
+  discarded: discardedCards,
+  currTeam: currentTeam
 });
 
 export default rootReducer;
