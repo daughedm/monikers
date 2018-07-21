@@ -4,7 +4,8 @@ import {
   numPlayers,
   cards,
   discardedCards,
-  currentTeam
+  currentTeam,
+  currentRound
 } from './gameReducer';
 
 const rootReducer = combineReducers({
@@ -12,7 +13,8 @@ const rootReducer = combineReducers({
   numPlayers: numPlayers,
   cards: cards,
   discarded: discardedCards,
-  currTeam: currentTeam
+  currTeam: currentTeam,
+  currRound: currentRound
 });
 
 export default rootReducer;
