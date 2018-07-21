@@ -24,3 +24,12 @@ export const cards = (state = [], action) => {
     return state;
   }
 };
+
+export const discardedCards = (state = [], action) => {
+  switch (action.type) {
+    case 'DISCARDED_CARDS':
+      return [...state, action.card];
+    default:
+      return state;
+  }
+};
