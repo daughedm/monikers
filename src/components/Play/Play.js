@@ -11,22 +11,30 @@ export class Play extends Component {
   componentDidMount() {}
 
   render() {
-   
     return (
       <div className="play">
-        <div>
-          <h3>props.currentTeam</h3>
-          <h3>props.currentRound</h3>
-        </div>
-        <div>
-          <h1>{this.props.cards[0].name}</h1>
-          <h1>{this.props.cards[0].name}</h1>
+        <div className="game-info-container">
+          <h3 className="current-team">Blue Team</h3>
+          <h3 className="current-round">Round 1</h3>
 
-          <p>{this.props.cards[0].name}</p>
-          <h3>{this.props.cards[0].name}</h3>
         </div>
-        <button>Pass</button>
-        <button>Got It!</button>
+        {this.props.cards.length && 
+        <div className="card-container">
+          <h1 className="card-title">{this.props.cards[0].name}</h1>
+
+          <p className="description">{this.props.cards[0].description}</p>
+          <div className="dashed-line" ></div>
+          <h3 className="category">{this.props.cards[0].category}</h3>
+          {/* this divs colors will change based on category */}
+          <div className="circle">
+            <h1 className="points">{this.props.cards[0].pointValue}</h1>
+          </div>
+        </div>
+        }
+        <div className="buttons-container">
+          <button className="pass-button">Pass</button>
+          <button className="got-it-button">Got It!</button>
+        </div>
       </div>
     );
   }

@@ -31,7 +31,6 @@ export class App extends Component {
       <div>
         <Route path="/" exact={true} component={Setup} />
         <Route path="/play" exact={true} component={Play} />
-
       </div>
     );
   }

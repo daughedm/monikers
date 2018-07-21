@@ -1,1 +1,111 @@
+.play {
 
+}
+
+.game-info-container {
+  background-color: #FFF;
+  width: 100%;
+  display: flex;
+  align-content: space-between;
+  justify-content: space-between;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.current-team {
+
+}
+
+.current-rouund {
+
+}
+
+.card-title {
+  text-align: center;
+  color: #555;
+  margin: 10px auto 20px auto;
+}
+
+.points {
+  text-align: center;
+  color: #FFF;
+  font-size: 1.4rem;
+}
+
+.description {
+  color: #555;
+  font-size: 1.1rem;
+
+}
+
+.category {
+  text-align: center;
+  color: #866AAD;
+
+}
+
+.card-container {
+  background-color: #FFF;
+  width: 80%;
+  margin: 30px auto;
+  padding: 20px 25px 40px 25px;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 2px 12px 0px rgba(0,0,0,0.37);
+  -moz-box-shadow: 0px 2px 12px 0px rgba(0,0,0,0.37);
+  box-shadow: 0px 2px 12px 0px rgba(0,0,0,0.37);
+}
+
+.pass-button {
+  width: 48%;
+  height: 50px;
+  color: #FFF;
+  background-color: rgba(239, 83, 63, 1);
+  border: 1px solid #FFF;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-top: 0;
+  -webkit-box-shadow: 0px 2px 12px 0px rgba(0,0,0,0.37);
+  -moz-box-shadow: 0px 2px 12px 0px rgba(0,0,0,0.37);
+  box-shadow: 0px 2px 12px 0px rgba(0,0,0,0.37);
+}
+
+.got-it-button {
+  width: 48%;
+  height: 50px;
+  color: #FFF;
+  background-color: rgba(76, 189, 159, 1);
+  border: 1px solid #FFF;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-top: 0;
+  -webkit-box-shadow: 0px 2px 12px 0px rgba(0,0,0,0.37);
+  -moz-box-shadow: 0px 2px 12px 0px rgba(0,0,0,0.37);
+  box-shadow: 0px 2px 12px 0px rgba(0,0,0,0.37);
+}
+
+.dashed-line {
+  border-bottom: 1px dashed #555;
+  width: 40%;
+  margin: 30px auto;
+}
+
+.circle {
+  border-radius: 100%;
+  background-color: #866AAD;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  margin: auto;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons-container {
+  display: flex;
+  align-content: space-between;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+
+}
