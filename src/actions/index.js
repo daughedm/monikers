@@ -1,3 +1,9 @@
-import {getTeamNames, numOfPlayers} from './gameActions.js'
+import {
+  getTeamNames,
+  numOfPlayers
+} from './gameActions.js';
 
-export  {getTeamNames, numOfPlayers}
+export  {
+  getTeamNames,
+  numOfPlayers
+};

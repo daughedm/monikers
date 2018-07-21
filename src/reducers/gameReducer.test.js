@@ -7,14 +7,14 @@ describe("Game reducers", () => {
     });
 
     it("should return an array of team names", () => {
-      const expected = ['team one']
+      const expected = ['team one'];
 
       const mockAction = {
         type: 'TEAM_NAMES',
         teamName: 'team one'
       };
 
-      expect(teamNames([], mockAction)).toEqual(expected)
+      expect(teamNames([], mockAction)).toEqual(expected);
     });
   });
 });

@@ -8,4 +8,6 @@ const numOfPlayers = number => ({
   number
 });
 
-export {getTeamNames,numOfPlayers}
+export {
+  getTeamNames, numOfPlayers
+};
