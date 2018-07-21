@@ -51,3 +51,14 @@ export const currentRound = (state = -1, action) => {
       return state;
   }
 };
+
+export const teamScores = (state = -1, action) => {
+  switch (action.type) {
+    case 'TEAM_ONE_SCORE':
+      return action.points;
+    case 'TEAM_TWO_SCORE':
+      return action.points;
+    default:
+      return state;
+  }
+};
