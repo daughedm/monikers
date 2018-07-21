@@ -5,7 +5,7 @@ import Play from '../../components/Play/Play';
 import Setup from '../../components/Setup/Setup';
 import Instructions from '../../components/Instructions/Instructions'
 import indexedDB from '../../indexedBD';
-import { addCard } from '../../actions/cardActions';
+import { addCard } from '../../actions/gameActions';
 import * as api from '../../api/api';
 import './App.css';
 
@@ -14,7 +14,7 @@ import { Route } from 'react-router-dom';
 export class App extends Component {
   componentDidMount() {
     this.cardsPGtoIDB();
-    // this.cardsIDBtoRDX();
+    this.cardsIDBtoRDX();
   }
 
   cardsPGtoIDB = async () => {

@@ -1,7 +1,7 @@
 import {
   getTeamNames,
   numOfPlayers,
-  addCards,
+  addCard,
   discardedCards,
   currentTeam,
   currentRound,
@@ -9,10 +9,10 @@ import {
   teamTwoScore
 } from './gameActions.js';
 
-export  {
+export {
   getTeamNames,
   numOfPlayers,
-  addCards,
+  addCard,
   discardedCards,
   currentTeam,
   currentRound,
