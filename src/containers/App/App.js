@@ -8,7 +8,7 @@ import { addCards } from '../../actions/cardActions';
 import * as api from '../../api/api';
 import './App.css';
 
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 
 export class App extends Component {
   componentDidMount() {
@@ -28,9 +28,11 @@ export class App extends Component {
 
   render() {
     return (
-      <Router>
+      <div>
         <Route path="/" exact={true} component={Setup} />
-      </Router>
+        <Route path="/play" exact={true} component={Play} />
+
+      </div>
     );
   }
 }
