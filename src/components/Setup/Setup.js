@@ -35,14 +35,27 @@ export class Setup extends Component {
     this.props.getTeamNames(teamTwo);
     this.props.numOfPlayers(numPlayers);
 
+    // clear existing data
+    indexedDB.teams.clear();
+    indexedDB.numPlayers.clear();
     // add input values to indexedDB
-    indexedDB.teams.add({ teamOne: this.state.teamOne });
-    indexedDB.teams.add({ teamTwo: this.state.teamTwo });
-    indexedDB.teams.add({ numPlayers: this.state.numPlayers });
+    indexedDB.teams.add({ team: 1, name: this.state.teamOne });
+    indexedDB.teams.add({ team: 2, name: this.state.teamTwo });
+    indexedDB.numPlayers.add({ num: this.state.numPlayers });
 
-    // get teams from indexedDB
-    /* eslint-disable-next-line */
-    const teamNamesDB = await indexedDB.teams.toArray();
+    // get teamOne primary key
+    const teamOneID = await indexedDB.teams
+      .where('team')
+      .equals(1)
+      .primaryKeys();
+    // get teamOne Object
+    const teamOneObj = await indexedDB.teams.get(teamOneID[0]);
+    // get teamOne name
+    const teamOneName = teamOneObj.name;
+
+    console.log('teamOneID: ', teamOneID);
+    console.log('teamOneObj: ', teamOneObj);
+    console.log('teamOneName: ', teamOneName);
   };
 
   render() {
