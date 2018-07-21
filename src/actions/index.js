@@ -4,7 +4,9 @@ import {
   addCards,
   discardedCards,
   currentTeam,
-  currentRound
+  currentRound,
+  teamOneScore,
+  teamTwoScore
 } from './gameActions.js';
 
 export  {
@@ -13,5 +15,7 @@ export  {
   addCards,
   discardedCards,
   currentTeam,
-  currentRound
+  currentRound,
+  teamOneScore,
+  teamTwoScore
 };
