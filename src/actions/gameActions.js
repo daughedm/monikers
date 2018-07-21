@@ -22,3 +22,8 @@ export const currentTeam = (currentTeam) => ({
   type: 'CURRENT_TEAM',
   currentTeam
 });
+
+export const currentRound = (roundNumber) => ({
+  type: 'CURRENT_ROUND',
+  roundNumber
+});
