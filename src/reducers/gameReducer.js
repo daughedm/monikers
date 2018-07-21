@@ -20,17 +20,10 @@ export const cards = (state = [], action) => {
   switch (action.type) {
   case 'ADD_CARDS':
     return action.cards;
+  case 'DISCARDED_CARDS':
+    return [...state, action.card];
   default:
     return state;
-  }
-};
-
-export const discardedCards = (state = [], action) => {
-  switch (action.type) {
-    case 'DISCARDED_CARDS':
-      return [...state, action.card];
-    default:
-      return state;
   }
 };
 
@@ -45,20 +38,20 @@ export const currentTeam = (state = '', action) => {
 
 export const currentRound = (state = -1, action) => {
   switch (action.type) {
-    case 'CURRENT_ROUND':
-      return action.roundNumber;
-    default:
-      return state;
+  case 'CURRENT_ROUND':
+    return action.roundNumber;
+  default:
+    return state;
   }
 };
 
 export const teamScores = (state = -1, action) => {
   switch (action.type) {
-    case 'TEAM_ONE_SCORE':
-      return action.points;
-    case 'TEAM_TWO_SCORE':
-      return action.points;
-    default:
-      return state;
+  case 'TEAM_ONE_SCORE':
+    return action.points;
+  case 'TEAM_TWO_SCORE':
+    return action.points;
+  default:
+    return state;
   }
 };

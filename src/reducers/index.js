@@ -3,7 +3,6 @@ import {
   teamNames,
   numPlayers,
   cards,
-  discardedCards,
   currentTeam,
   currentRound,
   teamScores
@@ -13,7 +12,7 @@ const rootReducer = combineReducers({
   teamNames: teamNames,
   numPlayers: numPlayers,
   cards: cards,
-  discarded: discardedCards,
+  discarded: cards,
   currTeam: currentTeam,
   currRound: currentRound,
   teamOneScore: teamScores,
