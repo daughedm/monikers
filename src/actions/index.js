@@ -1,13 +1,11 @@
 import {
   getTeamNames,
-  numOfPlayers
-} from './gameActions.js';
-
-import {
+  numOfPlayers,
   addCards
-} from './cardActions.js'
+} from './gameActions.js';
 
 export  {
   getTeamNames,
-  numOfPlayers
+  numOfPlayers,
+  addCards
 };
