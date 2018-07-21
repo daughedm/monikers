@@ -33,3 +33,12 @@ export const discardedCards = (state = [], action) => {
       return state;
   }
 };
+
+export const currentTeam = (state = '', action) => {
+  switch (action.type) {
+  case 'CURRENT_TEAM'
+    return action.currentTeam;
+  default:
+    return state;
+  }
+};
