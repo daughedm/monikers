@@ -4,7 +4,7 @@ import indexedDB from '../../indexedBD';
 import { connect } from 'react-redux';
 import { getTeamNames, numOfPlayers } from '../../actions/gameActions';
 import './Setup.css';
-import logo from "../../assets/monikers-logo-02.svg";
+import logo from '../../assets/monikers-logo-02.svg';
 
 export class Setup extends Component {
   constructor(props) {
@@ -33,7 +33,7 @@ export class Setup extends Component {
 
     this.props.getTeamNames(teamOne);
     this.props.getTeamNames(teamTwo);
-    this.props.numOfPlayers(numPlayers);
+    this.props.numOfPlayers(parseInt(numPlayers));
 
     // clear existing data
     indexedDB.teams.clear();
@@ -61,15 +61,17 @@ export class Setup extends Component {
   render() {
     return (
       <div className="wrapper">
-        <img className="logo" src={logo} alt="Monikers logo"/>
+        <img className="logo" src={logo} alt="Monikers logo" />
         <h2 className="headline">Game Setup</h2>
         <form action="" onSubmit={this.handleSubmit}>
           <h3 className="label-name">Number of Players</h3>
           <input
             className="input-field"
             placeholder="Player count"
-            type="number" name="numPlayers"
-            onChange={this.handleChange} />
+            type="number"
+            name="numPlayers"
+            onChange={this.handleChange}
+          />
           <h3 className="label-name">Team One</h3>
           <input
             className="input-field"
@@ -86,14 +88,12 @@ export class Setup extends Component {
             placeholder="Enter team name"
             onChange={this.handleChange}
           />
-          <button
-            className="start-button"
-            type="submit">
-          START GAME</button>
-          <button
-            className="back-button"
-            type="submit">
-          BACK</button>
+          <button className="start-button" type="submit">
+            START GAME
+          </button>
+          <button className="back-button" type="submit">
+            BACK
+          </button>
         </form>
       </div>
     );
