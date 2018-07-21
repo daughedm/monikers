@@ -13,7 +13,7 @@ import { Route } from 'react-router-dom';
 export class App extends Component {
   componentDidMount() {
     this.cardsPGtoIDB();
-    this.cardsIDBtoRDX();
+    // this.cardsIDBtoRDX();
   }
 
   cardsPGtoIDB = async () => {

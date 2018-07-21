@@ -1,13 +1,39 @@
-const getTeamNames = teamName => ({
+export const getTeamNames = teamName => ({
   type: 'TEAM_NAMES',
   teamName
 });
 
-const numOfPlayers = number => ({
+export const numOfPlayers = number => ({
   type: 'NUM_OF_PLAYERS',
   number
 });
 
-export {
-  getTeamNames, numOfPlayers
-};
+export const addCards = cards => ({
+  type: 'ADD_CARDS',
+  cards
+});
+
+export const discardedCards = card => ({
+  type: 'DISCARDED_CARDS',
+  card
+});
+
+export const currentTeam = currentTeam => ({
+  type: 'CURRENT_TEAM',
+  currentTeam
+});
+
+export const currentRound = roundNumber => ({
+  type: 'CURRENT_ROUND',
+  roundNumber
+});
+
+export const teamOneScore = points => ({
+  type: 'TEAM_ONE_SCORE',
+  points
+});
+
+export const teamTwoScore = points => ({
+  type: 'TEAM_TWO_SCORE',
+  points
+});
