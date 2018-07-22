@@ -1,0 +1,39 @@
+.splash-page {
+  background-image: url('../../assets/monikers_furry_two-02.svg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: right 50% bottom;
+  height: 100vh;
+  animation-name: tiger;
+  animation-duration: 10s;
+}
+
+@keyframes tiger {
+  0%   {
+    background-image: url('../../assets/monikers_furry_two-02.svg');
+  }
+  25%  {
+    background-image: url('../../assets/monikers_furry_two-02.svg');
+    
+  }
+  50%  {
+    background-image: url('../../assets/monikers_furry_two-02.svg');
+    
+  }
+  /* 75%  {
+    background-image: url('../../assets/monikers_furry_two-02.svg');
+    
+  } */
+  100% {
+    background-image: url('../../assets/monikers_furry_one-01.svg');
+    
+  }
+}
+
+.logo-lockup {
+  display: block;
+  margin: auto;
+  padding: 60px 0 40px 0;
+  width: 65%;
+}
+
