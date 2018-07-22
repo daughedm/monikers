@@ -12,7 +12,7 @@ const SplashPage = () => {
           <NavLink className="navlink" to="/setup">NEW GAME</NavLink>
         </button>
         <button className="instructions-button">
-          <NavLink className="navlink" to="/instructions">INSTRUCTIONS</NavLink>
+          <NavLink className="navlink" to="/instructions">HOW TO PLAY</NavLink>
         </button>
       </div>
     </div>
