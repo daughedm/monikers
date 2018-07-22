@@ -6,6 +6,7 @@ import SplashPage from '../../components/SplashPage/SplashPage';
 import Play from '../../components/Play/Play';
 import Setup from '../../components/Setup/Setup';
 import Instructions from '../../components/Instructions/Instructions';
+import Loading from '../../components/Loading/Loading';
 import indexedDB from '../../indexedBD';
 import { addCard } from '../../actions/gameActions';
 import * as api from '../../api/api';
@@ -57,6 +58,7 @@ export class App extends Component {
         <Route path="/instructions" exact={true} component={Instructions} />
         <Route path="/setup" exact={true} component={Setup} />
         <Route path="/play" exact={true} component={Play} />
+        <Route path="/loading" exact={true} component={Loading} />
       </div>
     );
   }
