@@ -62,6 +62,12 @@ export class Setup extends Component {
     };
   };
 
+  handleBackButton = e => {
+    e.preventDefault();
+
+    this.props.history.push('/')
+  };
+
   render() {
     return (
       <div className="wrapper">
@@ -95,7 +101,7 @@ export class Setup extends Component {
           <button className="start-button" type="submit">
             START GAME
           </button>
-          <button className="back-button" type="submit">
+          <button className="back-button" type="submit" onClick={this.handleBackButton}>
             BACK
           </button>
         </form>
