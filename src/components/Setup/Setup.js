@@ -56,6 +56,16 @@ export class Setup extends Component {
     console.log('teamOneID: ', teamOneID);
     console.log('teamOneObj: ', teamOneObj);
     console.log('teamOneName: ', teamOneName);
+
+    if (teamOne && teamTwo && numPlayers) {
+      this.props.history.push('/play');
+    };
+  };
+
+  handleBackButton = e => {
+    e.preventDefault();
+
+    this.props.history.push('/')
   };
 
   render() {
@@ -91,7 +101,7 @@ export class Setup extends Component {
           <button className="start-button" type="submit">
             START GAME
           </button>
-          <button className="back-button" type="submit">
+          <button className="back-button" type="submit" onClick={this.handleBackButton}>
             BACK
           </button>
         </form>
