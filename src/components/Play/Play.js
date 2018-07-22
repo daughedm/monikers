@@ -18,6 +18,7 @@ export class Play extends Component {
           <h3 className="current-round">Round 1</h3>
 
         </div>
+        <div className="timer"></div>
         {this.props.activeCards.length && 
         <div className="card-container">
           <h1 className="card-title">{this.props.activeCards[0].name}</h1>
@@ -32,8 +33,15 @@ export class Play extends Component {
         </div>
         }
         <div className="buttons-container">
-          <button className="pass-button ripple-pass">Pass</button>
-          <button className="got-it-button ripple-got-it">Got It!</button>
+          <button 
+            className="pass-button ripple-pass"
+            onClick="">
+            Pass
+          </button>
+          <button 
+            className="got-it-button ripple-got-it"
+            onClick="">Got It!
+          </button>
         </div>
       </div>
     );

@@ -13,17 +13,18 @@
 }
 
 .current-team {
-
+  color: #00B4EF;
 }
 
-.current-rouund {
-
+.current-round {
+  color: #00B4EF;
 }
 
 .card-title {
   text-align: center;
   color: #555;
   margin: 10px auto 20px auto;
+  font-size: 1.8rem;
 }
 
 .points {
@@ -116,7 +117,7 @@
 }
 
 .dashed-line {
-  border-bottom: 1px dashed #555;
+  border-bottom: 2px dotted #999;
   width: 40%;
   margin: 30px auto;
 }
@@ -140,5 +141,29 @@
   width: 80%;
   margin: auto;
 
+}
+
+.timer {
+  height: 10px;
+  width: 100%;
+  margin: auto;
+  background-color: rgba(76, 189, 159, 1);
+  animation-name: countdown;
+  animation-duration: 60s;
+}
+
+@keyframes countdown {
+  0%   {
+    background-color: rgba(76, 189, 159, 1);
+    width: 100%;
+  }
+  50%  {
+    background-color: rgb(240, 221, 49);
+    width: 50%;
+  }
+  100% {
+    background-color: rgba(239, 83, 63, 1);
+    width: 0%;
+  }
 }
 
