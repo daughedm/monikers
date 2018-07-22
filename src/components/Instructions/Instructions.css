@@ -28,7 +28,7 @@
 }
 
 .dashed-line-instructions {
-  border-bottom: 1px dashed #FFF;
+  border-bottom: 2px dotted #FFF;
   width: 40%;
   margin: 0 auto 30px auto;
 }
