@@ -4,7 +4,7 @@ import indexedDB from '../../indexedBD';
 import { connect } from 'react-redux';
 import { getTeamNames, numOfPlayers } from '../../actions/gameActions';
 import './Setup.css';
-import logo from '../../assets/monikers-logo-02.svg';
+import logo from '../../assets/Monikers_logo_lockup-02.svg';
 
 export class Setup extends Component {
   constructor(props) {
@@ -62,7 +62,7 @@ export class Setup extends Component {
     return (
       <div className="wrapper">
         <img className="logo" src={logo} alt="Monikers logo" />
-        <h2 className="headline">Game Setup</h2>
+        <h2 className="game-setup-headline">Game Setup</h2>
         <form action="" onSubmit={this.handleSubmit}>
           <h3 className="label-name">Number of Players</h3>
           <input

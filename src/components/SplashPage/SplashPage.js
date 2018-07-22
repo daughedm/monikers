@@ -7,10 +7,13 @@ const SplashPage = () => {
   return (
     <div className="splash-page">
       <img className="logo-lockup" src={logolockup}/>
-      <div>
-        <NavLink to="/setup">New Game</NavLink>
-        <br />
-        <NavLink to="/instructions">Instructions</NavLink>
+      <div className="button-wrapper" >
+        <button className="start-game-button">
+          <NavLink className="navlink" to="/setup">NEW GAME</NavLink>
+        </button>
+        <button className="instructions-button">
+          <NavLink className="navlink" to="/instructions">INSTRUCTIONS</NavLink>
+        </button>
       </div>
     </div>
   );
