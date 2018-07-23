@@ -11,6 +11,13 @@ export class Play extends Component {
   }
   componentDidMount() {}
 
+  handleGotIt = e => {
+    e.preventDefault();
+
+    this.props.activeCards.shift();
+    console.log(this.props.activeCards)
+  }
+
   render() {
     return (
       <div className="play">
@@ -31,7 +38,7 @@ export class Play extends Component {
           </button>
           <button
             className="got-it-button ripple-got-it"
-            onClick="">Got It!
+            onClick={this.handleGotIt}>Got It!
           </button>
         </div>
       </div>
