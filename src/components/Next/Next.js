@@ -15,8 +15,8 @@ export class Next extends Component {
 
     return (
       <div className="team-transition">
-        <h2 className="current-team-headline">Team {currTeam}'s Turn</h2>
-        <button className="start-round-button">START</button>
+        <h2 className="current-team-headline">Team {currTeam}, your turn</h2>
+        <button className="start-turn-button">START</button>
       </div>
     );
   }
