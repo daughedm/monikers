@@ -11,9 +11,10 @@ export class Round extends Component {
     const {teamNames, teamOneScore, teamTwoScore} = this.props;
     const startingTeam = teamOneScore <= teamTwoScore ? teamNames[0] : teamNames[1];
     return (
-      <div>
-        <h2>Round: {this.props.currRound}</h2>
-        <h3>Team {startingTeam} starts.</h3>
+      <div className="round-transition">
+        <h2 className="round-headline">Round: {this.props.currRound}</h2>
+
+        <h3 className="">Team {startingTeam} starts.</h3>
         <button>START ROUND</button>
       </div>
     );
