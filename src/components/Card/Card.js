@@ -7,7 +7,6 @@ export class Card extends Component {
   }
 
   render() {
-    console.log(this.props.activeCards)
     return (
       <div className="card-container">
         <h1 className="card-title">{this.props.activeCards[0].name}</h1>
