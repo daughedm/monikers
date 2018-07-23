@@ -11,6 +11,13 @@ export class Play extends Component {
   }
   componentDidMount() {}
 
+  handleGotIt = e => {
+    e.preventDefault();
+
+    const newCards = this.props.activeCards.slice(1);
+    this.props.updateActiveCards(newCards);
+  }
+
   render() {
     return (
       <div className="play">
@@ -31,7 +38,7 @@ export class Play extends Component {
           </button>
           <button
             className="got-it-button ripple-got-it"
-            onClick="">Got It!
+            onClick={this.handleGotIt}>Got It!
           </button>
         </div>
       </div>
@@ -43,7 +50,9 @@ export const mapStateToProps = state => ({
   activeCards: state.activeCards
 });
 
-export const mapDispatchToProps = dispatch => ({});
+export const mapDispatchToProps = dispatch => ({
+  updateActiveCards: cards => dispatch(actions.updateActiveCards(cards))
+});
 
 Play.propTypes = {};
 
