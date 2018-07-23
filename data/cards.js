@@ -1497,7 +1497,7 @@ module.exports = [
   {
     name: "Lot's Wife",
     description:
-      'A Biblical figure who was spared from God’s divine judgment against the cities of Sodom and Gomorrah. As the cities were being destroyed by fire and brimstone, her family was told by angels "look not behind thee." She did and was transformed into a pillar of salt.',
+      'A Biblical figure who was spared from God’s divine judgment against the cities of Sodom and Gomorrah. As the cities were being destroyed by fire and brimstone, her family was told by angels "look not behind thee." She did and was transformed into a pillar of salt.',,
     category: 'HISTORICAL FIGURE',
     pointValue: 4
   }
