@@ -10,7 +10,8 @@ export class Round extends Component {
   render() {
     return (
       <div>
-        
+        <h2>Round: {this.props.currRound}</h2>
+        <button>HI</button>
       </div>
     );
   }
@@ -18,7 +19,8 @@ export class Round extends Component {
 
 export const mapStateToProps = state => ({
   currRound: state.currRound,
-  teamOneScore:
+  teamOneScore: state.teamOneScore,
+  teamTwoScore: state.teamTwoScore
 });
 
 export const mapDispatchToProps = dispatch => ({});
