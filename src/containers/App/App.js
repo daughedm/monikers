@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import { withRouter } from 'react-router-dom';
+import { withRouter, Route } from 'react-router-dom';
 import SplashPage from '../../components/SplashPage/SplashPage';
 import Play from '../../components/Play/Play';
 import Setup from '../../components/Setup/Setup';
@@ -12,12 +12,11 @@ import { addCard } from '../../actions/gameActions';
 import * as api from '../../api/api';
 import './App.css';
 
-import { Route } from 'react-router-dom';
 
 export class App extends Component {
-  componentDidMount() {
-    // this.cardsPGtoIDB();
-    // this.cardsIDBtoRDX();
+  async componentDidMount() {
+    await this.cardsPGtoIDB();
+    await this.cardsIDBtoRDX();
   }
 
   cardsPGtoIDB = async () => {
