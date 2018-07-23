@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import { connect } from 'react-redux';
 
 export class Card extends Component() {
   constructor() {
@@ -22,4 +23,8 @@ export class Card extends Component() {
   }
 }
 
-export default Card;
+export const mapStateToProps = state => ({
+  activeCards: state.activeCards
+});
+
+export default connect(mapStateToProps)(Card);
