@@ -8,14 +8,24 @@ export class Round extends Component {
   componentDidMount() {}
 
   render() {
-    const {teamNames, teamOneScore, teamTwoScore} = this.props;
+    const {teamNames, teamOneScore, teamTwoScore, currRound} = this.props;
     const startingTeam = teamOneScore <= teamTwoScore ? teamNames[0] : teamNames[1];
+    let roundDescription;
+
+    if (currRound === 1) {
+      roundDescription = 'Describe the name using any words, sounds, or gestures except the name itself';
+    } else if (currRound === 2) {
+      roundDescription = 'Describe the name using only one word, which can be anything except the name itself';
+    } else {
+      roundDescription = 'Describe the name using just charades. No words. Sound effects are OK.';
+    }
+
     return (
       <div className="round-transition">
-        <h2 className="round-headline">Round: {this.props.currRound}</h2>
-
-        <h3 className="">Team {startingTeam} starts.</h3>
-        <button>START ROUND</button>
+        <h2 className="round-headline">Round: {currRound}</h2>
+        <p>{roundDescription}</p>
+        <h3 className="starting-team">Team {startingTeam} starts.</h3>
+        <button className="start-round-button">START ROUND</button>
       </div>
     );
   }
