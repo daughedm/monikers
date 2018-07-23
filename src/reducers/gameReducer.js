@@ -29,7 +29,7 @@ export const activeCards = (state = [], action) => {
 
 export const discardedCards = (state = [], action) => {
   switch (action.type) {
-  case 'DISCARDED_CARD':
+  case 'DISCARDED_CARDS':
     return [...state, action.card];
   default:
     return state;
