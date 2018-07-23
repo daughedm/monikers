@@ -9,7 +9,26 @@ export class Play extends Component {
   constructor() {
     super();
   }
+
   componentDidMount() {}
+
+  handleGotIt = e => {
+    e.preventDefault();
+
+    this.props.discardedCards(this.props.activeCards[0]);
+    const newCards = this.props.activeCards.slice(1);
+
+    this.props.updateActiveCards(newCards);
+  }
+
+  handleSkipped = e => {
+    e.preventDefault();
+
+    const newCards = this.props.activeCards.slice(1);
+    this.props.updateActiveCards(newCards);
+
+    this.props.addCard(this.props.activeCards[0]);
+  }
 
   render() {
     return (
@@ -26,12 +45,12 @@ export class Play extends Component {
         <div className="buttons-container">
           <button
             className="pass-button ripple-pass"
-            onClick="">
+            onClick={this.handleSkipped}>
             Pass
           </button>
           <button
             className="got-it-button ripple-got-it"
-            onClick="">Got It!
+            onClick={this.handleGotIt}>Got It!
           </button>
         </div>
       </div>
@@ -40,10 +59,15 @@ export class Play extends Component {
 }
 
 export const mapStateToProps = state => ({
-  activeCards: state.activeCards
+  activeCards: state.activeCards,
+  discardPile: state.discardPile
 });
 
-export const mapDispatchToProps = dispatch => ({});
+export const mapDispatchToProps = dispatch => ({
+  updateActiveCards: cards => dispatch(actions.updateActiveCards(cards)),
+  discardedCards: card => dispatch(actions.discardedCards(card)),
+  addCard: card => dispatch(actions.addCard(card))
+});
 
 Play.propTypes = {};
 
