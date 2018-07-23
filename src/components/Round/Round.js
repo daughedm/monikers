@@ -8,7 +8,9 @@ export class Round extends Component {
   componentDidMount() {}
 
   render() {
-    return <div>{/* {timer !== 0 ? <Play /> : <Next />} */}</div>;
+    return <div>
+      
+    </div>;
   }
 }
 
