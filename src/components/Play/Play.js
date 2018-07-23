@@ -11,13 +11,6 @@ export class Play extends Component {
   }
   componentDidMount() {}
 
-  handleGotIt = e => {
-    e.preventDefault();
-
-    this.props.activeCards.shift();
-    console.log(this.props.activeCards)
-  }
-
   render() {
     return (
       <div className="play">
