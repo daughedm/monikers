@@ -598,6 +598,694 @@ module.exports = [
     description: 'A member of a fictional R&B group composed of anthropomorphic dried grapes from the West Coast. They came to prominence in claymation form, singing a cover of "I Heard It Through the Grapevine" in an advertisement. They were also popular as plastic toys.',
     category: 'FICTIONAL CHARACTER',
     pointValue: 2
-  }
+  },
+  {
+    name: 'Jesus H. Christ',
+    description: 'A subversive Jewish rabbi, who Christians believe to be the Son of God and Messiah of the Old Testament. He allegedly performed miracles, was crucified by the Romans, and rose from the dead. A middle initial is used in various oaths, but its origin is unclear.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 1
+  },
+  {
+    name: 'Khan!',
+    description: 'A villain from the Star Trek franchise, who once controlled a portion of the earth during the Eugenics Wars of the 905. Ricardo Montalban played the genetically engineered superhuman, delivering lines such as "Revenge is a dish that is best served cold."',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 2
+  },
+  {
+    name: 'A Hungry Hungry Hippo',
+    description: 'The title character of a children\'s game that teaches kids to eat marbles. Each of the four players   simultaneously mash a plastic lever to get their character—a colorful version of the third largest land mammal—to consume as many of these inedible objects as possible.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 2
+  },
+  {
+    name: 'The Kraken',
+    description: 'A gigantic mythical sea monster that first appeared in Norse mythology. Because of its size, it was thought to have been inspired by giant squid sightings. In contemporary media, is often seen being "released" or "unleashed" upon an unsuspecting hero.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 2
+  },
+  {
+    name: 'The Kaiser',
+    description: 'The title of German leader Wilhelm II, who ruled until the end of World War I. He was depicted in propaganda with an exaggerated handlebar mustache and Pickelhaube, the spiked helmet of the Prussian army. He was also once accused of stealing our word for "twenty."',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 3
+  },
+  {
+    name: 'Aunt Jemima',
+    description: 'The pretty racist mascot of a line of pancake mixes and syrups by the Quaker Oats Company. Her character was derived from a minstrel show‘s mammy-like figure. Like Uncle Ben, she represents an idealized view of domestic servitude in southern life.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 2
+  },
+  {
+    name: 'A TSA Agent',
+    description: 'An employee of a US Department of Homeland Security branch. Many of its employees are posted in airports to screen passengers and their property, including pat-clowns and viewing x-rays. Their average salary is $25K-$38K per year, excluding  swag.',
+    category: 'ET CETERA',
+    pointValue: 2
+  },
+  {
+    name: 'A Cylon',
+    description: 'A member of a robotic civilization in the Battlestar Galactica franchise. They were created somewhat by accident on Caprica and are unique in that they experience many common human emotions and are often not fully aware of their status as a robotic lifeform.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 2
+  },
+  
+  {
+    name: 'The Underwear Bomber',
+    description: 'The moniker of Umar Farouk Abdulmutallab, a would-be terrorist who attempted to blow up a passenger plane with explosives sewn into his unmentionables. His plan failed when the explosives were soiled due to his wearing the same pants for two weeks straight.',
+    category: 'CELEBRITY',
+    pointValue: 3
+  },
+  {
+    name: 'Cthulhu',
+    description: 'A monstrous deity created by HP. Lovecraft. It is hundreds of meters tall and has the the arms and legs of a man, claws, the head of a giant octopus, and bat wings. Its mythos   gained increased popularity from a series of allusions to it in the HBO series True Detective.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 2
+  },
+  {
+    name: 'Splinter',
+    description: 'An elderly humanoid rat who was the sensei of the Teenage Mutant Ninja Turtles. In the 805 cartoon series, he was mutated from the great samurai warrior, Hamato Yoshi. In other versions, however, this character was the pet rodent of Hamato Yoshi.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 2
+  },
+  {
+    name: 'Chun-Li',
+    description: 'A character from the Street Fighter video game series, who relies primarily on powerful kicks delivered with the aid of her remarkably muscular thighs. Her most famous move is the Lightning Kick, with the Spinning Bird Kick a close second. Her blood type is A.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 2
+  },
+  {
+    name: 'A Muggle',
+    description: 'Any non—magical character in the Harry Potter franchise. Their inability to perform magic was likely a hereditary trait and was used as a justification for persecution by an extremist group of magical persons, Death Eaters, who believed their own bloodlines should remain pure.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 2
+  },
+  {
+    name: 'Babar',
+    description: 'An elephant from the children\'s book by Jean de Brunhoff, who critics argue offers a justification for   colonialism. In the book, he leaves the jungle, visits a city, returns in a green suit, introduces French civilization to his fellow elephants, and is crowned king.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 2
+  },
+  {
+    name: 'The T-1000',
+    description: 'A shapeshifting robot from Terminator 2. Made of liquid metal, Skynet sent it into the past to kill Edward   Furlong, who was protected by Arnold Schwarzenegger’s loveable.   technologically inferior, T-800. Billy Idol was slated to play the character before a motorcycle accident.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 2
+  },
+  {
+    name: 'A Fainting Goat',
+    description: 'A farm animal that suffers from a genetic disorder that causes its muscles to freeze for approximately 10 seconds when panicked. The condition is formally knows as myotonia congenita, which Buzzfeed once described as "easily the cutest neurological disorder."',
+    category: 'ET CETERA',
+    pointValue: 3
+  },
+  {
+    name: 'Count Chocula',
+    description: 'A vampire mascot from the General Mills Corporation‘s series of monster—based breakfast cereals. Like his colleagues Franken—Berry. Boo-Berry, Fruit Brute, and Yummy Mummy, his origin is a mystery. His tagline, "I vant to eat your cereal!" seems a little on the nose.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 2
+  },
+  {
+    name: 'Paul Reubens',
+    description: 'An actor famous for his character Pee-wee Herman. He was arrested for masturbating in a Sarasota, FL adult theater in 1991. When confronted by police, he allegedly said "I\'m Pee-wee Herman" and suggested doing a local children’s benefit "to take care of this.',
+    category: 'CELEBRITY',
+    pointValue: 2
+  },
+  {
+    name: 'Ceiling Cat',
+    description: 'The subject of a famous internet photo showing a feline peeking out of a hole and, allegedly, "watching you masturbate.” In 2010, a Redditor indicated that the hole was actually in a wall. claiming “This changes everything.“ The feline is said to have a rival in the basement.',
+    category: 'CELEBRITY',
+    pointValue: 3
+  },
+  {
+    name: 'Burning Man',
+    description: 'A 40-foot wooden effigy that is set on fire during a weeklong event in Nevada\'s Black Rock Desert. The organizers deny that it has any connection to similar wicker effigies that were built by ancient Druids for pagan Celtic rituals that some   speculate involved human sacrifice.',
+    category: 'ET CETERA',
+    pointValue: 2
+  },
+  {
+    name: 'A Sherpa',
+    description: 'A member of a Nepalese ethnic group that resides in the Himalayan mountain range. The term often refers to guides who assist climbers. Among the most famous of these in history was Tenzing Norgay, who reached the summit of Mount Everest with Edmund Hillary in 1953.',
+    category: 'ET CETERA',
+    pointValue: 2
+  },
+  {
+    name: 'The Yellow Power Ranger',
+    description: 'A hero from the 905 children’s show that featured a team of teenagers that fought off aliens by transforming into superheroes and piloting robots called Zords. The show was often accused of racism for aligning each character‘s uniform color with the actor’s ethnicity.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 2
+  },
+  {
+    name: 'A Furby',
+    description: 'A fuzzy interactive toy that became popular in the late 905. Vaguely resembling an owl, it speaks a unique language, learning English over time through interacting with its owner. When held upside down it says things like "me scared" and begins crying.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 2
+  },
+  {
+    name: 'El  Niño',
+    description: 'A band of warm weather resulting in above-average temperatures for most of North America and wetter seasons for most of South America. This weather system inspired a Chris Farley SNL character that depicted the tropical storm as a boastful professional wrestler.',
+    category: 'ET CETERA',
+    pointValue: 2
+  },
+  {
+    name: 'The one-armed drummer from Def Leppard',
+    description: 'The percussionist for the popular 80s hair metal band known for hits like "Love Bites" and "Pour Some Sugar on Me." He is best known for continuing to record and perform using a specially designed kit following the amputation of a limb after a drag racing accident.',
+    category: 'CELEBRITY',
+    pointValue: 4
+  },
+  {
+    name: 'Uncle Tom',
+    description: 'A racial epithet used against members of a subjugated group, particularly African Americans. who display excessive deference to authority. The term is derived from the eponymous character in the 1852 novel by Harriet Beecher Stowe.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 2
+  },
+  {
+    name: 'Goatse',
+    description: 'A shock site linking unsuspecting victims to the file hello.jpg, an image of a naked man stretching his anus several inches in diameter. The man\'s wedding band is clearly visible on his left ring finger. The site used the rare top-level domain for the Christmas Islands .cx.',
+    category: 'CELEBRITY',
+    pointValue: 4
+  },
+  {
+    name: 'A Bleeder',
+    description: 'A person who loses blood quickly because of a lower than average clotting rate. otherwise known as a hemophiliac. This term was made famous in the 1998 comedy There‘s Something About Mary, where Ben Stiller\'s character Ted damages his genitals with a zipper.',
+    category: 'ET CETERA',
+    pointValue: 3
+  },
+  {
+    name: 'George Washington',
+    description: 'The 1st President of the US. John Adams claimed that his famed toothlessness was the result of cracking Brazil nuts. His false teeth were not made of wood. but hippopotamus and elephant ivory. He had a previous pair most likely made from, no joke, slave teeth.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 1
+  },
+  {
+    name: 'P.F. Chang',
+    description: 'The combined identity of Paul Fleming and Philip Chiang, the two founders of the eponymous Asian Fusion restaurant founded in Scottsdale. Arizona in 1993. They operate over 200 restaurants across the US, far more than its equally middlebrow competitor, Benihana.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 2
+  },
+  {
+    name: 'A Roomba',
+    description: 'An automated vacuum cleaner marketed as a convenient way to clean one\'s home. Its sensors allow it to navigate each room. cleaning under furniture and in often-ignored corners. Cats have been known to ride it. It definitely does not record your daily movements.',
+    category: 'ET CETERA',
+    pointValue: 2
+  },
+  {
+    name: 'The Lord of the Dance',
+    description: 'An Irish performer who came to prominence during the intermission of the 1994 Eurovision Song Contest. His show, Riverdance, melded tapping with Irish folk traditions. following his quest to defeat the dark lord Don Dorcha from destroying Planet Ireland.',
+    category: 'CELEBRITY',
+    pointValue: 3
+  },
+  {
+    name: 'Oedipus',
+    description: 'A legendary Ancient Greek king who was prophesied to murder his father and marry his mother. The psychologist Sigmund Freud named his complex related to a person\'s unconscious desire to sexually possess their opposite sex parent after this person.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 2
+  },
+  {
+    name: 'Teen Wolf',
+    description: 'An adolescent chanthrope from an 805 film and recent TV series. Originally played by Michael J. Fox, he uses his powers to gain popularity at his high school and become their star basketball player, leading the Beavers to a state championship title.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 2
+  },
+  {
+    name: 'Falkor',
+    description: 'A luckdragon from the novel and film The Neverending Story, who was ridden by Bastian and Atreyu. He is depicted as a creepy, but sort of adorable, dragon with mostly dog-Iike features: paws, shaggy hair, and big floppy ears. He can fly even  though he doesn\'t have wings.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 3
+  },
+
+  {
+    name: 'Paula Dean',
+    description: 'A celebrity chef and former Food Network personality, who has received criticism for the excessive use of fat, salt, and sugar in her recipes. She was sued in 2013 for  racial and sexual discrimination, such as using derogatory remarks toward African Americans.',
+    category: 'CELEBRITY',
+    pointValue: 1
+  },
+  {
+    name: 'A Neanderthal',
+    description: 'AA member of an extinct species closely related to humans. Research suggests that interbreeding between the two groups occurred, with modern non-African humans possessing 1-4% of their genome. They made tools, built dwellings, and had a form of language.',
+    category: 'ET CETERA',
+    pointValue: 1
+  },
+  {
+    name: 'The Trojan Horse',
+    description: 'A wooden object used by the Greeks to end the Trojan War. When the Trojans took it inside the city walls as a trophy. the soldiers hiding inside opened the city gates. This myth led to the use of the term for a type of malware that is doubtlessly on your parent\'s computer right now.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 2
+  },
+  {
+    name: 'Octomom (Nadya Suleman)',
+    description: 'In 2009. this woman gave birth to a living set of octuplets. Critics noted that she used in vitro fertilization  despite having 6 children and being on public assistance. In order to support her family, in 2012, she appeared in the adult film Octomom Home Alone.',
+    category: 'CELEBRITY',
+    pointValue: 2
+  },
+  {
+    name: 'Damien Hirst',
+    description: 'The wealthiest artist in the world, who is best known for selling a huge dead tiger shark preserved in formaldehyde for more than $8M. He once argued that the 9/11   terrorists “need congratulating" for "achieving something which nobody would have thought possible.',
+    category: 'CELEBRITY',
+    pointValue: 4
+  },
+  {
+    name: 'A Bro',
+    description: 'A stereotype often associated with college-aged men. The website Code Switch defines them using four characteristics: jockish, dudely, stoner-ish, and preppy. These   individuals are also often white, heterosexual, come from privilege, and espouse sexist attitudes.',
+    category: 'ET CETERA',
+    pointValue: 2
+  },  {
+    name: 'A Hoarder',
+    description: 'A person who compulsively collects things or refuses to discard possessions, resulting in an unmanageable amount of crap in their home. They are the subject of a popular reality TV show where professionals exploit the person\'s    disorder for entertainment.',
+    category: 'ET CETERA',
+    pointValue: 2
+  },
+  {
+    name: 'Deep Throat',
+    description: 'The informant who leaked information about Richard Nixon’s involvement in the Watergate scandal. Decades later. former FBI Director Mark Felt revealed himself as the informant. A Washington Post editor chose the alias as a reference to pornographic film from the 70s.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 3
+  },
+  {
+    name: 'William Shatner',
+    description: 'A legendary actor. who portrayed classic characters such as Captain Kirk, TJ Hooker, the guy who saw a plane gremlin on The Twilight Zone, and the Priceline Negotiator: He also has a musical career that began with a spoken word performance of  Elton John’s "Rocket Man."',
+    category: 'CELEBRITY',
+    pointValue: 1
+  },
+  {
+    name: 'The Gerber Baby',
+    description: 'The logo of an infant-focused food company. Based on the face of a person who grew up to be mystery novelist, Ann Turner Cook, the logo was originally intended to be a sketch outline for a future painting, but has remained the company\’s   official logo for decades.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 1
+  },
+  {
+    name: 'Humpty Dumpty',
+    description: 'A character from a nursery rhyme who falls off a wall and can’t be put back together again. Typically portrayed as a humanoid egg, scholars have speculated that he represents Richard III, the humpback king who was defeated at Bosworth Field by Henry VII.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 1
+  },
+  {
+    name: 'The Tiger Mom',
+    description: 'The author of a controversial memoir about her attempt to use Confucian parenting techniques. While she describes some success with strict parenting, she has since   argued that her book is about the softening of her style after her daughter rebelled at age 13.',
+    category: 'CELEBRITY',
+    pointValue: 3
+  },
+  {
+    name: 'Poppin’ Fresh, the Pillsbury Doughboy',
+    description: 'The mascot of a company famous for their re-packaged biscuit ingredients. He has been a staple in their advertising for decades, which usually features him being poked in the belly by a finger and responding by rubbing his stomach and giggling.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 1
+  },
+  {
+    name: 'A Drone',
+    description: 'An unmanned aerial vehicle used in military operations that are too dangerous for manned aircraft. Their use is controversial, with critics pointing at their indiscriminant use, such as a 2008 airstrike against a wedding party that killed 47 Afghan civilians.',
+    category: 'ET CETERA',
+    pointValue: 1
+  },
+  {
+    name: 'Blackfish',
+    description: 'An orca at SeaWorId who raised questions about animal captivity by killing 3 people. In 2010, Motley Crue founder Tommy Lee wrote to SeaWorld’s president stating that he   knew humans still "get into the pool and masturbate him with a cow’s vagina filled with hot water.',
+    category: 'CELEBRITY',
+    pointValue: 4
+  },
+  {
+    name: 'Krang',
+    description: 'A fictional supervillain from the Teenage Mutant Ninja Turtles franchise. He is allied with Shredder, who built a mechanical body for him when, following his exile from Dimension X, he was transformed into a brain-like creature with a creaky voice.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 2
+  },
+  {
+    name: 'Johannes Kepler',
+    description: 'A 17th century German astronomer known for his work on planetary motion. In addition to being the namesake of a NASA space observatory, many earthbound institutions are named after him, mostly recently a blended learning university in Kigali, Rwanda.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 4
+  },
+  {
+    name: 'Joe Camel',
+    description: 'The debonair, bipedal ungulate and  mascot for an R.J. Reynolds brand of cigarettes. When internal documents demonstrated that the company was targeting children as future smokers. the character was retired and replaced with a more traditional quadruped in 1997.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 1
+  },
+  {
+    name: 'Carlos Danger (Anthony Weiner)',
+    description: 'The nom de sext of a former Congressman who resigned after he sent explicit photos of himself via Twitter. Despite losing his job over the photos, he was involved in a   subsequent scandal after it was revealed that he continued sending explicit photos under this alias.',
+    category: 'CELEBRITY',
+    pointValue: 2
+  },
+  {
+    name: 'Kim Jong-il',
+    description: 'The former Supreme Leader of the Democratic People\'s Republic of Korea and author of On the Art of the cinema. His family is at the center of an elaborate personality   cult in the so called "Hermit Kingdom." A famous tumblr collected photos of him looking at things.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 2
+  },
+  {
+    name: 'Free Willy',
+    description: 'The title character from the 1993 film about a young boy\'s attempts to rescue a killer whale from its cruel life as an amusement park attraction. At the film\'s conclusion,  he flees a whaling ship by jumping over a rock embankment and returns to his family.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 1
+  },
+  {
+    name: 'John Hancock',
+    description: 'A Revolutionary War hero and president of the Second Continental Congress. He was the first member to sign the Declaration of Independence. and his signature was so prominent that his name is now synonymous with signing one\’s name on a document.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 1
+  },
+  {
+    name: 'Mr. Rogers',
+    description: 'The good—natured host of a children’s show that begins with him singing, "It\'s a wonderful day in the neighborhood,” putting on a sweater and sneakers, and asking the viewers to be his neighbor. Each episode include a trip to the Neighborhood of Make-Believe.',
+    category: 'CELEBRITY',
+    pointValue: 2
+  },
+  {
+    name: 'David Carradine',
+    description: 'An actor and martial artist who played the lead role in the show Kung Fu and Bill in the film Kill Bill. In 2009, he was found dead in the closet of his Bangkok hotel room.   Evidence suggests that his death was the result of autoerotic   asphyxiation.',
+    category: 'CELEBRITY',
+    pointValue: 3
+  },
+  {
+    name: 'Joe Biden',
+    description: 'The 47th Vice President of the US. His blue collar image has led to a series of humorous articles in The Onion, such as "Joe Biden Shows Up To Inauguration With Ponytail" and   "Obama Issues Presidential Pardon To Get Biden Out Of Jail For Third Time This Year."',
+    category: 'CELEBRITY',
+    pointValue: 1
+  },
+  {
+    name: 'A Fetus',
+    description: 'The stage of development between embryo and birth. It is sometimes categorized by the presence of all major body organs (though not necessarily functioning), typically around the 11th week of gestation. In humans, it is approximately 1.2" in length from crown to rump.',
+    category: 'ET CETERA',
+    pointValue: 1
+  },
+  {
+    name: 'Alex Trebek with a mustache',
+    description: 'The host of the quiz show Jeopardy! for thirty years and counting. He has appeared self-deprecatingly as a version of himself in films and TV shows. including Seinfeld and Short Cuts. For the purposes of this card, he still has really great facial hair on his upper lip.',
+    category: 'CELEBRITY',
+    pointValue: 3
+  },
+  {
+    name: 'Crocodile Dundee',
+    description: 'The title character in a trilogy of fish-out-of-water films about an Australian bushman struggling to find his way in big city America. Played by Paul Hogan, he amously threatens muggers, saying "That‘s not a knife. That’s a knife."',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 1
+  },
+  {
+    name: 'Josephine Baker',
+    description: 'A performer, civil rights activist. and the first black woman to star in a major film. She only performed for integrated audiences, though many of her acts, such as the exotic Danse Sauvage wearing a banana skirt, strike a contemporary viewer as still pretty messed up racially.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 2
+  },
+  {
+    name: 'Alex Trebek without a mustache',
+    description: 'The host of the quiz show Jeopardy! for thirty years and counting. He began hosting game shows in high school. For purposes of this card, he shaved the iconic facial hair on his upper lip in 2001. In 2008 he wore fake facial hair on his upper lip for April Fools‘ Day.',
+    category: 'CELEBRITY',
+    pointValue: 3
+  },
+  {
+    name: 'The Kool-Aid Man',
+    description: 'The 6 foot tall, cherry—flavored mascot for a powdery drink mix that is combined with water and sugar. He is famous for making a dramatic entrance when children express thirst by smashing through a brick wall and yelling his catchphrase “Oh yeah!"',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 1
+  },
+  {
+    name: 'Lance Armstrong',
+    description: 'A cyclist who won the Tour de France for 7 consecutive years after losing a testicle to cancer. He founded Livestrong, which began the trend of people wearing colorful rubber bracelets. He later admitted to taking performance—enhancing drugs during all of his Tour wins.',
+    category: 'CELEBRITY',
+    pointValue: 1
+  },
+  {
+    name: 'A Virgin',
+    description: 'A person who has never engaged in sexual intercourse, either voluntarily or involuntarily. Once used only to refer to young women, it now describes any person who has not  participated in that activity and can even be used metaphorically. as in a nonalcoholic drink.',
+    category: 'ET CETERA',
+    pointValue: 1
+  },
+  {
+    name: 'Andrea Yates',
+    description: 'The victim of severe postpartum depression who drowned her five children in a bathtub. While initially sentenced to life in prison. she was later found not guilty by reason of  insanity. Her case sparked an ongoing debate about mental health treatment in the US.',
+    category: 'CELEBRITY',
+    pointValue: 3
+  },
+  {
+    name: 'John Henry',
+    description: 'An American folk hero and “Steel Drivin\' Man.” In the myth, he competed against a steam powered hammer to determine who could drill into rock the fastest. He wins the competition, but his heart gives out and he dies before being able to fully celebrate his victory.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 2
+  },
+  {
+    name: 'Miss Piggy',
+    description: 'A porcine Muppet and spouse of Kermit the Frog, who she frequently pounces on. A notorious diva and singer, she is modeled on the singer and actress Peggy Lee. Throughout her career, she has been used to symbolize the modern American  woman.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 1
+  },
+  {
+    name: 'Tom Selleck’s mustache',
+    description: 'The facial hair of this American actor and 80s style icon. He is most famous for his title role in Magnum, P.I. as well as appearances in films such as Three Men and a Baby and Mr. Baseball. In addition to his upper lip decoration, his signature look included colorful Hawaiian shirts.',
+    category: 'CELEBRITY',
+    pointValue: 3
+  },
+  {
+    name: 'Roger Ebert',
+    description: 'A critic who popularized film review with his thumbs up, thumbs down system. Late in life, his lower jaw was removed to combat cancer of the salivary glands. He was unable to speak or eat normally, yet continued to write and review films both online and in print.',
+    category: 'CELEBRITY',
+    pointValue: 1
+  },
+  {
+    name: 'Anthony Weiner',
+    description: 'The disgraced former Congressman, who sent explicit photographs of himself via Twitter. After one leaked, he was forced to resign. He was involved in a subsequent scandal after it was revealed that he continued sending photos under the alias Carlos Danger.',
+    category: 'CELEBRITY',
+    pointValue: 2
+  },
+  {
+    name: 'A Close Talker',
+    description: 'A person who stands uncomfortably near a person while speaking. This term was first coined in "The Raincoats," an episode of Seinfeld. In it, Elaine\'s new boyfriend Aaron is described as being one of these, disrupting the personal space of anyone he speaks to.',
+    category: 'ET CETERA',
+    pointValue: 2
+  },
+  {
+    name: 'Kevin Bacon',
+    description: 'An actor best known for the game based on six degrees of separation that bears his name. e.g. André the Giant and Christopher Guest appeared in The Princess Bride: Christopher Guest and this actor appeared in A Few Good Men; thus Andre the Giant’s number is 2.',
+    category: 'CELEBRITY',
+    pointValue: 1
+  },
+  {
+    name: 'A Lab Rat',
+    description: 'A rodent used in academic or commercial research, often as a precursor to human trials in the early stages of a project. They are regularly decapitated with scissors. A common trope of early psychology research was to place one in a maze to find a wedge of cheese.',
+    category: 'ET CETERA',
+    pointValue: 1
+  },
+  {
+    name: 'Yoko Ono',
+    description: 'An avant-garde artist maligned for allegedly breaking up the Beatles. Despite her inability to carry a tune,  many of her songs have topped the dance charts, mostly as remixes. She and John Lennon used their honeymoon to stage bed-ins to protest the Vietnam War.',
+    category: 'CELEBRITY',
+    pointValue: 2
+  },
+  {
+    name: 'A Gerbil',
+    description: 'A small rodent often kept as a pet. Numerous urban legends exist involving this animal and various celebrity anuses.',
+    category: 'ET CETERA',
+    pointValue: 2
+  },
+  {
+    name: 'The Shark from Jaws',
+    description: 'A man-eating great white that terrorizes the town of Amity Island in a film by Steven Spielberg. Not seen until well into the film, it is so large that Roy Scheider\'s character suggests the crew is "gonna need a bigger boat." It was nicknamed Bruce after Spielberg\'s lawyer.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 1
+  },
+  {
+    name: 'A T.Rex',
+    description: 'Meaning "lizard king," this species of bipedal carnivore lived in western North America during the Cretaceous Period. They are the most widely known dinosaur in the world due to their adorably tiny arms and footsteps that vibrate cups of water.',
+    category: 'ET CETERA',
+    pointValue: 1
+  },
+
+  {
+    name: 'Colonel Mustard',
+    description: 'A character from the board game Clue (aka Cluedo). He was originally named Yellow, but had his name changed to this condiment instead. In Hasbro‘s latest update, he is now a former football player. In the classic film adaptation, he was played by Martin Mull.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 1
+  },
+  {
+    name: 'The Boogeyman',
+    description: 'A creature used by adults to scare children into good behavior. Its description and motivations vary across cultures, but often include kidnapping misbehaving children. Variants of this monster include Latin America’s “Sack Man" and Egypt‘s "Man With Burnt Leg.”',
+    category: 'ET CETERA',
+    pointValue: 1
+  },
+  {
+    name: 'Rip Van Winkle',
+    description: 'The protagonist of a Washington Irving short story, who drinks moonshine, goes bowling with ghostly Dutchmen, falls asleep, and awakens decades into the future with a long, scraggly beard. He returns to his village and finds that his wife and friends have all died.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 1
+  },
+  {
+    name: 'A Swinger',
+    description: 'A person who engages in recreational intercourse outside of a monogamous relationship. Despite public declarations othenNise, in a recent study by the Kinsey Institute, these individuals make up 2-4% of married couples in North America—over 4 million people in total.',
+    category: 'ET CETERA',
+    pointValue: 1
+  },
+  {
+    name: 'Your Evil Twin',
+    description: 'A common trope, where the physical duplicate of a character appears. but with inverted values. They are often depicted with subtle alterations, such as Spock\'s ruthless doppelganger having a goatee. The words above or your name prefixed by the second word are both valid.', 
+    category: 'ET CETERA',
+    pointValue: 1
+  },
+  {
+    name: 'The Winklevii',
+    description: 'The twins, rowers, and entrepreneurs best known for suing Facebook founder Mark Zuckerberg for $140M, claiming he stole their idea for the social networking site. They are new venture capitalists, and as of 2014, own nearly 1% of all Bitcoin in existence.',
+    category: 'CELEBRITY',
+    pointValue: 3
+  },
+  {
+    name: 'Cesar Millan',
+    description: 'Known as The Dog Whisperer, he is a self—taught trainer famous for his TV show, where he goes into homes to deal with especially difficult animals. His methods rely on outdated beliefs about canine social structures, yet his advice is used by dog owners worldwide.',
+    category: 'CELEBRITY',
+    pointValue: 1
+  },
+  {
+    name: 'A Nutcracker',
+    description: 'A device for cracking hard shells. They can be highly decorative, with individual wooden bodies depicting soldiers or royalty. In these versions, the shell is inserted into the figure’s mouth and a lever is pressed down, which crushes the shell and reveals the sweet, sweet meat inside.',
+    category: 'ET CETERA',
+    pointValue: 1
+  },
+  {
+    name: 'A Werewolf',
+    description: 'A human who transforms into a hirsute, bloodthirsty creature. Known as chanthropy, this change is often triggered by a full moon. Suspected chanthropes were persecuted in early modern Europe, and are now a staple figure in pop culture and party games.',
+    category: 'ET CETERA',
+    pointValue: 1
+  },
+  {
+    name: 'A Planeteer',
+    description: 'One of the five teenagers who possess rings that allows them to control Earth, Fire, Wind, Water, or Heart. When their powers combine, they summon the environmental superhero Captain Planet to help fight villains such as Hoggish  Greedly and Verminous Skumm.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 1
+  },
+  {
+    name: 'Rick James',
+    description: 'A musician whose decadent, drug-fueled lifestyle is frequently parodied, notably in several "True Hollywood Stories" on The Chappelle Show. The popularity of depictions of his cocaine habits and use of the word “bitch" contributed to Chappelle leaving the show.',
+    category: 'CELEBRITY',
+    pointValue: 1
+  },
+  {
+    name: 'Bob Ross',
+    description: 'A painter and TV host, who starred in PBS\'s The Joy of Painting. He  taught viewers how to paint "fluffy white clouds" and "happy little trees" using wet on wet painting. He supposedly hated his white-guy afro and kept it only for marketing purposes.',
+    category: 'CELEBRITY',
+    pointValue: 2
+  },
+  {
+    name: 'You',
+    description: 'The person reading this card. The word above or your actual name are  both valid.',
+    category: 'ET CETERA',
+    pointValue: 1
+  },
+  {
+    name: 'Gene Wilder',
+    description: 'The stage name of Jerome Silberman, who is best known for his collaboration with Mel Brooks in Blazing Saddles, The Producers, and other films. An image of him in Willy Wonka & the Chocolate Factory is used in the popular Condescending Wonka caption online.',
+    category: 'CELEBRITY',
+    pointValue: 1
+  },
+  {
+    name: 'Thomas Kinkade',
+    description: 'The self—styled Painter of Light”, whose paintings often featured  cottages with glowing lights in overly saturated pastoral landscapes. He died, according to his mistress, "very happy" from acute intoxication of alcohol and   Valium.',
+    category: 'CELEBRITY',
+    pointValue: 2
+  },
+  {
+    name: 'Honey Boo Boo',
+    description: 'A child beauty pageant contestant and star of a TLC reality show. She is known for her southern drawl, love of ”Go Go Juice" (a blend of Mountain Dew and Red Bull), and open—minded attitude, having once said of her uncle, "Ain‘t nothing wrong with bein\' a little gay.',
+    category: 'CELEBRITY',
+    pointValue: 1
+  },
+  {
+    name: 'A Nihilist',
+    description: 'Popularly. someone who believes in nothing. As a philosophical concept, a person who believes that major aspects of life or human inquiry are either not valid or do not exist. They are often portrayed as effete intellectuals, such as the wimpy German thugs in The Big Lebowski.',
+    category: 'ET CETERA',
+    pointValue: 2
+  },
+  {
+    name: 'A Redshirt',
+    description: 'A stock, semi-anonymous character who is introduced only to die soon after. The term derives from the costumes worn by extras in the original Star Trek television series who would accompany the lead actors to a hostile situation and be killed in order to heighten tension.',
+    category: 'ET CETERA',
+    pointValue: 2
+  },
+  {
+    name: 'The Id',
+    description: 'One of the the three parts of Sigmund Freud\'s model of the psyche that constitute mental life. This part contains a person\'s instincts and is the source of our impulse for sex and aggression. In adult life it becomes the most dark, inaccessible aspect of personality.',
+    category: 'ET CETERA',
+    pointValue: 2
+  },
+  {
+    name: 'Phineas Gage',
+    description: 'A 19th century railroad worker and frequent citation in undergraduate psychology papers. His left frontal lobe was severely damaged following an explosion that drove an iron spike through his skull. The damage resulted in a radical change in his personality and behavior.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 4
+  },
+  {
+    name: 'David Attenborough',
+    description: 'Widely known as the voice of nature documentaries, he is considered a national treasure in the UK (though he rejects the term). He is so beloved that his replacement with Sigourney Weaver as the narrator in the American version of Planet Earth caused protests online.',
+    category: 'CELEBRITY',
+    pointValue: 3
+  },
+  {
+    name: 'Yorick',
+    description: 'A character whose remains are dug up in Shakespeare’s Hamlet. He provokes a lengthy rumination on the ravages of time by Hamlet, leading to the most characteristic image from the play: the prince holding this character‘s skull aloft while delivering a monologue.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 4
+  },
+  {
+    name: 'Ricardo Montalbán',
+    description: 'A Mexican actor who played Khan Noonien Singh in the original Star Trek series and Star Trek II: The Wrath of Khan. He was also known for his endorsement of the Chrysler Cérdoba, where he praised the "tastefulness of its appearance” and its "soft Corinthian leather."',
+    category: 'CELEBRITY',
+    pointValue: 4
+  },
+  {
+    name: 'A Catholic Priest',
+    description: 'A ministerial order of the first Christian church to whom God grants the power of transubstantiation during Mass. Although they take a vow of chastity. there have been many molestation scandals, perhaps due to the ready access their authority affords them.',
+    category: 'ET CETERA',
+    pointValue: 2
+  },
+  {
+    name: 'Jim Jones',
+    description: 'An American cult leader and founder of the Peoples Temple. After the group’s murder of a congressional delegation, he forced the mass suicide of its 910 members in their Guyana compound by drinking grape Kool—Aid laced with cyanide and sedatives.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 4
+  },
+  {
+    name: 'A Man From Nantucket',
+    description: 'A character from a famous limerick that references an island 30 miles south of Cape Cod. The limerick describes this person as being particularly well-endowed, with the most popular rhyming couplet being "Whose dick was so long he could suck it."',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 2
+  },
+  {
+    name: 'Oskar Schindler',
+    description: 'A wealthy German industrialist. who protected his Jewish factory employees from deportation and death during the Holocaust. By the end of World War II. he had spent his entire fortune on bribes to Nazi officials and black-market items for the workers on his famous list.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 2
+  },
+  {
+    name: 'Catherine the Great',
+    description: 'The "Empress and Autocrat of all the Russias,” who led the country\'s Golden Age: an era of revitalization and recognition as a great power of Europe. She took many lovers during her reign, leading to legends about her sexual proclivities, including an erotic desire for horses.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 3
+  },
+  {
+    name: 'Bobby Fischer',
+    description: 'America\'s greatest chess player and one of its most famous racists. He defeated Boris Spassky in 1971 to become world champion. A recluse, he returned to the public eye in the 90s to invent a new Chess timing system and to be a public anti-Semite before dying in Iceland in 2008.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 3
+  },
+  {
+    name: 'Ouroboros',
+    description: 'An ancient symbol that represents the cyclical nature of existence, eternal return, and rebirth. Its first known usage was in an Ancient Egyptian source. but appears across many cultures. It is most frequently depicted as a snake or serpent eating its own tail.',
+    category: 'ET CETERA',
+    pointValue: 4
+  },
+  {
+    name: 'Catherine the Great\'s Horses',
+    description: 'The alleged equine lover of a Russian Empress who led the country through its Golden Age. She took many lovers during her reign, which gave rise to legends about her sexual proclivities, including an erotic desire for this kind of animal.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 4
+  },
+  {
+    name: 'Rob Ford',
+    description: 'The disgraced mayor of Toronto who confessed to smoking crack “probably in one of my drunken stupors.” Responding to allegations of sexual harassment, he said. "It was said I want to eat her pussy. I would never do that. I’ve got more than enough to eat at home."',
+    category: 'CELEBRITY',
+    pointValue: 2
+  },
+  {
+    name: 'Lot\'s Wife',
+    description: 'A Biblical figure who was spared from God’s divine judgment against the cities of Sodom and Gomorrah. As the cities were being destroyed by fire and brimstone, her family was told by angels "look not behind thee." She did and was transformed into a pillar of salt.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 4
+  },
+
+
 ]
 /* eslint-disable */
