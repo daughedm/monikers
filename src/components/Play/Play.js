@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Card from '../Card/Card'
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import * as actions from '../../actions';
@@ -19,26 +20,16 @@ export class Play extends Component {
 
         </div>
         <div className="timer"></div>
-        {this.props.activeCards.length && 
-        <div className="card-container">
-          <h1 className="card-title">{this.props.activeCards[0].name}</h1>
-
-          <p className="description">{this.props.activeCards[0].description}</p>
-          <div className="dashed-line" ></div>
-          <h3 className="category">{this.props.activeCards[0].category}</h3>
-          {/* this divs colors will change based on category */}
-          <div className="circle">
-            <h1 className="points">{this.props.activeCards[0].pointValue}</h1>
-          </div>
-        </div>
+        {this.props.activeCards.length &&
+          <Card />
         }
         <div className="buttons-container">
-          <button 
+          <button
             className="pass-button ripple-pass"
             onClick="">
             Pass
           </button>
-          <button 
+          <button
             className="got-it-button ripple-got-it"
             onClick="">Got It!
           </button>
