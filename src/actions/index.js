@@ -6,7 +6,8 @@ import {
   currentTeam,
   currentRound,
   teamOneScore,
-  teamTwoScore
+  teamTwoScore,
+  updateActiveCards
 } from './gameActions.js';
 
 export {
@@ -17,5 +18,6 @@ export {
   currentTeam,
   currentRound,
   teamOneScore,
-  teamTwoScore
+  teamTwoScore,
+  updateActiveCards
 };
