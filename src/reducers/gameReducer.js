@@ -20,6 +20,8 @@ export const activeCards = (state = [], action) => {
   switch (action.type) {
   case 'ADD_CARD':
     return [...state, action.card];
+  case 'UPDATE_ACTIVE_CARDS':
+    return [...action.cards];
   default:
     return state;
   }
