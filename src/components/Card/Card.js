@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
-export class Card extends Component() {
+export class Card extends Component {
   constructor() {
     super();
   }
@@ -26,5 +26,7 @@ export class Card extends Component() {
 export const mapStateToProps = state => ({
   activeCards: state.activeCards
 });
+
+Card.propTypes = {};
 
 export default connect(mapStateToProps)(Card);
