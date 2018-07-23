@@ -1086,7 +1086,319 @@ module.exports = [
     description: 'Meaning "lizard king," this species of bipedal carnivore lived in western North America during the Cretaceous Period. They are the most widely known dinosaur in the world due to their adorably tiny arms and footsteps that vibrate cups of water.',
     category: 'ET CETERA',
     pointValue: 1
-  }
+  },
+
+  {
+    name: 'Colonel Mustard',
+    description: 'A character from the board game Clue (aka Cluedo). He was originally named Yellow, but had his name changed to this condiment instead. In Hasbro‘s latest update, he is now a former football player. In the classic film adaptation, he was played by Martin Mull.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 1
+  },
+  {
+    name: 'The Boogeyman',
+    description: 'A creature used by adults to scare children into good behavior. Its description and motivations vary across cultures, but often include kidnapping misbehaving children. Variants of this monster include Latin America’s “Sack Man" and Egypt‘s "Man With Burnt Leg.”',
+    category: 'ET CETERA',
+    pointValue: 1
+  },
+  {
+    name: 'Rip Van Winkle',
+    description: 'The protagonist of a Washington Irving short story, who drinks moonshine, goes bowling with ghostly Dutchmen, falls asleep, and awakens decades into the future with a long, scraggly beard. He returns to his village and finds that his wife and friends have all died.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 1
+  },
+  {
+    name: 'A Swinger',
+    description: 'A person who engages in recreational intercourse outside of a monogamous relationship. Despite public declarations othenNise, in a recent study by the Kinsey Institute, these individuals make up 2-4% of married couples in North America—over 4 million people in total.',
+    category: 'ET CETERA',
+    pointValue: 1
+  },
+  {
+    name: 'Your Evil Twin',
+    description: 'A common trope, where the physical duplicate of a character appears. but with inverted values. They are often depicted with subtle alterations, such as Spock\'s ruthless doppelganger having a goatee. The words above or your name prefixed by the second word are both valid.', 
+    category: 'ET CETERA',
+    pointValue: 1
+  },
+  {
+    name: 'The Winklevii',
+    description: 'The twins, rowers, and entrepreneurs best known for suing Facebook founder Mark Zuckerberg for $140M, claiming he stole their idea for the social networking site. They are new venture capitalists, and as of 2014, own nearly 1% of all Bitcoin in existence.',
+    category: 'CELEBRITY',
+    pointValue: 3
+  },
+  {
+    name: 'Cesar Millan',
+    description: 'Known as The Dog Whisperer, he is a self—taught trainer famous for his TV show, where he goes into homes to deal with especially difficult animals. His methods rely on outdated beliefs about canine social structures, yet his advice is used by dog owners worldwide.',
+    category: 'CELEBRITY',
+    pointValue: 1
+  },
+  {
+    name: 'A Nutcracker',
+    description: 'A device for cracking hard shells. They can be highly decorative, with individual wooden bodies depicting soldiers or royalty. In these versions, the shell is inserted into the figure’s mouth and a lever is pressed down, which crushes the shell and reveals the sweet, sweet meat inside.',
+    category: 'ET CETERA',
+    pointValue: 1
+  },
+  {
+    name: 'A Werewolf',
+    description: 'A human who transforms into a hirsute, bloodthirsty creature. Known as chanthropy, this change is often triggered by a full moon. Suspected chanthropes were persecuted in early modern Europe, and are now a staple figure in pop culture and party games.',
+    category: 'ET CETERA',
+    pointValue: 1
+  },
+  {
+    name: 'A Planeteer',
+    description: 'One of the five teenagers who possess rings that allows them to control Earth, Fire, Wind, Water, or Heart. When their powers combine, they summon the environmental superhero Captain Planet to help fight villains such as Hoggish  Greedly and Verminous Skumm.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 1
+  },
+  {
+    name: 'Rick James',
+    description: 'A musician whose decadent, drug-fueled lifestyle is frequently parodied, notably in several "True Hollywood Stories" on The Chappelle Show. The popularity of depictions of his cocaine habits and use of the word “bitch" contributed to Chappelle leaving the show.',
+    category: 'CELEBRITY',
+    pointValue: 1
+  },
+  {
+    name: 'Bob Ross',
+    description: 'A painter and TV host, who starred in PBS\'s The Joy of Painting. He  taught viewers how to paint "fluffy white clouds" and "happy little trees" using wet on wet painting. He supposedly hated his white-guy afro and kept it only for marketing purposes.',
+    category: 'CELEBRITY',
+    pointValue: 2
+  },
+  {
+    name: 'You',
+    description: 'The person reading this card. The word above or your actual name are  both valid.',
+    category: 'ET CETERA',
+    pointValue: 1
+  },
+  {
+    name: 'Gene Wilder',
+    description: 'The stage name of Jerome Silberman, who is best known for his collaboration with Mel Brooks in Blazing Saddles, The Producers, and other films. An image of him in Willy Wonka & the Chocolate Factory is used in the popular Condescending Wonka caption online.',
+    category: 'CELEBRITY',
+    pointValue: 1
+  },
+  {
+    name: 'Thomas Kinkade',
+    description: 'The self—styled Painter of Light”, whose paintings often featured  cottages with glowing lights in overly saturated pastoral landscapes. He died, according to his mistress, "very happy" from acute intoxication of alcohol and   Valium.',
+    category: 'CELEBRITY',
+    pointValue: 2
+  },
+  {
+    name: 'Honey Boo Boo',
+    description: 'A child beauty pageant contestant and star of a TLC reality show. She is known for her southern drawl, love of ”Go Go Juice" (a blend of Mountain Dew and Red Bull), and open—minded attitude, having once said of her uncle, "Ain‘t nothing  wrong with bein’ a little gay.',
+    category: 'CELEBRITY',
+    pointValue: 1
+  },
+  {
+    name: 'A Nihilist',
+    description: 'Popularly. someone who believes in nothing. As a philosophical concept, a person who believes that major aspects of life or human inquiry are    either not valid or do not exist. They are often portrayed as effete   intellectuals, such as the wimpy German thugs in The Big Lebowski.',
+    category: 'ET CETERA',
+    pointValue: 2
+  },
+  {
+    name: 'A Redshirt',
+    description: 'A stock, semi-anonymous character
+    who is introduced only to die soon
+    after. The term derives from the
+    costumes worn by extras in the
+    original Star Trek television series
+    who would accompany the lead
+    actors to a hostile situation and be
+    killed in order to heighten tension.',
+    category: 'ET CETERA',
+    pointValue: 2
+  },
+  {
+    name: 'The Id',
+    description: 'One of the the three parts of
+    Sigmund Freud's model of the
+    psyche that constitute mental life.
+    This part contains a person‘s
+    instincts and is the source of our
+    impulse for sex and aggression. In
+    adult life it becomes the most dark,
+    inaccessible aspect of personality.',
+    category: 'ET CETERA',
+    pointValue: 2
+  },
+  {
+    name: 'Phineas Gage',
+    description: 'A 19th century railroad worker and
+    frequent citation in undergraduate
+    psychology papers. His left frontal
+    lobe was severely damaged
+    following an explosion that drove an
+    iron spike through his skull. The
+    damage resulted in a radical change
+    in his personality and behavior.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 4
+  },
+  {
+    name: 'David Attenborough',
+    description: 'Widely known as the voice of nature
+    documentaries, he is considered a
+    national treasure in the UK (though
+    he rejects the term). He is so
+    beloved that his replacement with
+    Sigourney Weaver as the narrator in
+    the American version of Planet
+    Earth caused protests online.',
+    category: 'CELEBRITY',
+    pointValue: 3
+  },
+  {
+    name: 'Yorick',
+    description: 'A character whose remains are dug
+    up in Shakespeare’s Hamlet. He
+    provokes a lengthy rumination on
+    the ravages of time by Hamlet,
+    leading to the most characteristic
+    image from the play: the prince
+    holding this character‘s skull aloft
+    while delivering a monologue.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 4
+  },
+  {
+    name: 'Ricardo Montalbán',
+    description: 'A Mexican actor who played Khan
+    Noonien Singh in the original Star
+    Trek series and Star Trek II: The
+    Wrath of Khan. He was also known
+    for his endorsement of the Chrysler
+    Cérdoba, where he praised the
+    "tastefulness of its appearance” and
+    its "soft Corinthian leather."',
+    category: 'CELEBRITY',
+    pointValue: 4
+  },
+  {
+    name: 'A Catholic Priest',
+    description: 'A ministerial order of the first
+    Christian church to whom God
+    grants the power of transubstantia-
+    tion during Mass. Although they
+    take a vow of chastity. there have
+    been many molestation scandals,
+    perhaps due to the ready access
+    their authority affords them.',
+    category: 'ET CETERA',
+    pointValue: 2
+  },
+  {
+    name: 'Jim Jones',
+    description: 'An American cult leader and
+    founder of the Peoples Temple.
+    After the group’s murder of a
+    congressional delegation. he forced
+    the mass suicide of its 910 members
+    in their Guyana compound by
+    drinking grape Kool—Aid laced with
+    cyanide and sedatives.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 4
+  },
+  {
+    name: 'A Man From Nantucket',
+    description: 'A character from a famous limerick
+    that references an island 30 miles
+    south of Cape Cod. The limerick
+    describes this person as being
+    particularly weII-endowed, with the
+    most popular rhyming couplet
+    being "Whose dick was so long he
+    could suck it."',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 2
+  },
+  {
+    name: 'Oskar Schindler',
+    description: 'A wealthy German industrialist. who
+    protected his Jewish factory
+    employees from deportation and
+    death during the Holocaust. By the
+    end of World War II. he had spent
+    his entire fortune on bribes to Nazi
+    officials and black-market items for
+    the workers on his famous list.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 2
+  },
+  {
+    name: 'Catherine the Great',
+    description: 'The "Empress and Autocrat of all the
+    Russias,” who led the country's
+    Golden Age: an era of revitalization
+    and recognition as a great power of
+    Europe. She took many lovers during
+    her reign, leading to legends about
+    her sexual proclivities, including an
+    erotic desire for horses.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 3
+  },
+  {
+    name: 'Bobby Fischer',
+    description: 'America's greatest chess player and
+    one of its most famous racists. He
+    defeated Boris Spassky in 1971 to
+    become world champion. A recluse.
+    he returned to the public eye in the
+    90s to invent a new Chess timing
+    system and to be a public anti-Sem
+    ite before dying in Iceland in 2008.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 3
+  },
+  {
+    name: 'Ouroboros',
+    description: 'An ancient symbol that represents
+    the cyclical nature of existence,
+    eternal return, and rebirth. Its first
+    known usage was in an Ancient
+    Egyptian source. but appears across
+    many cultures. It is most frequently
+    depicted as a snake or serpent
+    eating its own tail.',
+    category: 'ET CETERA',
+    pointValue: 4
+  },
+  {
+    name: 'Catherine the Great\'s Horses',
+    description: 'The alleged equine lover of a
+    Russian Empress who led the
+    country through its Golden Age.
+    She took many lovers during her
+    reign. which gave rise to legends
+    about her sexual proclivities,
+    including an erotic desire for this
+    kind of animal.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 4
+  },
+  {
+    name: 'Rob Ford',
+    description: 'The disgraced mayor of Toronto
+    who confessed to smoking crack
+    “probably in one of my drunken
+    stupors.” Responding to allegations
+    of sexual harassment, he said. "It
+    was said I want to eat her pussy. I
+    would never do that. I’ve got more
+    than enough to eat at home."',
+    category: 'CELEBRITY',
+    pointValue: 2
+  },
+  {
+    name: 'Lot\'s Wife',
+    description: 'A Biblical figure who was spared
+    from God’s divine judgment against
+    the cities of Sodom and Gomorrah.
+    As the cities were being destroyed
+    by fire and brimstone, her family
+    was told by angels "look not behind
+    thee." She did and was transformed
+    into a pillar of salt.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 4
+  },
+
 
 ]
 /* eslint-disable */
