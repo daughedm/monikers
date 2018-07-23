@@ -17,7 +17,8 @@ export class Round extends Component {
 }
 
 export const mapStateToProps = state => ({
-  activeCards: state.currRound
+  currRound: state.currRound,
+  teamOneScore:
 });
 
 export const mapDispatchToProps = dispatch => ({});
