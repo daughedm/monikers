@@ -8,13 +8,17 @@ export class Round extends Component {
   componentDidMount() {}
 
   render() {
-    return <div>
-      
-    </div>;
+    return (
+      <div>
+        
+      </div>
+    );
   }
 }
 
-export const mapStateToProps = state => ({});
+export const mapStateToProps = state => ({
+  activeCards: state.currRound
+});
 
 export const mapDispatchToProps = dispatch => ({});
 

@@ -64,7 +64,6 @@ export class App extends Component {
         <Route path="/loading" exact={true} component={Loading} />
         <Route path="/round" exact={true} component={Round} />
         <Route path="/next" exact={true} component={Next} />
-
       </div>
     );
   }
