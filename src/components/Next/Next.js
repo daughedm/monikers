@@ -11,12 +11,21 @@ export class Next extends Component {
   componentDidMount() {}
 
   render() {
-    return <div className="next" />;
+    const {currTeam} = this.props;
+
+    return (
+      <div className="team-transition">
+        <h2 className="current-team-headline">Team {currTeam}, your turn</h2>
+        <button className="start-turn-button">START</button>
+      </div>
+    );
   }
 }
 
 export const mapStateToProps = state => ({
-  cards: state.cards
+  currRound: state.currRound,
+  currTeam: state.currTeam,
+  teamNames: state.teamNames
 });
 
 export const mapDispatchToProps = dispatch => ({});
