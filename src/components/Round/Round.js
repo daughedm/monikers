@@ -11,21 +11,31 @@ export class Round extends Component {
     const {teamNames, teamOneScore, teamTwoScore, currRound} = this.props;
     const startingTeam = teamOneScore <= teamTwoScore ? teamNames[0] : teamNames[1];
     let roundDescription;
+    let round;
 
     if (currRound === 1) {
       roundDescription = 'Describe the name using any words, sounds, or gestures except the name itself';
+      round = 'Round One';
+
     } else if (currRound === 2) {
       roundDescription = 'Describe the name using only one word, which can be anything except the name itself';
-    } else {
+      round = 'Round Two';
+    } else if (currRound === 3) {
       roundDescription = 'Describe the name using just charades. No words. Sound effects are OK.';
+      round = 'Round Three';
     }
 
     return (
-      <div className="round-transition">
-        <h2 className="round-headline">Round: {currRound}</h2>
-        <p>{roundDescription}</p>
-        <h3 className="starting-team">Team {startingTeam} starts.</h3>
-        <button className="start-round-button">START ROUND</button>
+      <div className="background-monikers">
+        <div className="round-transition">
+          <h2 className="round-headline">{round}</h2>
+          <div className="dashed-line"></div>
+          <p className="round-description">{roundDescription}</p>
+          <div className="dashed-line"></div>
+          {/* color changes between blue and red per team */}
+          <h3 className="starting-team">{startingTeam} Team Starts</h3>
+          <button className="start-round-button">START ROUND</button>
+        </div>
       </div>
     );
   }
