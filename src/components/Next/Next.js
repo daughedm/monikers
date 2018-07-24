@@ -11,12 +11,16 @@ export class Next extends Component {
   componentDidMount() {}
 
   render() {
-    const {currTeam} = this.props;
+    const {currTeam, activeCards} = this.props;
 
     return (
-      <div className="team-transition">
-        <h2 className="current-team-headline">Team {currTeam}, your turn</h2>
-        <button className="start-turn-button">START</button>
+      <div className="background-monikers">
+        <div className="team-transition">
+          <h2 className="current-team-headline">Team {currTeam}, your turn</h2>
+          <p className="remaining-cards">{activeCards.length} Cards Remaining</p>
+          <div className="dashed-line"></div>
+          <button className="start-turn-button">START</button>
+        </div>
       </div>
     );
   }
@@ -25,7 +29,8 @@ export class Next extends Component {
 export const mapStateToProps = state => ({
   currRound: state.currRound,
   currTeam: state.currTeam,
-  teamNames: state.teamNames
+  teamNames: state.teamNames,
+  activeCards: state.activeCards
 });
 
 export const mapDispatchToProps = dispatch => ({});
