@@ -58,7 +58,7 @@ export class Setup extends Component {
     console.log('teamOneName: ', teamOneName);
 
     if (teamOne && teamTwo && numPlayers) {
-      this.props.history.push('/play');
+      this.props.history.push('/round');
     };
   };
 
