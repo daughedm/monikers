@@ -1,5 +1,8 @@
 .play {
-
+  background-image: url('../../assets/seamlessbg-03.svg');
+  background-repeat: repeat;
+  width: 100%;
+  height: 100vh;
 }
 
 .game-info-container {
