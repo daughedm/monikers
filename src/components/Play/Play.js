@@ -34,8 +34,8 @@ export class Play extends Component {
     return (
       <div className="play">
         <div className="game-info-container">
-          <h3 className="current-team">Blue Team</h3>
-          <h3 className="current-round">Round 1</h3>
+          <h3 className="current-team">{this.props.currTeam}</h3>
+          <h3 className="current-round">Round {this.props.currRound}</h3>
 
         </div>
         <div className="timer"></div>
@@ -60,7 +60,9 @@ export class Play extends Component {
 
 export const mapStateToProps = state => ({
   activeCards: state.activeCards,
-  discardPile: state.discardPile
+  discardPile: state.discardPile,
+  currTeam: state.currTeam,
+  currRound: state.currRound
 });
 
 export const mapDispatchToProps = dispatch => ({

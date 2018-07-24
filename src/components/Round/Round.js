@@ -7,6 +7,13 @@ import './Round.css';
 export class Round extends Component {
   componentDidMount() {}
 
+
+  handleClick = e => {
+    e.preventDefault();
+    console.log('click')
+    this.props.history.push('/play');
+  }
+
   render() {
     const {teamNames, teamOneScore, teamTwoScore, currRound} = this.props;
     const startingTeam = teamOneScore <= teamTwoScore ? teamNames[0] : teamNames[1];
@@ -34,12 +41,13 @@ export class Round extends Component {
           <div className="dashed-line"></div>
           {/* color changes between blue and red per team */}
           <h3 className="starting-team">{startingTeam} Team Starts</h3>
-          <button className="start-round-button">START ROUND</button>
+          <button className="start-round-button" onClick={this.handleClick}>START ROUND</button>
         </div>
       </div>
     );
   }
 }
+
 
 export const mapStateToProps = state => ({
   currRound: state.currRound,

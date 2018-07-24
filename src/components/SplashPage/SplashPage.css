@@ -77,7 +77,8 @@
 .navlink {
   color: #FFF;
   text-decoration: none;
-  padding: 15px 60px;
+  display: inline-block;
+  width: 100%;
 }
 
 a {
