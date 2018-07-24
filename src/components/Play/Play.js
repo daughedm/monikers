@@ -8,9 +8,14 @@ import './Play.css';
 export class Play extends Component {
   constructor() {
     super();
+    this.state = {
+      clock: 'active'
+    };
   }
 
-  componentDidMount() {}
+  componentDidMount() {
+    
+  }
 
   handleGotIt = e => {
     e.preventDefault();
@@ -19,6 +24,16 @@ export class Play extends Component {
     const newCards = this.props.activeCards.slice(1);
 
     this.props.updateActiveCards(newCards);
+  }
+
+  countDown = () => {
+    let count = 60, timer = setInterval(() => {
+      count--;
+      if (count === 0) {
+        this.setState({clock: 'stopped'})
+        clearInterval(timer); 
+      }
+    }, 1000);
   }
 
   handleSkipped = e => {
@@ -31,6 +46,7 @@ export class Play extends Component {
   }
 
   render() {
+    this.countDown();
     return (
       <div className="play">
         <div className="game-info-container">
