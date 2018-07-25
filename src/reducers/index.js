@@ -7,7 +7,8 @@ import {
   currentTeam,
   currentRound,
   teamOneScore,
-  teamTwoScore
+  teamTwoScore, 
+  teamTimer
 } from './gameReducer';
 
 const rootReducer = combineReducers({
@@ -18,7 +19,8 @@ const rootReducer = combineReducers({
   currTeam: currentTeam,
   currRound: currentRound,
   teamOneScore: teamOneScore,
-  teamTwoScore: teamTwoScore
+  teamTwoScore: teamTwoScore,
+  teamTimer: teamTimer
 });
 
 export default rootReducer;

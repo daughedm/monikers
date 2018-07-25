@@ -4,7 +4,7 @@ import Next from '../Next/Next';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import * as actions from '../../actions';
-import { currentTeam } from '../../actions/gameActions';
+import { currentTeam, updateTeamTimer } from '../../actions/gameActions';
 
 import './Play.css';
 
@@ -39,11 +39,10 @@ export class Play extends Component {
       timer = setInterval(() => {
         count--;
         if (count === 0) {
-          this.setState({ clock: 'stopped' });
+          this.props.updateTeamTimer(false)
           this.props.currTeam === this.props.teamNames[0] 
             ? this.props.currentTeam(this.props.teamNames[1]) 
             : this.props.currentTeam(this.props.teamNames[0]);
-            console.log('shit')
           clearInterval(timer);
         }
       }, 1000);
@@ -60,7 +59,7 @@ export class Play extends Component {
 
   render() {
     
-    if (this.state.clock === 'stopped') {
+    if (this.props.teamTimer === false) {
       return <Next />;
     } else {
       return (
@@ -96,7 +95,8 @@ export const mapStateToProps = state => ({
   discardPile: state.discardPile,
   currTeam: state.currTeam,
   currRound: state.currRound,
-  teamNames: state.teamNames
+  teamNames: state.teamNames,
+  teamTimer: state.teamTimer
 });
 
 export const mapDispatchToProps = dispatch => ({
@@ -105,7 +105,8 @@ export const mapDispatchToProps = dispatch => ({
   addCard: card => dispatch(actions.addCard(card)),
   teamOneScore: points => dispatch(actions.teamOneScore(points)),
   teamTwoScore: points => dispatch(actions.teamTwoScore(points)),
-  currentTeam: team => dispatch(currentTeam(team))
+  currentTeam: team => dispatch(currentTeam(team)),
+  updateTeamTimer: timer => dispatch(updateTeamTimer(timer))
 });
 
 Play.propTypes = {};
