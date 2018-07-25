@@ -18,8 +18,16 @@ export class Play extends Component {
   }
 
   componentDidMount() {
-    this.countDown();
+    // this.countDown();
   }
+
+  // componentWillReceiveProps(nextProps) {
+  //   if (this.props.teamTimer !== nextProps.teamTimer) {
+  //     this.setState({
+  //       state: nextProps.teamTimer
+  //     });
+  //   }
+  // }
 
   handleGotIt = e => {
     e.preventDefault();
@@ -35,19 +43,19 @@ export class Play extends Component {
     this.props.updateActiveCards(newCards);
   };
 
-  countDown = () => {
-    let count = 60,
-      timer = setInterval(() => {
-        count--;
-        if (count === 0) {
-          this.props.updateTeamTimer('stopped')
-          this.props.currTeam === this.props.teamNames[0] 
-            ? this.props.currentTeam(this.props.teamNames[1]) 
-            : this.props.currentTeam(this.props.teamNames[0]);
-          clearInterval(timer);
-        }
-      }, 1000);
-  };
+  // countDown = () => {
+  //   let count = 60,
+  //     timer = setInterval(() => {
+  //       count--;
+  //       if (count === 0) {
+  //         this.props.updateTeamTimer('stopped')
+  //         this.props.currTeam === this.props.teamNames[0] 
+  //           ? this.props.currentTeam(this.props.teamNames[1]) 
+  //           : this.props.currentTeam(this.props.teamNames[0]);
+  //         clearInterval(timer);
+  //       }
+  //     }, 1000);
+  // };
 
   handleSkipped = e => {
     e.preventDefault();
