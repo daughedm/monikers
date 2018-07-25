@@ -23,7 +23,7 @@ export class App extends Component {
   }
 
   cardsPGtoIDB = async () => {
-    const cardsPG = await api.getCards(git status);
+    const cardsPG = await api.getCards();
     indexedDB.cards.clear();
     indexedDB.cards.bulkAdd(cardsPG);
   };
