@@ -5,7 +5,7 @@ import Next from '../Next/Next';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import * as actions from '../../actions';
-import { currentTeam, updateTeamTimer } from '../../actions/gameActions';
+import { currentTeam, updateTeamTimer, currentRound } from '../../actions/gameActions';
 
 import './Play.css';
 
@@ -29,8 +29,12 @@ export class Play extends Component {
     }
     this.props.discardedCards(this.props.activeCards[0]);
     const newCards = this.props.activeCards.slice(1);
-
+    
     this.props.updateActiveCards(newCards);
+    if (this.props.activeCards.length === 1) {
+      debugger
+      this.props.currentRound(1);
+    }
   };
 
   handleSkipped = e => {
@@ -46,6 +50,8 @@ export class Play extends Component {
 
     if (this.props.teamTimer === 'stopped') {
       return <Next />;
+    } else if (this.props.teamTimer === 'pregame'){
+      return <Round />;
     } else if (this.props.activeCards.length === 0){
       return <Round />;
     } else {
@@ -93,7 +99,8 @@ export const mapDispatchToProps = dispatch => ({
   teamOneScore: points => dispatch(actions.teamOneScore(points)),
   teamTwoScore: points => dispatch(actions.teamTwoScore(points)),
   currentTeam: team => dispatch(currentTeam(team)),
-  updateTeamTimer: timer => dispatch(updateTeamTimer(timer))
+  updateTeamTimer: timer => dispatch(updateTeamTimer(timer)),
+  currentRound: roundNumber => dispatch(currentRound(roundNumber))
 });
 
 Play.propTypes = {};

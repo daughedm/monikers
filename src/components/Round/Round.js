@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import { updateTeamTimer, currentTeam } from '../../actions/gameActions';
+import { updateTeamTimer, currentTeam, currentRound } from '../../actions/gameActions';
 
 import * as actions from '../../actions';
 import './Round.css';
@@ -14,7 +14,6 @@ export class Round extends Component {
     e.preventDefault();
     this.props.updateTeamTimer('counting');
     this.countDown();
-    this.props.history.push('/play');
   }
 
   countDown = () => {
@@ -40,7 +39,6 @@ export class Round extends Component {
     if (currRound === 1) {
       roundDescription = 'Describe the name using any words, sounds, or gestures except the name itself';
       round = 'Round One';
-
     } else if (currRound === 2) {
       roundDescription = 'Describe the name using only one word, which can be anything except the name itself';
       round = 'Round Two';
@@ -76,7 +74,8 @@ export const mapStateToProps = state => ({
 
 export const mapDispatchToProps = dispatch => ({
   updateTeamTimer: timer => dispatch(updateTeamTimer(timer)),
-  currentTeam: team => dispatch(currentTeam(team))
+  currentTeam: team => dispatch(currentTeam(team)),
+  currentRound: roundNumber => dispatch(currentRound(roundNumber))
 });
 
 Round.propTypes = {};

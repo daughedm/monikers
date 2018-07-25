@@ -85,7 +85,7 @@ export class Setup extends Component {
 
     if (teamOne && teamTwo && numCards) {
       await this.cardsIDBtoRDX(this.props.numCards);
-      this.props.history.push('/round');
+      this.props.history.push('/play');
     }
   };
 
@@ -124,7 +124,7 @@ export class Setup extends Component {
             type="number"
             min="30"
             max="60"
-            placeholder="We recommend about 40"
+            placeholder="Enter number 30-60"
             name="numCards"
             onChange={this.handleChange}
           />
@@ -153,7 +153,8 @@ export const mapDispatchToProps = dispatch => ({
   getTeamNames: teamName => dispatch(getTeamNames(teamName)),
   numOfCards: number => dispatch(numOfCards(number)),
   currentTeam: team => dispatch(currentTeam(team)),
-  addCard: card => dispatch(addCard(card))
+  addCard: card => dispatch(addCard(card)),
+
 });
 
 Setup.propTypes = {};
