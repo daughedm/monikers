@@ -19,6 +19,11 @@ export class Play extends Component {
   handleGotIt = e => {
     e.preventDefault();
 
+    if (this.props.currTeam === this.props.teamNames[0]) {
+      this.props.teamOneScore(this.props.activeCards[0].pointValue);
+    } else {
+      this.props.teamTwoScore(this.props.activeCards[0].pointValue);
+    }
     this.props.discardedCards(this.props.activeCards[0]);
     const newCards = this.props.activeCards.slice(1);
 
@@ -82,13 +87,16 @@ export const mapStateToProps = state => ({
   activeCards: state.activeCards,
   discardPile: state.discardPile,
   currTeam: state.currTeam,
-  currRound: state.currRound
+  currRound: state.currRound,
+  teamNames: state.teamNames
 });
 
 export const mapDispatchToProps = dispatch => ({
   updateActiveCards: cards => dispatch(actions.updateActiveCards(cards)),
   discardedCards: card => dispatch(actions.discardedCards(card)),
-  addCard: card => dispatch(actions.addCard(card))
+  addCard: card => dispatch(actions.addCard(card)),
+  teamOneScore: points => dispatch(actions.teamOneScore(points)),
+  teamTwoScore: points => dispatch(actions.teamTwoScore(points))
 });
 
 Play.propTypes = {};
