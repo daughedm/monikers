@@ -71,3 +71,12 @@ export const teamTwoScore = (state = 0, action) => {
     return state;
   }
 };
+
+export const teamTimer = (state = '', action) => {
+  switch (action.type) {
+  case 'UPDATE_TEAM_TIMER':
+    return action.teamTimer;
+  default:
+    return state;
+  }
+};
