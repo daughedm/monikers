@@ -32,7 +32,6 @@ export class Play extends Component {
     
     this.props.updateActiveCards(newCards);
     if (this.props.activeCards.length === 1) {
-      debugger
       this.props.currentRound(1);
     }
   };
