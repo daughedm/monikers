@@ -5,7 +5,14 @@ const indexedDB = new Dexie('Monikers');
 indexedDB.version(1).stores({
   cards: '++id,name,description,category,pointValue',
   numCards: '++id,num',
-  teams: '++id,team,name'
+  activeCards: '++id,name,description,category,pointValue',
+  discardedCards: '++id,name,description,category,pointValue',
+  teamNames: '++id,team,name',
+  teamOneScore: '++id,score',
+  teamTwoScore: '++id,score',
+  currTeam: '++id,name',
+  currRound: '++id,round',
+  teamTimer: '++id,state'
 });
 
 export default indexedDB;
