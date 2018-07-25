@@ -3,8 +3,8 @@ export const getTeamNames = teamName => ({
   teamName
 });
 
-export const numOfPlayers = number => ({
-  type: 'NUM_OF_PLAYERS',
+export const numOfCards = number => ({
+  type: 'NUM_OF_CARDS',
   number
 });
 

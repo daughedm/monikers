@@ -1,7 +1,7 @@
 import { combineReducers } from 'redux';
 import {
   teamNames,
-  numPlayers,
+  numCards,
   activeCards,
   discardedCards,
   currentTeam,
@@ -12,7 +12,7 @@ import {
 
 const rootReducer = combineReducers({
   teamNames: teamNames,
-  numPlayers: numPlayers,
+  numCards: numCards,
   activeCards: activeCards,
   discardedCards: discardedCards,
   currTeam: currentTeam,

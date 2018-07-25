@@ -20,38 +20,12 @@ import './App.css';
 export class App extends Component {
   async componentDidMount() {
     await this.cardsPGtoIDB();
-    await this.cardsIDBtoRDX();
   }
 
   cardsPGtoIDB = async () => {
     const cardsPG = await api.getCards();
     indexedDB.cards.clear();
     indexedDB.cards.bulkAdd(cardsPG);
-  };
-
-  cardsIDBtoRDX = async () => {
-    const numberOfCardsInIDB = await indexedDB.cards.count();
-
-    const amount = 10;
-    const lowerBound = 1;
-    const upperBound = numberOfCardsInIDB;
-    const uniqueRandomNumbers = [];
-
-    while (uniqueRandomNumbers.length < amount) {
-      const randomNumber = Math.floor(
-        Math.random() * (upperBound - lowerBound) + lowerBound
-      );
-
-      if (uniqueRandomNumbers.indexOf(randomNumber) === -1) {
-        uniqueRandomNumbers.push(randomNumber);
-      }
-    }
-
-    const allCards = await indexedDB.cards.toArray();
-
-    uniqueRandomNumbers.forEach(num => {
-      this.props.addCard(allCards[num]);
-    });
   };
 
   render() {
