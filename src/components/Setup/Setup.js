@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import indexedDB from '../../indexedBD';
 import { connect } from 'react-redux';
 import {
-  getTeamNames,
+  addTeamNames,
   numOfCards,
   currentTeam,
   addCard
@@ -24,9 +24,8 @@ export class Setup extends Component {
 
   componentDidMount() {}
 
-  cardsIDBtoRDX = async (numberOfCards) => {
+  cardsIDBtoRDX = async numberOfCards => {
     const numberOfCardsInIDB = await indexedDB.cards.count();
-
     const lowerBound = 1;
     const upperBound = numberOfCardsInIDB;
     const uniqueRandomNumbers = [];
@@ -40,16 +39,17 @@ export class Setup extends Component {
         uniqueRandomNumbers.push(randomNumber);
       }
     }
-
     const allCards = await indexedDB.cards.toArray();
 
     uniqueRandomNumbers.forEach(num => {
       this.props.addCard(allCards[num]);
+      indexedDB.activeCards.add(allCards[num]);
     });
   };
 
   handleChange = e => {
     const { value, name } = e.target;
+
     this.setState({
       [name]: value
     });
@@ -57,41 +57,29 @@ export class Setup extends Component {
 
   handleSubmit = async e => {
     e.preventDefault();
-
     const { teamOne, teamTwo, numCards } = this.state;
 
-    this.props.getTeamNames(teamOne);
-    this.props.getTeamNames(teamTwo);
-    this.props.numOfCards(parseInt(numCards));
-    this.props.currentTeam(teamOne);
-
-    // clear existing data
-    indexedDB.teams.clear();
-    indexedDB.numCards.clear();
-    // add input values to indexedDB
-    indexedDB.teams.add({ team: 1, name: this.state.teamOne });
-    indexedDB.teams.add({ team: 2, name: this.state.teamTwo });
-    indexedDB.numCards.add({ num: this.state.numCards });
-
-    // get teamOne primary key
-    const teamOneID = await indexedDB.teams
-      .where('team')
-      .equals(1)
-      .primaryKeys();
-    // get teamOne Object
-    const teamOneObj = await indexedDB.teams.get(teamOneID[0]);
-    // get teamOne name
-    const teamOneName = teamOneObj.name;
-
     if (teamOne && teamTwo && numCards) {
-      await this.cardsIDBtoRDX(this.props.numCards);
+      this.storeGameInfo(teamOne, teamTwo, numCards);
+      await this.cardsIDBtoRDX(numCards);
       this.props.history.push('/play');
     }
   };
 
+  storeGameInfo = async (teamOne, teamTwo, numCards) => {
+    this.props.addTeamNames(teamOne);
+    this.props.addTeamNames(teamTwo);
+    this.props.numOfCards(parseInt(numCards));
+    this.props.currentTeam(teamOne);
+    indexedDB.teamNames.clear();
+    indexedDB.numCards.clear();
+    indexedDB.teamNames.add({ team: 1, name: teamOne });
+    indexedDB.teamNames.add({ team: 2, name: teamTwo });
+    indexedDB.numCards.add({ num: numCards });
+  };
+
   handleBackButton = e => {
     e.preventDefault();
-
     this.props.history.push('/');
   };
 
@@ -101,7 +89,6 @@ export class Setup extends Component {
         <img className="logo" src={logo} alt="Monikers logo" />
         <h2 className="game-setup-headline">Game Setup</h2>
         <form action="" onSubmit={this.handleSubmit}>
-
           <h3 className="label-name">Team One</h3>
           <input
             className="input-field"
@@ -150,11 +137,10 @@ export const mapStateToProps = state => ({
 });
 
 export const mapDispatchToProps = dispatch => ({
-  getTeamNames: teamName => dispatch(getTeamNames(teamName)),
+  addTeamNames: teamName => dispatch(addTeamNames(teamName)),
   numOfCards: number => dispatch(numOfCards(number)),
   currentTeam: team => dispatch(currentTeam(team)),
-  addCard: card => dispatch(addCard(card)),
-
+  addCard: card => dispatch(addCard(card))
 });
 
 Setup.propTypes = {};
