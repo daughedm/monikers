@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Card from '../Card/Card';
+import Round from '../Round/Round';
 import Next from '../Next/Next';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
@@ -39,7 +40,7 @@ export class Play extends Component {
       timer = setInterval(() => {
         count--;
         if (count === 0) {
-          this.props.updateTeamTimer(false)
+          this.props.updateTeamTimer('stopped')
           this.props.currTeam === this.props.teamNames[0] 
             ? this.props.currentTeam(this.props.teamNames[1]) 
             : this.props.currentTeam(this.props.teamNames[0]);
@@ -59,8 +60,10 @@ export class Play extends Component {
 
   render() {
     
-    if (this.props.teamTimer === false) {
+    if (this.props.teamTimer === 'stopped') {
       return <Next />;
+    } else if (this.props.activeCards.length === 0){
+      return <Round />;
     } else {
       return (
         <div className="play">

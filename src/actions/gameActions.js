@@ -43,7 +43,7 @@ export const teamTwoScore = points => ({
   points
 });
 
-export const updateTeamTimer = timer => ({
+export const updateTeamTimer = teamTimer => ({
   type: 'UPDATE_TEAM_TIMER',
-  timer
+  teamTimer
 });
