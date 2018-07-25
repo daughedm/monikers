@@ -4,6 +4,8 @@ import Next from '../Next/Next';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import * as actions from '../../actions';
+import { currentTeam } from '../../actions/gameActions';
+
 import './Play.css';
 
 export class Play extends Component {
@@ -14,7 +16,9 @@ export class Play extends Component {
     };
   }
 
-  componentDidMount() {}
+  componentDidMount() {
+    this.countDown();
+  }
 
   handleGotIt = e => {
     e.preventDefault();
@@ -36,6 +40,10 @@ export class Play extends Component {
         count--;
         if (count === 0) {
           this.setState({ clock: 'stopped' });
+          this.props.currTeam === this.props.teamNames[0] 
+            ? this.props.currentTeam(this.props.teamNames[1]) 
+            : this.props.currentTeam(this.props.teamNames[0]);
+            console.log('shit')
           clearInterval(timer);
         }
       }, 1000);
@@ -51,7 +59,7 @@ export class Play extends Component {
   };
 
   render() {
-    this.countDown();
+    
     if (this.state.clock === 'stopped') {
       return <Next />;
     } else {
@@ -96,7 +104,8 @@ export const mapDispatchToProps = dispatch => ({
   discardedCards: card => dispatch(actions.discardedCards(card)),
   addCard: card => dispatch(actions.addCard(card)),
   teamOneScore: points => dispatch(actions.teamOneScore(points)),
-  teamTwoScore: points => dispatch(actions.teamTwoScore(points))
+  teamTwoScore: points => dispatch(actions.teamTwoScore(points)),
+  currentTeam: team => dispatch(currentTeam(team))
 });
 
 Play.propTypes = {};
