@@ -1,6 +1,6 @@
 export const teamNames = (state = [], action) => {
   switch (action.type) {
-  case 'TEAM_NAMES':
+  case 'ADD_TEAM_NAME':
     return [...state, action.teamName];
   default:
     return state;

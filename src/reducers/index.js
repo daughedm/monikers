@@ -7,7 +7,7 @@ import {
   currentTeam,
   currentRound,
   teamOneScore,
-  teamTwoScore, 
+  teamTwoScore,
   teamTimer
 } from './gameReducer';
 
