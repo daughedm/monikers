@@ -48,7 +48,7 @@ export const currentTeam = (state = '', action) => {
 export const currentRound = (state = 1, action) => {
   switch (action.type) {
   case 'CURRENT_ROUND':
-    return action.roundNumber;
+    return state + action.roundNumber;
   default:
     return state;
   }
@@ -72,7 +72,7 @@ export const teamTwoScore = (state = 0, action) => {
   }
 };
 
-export const teamTimer = (state = '', action) => {
+export const teamTimer = (state = 'pregame', action) => {
   switch (action.type) {
   case 'UPDATE_TEAM_TIMER':
     return action.teamTimer;
