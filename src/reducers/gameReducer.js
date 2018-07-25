@@ -31,6 +31,8 @@ export const discardedCards = (state = [], action) => {
   switch (action.type) {
   case 'DISCARDED_CARDS':
     return [...state, action.card];
+  case 'CLEAR_DISCARDED_CARDS':
+    return [];
   default:
     return state;
   }

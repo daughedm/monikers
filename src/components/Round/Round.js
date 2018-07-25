@@ -1,7 +1,13 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import { updateTeamTimer, currentTeam, currentRound } from '../../actions/gameActions';
+import {
+  updateTeamTimer,
+  currentTeam,
+  currentRound,
+  updateActiveCards,
+  clearDiscardedCards
+} from '../../actions/gameActions';
 
 import * as actions from '../../actions';
 import './Round.css';
@@ -9,21 +15,36 @@ import './Round.css';
 export class Round extends Component {
   componentDidMount() {}
 
-
   handleClick = e => {
     e.preventDefault();
+    
+    if (this.props.currRound > 1) {
+      const shuffled = this.shuffleCards(this.props.discardedCards);
+      this.props.updateActiveCards(shuffled);
+      this.props.clearDiscardedCards([])
+
+    }
+
     this.props.updateTeamTimer('counting');
     this.countDown();
-  }
+  };
+
+  shuffleCards = (cards) => {
+    for (let i = cards.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [cards[i], cards[j]] = [cards[j], cards[i]];
+    }
+    return cards;
+  };
 
   countDown = () => {
     let count = 60,
       timer = setInterval(() => {
         count--;
         if (count === 0) {
-          this.props.updateTeamTimer('stopped')
-          this.props.currTeam === this.props.teamNames[0] 
-            ? this.props.currentTeam(this.props.teamNames[1]) 
+          this.props.updateTeamTimer('stopped');
+          this.props.currTeam === this.props.teamNames[0]
+            ? this.props.currentTeam(this.props.teamNames[1])
             : this.props.currentTeam(this.props.teamNames[0]);
           clearInterval(timer);
         }
@@ -31,19 +52,23 @@ export class Round extends Component {
   };
 
   render() {
-    const {teamNames, teamOneScore, teamTwoScore, currRound} = this.props;
-    const startingTeam = teamOneScore <= teamTwoScore ? teamNames[0] : teamNames[1];
+    const { teamNames, teamOneScore, teamTwoScore, currRound } = this.props;
+    const startingTeam =
+      teamOneScore <= teamTwoScore ? teamNames[0] : teamNames[1];
     let roundDescription;
     let round;
 
     if (currRound === 1) {
-      roundDescription = 'Describe the name using any words, sounds, or gestures except the name itself';
+      roundDescription =
+        'Describe the name using any words, sounds, or gestures except the name itself';
       round = 'Round One';
     } else if (currRound === 2) {
-      roundDescription = 'Describe the name using only one word, which can be anything except the name itself';
+      roundDescription =
+        'Describe the name using only one word, which can be anything except the name itself';
       round = 'Round Two';
     } else if (currRound === 3) {
-      roundDescription = 'Describe the name using just charades. No words. Sound effects are OK.';
+      roundDescription =
+        'Describe the name using just charades. No words. Sound effects are OK.';
       round = 'Round Three';
     }
 
@@ -51,31 +76,35 @@ export class Round extends Component {
       <div className="background-monikers">
         <div className="round-transition">
           <h2 className="round-headline">{round}</h2>
-          <div className="dashed-line"></div>
+          <div className="dashed-line" />
           <p className="round-description">{roundDescription}</p>
-          <div className="dashed-line"></div>
+          <div className="dashed-line" />
           {/* color changes between blue and red per team */}
           <h3 className="starting-team">{startingTeam} Team Starts</h3>
-          <button className="start-round-button" onClick={this.handleClick}>START ROUND</button>
+          <button className="start-round-button" onClick={this.handleClick}>
+            START ROUND
+          </button>
         </div>
       </div>
     );
   }
 }
 
-
 export const mapStateToProps = state => ({
   currRound: state.currRound,
   teamOneScore: state.teamOneScore,
   teamTwoScore: state.teamTwoScore,
   teamNames: state.teamNames,
-  currTeam: state.currTeam
+  currTeam: state.currTeam,
+  discardedCards: state.discardedCards
 });
 
 export const mapDispatchToProps = dispatch => ({
   updateTeamTimer: timer => dispatch(updateTeamTimer(timer)),
   currentTeam: team => dispatch(currentTeam(team)),
-  currentRound: roundNumber => dispatch(currentRound(roundNumber))
+  currentRound: roundNumber => dispatch(currentRound(roundNumber)),
+  updateActiveCards: cards => dispatch(updateActiveCards(cards)),
+  clearDiscardedCards: cards => dispatch(clearDiscardedCards(cards))
 });
 
 Round.propTypes = {};
