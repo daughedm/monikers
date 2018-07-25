@@ -17,9 +17,7 @@ export class Play extends Component {
     };
   }
 
-  componentDidMount() {
-    this.countDown();
-  }
+  componentDidMount() {}
 
   handleGotIt = e => {
     e.preventDefault();
@@ -35,20 +33,6 @@ export class Play extends Component {
     this.props.updateActiveCards(newCards);
   };
 
-  countDown = () => {
-    let count = 60,
-      timer = setInterval(() => {
-        count--;
-        if (count === 0) {
-          this.props.updateTeamTimer('stopped')
-          this.props.currTeam === this.props.teamNames[0] 
-            ? this.props.currentTeam(this.props.teamNames[1]) 
-            : this.props.currentTeam(this.props.teamNames[0]);
-          clearInterval(timer);
-        }
-      }, 1000);
-  };
-
   handleSkipped = e => {
     e.preventDefault();
 
@@ -59,7 +43,7 @@ export class Play extends Component {
   };
 
   render() {
-    
+
     if (this.props.teamTimer === 'stopped') {
       return <Next />;
     } else if (this.props.activeCards.length === 0){
