@@ -1,5 +1,5 @@
-export const getTeamNames = teamName => ({
-  type: 'TEAM_NAMES',
+export const addTeamNames = teamName => ({
+  type: 'ADD_TEAM_NAME',
   teamName
 });
 
