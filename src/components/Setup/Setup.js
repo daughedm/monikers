@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import indexedDB from '../../indexedBD';
 import { connect } from 'react-redux';
-import { getTeamNames, numOfPlayers } from '../../actions/gameActions';
+import { getTeamNames, numOfPlayers, currentTeam } from '../../actions/gameActions';
 import './Setup.css';
 import logo from '../../assets/Monikers_logo_lockup-02.svg';
 
@@ -34,6 +34,7 @@ export class Setup extends Component {
     this.props.getTeamNames(teamOne);
     this.props.getTeamNames(teamTwo);
     this.props.numOfPlayers(parseInt(numPlayers));
+    this.props.currentTeam(teamOne);
 
     // clear existing data
     indexedDB.teams.clear();
@@ -117,7 +118,8 @@ export const mapStateToProps = state => ({
 
 export const mapDispatchToProps = dispatch => ({
   getTeamNames: teamName => dispatch(getTeamNames(teamName)),
-  numOfPlayers: number => dispatch(numOfPlayers(number))
+  numOfPlayers: number => dispatch(numOfPlayers(number)),
+  currentTeam: team => dispatch(currentTeam(team))
 });
 
 Setup.propTypes = {};

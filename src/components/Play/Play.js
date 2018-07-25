@@ -26,7 +26,7 @@ export class Play extends Component {
   };
 
   countDown = () => {
-    let count = 5,
+    let count = 60,
       timer = setInterval(() => {
         count--;
         if (count === 0) {
