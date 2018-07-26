@@ -66,12 +66,6 @@ export class Setup extends Component {
     this.props.addTeamNames(teamTwo);
     this.props.numOfCards(parseInt(numCards));
     this.props.currentTeam(teamOne);
-    indexedDB.teamNames.clear();
-    indexedDB.numCards.clear();
-    indexedDB.teamNames.add({ team: 1, name: teamOne });
-    indexedDB.teamNames.add({ team: 2, name: teamTwo });
-    indexedDB.numCards.add({ num: numCards });
-    indexedDB.currTeam.add({ name: teamOne });
   };
 
   handleBackButton = e => {
