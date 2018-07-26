@@ -18,14 +18,20 @@ import './App.css';
 export class App extends Component {
   async componentDidMount() {
     await this.cardsPGtoIDB();
-    this.loadInProgressGameInfo();
+    await this.loadInProgressGameInfo();
   }
 
   loadInProgressGameInfo = async () => {
-    this.loadTeamNames();
-    this.loadNumCards();
-    this.loadActiveCards();
-    this.loadDiscardedCards();
+    await this.loadTeamNames();
+    await this.loadNumCards();
+    await this.loadActiveCards();
+    await this.loadDiscardedCards();
+    await this.loadTeamOneScore();
+    await this.loadTeamTwoScore();
+
+    // currTeam
+    // currRound
+    // teamTimer
   };
 
   loadTeamNames = async () => {
@@ -72,10 +78,30 @@ export class App extends Component {
     }
   };
 
+  loadTeamOneScore = async () => {
+    const teamOneScoreIDB = await indexedDB.teamOneScore.toArray();
+
+    if (teamOneScoreIDB.length) {
+      this.props.teamOneScore(teamOneScoreIDB[0].score);
+    } else {
+      this.props.history.push('/');
+    }
+  };
+
+  loadTeamTwoScore = async () => {
+    const teamTwoScoreIDB = await indexedDB.teamTwoScore.toArray();
+
+    if (teamTwoScoreIDB.length) {
+      this.props.teamTwoScore(teamTwoScoreIDB[0].score);
+    } else {
+      this.props.history.push('/');
+    }
+  };
+
   cardsPGtoIDB = async () => {
     const cardsPG = await api.getCards();
-    indexedDB.cards.clear();
-    indexedDB.cards.bulkAdd(cardsPG);
+    indexedDB.allCards.clear();
+    indexedDB.allCards.bulkAdd(cardsPG);
   };
 
   render() {
@@ -100,7 +126,9 @@ export const mapDispatchToProps = dispatch => ({
   addTeamNames: teamName => dispatch(actions.addTeamNames(teamName)),
   numOfCards: number => dispatch(actions.numOfCards(number)),
   updateActiveCards: cards => dispatch(actions.updateActiveCards(cards)),
-  discardedCards: card => dispatch(actions.discardedCards(card))
+  discardedCards: card => dispatch(actions.discardedCards(card)),
+  teamOneScore: points => dispatch(actions.teamOneScore(points)),
+  teamTwoScore: points => dispatch(actions.teamTwoScore(points))
 });
 
 App.propTypes = {};

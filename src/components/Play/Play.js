@@ -19,22 +19,36 @@ export class Play extends Component {
 
   componentDidMount() {}
 
-  handleGotIt = e => {
+  handleGotIt = async e => {
     e.preventDefault();
 
     if (this.props.currTeam === this.props.teamNames[0]) {
       this.props.teamOneScore(this.props.activeCards[0].pointValue);
+      const currentScoreOne = (await indexedDB.teamOneScore.get(1)) || 0;
+
+      indexedDB.teamOneScore.put({
+        id: 1,
+        score:
+          (currentScoreOne.score || 0) + this.props.activeCards[0].pointValue
+      });
     } else {
       this.props.teamTwoScore(this.props.activeCards[0].pointValue);
+      const currentScoreTwo = (await indexedDB.teamTwoScore.get(1)) || 0;
+
+      indexedDB.teamTwoScore.put({
+        id: 1,
+        score:
+          (currentScoreTwo.score || 0) + this.props.activeCards[0].pointValue
+      });
     }
     this.props.discardedCards(this.props.activeCards[0]);
-    indexedDB.discardedCards.add(this.props.activeCards[0]);
+    indexedDB.discardedCards.put(this.props.activeCards[0]);
 
     const newCards = this.props.activeCards.slice(1);
 
     this.props.updateActiveCards(newCards);
     indexedDB.activeCards.clear();
-    indexedDB.activeCards.bulkAdd(newCards);
+    indexedDB.activeCards.bulkPut(newCards);
 
     if (this.props.activeCards.length === 1) {
       this.props.currentRound(1);
