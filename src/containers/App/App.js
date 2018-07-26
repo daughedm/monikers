@@ -28,10 +28,9 @@ export class App extends Component {
     await this.loadDiscardedCards();
     await this.loadTeamOneScore();
     await this.loadTeamTwoScore();
-
-    // currTeam
-    // currRound
-    // teamTimer
+    await this.loadCurrTeam();
+    await this.loadCurrRound();
+    await this.loadTeamTimer();
   };
 
   loadTeamNames = async () => {
@@ -98,6 +97,36 @@ export class App extends Component {
     }
   };
 
+  loadCurrTeam = async () => {
+    const currTeamIDB = await indexedDB.currTeam.toArray();
+
+    if (currTeamIDB.length) {
+      this.props.currentTeam(currTeamIDB[0].name);
+    } else {
+      this.props.history.push('/');
+    }
+  };
+
+  loadCurrRound = async () => {
+    const currRoundIDB = await indexedDB.currRound.toArray();
+
+    if (currRoundIDB.length) {
+      this.props.currentRound(currRoundIDB[0].round - 1);
+    } else {
+      this.props.history.push('/');
+    }
+  };
+
+  loadTeamTimer = async () => {
+    const teamTimerIDB = await indexedDB.teamTimer.toArray();
+
+    if (teamTimerIDB.length) {
+      this.props.updateTeamTimer(teamTimerIDB[0].state);
+    } else {
+      this.props.history.push('/');
+    }
+  };
+
   cardsPGtoIDB = async () => {
     const cardsPG = await api.getCards();
     indexedDB.allCards.clear();
@@ -128,7 +157,10 @@ export const mapDispatchToProps = dispatch => ({
   updateActiveCards: cards => dispatch(actions.updateActiveCards(cards)),
   discardedCards: card => dispatch(actions.discardedCards(card)),
   teamOneScore: points => dispatch(actions.teamOneScore(points)),
-  teamTwoScore: points => dispatch(actions.teamTwoScore(points))
+  teamTwoScore: points => dispatch(actions.teamTwoScore(points)),
+  currentTeam: currentTeam => dispatch(actions.currentTeam(currentTeam)),
+  currentRound: roundNumber => dispatch(actions.currentRound(roundNumber)),
+  updateTeamTimer: teamTimer => dispatch(actions.updateTeamTimer(teamTimer))
 });
 
 App.propTypes = {};
