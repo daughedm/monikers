@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
+import indexedDB from '../../indexedBD';
 import * as actions from '../../actions';
 import './Round.css';
 
@@ -13,12 +14,14 @@ export class Round extends Component {
     if (this.props.currRound > 1) {
       const shuffled = this.shuffleCards(this.props.discardedCards);
       this.props.updateActiveCards(shuffled);
-      indexedDB.activeCards.bulkAdd(shuffled);
+      indexedDB.activeCards.clear();
+      // indexedDB.activeCards.bulkAdd(shuffled);
       this.props.clearDiscardedCards([]);
       indexedDB.discardedCards.clear();
     }
 
     this.props.updateTeamTimer('counting');
+    indexedDB.teamTimer.put({ id: 1, state: 'counting' });
     this.countDown();
   };
 
@@ -36,9 +39,18 @@ export class Round extends Component {
         count--;
         if (count === 0) {
           this.props.updateTeamTimer('stopped');
-          this.props.currTeam === this.props.teamNames[0]
-            ? this.props.currentTeam(this.props.teamNames[1])
-            : this.props.currentTeam(this.props.teamNames[0]);
+          indexedDB.teamTimer.put({ id: 1, state: 'stopped' });
+          if (this.props.currTeam === this.props.teamNames[0]) {
+            this.props.currentTeam(this.props.teamNames[1]);
+            indexedDB.currTeam.put({ id: 1, name: this.props.teamNames[1] });
+          } else {
+            this.props.currentTeam(this.props.teamNames[0]);
+            indexedDB.currTeam.put({ id: 1, name: this.props.teamNames[0] });
+          }
+
+          // this.props.currTeam === this.props.teamNames[0]
+          //   ? this.props.currentTeam(this.props.teamNames[1])
+          //   : this.props.currentTeam(this.props.teamNames[0]);
           clearInterval(timer);
         }
       }, 1000);

@@ -18,14 +18,19 @@ import './App.css';
 export class App extends Component {
   async componentDidMount() {
     await this.cardsPGtoIDB();
-    this.loadInProgressGameInfo();
+    await this.loadInProgressGameInfo();
   }
 
   loadInProgressGameInfo = async () => {
-    this.loadTeamNames();
-    this.loadNumCards();
-    this.loadActiveCards();
-    this.loadDiscardedCards();
+    await this.loadTeamNames();
+    await this.loadNumCards();
+    await this.loadActiveCards();
+    await this.loadDiscardedCards();
+    await this.loadTeamOneScore();
+    await this.loadTeamTwoScore();
+    await this.loadCurrTeam();
+    await this.loadCurrRound();
+    await this.loadTeamTimer();
   };
 
   loadTeamNames = async () => {
@@ -72,10 +77,60 @@ export class App extends Component {
     }
   };
 
+  loadTeamOneScore = async () => {
+    const teamOneScoreIDB = await indexedDB.teamOneScore.toArray();
+
+    if (teamOneScoreIDB.length) {
+      this.props.teamOneScore(teamOneScoreIDB[0].score);
+    } else {
+      this.props.history.push('/');
+    }
+  };
+
+  loadTeamTwoScore = async () => {
+    const teamTwoScoreIDB = await indexedDB.teamTwoScore.toArray();
+
+    if (teamTwoScoreIDB.length) {
+      this.props.teamTwoScore(teamTwoScoreIDB[0].score);
+    } else {
+      this.props.history.push('/');
+    }
+  };
+
+  loadCurrTeam = async () => {
+    const currTeamIDB = await indexedDB.currTeam.toArray();
+
+    if (currTeamIDB.length) {
+      this.props.currentTeam(currTeamIDB[0].name);
+    } else {
+      this.props.history.push('/');
+    }
+  };
+
+  loadCurrRound = async () => {
+    const currRoundIDB = await indexedDB.currRound.toArray();
+
+    if (currRoundIDB.length) {
+      this.props.currentRound(currRoundIDB[0].round - 1);
+    } else {
+      this.props.history.push('/');
+    }
+  };
+
+  loadTeamTimer = async () => {
+    const teamTimerIDB = await indexedDB.teamTimer.toArray();
+
+    if (teamTimerIDB.length) {
+      this.props.updateTeamTimer(teamTimerIDB[0].state);
+    } else {
+      this.props.history.push('/');
+    }
+  };
+
   cardsPGtoIDB = async () => {
     const cardsPG = await api.getCards();
-    indexedDB.cards.clear();
-    indexedDB.cards.bulkAdd(cardsPG);
+    indexedDB.allCards.clear();
+    indexedDB.allCards.bulkAdd(cardsPG);
   };
 
   render() {
@@ -100,7 +155,12 @@ export const mapDispatchToProps = dispatch => ({
   addTeamNames: teamName => dispatch(actions.addTeamNames(teamName)),
   numOfCards: number => dispatch(actions.numOfCards(number)),
   updateActiveCards: cards => dispatch(actions.updateActiveCards(cards)),
-  discardedCards: card => dispatch(actions.discardedCards(card))
+  discardedCards: card => dispatch(actions.discardedCards(card)),
+  teamOneScore: points => dispatch(actions.teamOneScore(points)),
+  teamTwoScore: points => dispatch(actions.teamTwoScore(points)),
+  currentTeam: currentTeam => dispatch(actions.currentTeam(currentTeam)),
+  currentRound: roundNumber => dispatch(actions.currentRound(roundNumber)),
+  updateTeamTimer: teamTimer => dispatch(actions.updateTeamTimer(teamTimer))
 });
 
 App.propTypes = {};
