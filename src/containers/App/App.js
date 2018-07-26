@@ -7,18 +7,11 @@ import Play from '../../components/Play/Play';
 import Setup from '../../components/Setup/Setup';
 import Round from '../../components/Round/Round';
 import Next from '../../components/Next/Next';
-
 import Instructions from '../../components/Instructions/Instructions';
 import Loading from '../../components/Loading/Loading';
 import indexedDB from '../../indexedBD';
-import {
-  addCard,
-  addTeamNames,
-  numOfCards,
-  updateActiveCards,
-  discardedCards
-} from '../../actions/gameActions';
 import * as api from '../../api/api';
+import * as actions from '../../actions'
 
 import './App.css';
 
@@ -33,23 +26,6 @@ export class App extends Component {
     this.loadNumCards();
     this.loadActiveCards();
     this.loadDiscardedCards();
-
-    // const teamOneID = await indexedDB.teams
-    //   .where('team')
-    //   .equals(1)
-    //   .primaryKeys();
-    // // get teamOne Object
-    // const teamOneObj = await indexedDB.teams.get(teamOneID[0]);
-    // // get teamOne name
-    // const teamOneName = teamOneObj.name;
-    // const teamOneID = await indexedDB.teams
-    //   .where('team')
-    //   .equals(1)
-    //   .primaryKeys();
-    // // get teamOne Object
-    // const teamOneObj = await indexedDB.teams.get(teamOneID[0]);
-    // // get teamOne name
-    // const teamOneName = teamOneObj.name;
   };
 
   loadTeamNames = async () => {
@@ -120,11 +96,11 @@ export class App extends Component {
 export const mapStateToProps = state => ({});
 
 export const mapDispatchToProps = dispatch => ({
-  addCard: card => dispatch(addCard(card)),
-  addTeamNames: teamName => dispatch(addTeamNames(teamName)),
-  numOfCards: number => dispatch(numOfCards(number)),
-  updateActiveCards: cards => dispatch(updateActiveCards(cards)),
-  discardedCards: card => dispatch(discardedCards(card))
+  addCard: card => dispatch(actions.addCard(card)),
+  addTeamNames: teamName => dispatch(actions.addTeamNames(teamName)),
+  numOfCards: number => dispatch(actions.numOfCards(number)),
+  updateActiveCards: cards => dispatch(actions.updateActiveCards(cards)),
+  discardedCards: card => dispatch(actions.discardedCards(card))
 });
 
 App.propTypes = {};

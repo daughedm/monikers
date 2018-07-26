@@ -2,12 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import indexedDB from '../../indexedBD';
 import { connect } from 'react-redux';
-import {
-  addTeamNames,
-  numOfCards,
-  currentTeam,
-  addCard
-} from '../../actions/gameActions';
+import * as actions from '../../actions'
 import './Setup.css';
 import logo from '../../assets/Monikers_logo_lockup-02.svg';
 
@@ -137,10 +132,10 @@ export const mapStateToProps = state => ({
 });
 
 export const mapDispatchToProps = dispatch => ({
-  addTeamNames: teamName => dispatch(addTeamNames(teamName)),
-  numOfCards: number => dispatch(numOfCards(number)),
-  currentTeam: team => dispatch(currentTeam(team)),
-  addCard: card => dispatch(addCard(card))
+  addTeamNames: teamName => dispatch(actions.addTeamNames(teamName)),
+  numOfCards: number => dispatch(actions.numOfCards(number)),
+  currentTeam: team => dispatch(actions.currentTeam(team)),
+  addCard: card => dispatch(actions.addCard(card))
 });
 
 Setup.propTypes = {};
