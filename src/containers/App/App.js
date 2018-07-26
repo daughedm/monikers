@@ -40,8 +40,6 @@ export class App extends Component {
       teamsIDB.forEach(team => {
         this.props.addTeamNames(team.name);
       });
-    } else {
-      this.props.history.push('/');
     }
   };
 
@@ -50,8 +48,6 @@ export class App extends Component {
 
     if (numCardsIDB.length) {
       this.props.numOfCards(parseInt(numCardsIDB[0].num));
-    } else {
-      this.props.history.push('/');
     }
   };
 
@@ -60,8 +56,6 @@ export class App extends Component {
 
     if (activeCardsIDB.length) {
       this.props.updateActiveCards(activeCardsIDB);
-    } else {
-      this.props.history.push('/');
     }
   };
 
@@ -72,8 +66,6 @@ export class App extends Component {
       discardedCardsIDB.forEach(discardedCard => {
         this.props.discardedCards(discardedCard);
       });
-    } else {
-      this.props.history.push('/');
     }
   };
 
@@ -82,8 +74,6 @@ export class App extends Component {
 
     if (teamOneScoreIDB.length) {
       this.props.teamOneScore(teamOneScoreIDB[0].score);
-    } else {
-      this.props.history.push('/');
     }
   };
 
@@ -92,8 +82,6 @@ export class App extends Component {
 
     if (teamTwoScoreIDB.length) {
       this.props.teamTwoScore(teamTwoScoreIDB[0].score);
-    } else {
-      this.props.history.push('/');
     }
   };
 
@@ -102,8 +90,6 @@ export class App extends Component {
 
     if (currTeamIDB.length) {
       this.props.currentTeam(currTeamIDB[0].name);
-    } else {
-      this.props.history.push('/');
     }
   };
 
@@ -112,8 +98,6 @@ export class App extends Component {
 
     if (currRoundIDB.length) {
       this.props.currentRound(currRoundIDB[0].round - 1);
-    } else {
-      this.props.history.push('/');
     }
   };
 
@@ -122,8 +106,6 @@ export class App extends Component {
 
     if (teamTimerIDB.length) {
       this.props.updateTeamTimer(teamTimerIDB[0].state);
-    } else {
-      this.props.history.push('/');
     }
   };
 
