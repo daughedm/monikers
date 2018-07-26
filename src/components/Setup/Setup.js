@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import indexedDB from '../../indexedBD';
 import { connect } from 'react-redux';
-import * as actions from '../../actions'
+import * as actions from '../../actions';
 import './Setup.css';
 import logo from '../../assets/Monikers_logo_lockup-02.svg';
 
@@ -71,6 +71,7 @@ export class Setup extends Component {
     indexedDB.teamNames.add({ team: 1, name: teamOne });
     indexedDB.teamNames.add({ team: 2, name: teamTwo });
     indexedDB.numCards.add({ num: numCards });
+    indexedDB.currTeam.add({ name: teamOne });
   };
 
   handleBackButton = e => {
