@@ -1,4 +1,4 @@
-/* eslint-disable */
+
 module.exports = [
   {
     name: 'Doge',
@@ -1500,6 +1500,584 @@ module.exports = [
       'A Biblical figure who was spared from God’s divine judgment against the cities of Sodom and Gomorrah. As the cities were being destroyed by fire and brimstone, her family was told by angels "look not behind thee." She did and was transformed into a pillar of salt.',
     category: 'HISTORICAL FIGURE',
     pointValue: 4
+  },
+
+  {
+    name: "William Henry Harrison",
+    description:
+      'The 9th President of the US, whose most notable accomplishment in office was dying 30 days. 12 hours, and 30 minutes into his term. The cause of death was pneumonia, which doctors failed to cure with a combination of opium, leeches, and Virginia snakeweed.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 4
+  },
+  {
+    name: "A Horse-Sized Duck",
+    description:
+    'From a hypothetical scenario that poses the question of who would win in a fight: a single equine—sized fowl or fivescore fowl—sized equines. The question was made famous in a 2012 Reddit AMA with President Barack Obama. The comment received over 1,000 upvotes.',
+    category: 'ET CETERA',
+    pointValue: 4
+  },
+  {
+    name: "Log Lady",
+    description:
+      'A minor character from the television show Twin Peaks. She carries a piece of a tree cradled in her arms at all times, and seems to act as a medium between the object and the outside world, such as when she claims that it "saw something" the night Laura Palmer died.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 4
+  },
+  {
+    name: "Baby Einstein",
+    description:
+      'The German theoretical physicist and Nobel Prize winner. as an infant. He devised the "world\'s most famous quation," his mass—energy formula E=mc2. This could also refer to a series of potentially ineffective educational products designed for infants.', 
+    category: 'HISTORICAL FIGURE',
+    pointValue: 4
+  },
+  {
+    name: "Jareth, the Goblin King",
+    description:
+      'The villain from the 1986 film Labyrinth by Jim Henson. Played by David Bowie., a 40—year-old Bowie kidnaps the baby brother of a teenage Jennifer Connelly, who he then attempts to woo with his crystal orbs, giant codpiece. and teased-out blonde bangs.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 4
+  },
+  {
+    name: "Tycho Brahe",
+    description:
+      'A Danish noble and astronomer. At 20, he lost part of his nose in a duel and wore a replacement made of silver and gold. He owned a pet elk and hired a psychic dwarf named Jepp. He is rumored to have died from refusing to leave a banquet to urinate, because etiquette.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 4
+  },
+  {
+    name: "Anita Hill",
+    description:
+      'An attorney and academic who was thrust into the spotlight when she accused Supreme Court nominee Clarence Thomas of sexual harassment. She claimed that Thomas, among other comments, once asked her "Who has put pubic hair on my Coke?"',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 4
+  },
+  {
+    name: "A Dungeon Master",
+    description:
+      'The organizer and storyteller in a fantasy roleplaying campaign, most often associated with D&D. They manage all aspects of a game other than the direct actions of the player characters, and are commonly seen rolling 20-sided dice behind a protective cardboard screen.',
+    category: 'ET CETERA',
+    pointValue: 2
+  },
+  {
+    name: "Cocaine Bear",
+    description:
+      'An ursine internet meme, who "fucking loves” this white, powdery drug. The image, which shows the creature\'s roaring face covered in snow. is a parody of the "binge" trope in TV and film, such as Al Pacino\'s Scarface and Dave Chappelle\'s Tyrone Biggums.',
+    category: 'ET CETERA',
+    pointValue: 3
+  },
+  {
+    name: "A dog doing yoga",
+    description:
+      'A canine who practices the Indian tradition of physical, mental, and spiritual transformation. In western cultures this practice is most often associated with physical exercise focused on stretching and the assumption of physical postures such as eagle and tree.',
+    category: 'ET CETERA',
+    pointValue: 4
+  },
+  {
+    name: "A Streaker",
+    description:
+      'A person who strips naked and runs through a public space, either for fun, on a dare, or as a political  statement. The first recorded instance was in 1799, when a man was bet10 guineas to run naked from Cornhill to Cheapside in London.',
+    category: 'ET CETERA',
+    pointValue: 1
+  },
+  {
+    name: "Sting",
+    description:
+      'The stage name of Gordon Sumner, former member of The Police and solo musician. Late in his career, he abandoned his rock sound for more mellow instruments like the sitar and lute. He is also rumored to possess legendary sexual stamina due to his devotion to tantric yoga.',
+    category: 'CELEBRITY',
+    pointValue: 1
+  },
+  {
+    name: "The Noble Savage",
+    description:
+      'A literary concept of an individual or group that is uncorrupted by human civilization. It is often used today to signify condescension toward non-Western cultures, such as the portrayal of Native Americans in Dances with Wolves or the Na\'vi in Avatar.',
+    category: 'ET CETERA',
+    pointValue: 4
+  },
+  {
+    name: "Robert Hamilton",
+    description:
+      'An American artist and self described "best totally unknown painter in the world." His improvisational style was  praised by modernist contemporaries, including Andrew Wyeth. Like his beloved jazz, Hamilton believed "the picture makes itself. When I\'m finished, I don\'t know how the hell I did it."', 
+    category: 'CELEBRITY',
+    pointValue: 4
+  },
+  {
+    name: "Priapus",
+    description:
+      'A fertility god of the Ancient Greek countryside, where statues were erected of him in gardens to protect   livestock. plants. and men’s virility. He was easily recognized by his massive. permanent erection, which led to the medical term for that condition.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 4
+  },
+  {
+    name: "Bartleby the Scrivener",
+    description:
+      'The title character from a short story by Herman Melville, who is employed to copy legal documents by hand. After gaining a reputation as a hard worker. he unexpectedly refuses to do any further work, instead repeating "I would prefer not to" to all requests.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 4
+  },
+  {
+    name: "Dramatic Chipmunk",
+    description:
+      'The subject of an often imitated, never duplicated YouTube video of a prairie dog turning its head while the camera zooms in and the music from Young Frankenstein plays. The clip is frequently modified to show the prairie dog wearing costumes or being caught viewing elicit material.',
+    category: 'CELEBRITY',
+    pointValue: 2
+  },
+  {
+    name: "Your High School Gym Teacher",
+    description:
+      'The P.E. instructor of the person reading this card. The word above or the actual name of your real-life P.E. instructor are both valid.',
+    category: 'ET CETERA',
+    pointValue: 4
+  },
+  {
+    name: "Grape Lady",
+    description:
+      'A newscaster who falls from a platform after attempting to cheat during a light—hearted segment at Chateau Elan Winery. After falling out of frame, she is heard off camera making strange noises and saying, "OW 0W OW...STOP STOP...OOH OOH OOH...I can’t breathe.”',
+    category: 'CELEBRITY',
+    pointValue: 2
+  },
+  {
+    name: "Pedobear",
+    description:
+      'An ursine character who is popular on the website 4chan and is used to mock individuals with a sexual interest in minors. He sometimes appears accidentally in the press, such as a story in a Polish newspaper that this character would be the mascot for the 2010 Olympics.',
+    category: 'ET CETERA',
+    pointValue: 4
+  },
+  {
+    name: "Siri",
+    description:
+      'The name of Apple‘s personal assistant on iOS operation system that interacts with users through natural language. It has spawned a popular Tumblr consisting of ironic interactions, such as the search "I have a gambling addiction” returning a list of nearby casinos.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 2
+  },
+  {
+    name: "Harry Houdini",
+    description:
+      'A magician, who in his most famous trick, the Chinese Water Torture Cell, escaped from a water-filled tank while he was hanging upside-down. He was also known for debunking psychics and mediums. a tradition carried on to this day by professional magicians.',
+    category: 'ET CETERA',
+    pointValue: 1
+  },
+  {
+    name: "Judas Iscariot",
+    description:
+      'One of Jesus’s twelve apostles, who betrayed him for 30 pieces of silver. He famously revealed Jesus’s    identity to Roman soldiers by giving him a kiss, and his name is now synonymous with betraying a person or even an abstract set of ideals.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 2
+  },
+  {
+    name: "Silvio Berlusconi",
+    description:
+      'The former Prime Minister of Italy, owner of A.C. Milan, and serial tax evader. He is notorious for soliciting   prostitutes and for organizing a type of orgy known as a "bunga bunga." It is rumored that the concept was introduced to him by Libyan dictator, Muammar Gaddafi.',
+    category: 'CELEBRITY',
+    pointValue: 4
+  },
+  {
+    name: "The Sorcerer’s Apprentice",
+    description:
+      'The assistant to a wizard in Disney’s Fantasia. Played by Mickey Mouse, he enchants a broom to fetch water. Unable to control the magic. a flood ensues. Each time he attempts to destroy the broom and end the spell, it splits in half and continues its work at double pace.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 2
+  },
+  {
+    name: "Lolita",
+    description:
+      'The title character of a Vladimir Nabokov novel, referring to the nickname given to 12—year-old Dolores Haze by her stepfather, the hebophile Humbert Humbert. Nabokov has expressed pleasure that because of him, people no longer name their children this.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 2
+  },
+  {
+    name: "The Dread Pirate Roberts",
+    description:
+      'The founder of the Silk Road, the "amazon.com of illegal drugs." His identity remains a mystery, though the name suggests it belongs to multiple people, since it was lifted from a character in the The Princess Bride, where a mythical brigand is actually a series of individuals.',
+    category: 'CELEBRITY',
+    pointValue: 2
+  },
+  {
+    name: "Honey Boo Boo",
+    description:
+      'A child beauty pageant contestant and star of a TLC reality show. She is known for her southern drawl, love of “Go Go Juice” (a blend of Mountain Dew and Red Bull), and open-minded attitude, having once said of her uncle, "Ain’t nothing wrong with bein‘ a little gay."',
+    category: 'CELEBRITY',
+    pointValue: 2
+  },
+  {
+    name: "Koko",
+    description:
+      'A gorilla who was taught by her trainer to sign over 1,000 words of GSL (Gorilla Sign Language) and allegedly could understand 2,000 words of English. She chose a mate from a series of videotapes in an early form of online dating, though they have not yet mated.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 3
+  },
+  {
+    name: "Portnoy",
+    description:
+      'The title character from a 1969 novel by Philip Roth that is told as an extended psychotherapy session by a young Jewish bachelor. The novel is notorious for its description of this character masturbating with a piece of raw liver, which his mother later serves for dinner.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 4
+  },
+  {
+    name: "The 800 Pound Gorilla",
+    description:
+      'An idiom that describes a primate so powerful and heavy that it can ignore the rights of others. The original source is a riddle that asks where it sits (A: Anywhere it wants.) This term is commonly confused with a similar expression about an elephant.',
+    category: 'ET CETERA',
+    pointValue: 4
+  },
+  {
+    name: "The Boy Who Cried Wolf",
+    description:
+      'A shepherd from Aesop‘s Fables who tricked villagers by raising false alarm about his sheep being attacked. When a legitimate threat occurs, the villagers do not respond and the flock is devoured. The fable appears to have little effect on the likelihood of lying among children.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 4
+  },
+  {
+    name: "A Civil War Reenactor",
+    description:
+      'A "living historian." who spends their free time roleplaying as a Confederate or Union soldier in America’s bloodiest war. A participant typically falls into one of three classes, from least to most authentic (and unbearable): farb, mainstream, and progressive.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 4
+  },
+  {
+    name: "Charizard",
+    description:
+      'A species of Pokémon that resembles an orange dragon and is the evolved form of Charmeleon and the final evolution of Charmander. Despite its appearance, it is a fire/flying type, NOT a dragon type. Its Japanese name is Lizardon (U\'lf — F7).',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 4
+  },
+  {
+    name: "Roland the Farter, Flatulist to the King",
+    description:
+      'A 12th century court jester to Henry II. In exchange for his services ("he was obliged to perform every year on the birthday of our Lord before his master, one jump. and a whistle, and one fart"), he received a manor and 30 acres of land in the county of Suffolk.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 4
+  },
+  {
+    name: "Mia Hamm",
+    description:
+      'A retired professional soccer player who helped lead America’s team to their 1999 World Cup win. The iconic photo of her in a sports bra sliding on her knees. yelling with her fists clenched in celebration, is actually of her teammate Brandi Chastain.',
+    category: 'CELEBRITY',
+    pointValue: 2
+  },
+  
+  {
+    name: "Dr. Quinn, Medicine Woman",
+    description:
+      'The title character of a 90s TV show about a 19th century aristocrat who sets up a clinic in Colorado Springs. Played by Jane Seymour, she introduces modern healing practices to the town‘s locals as well as to her rugged mountain man Byron Sully.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 2
+  },
+  {
+    name: "Skeletor",
+    description:
+      'The main villain in the Masters of the Universe fantasy world. He is the arch nemesis of He-Man and is typically shows with a blue humanoid body, bare skull, and purple hood. His goal is to learn the secrets of Castle Grayskull and use them to conquer the land of Eternia.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 2
+  },
+  {
+    name: "Montezuma",
+    description:
+      'The 9th tlatoani of Tenochtitlan and ruler of the Aztec Triple Alliance. During their first contact with Europeans, he was killed by conquistador Hernan Cortés’s men as the fled his capital. His “revenge" is a euphemism for contracting traveler\'s diarrhea in Mexico.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 2
+  },
+  {
+    name: "Captain Ahab",
+    description:
+      'The monomaniacal, peg-Iegged commander of the Pequod whaleship in Herman Melville\'s novel Moby Dick. His quest for vengeance against the white whale drives him mad, leading to the death of his entire crew except Ishmael, the  novel‘s narrator.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 2
+  },
+  {
+    name: "Star Wars Kid",
+    description:
+      'The star of a viral video that shows a high school student imitating Iightsaber moves using a golf ball retriever. The tape leaked online after being left in the basement of his school, leading to dozens of remixes featuring music and advanced special effects.',
+    category: 'ET CETERA',
+    pointValue: 3
+  },
+  {
+    name: "A Damsel in Distress",
+    description:
+      'A sexist archetype in literature, film, and games of a helpless woman that must be saved by a male character, such as Princess Peach in the Mario franchise. A recent YouTube series by Feminist Frequency charted the plot device throughout the history of gaming.',
+    category: 'ET CETERA',
+    pointValue: 2
+  },
+  {
+    name: "Oprah’s best friend (Gayle)",
+    description:
+      'The co-anchor of CBS This Morning and Editor-at-Iarge for 0 Magazine. She gained notoriety for her long-running relationship with a famous talk show host and "Queen of All Media." Despite being married to a man, there are persistent rumors that the two are lovers.',
+    category: 'CELEBRITY',
+    pointValue: 4
+  },
+  {
+    name: "A Merman",
+    description:
+      'The male version of the mythological creature that is a woman from the waist up but has a fish tail in place of legs. Their behaviors and abilities range across cultures, and include having green teeth, the ability to cure illnesses, seducing women, and holding tridents.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 2
+  },
+  {
+    name: "Clippy",
+    description:
+      'The nickname of the Office Assistant in Microsoft Office, who appears as the metal object used to hold sheets of paper together. He would “tap" on the monitor to get your attention. Supposedly, Microsoft\'s internal name for it was TFC (The Fucking Clown).',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 2
+  },
+  {
+    name: "The 1%",
+    description:
+      'A political and economic classification for the group of individuals who earn up to a quarter of total income in the US. It was derived from the slogans of the Occupy Wall Street movement of 2011, which were meant to highlight  growing economic inequality.',
+    category: 'ET CETERA',
+    pointValue: 2
+  },
+  {
+    name: "The Walrus",
+    description:
+      'The character in a song by the Beatles from their album Magical Mystery Tour. It is a reference to a Lewis Carroll’s poem, also about a flippered marine mammal. The lyrics that follow, "Goo Goo Ga Joob,“ possibly stated by the character, were drawn from Finnegan’s Wake.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 2
+  },
+  {
+    name: "Big Brother",
+    description:
+      'The personification of the nanny state. which comes from Oceania’s totalitarian leader in George Orwell’s nove|1984. He is frequently reminded to be "watching you," though in an instance of the novel\'s doublethink, the expression is both a veiled threat and a reassurance.',
+    category: 'ET CETERA',
+    pointValue: 2
+  },
+  {
+    name: "Helen Keller",
+    description:
+      'The deafblind author, leftist, and suffragist, whose teacher, Anne Sullivan, taught her to communicate by spelling words into her hands, beginning with the word "doll.” Their relationship was the subject of the biographical play and film The Miracle Worker.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 2
+  },
+  {
+    name: "Robocop",
+    description:
+      'The title character of an 805 sci-fi film about a cyborg policeman who is tasked by the evil Omni Consumer Products megacorporation to protect Detroit. In 2011, a group raised $67,436 on the crowdfunding site Kickstarter to create a 7 foot tall bronze statue of the character.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 2
+  },
+  {
+    name: "Tubgirl",
+    description:
+      'A shock image depicting a naked, masked woman lying on her back in the bath. with a fountain of yellowish-orange liquid surging from her anus onto her face, supposedly the result of an orange juice enema. The image was often alleged to be popular in Japan.',
+    category: 'CELEBRITY',
+    pointValue: 4
+  },
+  {
+    name: "A Mormon",
+    description:
+      'A member of the Latter-Day Saints, inspired by the visions of 19th century American Joseph Smith. They were once infamous for some members practicing polygamy. Members taking part in endowment ceremonies wear special underwear called "temple garments.',
+    category: 'ET CETERA',
+    pointValue: 2
+  },
+  {
+    name: "Betsy Ross",
+    description:
+      'The person widely believed to have sewn the first American flag for George Washington. Research by the National Museum of American History suggests that this story did not enter popular culture until its 1876 centennial celebration, casting doubt on the veracity of this claim.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 2
+  },
+  {
+    name: "The Superego",
+    description:
+      'One of the the three parts of Sigmund Freud\'s model of the psyche that constitute mental life. This part forms a person\'s ability to punish themself for misbehavior. It often draws on cultural lessons, acting as a source of rules from parents and other authority figures.',
+    category: 'ET CETERA',
+    pointValue: 2
+  },
+  {
+    name: "Frogger",
+    description:
+      'The title amphibian from a classic 80s arcade game. where you cross heavy traffic and hitch a ride on logs to cross a treacherous river. A real-life version was played with a Roomba decorated as the character. It made it across a highway 10 times before being flattened by an SUV.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 2
+  },
+  {
+    name: "Dr. Mario",
+    description:
+      'This plumber-turned-pharmacist and title character of this Nintendo puzzle series. Clearly inspired by Tetris, the player organizes pills by color, ostensibly to eradicate viruses and definitely not to teach children how to raid their parent’s medicine cabinet.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 2
+  },
+  {
+    name: "An Amish",
+    description:
+      'A member of a Christian sect from PA Dutch country. They are known for wearing traditional dress and eschewing modern technology. Some practice Rumspringa, where restrictions are lifted for adolescents seeking to experience the temptations of the outside world.',
+    category: 'ET CETERA',
+    pointValue: 2
+  },
+  {
+    name: "Conjoined Twins",
+    description:
+      'A rare occurrence where identical fetuses are joined together in utero.Classifications are based on where their bodies are joined, e.g. syncephalus (one head, single face, four ears, two bodies), cephalothoracopagus (fused bodies, two faces facing in opposite directions).',
+    category: 'ET CETERA',
+    pointValue: 2
+  },
+  {
+    name: "A Troll Doll",
+    description:
+      'A plastic toy depicting a being with distinctive tall, bright, and fuzzy hair. They were the subject of fads throughout the 70s, 80s, and 90s. The original version was carved by a poor Danish fisherman and woodcutter as a Christmas gift to his daughter.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 2
+  },
+  {
+    name: "Dikembe Mutombo",
+    description:
+      'A 7\'2" Congolese-American basketball player best known for his incredibly deep voice, thick accent, and penchant for waving his index finger at opponents after stuffing them at the rim. He once described the restaurant Pasta Pasta as being "named after pasta.”',
+    category: 'CELEBRITY',
+    pointValue: 2
+  },
+  {
+    name: "Comic Book Guy",
+    description:
+      'The overweight owner of The Android\'s Dungeon & Baseball Card Shop on The Simpsons. His character has a master\'s degree in folklore mythology—he translated The Lord of the Rings into Klingon—and is known for his catchphrase "Worst [blank] ever."',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 2
+  },
+  {
+    name: "A Dead Horse",
+    description:
+      'Useless to beat and effectively unrideable. this deceased animal is used in an idiom to explain that a point, once made. does not need to be re-stated. Similar the phrase, "To slay the slain." This animal is substituted with a dog in other parts of the English speaking world.',
+    category: 'ET CETERA',
+    pointValue: 2
+  },
+  {
+    name: "Lady Gaga’s meat dress",
+    description:
+      'A piece of raw beef worn by "Mother Monster” to the 2010 MTV Video Music Awards. The pop diva stated that she wore the item to highlight her distaste for the military’s don’t-ask-don’t-tell policy. The item was preserved by a taxidermist, who turned it into jerky.',
+    category: 'CELEBRITY',
+    pointValue: 2
+  },
+  {
+    name: "Kenny G",
+    description:
+      'A smooth jazz saxophonist, who is universally reviled by jazz aficionados while simultaneously being one of the best selling recording artists of all time. Using circular breathing, he set a world record for longest note recorded by holding an E-ﬂat for 45 minutes and 47 seconds.',
+    category: 'CELEBRITY',
+    pointValue: 1
+  },
+  {
+    name: "The Invisible Man",
+    description:
+      'The title of both Ralph Ellison‘s novel about the struggle of black intellectuals in early 20th century America and HG. Well’s sci—fi novella about a avaricious, power-mad man who is able to alter his body’s refractive index to reflect no light.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 2
+  },
+  {
+    name: "Hal-9OOO",
+    description:
+      'The sentient computer from Stanley Kubrick\'s 2001: A Space Odyssey. Initially a helpful part of the ship, it eventually turns on the crew, killing Dr. Poole before being disconnected by Dave. As its mind goes, it sings "Daisy Bell” while pleading for its life.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 2
+  },
+  {
+    name: "Solange Knowles",
+    description:
+      'A singer, temporary member of Destiny\'s Child. and sister of Beyoncé. In 2014, TMZ published security footage of her physically assaulting her brother-in-law. Jay-Z, who along with Beyoncé, did not retaliate. The cause of her outburst remains unknown.',
+    category: 'CELEBRITY',
+    pointValue: 2
+  },
+  {
+    name: "Carrie",
+    description:
+      'The title character of a horror film based on a Stephen King story. She manifests telekinetic abilities after being bullied about her first period. In the film’s climax, she is doused in an upended bucket of pig‘s blood at prom, leading her to kill most of the attendees in an electrical fire.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 2
+  },
+  {
+    name: "An Immoveable Object",
+    description:
+      'One half of a famous paradox that asks what would happen if a thing that cannot be stopped encounters a thing that cannot be moved.',
+    category: 'ET CETERA',
+    pointValue: 3
+  },
+  {
+    name: "A Pug",
+    description:
+      'dog breed. Generations of inbreeding have led to compact breathing passages that leave them unable to regulate their body temperature by panting. Many airlines have restricted their transport due to in-air deaths.',
+    category: 'CET CETERA',
+    pointValue: 2
+  },
+  {
+    name: "Prancer",
+    description:
+      'One of the flying reindeer that pulls Santa\'s sleigh in “The Night Before Christmas." His name is also used in a fitness method and internet meme by Joanna Rohrback that is a "springy, rhythmic way of moving forward, similar to a horse’s gait and ideally induced by elation"',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 2
+  },
+  {
+    name: "Chairy",
+    description:
+      'An iconic characters from Pee—wee‘s Playhouse, a live—action children\'s show created by and starring Paul Reubens. She is a talking and singing piece of blue furniture with large eyes and a mouth between her cushions. She has a weirdly flirtatious relationship with Pee-wee.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 2
+  },
+  {
+    name: "The elephant that Thomas Edison electrocuted (Topsy)",
+    description:
+      'A pachyderm that was smuggled into the US to perform in the circus. After killing her trainer, she was publicly executed by being fed carrots laced with cyanide and receiving a 6.600-volt AC current. The event was captured on film and used as a promotional stunt.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 4
+  },
+  {
+    name: "David Blaine",
+    description:
+      'A street magician known for his sleight of hand, silly endurance challenges, and being kind a douche. His stunts include getting buried for a long time, standing on a pole for a long time, holding his breath for a long time, and freaking Ricky Gervais out by stabbing himself.',
+    category: 'CELEBRITY',
+    pointValue: 2
+  },
+  {
+    name: "Flappy Bird",
+    description:
+      'The winged title character from an iOS game where you navigate through a set of pipes. The creator removed the game from the App Store, despite earning $50,000 per day, in the wake of criticism over alleged plagiarism of graphics and gameplay mechanics.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 2
+  },
+  {
+    name: "The Soup Nazi",
+    description:
+      'A minor character from the sitcom Seinfeld. He exerts strict control over his restaurant‘s customers and practices price discrimination over the sale of his broth-based food. He was inspired by Al Yeganeh, a New York City chef, who famously took offense at the moniker.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 2
+  },
+  {
+    name: "Lennie Small",
+    description:
+      'The large. mentally disabled friend of George in Of Mice and Men. He loves petting soft things, but is unable to control his strength, accidentally killing a puppy and a woman. George shoots him at the end of the novel to protect him from an angry lynch mob.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 2
+  },
+  {
+    name: "The Übermensch",
+    description:
+      'A concept created by Nietzsche in Thus Spoke Zarathustra that roughly translates to "Superman." A character in the book holds it up as a supreme goal for humanity to achieve. The term was incorrectly used by the Nazi regime to argue for a biologically superior race.',
+    category: 'ET CETERA',
+    pointValue: 3
+  },
+  {
+    name: "Mother Teresa",
+    description:
+      'A missionary and Nobel Peace Prize winner who claimed "the world is being helped by the suffering of poor people.” Her Home for the Dying Destitutes in Calcutta offered no significant medical care and only 7% of donations to her organization were directly used for charity.',
+    category: 'CELEBRITY',
+    pointValue: 1
+  },
+  {
+    name: "Bill Clinton",
+    description:
+      'The 42nd President of the US and tenor saxophonist. He was the second president to be impeached in office, due to charges related to receiving oral sex from a White House intern. The case famously depended "on what the meaning of the word \'is\' is."',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 1
+  },
+  {
+    name: "The Dude",
+    description:
+      'The nickname of Jeffrey Lebowski in the Coen Brothers film The Big Lebowski. Played by Jeff Bridges, he is depicted as an unemployed slacker, pacifist, and bowler who drinks White Russians and listens to Creedence. He was based on the Seattle Seven member Jeff Dowd.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 2
+  },
+  {
+    name: "A Rat King",
+    description:
+      'A creature comprised of multiple rodents knotted at the tail, while specimens exist in museums of curiosities, it is unlikely to ever have existed. It is also the name of a character from the Teenage Mutant Ninja Turtles franchise who exerts a telepathic influence over rodents.',
+    category: 'ET CETERA',
+    pointValue: 3
   }
+
+
 ];
 /* eslint-disable */
