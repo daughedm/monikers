@@ -52,6 +52,9 @@ export class Play extends Component {
 
     if (this.props.activeCards.length === 1) {
       this.props.currentRound(1);
+      const currentRound = (await indexedDB.currRound.get(1)) || 1;
+
+      indexedDB.currRound.put({ id: 1, round: (currentRound.round || 1) + 1 });
     }
   };
 
