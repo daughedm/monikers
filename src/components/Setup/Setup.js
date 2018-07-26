@@ -19,7 +19,7 @@ export class Setup extends Component {
 
   componentDidMount() {}
 
-  cardsIDBtoRDX = async numberOfCards => {
+  getActiveCards = async numberOfCards => {
     const numberOfCardsInIDB = await indexedDB.allCards.count();
     const lowerBound = 1;
     const upperBound = numberOfCardsInIDB;
@@ -35,10 +35,8 @@ export class Setup extends Component {
       }
     }
     const allCards = await indexedDB.allCards.toArray();
-    indexedDB.activeCards.clear();
     uniqueRandomNumbers.forEach(num => {
       this.props.addCard(allCards[num]);
-      indexedDB.activeCards.add(allCards[num]);
     });
   };
 
@@ -56,7 +54,7 @@ export class Setup extends Component {
 
     if (teamOne && teamTwo && numCards) {
       this.storeGameInfo(teamOne, teamTwo, numCards);
-      await this.cardsIDBtoRDX(numCards);
+      await this.getActiveCards(numCards);
       this.props.history.push('/play');
     }
   };
