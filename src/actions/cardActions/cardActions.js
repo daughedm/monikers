@@ -11,7 +11,7 @@ export const addCard = card => ({
 export const updateActiveCards = cards => ({
   type: 'UPDATE_ACTIVE_CARDS',
   cards
-})
+});
 
 export const discardedCards = card => ({
   type: 'DISCARDED_CARDS',

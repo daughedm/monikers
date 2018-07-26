@@ -5,7 +5,7 @@ import {
   teamOneScore,
   teamTwoScore,
   updateTeamTimer
-} from './';
+} from './gameActions.js';
 
 describe('Game Actions', () => {
   describe('getTeamNames', () => {

@@ -7,7 +7,7 @@ import {
   teamTwoScore,
   updateTeamTimer,
   addTeamNames
-} from './gameActions.js';
+} from './gameActions';
 
 import {
   updateActiveCards,
@@ -15,7 +15,7 @@ import {
   addCard,
   numOfCards,
   clearDiscardedCards
-} from './cardActions.js';
+} from './cardActions';
 
 export {
   getTeamNames,
