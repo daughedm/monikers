@@ -15,7 +15,8 @@ import {
   addCard,
   addTeamNames,
   numOfCards,
-  updateActiveCards
+  updateActiveCards,
+  discardedCards
 } from '../../actions/gameActions';
 import * as api from '../../api/api';
 
@@ -31,6 +32,7 @@ export class App extends Component {
     this.loadTeamNames();
     this.loadNumCards();
     this.loadActiveCards();
+    this.loadDiscardedCards();
 
     // const teamOneID = await indexedDB.teams
     //   .where('team')
@@ -82,6 +84,18 @@ export class App extends Component {
     }
   };
 
+  loadDiscardedCards = async () => {
+    const discardedCardsIDB = await indexedDB.discardedCards.toArray();
+
+    if (discardedCardsIDB.length) {
+      discardedCardsIDB.forEach(discardedCard => {
+        this.props.discardedCards(discardedCard);
+      });
+    } else {
+      this.props.history.push('/');
+    }
+  };
+
   cardsPGtoIDB = async () => {
     const cardsPG = await api.getCards();
     indexedDB.cards.clear();
@@ -109,7 +123,8 @@ export const mapDispatchToProps = dispatch => ({
   addCard: card => dispatch(addCard(card)),
   addTeamNames: teamName => dispatch(addTeamNames(teamName)),
   numOfCards: number => dispatch(numOfCards(number)),
-  updateActiveCards: cards => dispatch(updateActiveCards(cards))
+  updateActiveCards: cards => dispatch(updateActiveCards(cards)),
+  discardedCards: card => dispatch(discardedCards(card))
 });
 
 App.propTypes = {};
