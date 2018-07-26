@@ -19,7 +19,7 @@ export class Setup extends Component {
 
   componentDidMount() {}
 
-  cardsIDBtoRDX = async numberOfCards => {
+  getActiveCards = async numberOfCards => {
     const numberOfCardsInIDB = await indexedDB.allCards.count();
     const lowerBound = 1;
     const upperBound = numberOfCardsInIDB;
@@ -35,10 +35,8 @@ export class Setup extends Component {
       }
     }
     const allCards = await indexedDB.allCards.toArray();
-    indexedDB.activeCards.clear();
     uniqueRandomNumbers.forEach(num => {
       this.props.addCard(allCards[num]);
-      indexedDB.activeCards.add(allCards[num]);
     });
   };
 
@@ -56,7 +54,7 @@ export class Setup extends Component {
 
     if (teamOne && teamTwo && numCards) {
       this.storeGameInfo(teamOne, teamTwo, numCards);
-      await this.cardsIDBtoRDX(numCards);
+      await this.getActiveCards(numCards);
       this.props.history.push('/play');
     }
   };
@@ -66,12 +64,6 @@ export class Setup extends Component {
     this.props.addTeamNames(teamTwo);
     this.props.numOfCards(parseInt(numCards));
     this.props.currentTeam(teamOne);
-    indexedDB.teamNames.clear();
-    indexedDB.numCards.clear();
-    indexedDB.teamNames.add({ team: 1, name: teamOne });
-    indexedDB.teamNames.add({ team: 2, name: teamTwo });
-    indexedDB.numCards.add({ num: numCards });
-    indexedDB.currTeam.add({ name: teamOne });
   };
 
   handleBackButton = e => {
