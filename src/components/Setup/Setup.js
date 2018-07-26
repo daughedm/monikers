@@ -40,7 +40,7 @@ export class Setup extends Component {
       }
     }
     const allCards = await indexedDB.cards.toArray();
-
+    indexedDB.activeCards.clear();
     uniqueRandomNumbers.forEach(num => {
       this.props.addCard(allCards[num]);
       indexedDB.activeCards.add(allCards[num]);

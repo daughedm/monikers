@@ -8,7 +8,7 @@ import {
   updateActiveCards,
   clearDiscardedCards
 } from '../../actions/gameActions';
-
+import indexedDB from '../../indexedBD';
 import * as actions from '../../actions';
 import './Round.css';
 
@@ -17,19 +17,20 @@ export class Round extends Component {
 
   handleClick = e => {
     e.preventDefault();
-    
+
     if (this.props.currRound > 1) {
       const shuffled = this.shuffleCards(this.props.discardedCards);
       this.props.updateActiveCards(shuffled);
-      this.props.clearDiscardedCards([])
-
+      indexedDB.activeCards.bulkAdd(shuffled);
+      this.props.clearDiscardedCards([]);
+      indexedDB.discardedCards.clear();
     }
 
     this.props.updateTeamTimer('counting');
     this.countDown();
   };
 
-  shuffleCards = (cards) => {
+  shuffleCards = cards => {
     for (let i = cards.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
       [cards[i], cards[j]] = [cards[j], cards[i]];
