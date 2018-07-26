@@ -132,7 +132,7 @@ export const mapStateToProps = state => ({
 });
 
 export const mapDispatchToProps = dispatch => ({
-  addTeamNames: teamName => dispatch(actions.addTeamNames(teamName)),
+  getTeamNames: teamName => dispatch(actions.getTeamNames(teamName)),
   numOfCards: number => dispatch(actions.numOfCards(number)),
   currentTeam: team => dispatch(actions.currentTeam(team)),
   addCard: card => dispatch(actions.addCard(card))

@@ -10,8 +10,8 @@ import Next from '../../components/Next/Next';
 import Instructions from '../../components/Instructions/Instructions';
 import Loading from '../../components/Loading/Loading';
 import indexedDB from '../../indexedBD';
+import * as actions from '../../actions';
 import * as api from '../../api/api';
-import * as actions from '../../actions'
 
 import './App.css';
 
@@ -107,7 +107,7 @@ App.propTypes = {};
 
 export default withRouter(
   connect(
-    mapStateToProps,
+    null,
     mapDispatchToProps
   )(App)
 );
