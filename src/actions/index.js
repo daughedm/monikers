@@ -7,7 +7,7 @@ import {
   teamTwoScore,
   updateTeamTimer,
   addTeamNames
-} from './gameActions';
+} from './gameActions/gameActions';
 
 import {
   updateActiveCards,
@@ -15,7 +15,7 @@ import {
   addCard,
   numOfCards,
   clearDiscardedCards
-} from './cardActions';
+} from './cardActions/cardActions';
 
 export {
   getTeamNames,

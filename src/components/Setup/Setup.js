@@ -135,7 +135,8 @@ export const mapDispatchToProps = dispatch => ({
   getTeamNames: teamName => dispatch(actions.getTeamNames(teamName)),
   numOfCards: number => dispatch(actions.numOfCards(number)),
   currentTeam: team => dispatch(actions.currentTeam(team)),
-  addCard: card => dispatch(actions.addCard(card))
+  addCard: card => dispatch(actions.addCard(card)),
+  addTeamNames: teamName => dispatch(actions.addTeamNames(teamName))
 });
 
 Setup.propTypes = {};
