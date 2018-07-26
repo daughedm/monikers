@@ -20,7 +20,7 @@ export class Setup extends Component {
   componentDidMount() {}
 
   cardsIDBtoRDX = async numberOfCards => {
-    const numberOfCardsInIDB = await indexedDB.cards.count();
+    const numberOfCardsInIDB = await indexedDB.allCards.count();
     const lowerBound = 1;
     const upperBound = numberOfCardsInIDB;
     const uniqueRandomNumbers = [];
@@ -34,7 +34,7 @@ export class Setup extends Component {
         uniqueRandomNumbers.push(randomNumber);
       }
     }
-    const allCards = await indexedDB.cards.toArray();
+    const allCards = await indexedDB.allCards.toArray();
     indexedDB.activeCards.clear();
     uniqueRandomNumbers.forEach(num => {
       this.props.addCard(allCards[num]);
