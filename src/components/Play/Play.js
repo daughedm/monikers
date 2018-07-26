@@ -4,8 +4,13 @@ import Round from '../Round/Round';
 import Next from '../Next/Next';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
+import indexedDB from '../../indexedBD';
 import * as actions from '../../actions';
-import { currentTeam, updateTeamTimer, currentRound } from '../../actions/gameActions';
+import {
+  currentTeam,
+  updateTeamTimer,
+  currentRound
+} from '../../actions/gameActions';
 
 import './Play.css';
 
@@ -28,9 +33,13 @@ export class Play extends Component {
       this.props.teamTwoScore(this.props.activeCards[0].pointValue);
     }
     this.props.discardedCards(this.props.activeCards[0]);
+    indexedDB.discardedCards.add(this.props.activeCards[0]);
+
     const newCards = this.props.activeCards.slice(1);
-    
     this.props.updateActiveCards(newCards);
+    indexedDB.activeCards.clear();
+    indexedDB.activeCards.bulkAdd(newCards);
+
     if (this.props.activeCards.length === 1) {
       this.props.currentRound(1);
     }
@@ -46,12 +55,11 @@ export class Play extends Component {
   };
 
   render() {
-
     if (this.props.teamTimer === 'stopped') {
       return <Next />;
-    } else if (this.props.teamTimer === 'pregame'){
+    } else if (this.props.teamTimer === 'pregame') {
       return <Round />;
-    } else if (this.props.activeCards.length === 0){
+    } else if (this.props.activeCards.length === 0) {
       return <Round />;
     } else {
       return (
