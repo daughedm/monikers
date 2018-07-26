@@ -1,16 +1,21 @@
 import {
   getTeamNames,
   numOfPlayers,
-  addCard,
-  discardedCards,
-  clearDiscardedCards,
   currentTeam,
   currentRound,
   teamOneScore,
   teamTwoScore,
+  updateTeamTimer,
+  addTeamNames
+} from './gameActions/gameActions';
+
+import {
   updateActiveCards,
-  updateTeamTimer
-} from './gameActions.js';
+  discardedCards,
+  addCard,
+  numOfCards,
+  clearDiscardedCards
+} from './cardActions/cardActions';
 
 export {
   getTeamNames,
@@ -23,5 +28,7 @@ export {
   teamOneScore,
   teamTwoScore,
   updateActiveCards,
-  updateTeamTimer
+  updateTeamTimer,
+  numOfCards,
+  addTeamNames
 };

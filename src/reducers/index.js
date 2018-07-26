@@ -1,15 +1,17 @@
 import { combineReducers } from 'redux';
 import {
   teamNames,
-  numCards,
-  activeCards,
-  discardedCards,
   currentTeam,
   currentRound,
   teamOneScore,
   teamTwoScore,
   teamTimer
-} from './gameReducer';
+} from './gameReducer/gameReducer';
+import {
+  numCards,
+  activeCards,
+  discardedCards
+} from './cardReducer/cardReducer';
 
 const rootReducer = combineReducers({
   teamNames: teamNames,

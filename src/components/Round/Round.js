@@ -1,14 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import {
-  updateTeamTimer,
-  currentTeam,
-  currentRound,
-  updateActiveCards,
-  clearDiscardedCards
-} from '../../actions/gameActions';
-import indexedDB from '../../indexedBD';
 import * as actions from '../../actions';
 import './Round.css';
 
@@ -101,11 +93,11 @@ export const mapStateToProps = state => ({
 });
 
 export const mapDispatchToProps = dispatch => ({
-  updateTeamTimer: timer => dispatch(updateTeamTimer(timer)),
-  currentTeam: team => dispatch(currentTeam(team)),
-  currentRound: roundNumber => dispatch(currentRound(roundNumber)),
-  updateActiveCards: cards => dispatch(updateActiveCards(cards)),
-  clearDiscardedCards: cards => dispatch(clearDiscardedCards(cards))
+  updateTeamTimer: timer => dispatch(actions.updateTeamTimer(timer)),
+  currentTeam: team => dispatch(actions.currentTeam(team)),
+  currentRound: roundNumber => dispatch(actions.currentRound(roundNumber)),
+  updateActiveCards: cards => dispatch(actions.updateActiveCards(cards)),
+  clearDiscardedCards: cards => dispatch(actions.clearDiscardedCards(cards))
 });
 
 Round.propTypes = {};

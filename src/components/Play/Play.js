@@ -6,11 +6,6 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import indexedDB from '../../indexedBD';
 import * as actions from '../../actions';
-import {
-  currentTeam,
-  updateTeamTimer,
-  currentRound
-} from '../../actions/gameActions';
 
 import './Play.css';
 
@@ -36,6 +31,7 @@ export class Play extends Component {
     indexedDB.discardedCards.add(this.props.activeCards[0]);
 
     const newCards = this.props.activeCards.slice(1);
+
     this.props.updateActiveCards(newCards);
     indexedDB.activeCards.clear();
     indexedDB.activeCards.bulkAdd(newCards);
@@ -105,9 +101,9 @@ export const mapDispatchToProps = dispatch => ({
   addCard: card => dispatch(actions.addCard(card)),
   teamOneScore: points => dispatch(actions.teamOneScore(points)),
   teamTwoScore: points => dispatch(actions.teamTwoScore(points)),
-  currentTeam: team => dispatch(currentTeam(team)),
-  updateTeamTimer: timer => dispatch(updateTeamTimer(timer)),
-  currentRound: roundNumber => dispatch(currentRound(roundNumber))
+  currentTeam: team => dispatch(actions.currentTeam(team)),
+  updateTeamTimer: timer => dispatch(actions.updateTeamTimer(timer)),
+  currentRound: roundNumber => dispatch(actions.currentRound(roundNumber))
 });
 
 Play.propTypes = {};

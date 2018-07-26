@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import { updateTeamTimer, currentTeam } from '../../actions/gameActions';
-
 import * as actions from '../../actions';
 import './Next.css';
 
@@ -24,8 +22,8 @@ export class Next extends Component {
         count--;
         if (count === 0) {
           this.props.updateTeamTimer('stopped')
-          this.props.currTeam === this.props.teamNames[0] 
-            ? this.props.currentTeam(this.props.teamNames[1]) 
+          this.props.currTeam === this.props.teamNames[0]
+            ? this.props.currentTeam(this.props.teamNames[1])
             : this.props.currentTeam(this.props.teamNames[0]);
           clearInterval(timer);
         }
@@ -56,8 +54,8 @@ export const mapStateToProps = state => ({
 });
 
 export const mapDispatchToProps = dispatch => ({
-  updateTeamTimer: timer => dispatch(updateTeamTimer(timer)),
-  currentTeam: team => dispatch(currentTeam(team))
+  updateTeamTimer: timer => dispatch(actions.updateTeamTimer(timer)),
+  currentTeam: team => dispatch(actions.currentTeam(team))
 });
 
 Next.propTypes = {};
