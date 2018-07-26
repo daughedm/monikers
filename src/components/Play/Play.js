@@ -4,7 +4,6 @@ import Round from '../Round/Round';
 import Next from '../Next/Next';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import indexedDB from '../../indexedBD';
 import * as actions from '../../actions';
 
 import './Play.css';
@@ -24,37 +23,16 @@ export class Play extends Component {
 
     if (this.props.currTeam === this.props.teamNames[0]) {
       this.props.teamOneScore(this.props.activeCards[0].pointValue);
-      const currentScoreOne = (await indexedDB.teamOneScore.get(1)) || 0;
-
-      indexedDB.teamOneScore.put({
-        id: 1,
-        score:
-          (currentScoreOne.score || 0) + this.props.activeCards[0].pointValue
-      });
     } else {
       this.props.teamTwoScore(this.props.activeCards[0].pointValue);
-      const currentScoreTwo = (await indexedDB.teamTwoScore.get(1)) || 0;
-
-      indexedDB.teamTwoScore.put({
-        id: 1,
-        score:
-          (currentScoreTwo.score || 0) + this.props.activeCards[0].pointValue
-      });
     }
     this.props.discardedCards(this.props.activeCards[0]);
-    indexedDB.discardedCards.put(this.props.activeCards[0]);
 
     const newCards = this.props.activeCards.slice(1);
 
     this.props.updateActiveCards(newCards);
-    indexedDB.activeCards.clear();
-    indexedDB.activeCards.bulkPut(newCards);
-
     if (this.props.activeCards.length === 1) {
       this.props.currentRound(1);
-      const currentRound = (await indexedDB.currRound.get(1)) || 1;
-
-      indexedDB.currRound.put({ id: 1, round: (currentRound.round || 1) + 1 });
     }
   };
 

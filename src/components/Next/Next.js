@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import indexedDB from '../../indexedBD';
 import * as actions from '../../actions';
 import './Next.css';
 
@@ -14,7 +13,6 @@ export class Next extends Component {
   startTimer = e => {
     e.preventDefault();
     this.props.updateTeamTimer('counting');
-    indexedDB.teamTimer.put({ id: 1, state: 'counting' });
     this.countDown();
   };
 
@@ -24,18 +22,9 @@ export class Next extends Component {
         count--;
         if (count === 0) {
           this.props.updateTeamTimer('stopped');
-          indexedDB.teamTimer.put({ id: 1, state: 'stopped' });
-          if (this.props.currTeam === this.props.teamNames[0]) {
-            this.props.currentTeam(this.props.teamNames[1]);
-            indexedDB.currTeam.put({ id: 1, name: this.props.teamNames[1] });
-          } else {
-            this.props.currentTeam(this.props.teamNames[0]);
-            indexedDB.currTeam.put({ id: 1, name: this.props.teamNames[0] });
-          }
-
-          // this.props.currTeam === this.props.teamNames[0]
-          //   ? this.props.currentTeam(this.props.teamNames[1])
-          //   : this.props.currentTeam(this.props.teamNames[0]);
+          this.props.currTeam === this.props.teamNames[0]
+            ? this.props.currentTeam(this.props.teamNames[1])
+            : this.props.currentTeam(this.props.teamNames[0]);
           clearInterval(timer);
         }
       }, 1000);
