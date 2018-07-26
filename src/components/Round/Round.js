@@ -15,7 +15,7 @@ export class Round extends Component {
       const shuffled = this.shuffleCards(this.props.discardedCards);
       this.props.updateActiveCards(shuffled);
       indexedDB.activeCards.clear();
-      indexedDB.activeCards.bulkAdd(shuffled);
+      // indexedDB.activeCards.bulkAdd(shuffled);
       this.props.clearDiscardedCards([]);
       indexedDB.discardedCards.clear();
     }
