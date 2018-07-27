@@ -106,12 +106,12 @@ export class Play extends Component {
   };
 
   render() {
-    if (this.props.teamTimer === 'stopped') {
-      return <Next countDown={this.countDown} />;
+    if (this.props.activeCards.length === 0) {
+      return <Round countDown={this.countDown} />;
     } else if (this.props.teamTimer === 'pregame') {
       return <Round countDown={this.countDown} />;
-    } else if (this.props.activeCards.length === 0) {
-      return <Round countDown={this.countDown} />;
+    } else if (this.props.teamTimer === 'stopped') {
+      return <Next countDown={this.countDown} />;
     } else {
       return (
         <div className="play">
