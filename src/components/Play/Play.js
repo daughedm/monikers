@@ -140,7 +140,13 @@ export const mapDispatchToProps = dispatch => ({
   currentRound: roundNumber => dispatch(actions.currentRound(roundNumber))
 });
 
-Play.propTypes = {};
+Play.propTypes = {
+  activeCards: PropTypes.array.isRequired,
+  discardPile: PropTypes.array,
+  currTeam: PropTypes.string.isRequired,
+  teamNames: PropTypes.array.isRequired,
+  teamTimer: PropTypes.string.isRequired
+};
 
 export default connect(
   mapStateToProps,

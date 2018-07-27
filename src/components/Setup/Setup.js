@@ -132,7 +132,16 @@ export const mapDispatchToProps = dispatch => ({
   addTeamNames: teamName => dispatch(actions.addTeamNames(teamName))
 });
 
-Setup.propTypes = {};
+Setup.propTypes = {
+  teamNames: PropTypes.array.isRequired,
+  numCards: PropTypes.number.isRequired,
+  getTeamNames: PropTypes.func.isRequired,
+  numOfCards: PropTypes.func.isRequired,
+  currentTeam: PropTypes.func.isRequired,
+  addCard: PropTypes.func.isRequired,
+  addTeamNames: PropTypes.func.isRequired,
+  history: PropTypes.object.isRequired
+};
 
 export default connect(
   mapStateToProps,
