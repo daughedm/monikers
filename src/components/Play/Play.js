@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Card from '../Card/Card';
 import Round from '../Round/Round';
 import Next from '../Next/Next';
+import Finish from '../Finish/Finish'
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import * as actions from '../../actions';
@@ -16,32 +17,10 @@ export class Play extends Component {
     };
   }
 
-  componentDidMount() {
-    console.log(
-      '%c timerMount: ',
-      'background: #000; color: #bada55',
-      this.state.timer
-    );
-  }
-
   countDown = () => {
-    console.log(
-      '%c counting: ',
-      'background: #000; color: #bada55',
-      'counting'
-    );
-
     let count = 60;
     let timer = setInterval(() => {
       count--;
-
-      console.log('%c count: ', 'background: #000; color: #bada55', count);
-
-      console.log(
-        '%c this.state.timer1: ',
-        'background: #000; color: #bada55',
-        this.state.timer
-      );
 
       if (count === 0) {
         this.props.updateTeamTimer('stopped');
@@ -53,25 +32,9 @@ export class Play extends Component {
       }
     }, 1000);
     this.setState({ timer });
-
-    //  else {
-    //   console.log(
-    //     '%c this.state.timer2: ',
-    //     'background: #000; color: #bada55',
-    //     this.state.timer
-    //   );
-
-    //   clearInterval(this.state.timer);
-
-    //   console.log(
-    //     '%c this.state.timer3: ',
-    //     'background: #000; color: #bada55',
-    //     this.state.timer
-    //   );
-    // }
   };
 
-  handleGotIt = async e => {
+  handleGotIt = e => {
     e.preventDefault();
 
     if (this.props.currTeam === this.props.teamNames[0]) {
@@ -106,12 +69,14 @@ export class Play extends Component {
   };
 
   render() {
-    if (this.props.activeCards.length === 0) {
+    if (this.props.activeCards.length === 0 && this.props.currRound <= 3) {
       return <Round countDown={this.countDown} />;
     } else if (this.props.teamTimer === 'pregame') {
       return <Round countDown={this.countDown} />;
-    } else if (this.props.teamTimer === 'stopped') {
+    } else if (this.props.teamTimer === 'stopped' && this.props.currRound <= 3) {
       return <Next countDown={this.countDown} />;
+    } else if (this.props.currRound === 4) {
+      return <Finish />;
     } else {
       return (
         <div className="play">
