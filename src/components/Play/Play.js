@@ -17,32 +17,10 @@ export class Play extends Component {
     };
   }
 
-  componentDidMount() {
-    console.log(
-      '%c timerMount: ',
-      'background: #000; color: #bada55',
-      this.state.timer
-    );
-  }
-
   countDown = () => {
-    console.log(
-      '%c counting: ',
-      'background: #000; color: #bada55',
-      'counting'
-    );
-
     let count = 60;
     let timer = setInterval(() => {
       count--;
-
-      console.log('%c count: ', 'background: #000; color: #bada55', count);
-
-      console.log(
-        '%c this.state.timer1: ',
-        'background: #000; color: #bada55',
-        this.state.timer
-      );
 
       if (count === 0) {
         this.props.updateTeamTimer('stopped');
@@ -54,25 +32,9 @@ export class Play extends Component {
       }
     }, 1000);
     this.setState({ timer });
-
-    //  else {
-    //   console.log(
-    //     '%c this.state.timer2: ',
-    //     'background: #000; color: #bada55',
-    //     this.state.timer
-    //   );
-
-    //   clearInterval(this.state.timer);
-
-    //   console.log(
-    //     '%c this.state.timer3: ',
-    //     'background: #000; color: #bada55',
-    //     this.state.timer
-    //   );
-    // }
   };
 
-  handleGotIt = async e => {
+  handleGotIt = e => {
     e.preventDefault();
 
     if (this.props.currTeam === this.props.teamNames[0]) {
