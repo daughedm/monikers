@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Card from '../Card/Card';
 import Round from '../Round/Round';
 import Next from '../Next/Next';
+import Finish from '../Finish/Finish'
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import * as actions from '../../actions';
@@ -112,6 +113,8 @@ export class Play extends Component {
       return <Round countDown={this.countDown} />;
     } else if (this.props.teamTimer === 'stopped') {
       return <Next countDown={this.countDown} />;
+    } else if (this.props.currRound === 4) {
+      return <Finish />;
     } else {
       return (
         <div className="play">
