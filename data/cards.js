@@ -414,7 +414,7 @@ module.exports = [
     pointValue: 1
   },
   {
-    name: 'The lady who spilled coffee on herself at McDonald’s',
+    name: 'The lady who spilled coffee on herself',
     description:
       "A 79-year—old woman who won a lawsuit against the world’s largest fast-food chain after spilling a scalding drink onto her lap while riding in her grandson's 1989 Ford Probe. It soaked into her sweat- pants, causing first-degree burns to her thighs, buttocks, and groin.",
     category: 'CELEBRITY',

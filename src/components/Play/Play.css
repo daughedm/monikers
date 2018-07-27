@@ -18,17 +18,21 @@
 
 .current-team {
   color: #00B4EF;
+  margin: 10px 0 10px 0;
 }
 
 .current-round {
   color: #00B4EF;
+  margin: 10px 0 10px 0;
+
 }
 
 .card-title {
   text-align: center;
   color: #555;
-  margin: 10px auto 20px auto;
-  font-size: 1.8rem;
+  margin: 0 auto 20px auto;
+  font-size: 1.5rem;
+  line-height: 1.6rem;
 }
 
 .points {
@@ -39,21 +43,26 @@
 
 .description {
   color: #555;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
+  line-height: 1.2rem;
 
 }
 
 .category {
   text-align: center;
   color: #866AAD;
+  font-size: 1rem;
+  margin: 10px auto;
 
 }
 
 .card-container {
+  position: relative;
   background-color: #FFF;
-  width: 80%;
-  margin: 30px auto;
-  padding: 20px 25px 40px 25px;
+  width: 85%;
+  height: 410px;
+  margin: 20px auto;
+  padding: 30px 25px 0 25px;
   border-radius: 15px;
   -webkit-box-shadow: 0px 2px 12px 0px rgba(0,0,0,0.37);
   -moz-box-shadow: 0px 2px 12px 0px rgba(0,0,0,0.37);
@@ -94,7 +103,7 @@
 
 .pass-button {
   width: 48%;
-  height: 50px;
+  height: 40px;
   color: #FFF;
   background-color: rgba(239, 83, 63, 1);
   border: 1px solid #FFF;
@@ -108,7 +117,7 @@
 
 .got-it-button {
   width: 48%;
-  height: 50px;
+  height: 40px;
   color: #FFF;
   background-color: rgba(76, 189, 159, 1);
   border: 1px solid #FFF;
@@ -123,11 +132,10 @@
 .dashed-line {
   border-bottom: 2px dotted #999;
   width: 40%;
-  margin: 30px auto;
+  margin: 20px auto;
 }
 
 .circle {
-  border-radius: 100%;
   background-color: #866AAD;
   text-align: center;
   width: 50px;
@@ -136,13 +144,25 @@
   display:flex;
   align-items: center;
   justify-content: center;
+  height:45px;
+  width:90px;
+  border-radius: 90px 90px 0 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
 }
 
 .buttons-container {
   display: flex;
   align-content: space-between;
   justify-content: space-between;
-  width: 80%;
+  width: 85%;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 25px;
   margin: auto;
 
 }
