@@ -52,7 +52,7 @@ export class Setup extends Component {
     e.preventDefault();
     const { teamOne, teamTwo, numCards } = this.state;
 
-    if (teamOne && teamTwo && numCards) {
+    if (teamOne && teamTwo && numCards >= 30) {
       this.storeGameInfo(teamOne, teamTwo, numCards);
       await this.getActiveCards(numCards);
       this.props.history.push('/play');
