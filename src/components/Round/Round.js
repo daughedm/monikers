@@ -74,7 +74,7 @@ export class Round extends Component {
           <p className="round-description">{roundDescription}</p>
           <div className="dashed-line" />
           {/* color changes between blue and red per team */}
-          <h3 className="starting-team">{startingTeam} Team Starts</h3>
+          <h3 className="starting-team">{startingTeam} Starts</h3>
           <button className="start-round-button" onClick={this.handleClick}>
             START ROUND
           </button>

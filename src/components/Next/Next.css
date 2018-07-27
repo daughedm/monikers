@@ -10,7 +10,7 @@
 }
 
 .team-transition {
-  width: 80%;
+  width: 85%;
   margin: 25px auto;
   background-color: #FFF;
   border-radius: 15px;
@@ -22,7 +22,7 @@
 
 .start-turn-button {
   width: 100%;
-  height: 50px;
+  height: 40px;
   color: #FFF;
   background-color: rgba(76, 189, 159, 1);
   border: 1px solid #FFF;
