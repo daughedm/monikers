@@ -12,11 +12,64 @@ export class Play extends Component {
   constructor() {
     super();
     this.state = {
-      clock: 'active'
+      timer: null
     };
   }
 
-  componentDidMount() {}
+  componentDidMount() {
+    console.log(
+      '%c timerMount: ',
+      'background: #000; color: #bada55',
+      this.state.timer
+    );
+  }
+
+  countDown = () => {
+    console.log(
+      '%c counting: ',
+      'background: #000; color: #bada55',
+      'counting'
+    );
+
+    let count = 60;
+    let timer = setInterval(() => {
+      count--;
+
+      console.log('%c count: ', 'background: #000; color: #bada55', count);
+
+      console.log(
+        '%c this.state.timer1: ',
+        'background: #000; color: #bada55',
+        this.state.timer
+      );
+
+      if (count === 0) {
+        this.props.updateTeamTimer('stopped');
+        clearInterval(this.state.timer);
+        this.props.currTeam === this.props.teamNames[0]
+          ? this.props.currentTeam(this.props.teamNames[1])
+          : this.props.currentTeam(this.props.teamNames[0]);
+        clearInterval(timer);
+      }
+    }, 1000);
+    this.setState({ timer });
+
+    //  else {
+    //   console.log(
+    //     '%c this.state.timer2: ',
+    //     'background: #000; color: #bada55',
+    //     this.state.timer
+    //   );
+
+    //   clearInterval(this.state.timer);
+
+    //   console.log(
+    //     '%c this.state.timer3: ',
+    //     'background: #000; color: #bada55',
+    //     this.state.timer
+    //   );
+    // }
+  };
 
   handleGotIt = async e => {
     e.preventDefault();
@@ -33,6 +86,13 @@ export class Play extends Component {
     this.props.updateActiveCards(newCards);
     if (this.props.activeCards.length === 1) {
       this.props.currentRound(1);
+      this.props.updateTeamTimer('stopped');
+      clearInterval(this.state.timer);
+      const { teamNames, oneScore, twoScore } = this.props;
+      const determineCurrTeam =
+        oneScore <= twoScore ? teamNames[0] : teamNames[1];
+
+      this.props.currentTeam(determineCurrTeam);
     }
   };
 
@@ -47,11 +107,11 @@ export class Play extends Component {
 
   render() {
     if (this.props.teamTimer === 'stopped') {
-      return <Next />;
+      return <Next countDown={this.countDown} />;
     } else if (this.props.teamTimer === 'pregame') {
-      return <Round />;
+      return <Round countDown={this.countDown} />;
     } else if (this.props.activeCards.length === 0) {
-      return <Round />;
+      return <Round countDown={this.countDown} />;
     } else {
       return (
         <div className="play">
@@ -87,6 +147,8 @@ export const mapStateToProps = state => ({
   currTeam: state.currTeam,
   currRound: state.currRound,
   teamNames: state.teamNames,
+  oneScore: state.teamOneScore,
+  twoScore: state.teamTwoScore,
   teamTimer: state.teamTimer
 });
 

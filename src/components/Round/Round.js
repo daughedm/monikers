@@ -5,7 +5,9 @@ import * as actions from '../../actions';
 import './Round.css';
 
 export class Round extends Component {
-  componentDidMount() {}
+  constructor(props) {
+    super(props);
+  }
 
   handleClick = e => {
     e.preventDefault();
@@ -17,7 +19,8 @@ export class Round extends Component {
     }
 
     this.props.updateTeamTimer('counting');
-    this.countDown();
+    // this.countDown();
+    this.props.countDown();
   };
 
   shuffleCards = cards => {
@@ -28,19 +31,19 @@ export class Round extends Component {
     return cards;
   };
 
-  countDown = () => {
-    let count = 60,
-      timer = setInterval(() => {
-        count--;
-        if (count === 0) {
-          this.props.updateTeamTimer('stopped');
-          this.props.currTeam === this.props.teamNames[0]
-            ? this.props.currentTeam(this.props.teamNames[1])
-            : this.props.currentTeam(this.props.teamNames[0]);
-          clearInterval(timer);
-        }
-      }, 1000);
-  };
+  // countDown = () => {
+  //   let count = 60,
+  //     timer = setInterval(() => {
+  //       count--;
+  //       if (count === 0) {
+  //         this.props.updateTeamTimer('stopped');
+  //         this.props.currTeam === this.props.teamNames[0]
+  //           ? this.props.currentTeam(this.props.teamNames[1])
+  //           : this.props.currentTeam(this.props.teamNames[0]);
+  //         clearInterval(timer);
+  //       }
+  //     }, 1000);
+  // };
 
   render() {
     const { teamNames, teamOneScore, teamTwoScore, currRound } = this.props;
