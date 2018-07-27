@@ -132,7 +132,7 @@ export class Play extends Component {
               className="got-it-button ripple-got-it"
               onClick={this.handleGotIt}
             >
-              Got It!
+              Got It
             </button>
           </div>
         </div>

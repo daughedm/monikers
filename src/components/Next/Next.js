@@ -39,7 +39,7 @@ export class Next extends Component {
     return (
       <div className="background-monikers">
         <div className="team-transition">
-          <h2 className="current-team-headline">Team {currTeam}, your turn</h2>
+          <h2 className="current-team-headline">{currTeam}, your turn</h2>
           <p className="remaining-cards">
             {activeCards.length} Cards Remaining
           </p>
