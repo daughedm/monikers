@@ -69,11 +69,11 @@ export class Play extends Component {
   };
 
   render() {
-    if (this.props.activeCards.length === 0) {
+    if (this.props.activeCards.length === 0 && this.props.currRound <= 3) {
       return <Round countDown={this.countDown} />;
     } else if (this.props.teamTimer === 'pregame') {
       return <Round countDown={this.countDown} />;
-    } else if (this.props.teamTimer === 'stopped') {
+    } else if (this.props.teamTimer === 'stopped' && this.props.currRound <= 3) {
       return <Next countDown={this.countDown} />;
     } else if (this.props.currRound === 4) {
       return <Finish />;
