@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import { withRouter} from 'react-router-dom';
 
 export class Finish extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
   }
 
   handleSubmit = e => {
@@ -35,4 +36,4 @@ export const mapStateToProps = state => ({
   teamTwoScore: state.teamTwoScore
 });
 
-export default connect(mapStateToProps)(Finish);
+export default withRouter(connect(mapStateToProps)(Finish));
