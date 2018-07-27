@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 export class Finish extends Component {
   constructor() {
     super();
-  };
+  }
 
   render() {
     const { teamNames, teamOneScore, teamTwoScore } = this.props;
@@ -18,7 +18,7 @@ export class Finish extends Component {
       </div>
     );
   }
-};
+}
 
 export const mapStateToProps = state => ({
   teamNames: state.teamNames,
