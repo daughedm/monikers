@@ -5,30 +5,33 @@ import * as actions from '../../actions';
 import './Next.css';
 
 export class Next extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
   }
   componentDidMount() {}
 
   startTimer = e => {
     e.preventDefault();
     this.props.updateTeamTimer('counting');
-    this.countDown();
+    // this.countDown();
+    if (this.props.activeCards.length) {
+      this.props.countDown();
+    }
   };
 
-  countDown = () => {
-    let count = 60,
-      timer = setInterval(() => {
-        count--;
-        if (count === 0) {
-          this.props.updateTeamTimer('stopped');
-          this.props.currTeam === this.props.teamNames[0]
-            ? this.props.currentTeam(this.props.teamNames[1])
-            : this.props.currentTeam(this.props.teamNames[0]);
-          clearInterval(timer);
-        }
-      }, 1000);
-  };
+  // countDown = () => {
+  //   let count = 60,
+  //     timer = setInterval(() => {
+  //       count--;
+  //       if (count === 0) {
+  //         this.props.updateTeamTimer('stopped');
+  //         this.props.currTeam === this.props.teamNames[0]
+  //           ? this.props.currentTeam(this.props.teamNames[1])
+  //           : this.props.currentTeam(this.props.teamNames[0]);
+  //         clearInterval(timer);
+  //       }
+  //     }, 1000);
+  // };
 
   render() {
     const { currTeam, activeCards } = this.props;
