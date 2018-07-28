@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { withRouter} from 'react-router-dom';
+import * as actions from '../../actions/'
 
 export class Finish extends Component {
   constructor(props) {
@@ -10,6 +11,14 @@ export class Finish extends Component {
   handleSubmit = e => {
     e.preventDefault();
 
+
+    this.props.updateActiveCards([]);
+    this.props.clearDiscardedCards([]);
+    this.props.clearScore();
+    this.props.clearNumOfCards();
+    this.props.clearTeamNames();
+    this.props.clearCurrentRound();
+    this.props.clearCurrentTeam();
     this.props.history.push('/setup');
   }
 
@@ -36,4 +45,14 @@ export const mapStateToProps = state => ({
   teamTwoScore: state.teamTwoScore
 });
 
-export default withRouter(connect(mapStateToProps)(Finish));
+export const mapDispatchToProps = dispatch => ({
+  updateActiveCards: cards => dispatch(actions.updateActiveCards(cards)),
+  clearDiscardedCards: card => dispatch(actions.clearDiscardedCards(card)),
+  clearScore: () => dispatch(actions.clearScore()),
+  clearCurrentRound: () => dispatch(actions.clearCurrentRound()),
+  clearTeamNames: () => dispatch(actions.clearTeamNames()),
+  clearNumOfCards: () => dispatch(actions.clearNumOfCards()),
+  clearCurrentTeam: () => dispatch(actions.clearCurrentTeam())
+});
+
+export default withRouter(connect(mapStateToProps, mapDispatchToProps)(Finish));

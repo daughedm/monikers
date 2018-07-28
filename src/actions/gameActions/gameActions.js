@@ -3,6 +3,14 @@ export const addTeamNames = teamName => ({
   teamName
 });
 
+export const clearTeamNames = () => ({
+  type: 'CLEAR_TEAM_NAMES'
+});
+
+export const clearCurrentTeam = () => ({
+  type: 'CLEAR_CURRENT_TEAM'
+});
+
 export const currentTeam = currentTeam => ({
   type: 'CURRENT_TEAM',
   currentTeam
@@ -11,6 +19,10 @@ export const currentTeam = currentTeam => ({
 export const currentRound = roundNumber => ({
   type: 'CURRENT_ROUND',
   roundNumber
+});
+
+export const clearCurrentRound = () => ({
+  type: 'CLEAR_CURRENT_ROUND'
 });
 
 export const teamOneScore = points => ({
@@ -26,4 +38,8 @@ export const teamTwoScore = points => ({
 export const updateTeamTimer = teamTimer => ({
   type: 'UPDATE_TEAM_TIMER',
   teamTimer
+});
+
+export const clearScore = () => ({
+  type: 'CLEAR_SCORE'
 });
