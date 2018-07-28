@@ -216,6 +216,22 @@
 
 }
 
-@media (min-width: 375px) {
+@media (min-width: 411px) {
   
+.pass-button {
+  height: 45px;
+}
+
+.got-it-button {
+  height: 45px;
+}
+
+.current-team {
+  margin: 15px 0 15px 0;
+}
+
+.current-round {
+  margin: 15px 0 15px 0;
+
+}
 }

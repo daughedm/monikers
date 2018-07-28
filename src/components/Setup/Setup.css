@@ -88,3 +88,21 @@ input {
     margin-top: 40px;    
   }
 }
+
+@media (min-width: 414px) {
+  .logo {
+    margin: 40px auto 40px auto;
+  }
+
+  .input-field {
+    height: 45px;
+  }
+  
+  .start-button {
+    height: 45px;
+  }
+  
+  .back-button {
+    height: 45px;
+  }
+}
