@@ -79,6 +79,4 @@ const Instructions = props => {
   );
 };
 
-Instructions.propTypes = {};
-
 export default Instructions;
