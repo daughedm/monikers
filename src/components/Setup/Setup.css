@@ -75,7 +75,7 @@ input {
   margin: 20px;
 }
 
-@media (min-width: 375px) {
+@media (min-width: 360px) {
   .logo {
     margin: 30px auto 30px auto;
   }
