@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { withRouter} from 'react-router-dom';
+import { withRouter } from 'react-router-dom';
+import * as actions from '../../actions';
 
 export class Finish extends Component {
   constructor(props) {
@@ -9,9 +10,9 @@ export class Finish extends Component {
 
   handleSubmit = e => {
     e.preventDefault();
-
+    this.props.resetStore();
     this.props.history.push('/setup');
-  }
+  };
 
   render() {
     const { teamNames, teamOneScore, teamTwoScore } = this.props;
@@ -19,9 +20,15 @@ export class Finish extends Component {
     return (
       <div className="background-monikers">
         <div className="round-transition">
-          <h2 className="round-headline">Team {teamNames[winningTeam]} wins!</h2>
+          <h2 className="round-headline">
+            Team {teamNames[winningTeam]} wins!
+          </h2>
           <div className="dashed-line" />
-          <button className="start-button" type="submit" onClick={this.handleSubmit}>
+          <button
+            className="start-button"
+            type="submit"
+            onClick={this.handleSubmit}
+          >
             NEW GAME
           </button>
         </div>
@@ -36,4 +43,13 @@ export const mapStateToProps = state => ({
   teamTwoScore: state.teamTwoScore
 });
 
-export default withRouter(connect(mapStateToProps)(Finish));
+export const mapDispatchToProps = dispatch => ({
+  resetStore: () => dispatch(actions.resetStore())
+});
+
+export default withRouter(
+  connect(
+    mapStateToProps,
+    mapDispatchToProps
+  )(Finish)
+);
