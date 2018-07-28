@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import logolockup from '../../assets/Monikers_logo_lockup-02.svg';
 import loadingGif from '../../assets/loading.svg';
 import './Loading.css';
