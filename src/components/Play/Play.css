@@ -191,7 +191,7 @@
 
 @media (min-width: 375px) {
   .card-container {
-    height: 475px;
+    height: 71%;
     margin: 30px auto;
     padding: 30px 30px 0 30px;
   }
@@ -207,11 +207,15 @@
   }
 
   .buttons-container {
-    bottom: 35px;
+    bottom: 5%;
   }
   
   .category {
     font-size: 1.1rem;
   }
 
+}
+
+@media (min-width: 375px) {
+  
 }

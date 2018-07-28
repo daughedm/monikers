@@ -255,6 +255,16 @@ a {
 }
 
 
-@media (min-width: 375px) {
+@media (min-width: 414px) {
+  .button-wrapper {
+    width: 70%;
+  }
   
+  .start-game-button {
+    height: 45px;
+  }
+  
+  .instructions-button {
+    height: 45px;
+  }
 }
