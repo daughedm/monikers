@@ -112,7 +112,7 @@ describe("Card Reducers", () => {
   });
 
   describe("discardedCards", () => {
-    it("should return default state when no aciton passed", () => {
+    it("should return default state when no action passed", () => {
       expect(discardedCards([], {})).toEqual([]);
     });
 
@@ -153,5 +153,37 @@ describe("Card Reducers", () => {
         pointValue: 3
       }], mockAction)).toEqual(expected);
     });
+
+
+    it('should clear discarded cards', () => {
+      const expectedAdd = [
+        {
+          name: 'Blacula',
+          description:
+            'The title character from a horror film about an 18th century African prince turned vampire. Locked in a coffin for two centuries by Count Dracula, the box was purchased as part of an estate by two interior decorators who accidentally set him loose in 705 Los Angeles.',
+          category: 'FICTIONAL CHARACTER',
+          pointValue: 4
+        }
+      ];
+
+      const mockAddAction = {
+        type: 'DISCARDED_CARDS',
+        card: {
+          name: 'Blacula',
+          description:
+            'The title character from a horror film about an 18th century African prince turned vampire. Locked in a coffin for two centuries by Count Dracula, the box was purchased as part of an estate by two interior decorators who accidentally set him loose in 705 Los Angeles.',
+          category: 'FICTIONAL CHARACTER',
+          pointValue: 4
+        }
+      };
+
+      const mockClearAction = {
+        type: 'CLEAR_DISCARDED_CARDS',
+      };
+
+      expect(discardedCards([], mockAddAction)).toEqual(expectedAdd)
+      expect(discardedCards([], mockClearAction)).toEqual([])
+    });
+
   });
 });
