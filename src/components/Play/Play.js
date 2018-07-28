@@ -36,56 +36,68 @@ export class Play extends Component {
 
   handleGotIt = e => {
     e.preventDefault();
+    const {currTeam, teamNames, activeCards, teamOneScore, 
+      teamTwoScore, discardedCards, updateActiveCards, currentRound, 
+      updateTeamTimer, currentTeam} = this.props;
 
-    if (this.props.currTeam === this.props.teamNames[0]) {
-      this.props.teamOneScore(this.props.activeCards[0].pointValue);
+    if (currTeam === teamNames[0]) {
+      teamOneScore(activeCards[0].pointValue);
     } else {
-      this.props.teamTwoScore(this.props.activeCards[0].pointValue);
+      teamTwoScore(activeCards[0].pointValue);
     }
-    this.props.discardedCards(this.props.activeCards[0]);
+    discardedCards(activeCards[0]);
 
-    const newCards = this.props.activeCards.slice(1);
+    const newCards = activeCards.slice(1);
 
-    this.props.updateActiveCards(newCards);
-    if (this.props.activeCards.length === 1) {
-      this.props.currentRound(1);
-      this.props.updateTeamTimer('stopped');
+    updateActiveCards(newCards);
+    if (activeCards.length === 1) {
+      currentRound(1);
+      updateTeamTimer('stopped');
       clearInterval(this.state.timer);
-      const { teamNames, oneScore, twoScore } = this.props;
       const determineCurrTeam =
-        oneScore <= twoScore ? teamNames[0] : teamNames[1];
+      teamOneScore <= teamTwoScore ? teamNames[0] : teamNames[1];
 
-      this.props.currentTeam(determineCurrTeam);
+      currentTeam(determineCurrTeam);
     }
   };
 
   handleSkipped = e => {
     e.preventDefault();
+    const {addCard, updateActiveCards, activeCards} = this.props;
 
-    const newCards = this.props.activeCards.slice(1);
-    this.props.updateActiveCards(newCards);
+    const newCards = activeCards.slice(1);
+    updateActiveCards(newCards);
 
-    this.props.addCard(this.props.activeCards[0]);
+    addCard(activeCards[0]);
   };
 
   render() {
-    if (this.props.activeCards.length === 0 && this.props.currRound <= 3) {
+    const {currTeam, teamNames, teamTimer, activeCards, currRound} = this.props;
+    let teamColor;
+
+    if (currTeam === teamNames[0]) {
+      teamColor = { color: '#00B4EF'};
+    } else {
+      teamColor = { color: '#866AAD'};
+    }
+
+    if (activeCards.length === 0 && currRound <= 3) {
       return <Round countDown={this.countDown} />;
-    } else if (this.props.teamTimer === 'pregame') {
+    } else if (teamTimer === 'pregame') {
       return <Round countDown={this.countDown} />;
-    } else if (this.props.teamTimer === 'stopped' && this.props.currRound <= 3) {
+    } else if (teamTimer === 'stopped' && currRound <= 3) {
       return <Next countDown={this.countDown} />;
-    } else if (this.props.currRound === 4) {
+    } else if (currRound === 4) {
       return <Finish />;
     } else {
       return (
         <div className="play">
           <div className="game-info-container">
-            <h3 className="current-team">{this.props.currTeam}</h3>
-            <h3 className="current-round">Round {this.props.currRound}</h3>
+            <h3 className="current-team" style={teamColor}>{currTeam}</h3>
+            <h3 className="current-round" style={teamColor}>Round {currRound}</h3>
           </div>
           <div className="timer" />
-          {this.props.activeCards.length && <Card />}
+          {activeCards.length && <Card />}
           <div className="buttons-container">
             <button
               className="pass-button ripple-pass"
