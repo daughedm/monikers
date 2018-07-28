@@ -65,7 +65,7 @@ export class Setup extends Component {
 
     addTeamNames(teamOne);
     addTeamNames(teamTwo);
-    numOfCards(parseInt(numCards), 10);
+    numOfCards(parseInt(numCards, 10));
     currentTeam(teamOne);
   };
 
