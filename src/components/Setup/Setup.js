@@ -20,6 +20,7 @@ export class Setup extends Component {
   componentDidMount() {}
 
   getActiveCards = async numberOfCards => {
+    const { addCard } = this.props;
     const numberOfCardsInIDB = await indexedDB.allCards.count();
     const lowerBound = 1;
     const upperBound = numberOfCardsInIDB;
@@ -36,7 +37,7 @@ export class Setup extends Component {
     }
     const allCards = await indexedDB.allCards.toArray();
     uniqueRandomNumbers.forEach(num => {
-      this.props.addCard(allCards[num]);
+      addCard(allCards[num]);
     });
   };
 
@@ -60,10 +61,12 @@ export class Setup extends Component {
   };
 
   storeGameInfo = async (teamOne, teamTwo, numCards) => {
-    this.props.addTeamNames(teamOne);
-    this.props.addTeamNames(teamTwo);
-    this.props.numOfCards(parseInt(numCards));
-    this.props.currentTeam(teamOne);
+    const { addTeamNames, numOfCards, currentTeam } = this.props;
+
+    addTeamNames(teamOne);
+    addTeamNames(teamTwo);
+    numOfCards(parseInt(numCards));
+    currentTeam(teamOne);
   };
 
   handleBackButton = e => {
