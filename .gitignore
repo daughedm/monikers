@@ -22,3 +22,5 @@ yarn-error.log*
 
 /.vs
 /.vscode
+
+/notes.md
