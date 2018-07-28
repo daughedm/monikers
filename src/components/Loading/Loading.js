@@ -1,21 +1,15 @@
-import React, { Component } from 'react';
+import React from 'react';
 import logolockup from '../../assets/Monikers_logo_lockup-02.svg';
 import loadingGif from '../../assets/loading.svg';
 import './Loading.css';
 
-export class Loading extends Component {
-  componentDidMount() {}
-
-  render() {
-    return (
-      <div className="loading">
-        <img className="logo-lockup" src={logolockup} alt="logolockup" />
-        <img className="loading-gif" src={loadingGif} alt="loadingGif" />
-      </div>
-    );
-  }
-}
-
-Loading.propTypes = {};
+const Loading = () => {
+  return (
+    <div className="loading">
+      <img className="logo-lockup" src={logolockup} alt="logolockup" />
+      <img className="loading-gif" src={loadingGif} alt="loadingGif" />
+    </div>
+  );
+};
 
 export default Loading;
