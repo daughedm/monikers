@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Card from '../Card/Card';
 import Round from '../Round/Round';
 import Next from '../Next/Next';
-import Finish from '../Finish/Finish'
+import Finish from '../Finish/Finish';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import * as actions from '../../actions';
@@ -17,53 +17,25 @@ export class Play extends Component {
     };
   }
 
-  countDown = () => {
-    let count = 60;
-    let timer = setInterval(() => {
-      count--;
-
-      if (count === 0) {
-        this.props.updateTeamTimer('stopped');
-        clearInterval(this.state.timer);
-        this.props.currTeam === this.props.teamNames[0]
-          ? this.props.currentTeam(this.props.teamNames[1])
-          : this.props.currentTeam(this.props.teamNames[0]);
-        clearInterval(timer);
-      }
-    }, 1000);
-    this.setState({ timer });
-  };
-
   handleGotIt = e => {
     e.preventDefault();
-    const {currTeam, teamNames, activeCards, teamOneScore, 
-      teamTwoScore, discardedCards, updateActiveCards, currentRound, 
-      updateTeamTimer, currentTeam} = this.props;
+    const { activeCards, discardedCards, updateActiveCards } = this.props;
 
-    if (currTeam === teamNames[0]) {
-      teamOneScore(activeCards[0].pointValue);
-    } else {
-      teamTwoScore(activeCards[0].pointValue);
-    }
     discardedCards(activeCards[0]);
 
     const newCards = activeCards.slice(1);
-
     updateActiveCards(newCards);
-    if (activeCards.length === 1) {
-      currentRound(1);
-      updateTeamTimer('stopped');
-      clearInterval(this.state.timer);
-      const determineCurrTeam =
-      teamOneScore <= teamTwoScore ? teamNames[0] : teamNames[1];
 
-      currentTeam(determineCurrTeam);
+    this.updateScore();
+
+    if (activeCards.length === 1) {
+      this.updateRound();
     }
   };
 
   handleSkipped = e => {
     e.preventDefault();
-    const {addCard, updateActiveCards, activeCards} = this.props;
+    const { addCard, updateActiveCards, activeCards } = this.props;
 
     const newCards = activeCards.slice(1);
     updateActiveCards(newCards);
@@ -71,14 +43,83 @@ export class Play extends Component {
     addCard(activeCards[0]);
   };
 
+  countDown = () => {
+    const { updateTeamTimer, currTeam, currentTeam, teamNames } = this.props;
+    let count = 60;
+    let timer = setInterval(() => {
+      count--;
+
+      if (count === 0) {
+        updateTeamTimer('stopped');
+        clearInterval(this.state.timer);
+        currTeam === this.props.teamNames[0]
+          ? currentTeam(teamNames[1])
+          : currentTeam(teamNames[0]);
+        clearInterval(timer);
+      }
+    }, 1000);
+    this.setState({ timer });
+  };
+
+  updateScore = () => {
+    const {
+      currTeam,
+      teamNames,
+      teamOneScore,
+      teamTwoScore,
+      activeCards
+    } = this.props;
+
+    if (currTeam === teamNames[0]) {
+      teamOneScore(activeCards[0].pointValue);
+    } else {
+      teamTwoScore(activeCards[0].pointValue);
+    }
+  };
+
+  updateRound = () => {
+    const {
+      teamNames,
+      oneScore,
+      twoScore,
+      currentRound,
+      updateTeamTimer,
+      currentTeam
+    } = this.props;
+
+    currentRound(1);
+    updateTeamTimer('stopped');
+    clearInterval(this.state.timer);
+
+    console.log('%c oneScore: ', 'background: #000; color: #bada55', oneScore);
+    console.log('%c twoScore: ', 'background: #000; color: #bada55', twoScore);
+
+    const determineCurrTeam =
+      oneScore <= twoScore ? teamNames[0] : teamNames[1];
+
+    console.log(
+      '%c determineCurrTeam: ',
+      'background: #000; color: #bada55',
+      determineCurrTeam
+    );
+
+    currentTeam(determineCurrTeam);
+  };
+
   render() {
-    const {currTeam, teamNames, teamTimer, activeCards, currRound} = this.props;
+    const {
+      currTeam,
+      teamNames,
+      teamTimer,
+      activeCards,
+      currRound
+    } = this.props;
     let teamColor;
 
     if (currTeam === teamNames[0]) {
-      teamColor = { color: '#00B4EF'};
+      teamColor = { color: '#00B4EF' };
     } else {
-      teamColor = { color: '#866AAD'};
+      teamColor = { color: '#866AAD' };
     }
 
     if (activeCards.length === 0 && currRound <= 3) {
@@ -93,8 +134,12 @@ export class Play extends Component {
       return (
         <div className="play">
           <div className="game-info-container">
-            <h3 className="current-team" style={teamColor}>{currTeam}</h3>
-            <h3 className="current-round" style={teamColor}>Round {currRound}</h3>
+            <h3 className="current-team" style={teamColor}>
+              {currTeam}
+            </h3>
+            <h3 className="current-round" style={teamColor}>
+              Round {currRound}
+            </h3>
           </div>
           <div className="timer" />
           {activeCards.length && <Card />}
