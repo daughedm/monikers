@@ -253,3 +253,8 @@ a {
     transition: none !important;
   }
 }
+
+
+@media (min-width: 375px) {
+  
+}

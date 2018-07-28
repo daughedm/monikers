@@ -74,3 +74,17 @@ input {
   text-align: center;
   margin: 20px;
 }
+
+@media (min-width: 375px) {
+  .logo {
+    margin: 30px auto 30px auto;
+  }
+
+  .label-name {
+    margin: 20px auto 5px auto;
+  }
+
+  .start-button {
+    margin-top: 40px;    
+  }
+}
