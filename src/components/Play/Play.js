@@ -188,7 +188,7 @@ Play.propTypes = {
   currRound: PropTypes.number,
   updateActiveCards: PropTypes.func.isRequired,
   discardedCards: PropTypes.func.isRequired,
-  addCard: PropTypes.fun.isRequired,
+  addCard: PropTypes.func.isRequired,
   teamOneScore: PropTypes.func.isRequired,
   teamTwoScore: PropTypes.func.isRequired,
   currentTeam: PropTypes.func.isRequired,
