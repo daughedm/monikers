@@ -13,9 +13,6 @@ export class Next extends Component {
   startTimer = e => {
     e.preventDefault();
     this.props.updateTeamTimer('counting');
-    if (this.props.activeCards.length) {
-      this.props.countDown();
-    }
   };
 
   render() {

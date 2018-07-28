@@ -48,7 +48,7 @@ describe('Game reducers', () => {
         roundNumber: 2
       };
 
-      expect(currentRound(1, mockAction)).toEqual(expected)
+      expect(currentRound(1, mockAction)).toEqual(expected);
     });
   });
 
@@ -92,7 +92,7 @@ describe('Game reducers', () => {
     });
 
     it("should return current round time", () => {
-      const expected = 'counting'
+      const expected = 'counting';
 
       const mockAction = {
         type: 'UPDATE_TEAM_TIMER',

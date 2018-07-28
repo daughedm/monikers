@@ -32,6 +32,7 @@ describe("Card Reducers", () => {
         {
           name: 'Doge',
           description:
+          // eslint-disable-next-line
             'An Internet meme that shows a Shiba Inu surrounded by colorful Comic Sans text that describes its inner monologue, such as "Wow," "Concern," and "so scare." There is much confuse over the name\'s pronunciation, yet it was recently used to brand a Bitcoin competitor.',
           category: 'CELEBRITY',
           pointValue: 3
@@ -39,6 +40,7 @@ describe("Card Reducers", () => {
         {
           name: 'Blacula',
           description:
+          // eslint-disable-next-line
             'The title character from a horror film about an 18th century African prince turned vampire. Locked in a coffin for two centuries by Count Dracula, the box was purchased as part of an estate by two interior decorators who accidentally set him loose in 705 Los Angeles.',
           category: 'FICTIONAL CHARACTER',
           pointValue: 4
@@ -50,15 +52,17 @@ describe("Card Reducers", () => {
         card: {
           name: 'Blacula',
           description:
+          // eslint-disable-next-line
             'The title character from a horror film about an 18th century African prince turned vampire. Locked in a coffin for two centuries by Count Dracula, the box was purchased as part of an estate by two interior decorators who accidentally set him loose in 705 Los Angeles.',
           category: 'FICTIONAL CHARACTER',
           pointValue: 4
-        },
+        }
       };
 
       expect(activeCards([{
         name: 'Doge',
         description:
+        // eslint-disable-next-line
           'An Internet meme that shows a Shiba Inu surrounded by colorful Comic Sans text that describes its inner monologue, such as "Wow," "Concern," and "so scare." There is much confuse over the name\'s pronunciation, yet it was recently used to brand a Bitcoin competitor.',
         category: 'CELEBRITY',
         pointValue: 3
@@ -70,6 +74,7 @@ describe("Card Reducers", () => {
         {
           name: 'Doge',
           description:
+          // eslint-disable-next-line
             'An Internet meme that shows a Shiba Inu surrounded by colorful Comic Sans text that describes its inner monologue, such as "Wow," "Concern," and "so scare." There is much confuse over the name\'s pronunciation, yet it was recently used to brand a Bitcoin competitor.',
           category: 'CELEBRITY',
           pointValue: 3
@@ -77,6 +82,7 @@ describe("Card Reducers", () => {
         {
           name: 'Blacula',
           description:
+          // eslint-disable-next-line
             'The title character from a horror film about an 18th century African prince turned vampire. Locked in a coffin for two centuries by Count Dracula, the box was purchased as part of an estate by two interior decorators who accidentally set him loose in 705 Los Angeles.',
           category: 'FICTIONAL CHARACTER',
           pointValue: 4
@@ -88,6 +94,7 @@ describe("Card Reducers", () => {
         cards: [{
           name: 'Doge',
           description:
+          // eslint-disable-next-line
             'An Internet meme that shows a Shiba Inu surrounded by colorful Comic Sans text that describes its inner monologue, such as "Wow," "Concern," and "so scare." There is much confuse over the name\'s pronunciation, yet it was recently used to brand a Bitcoin competitor.',
           category: 'CELEBRITY',
           pointValue: 3
@@ -95,6 +102,7 @@ describe("Card Reducers", () => {
         {
           name: 'Blacula',
           description:
+          // eslint-disable-next-line
             'The title character from a horror film about an 18th century African prince turned vampire. Locked in a coffin for two centuries by Count Dracula, the box was purchased as part of an estate by two interior decorators who accidentally set him loose in 705 Los Angeles.',
           category: 'FICTIONAL CHARACTER',
           pointValue: 4
@@ -104,6 +112,7 @@ describe("Card Reducers", () => {
       expect(activeCards([{
         name: 'Doge',
         description:
+        // eslint-disable-next-line
           'An Internet meme that shows a Shiba Inu surrounded by colorful Comic Sans text that describes its inner monologue, such as "Wow," "Concern," and "so scare." There is much confuse over the name\'s pronunciation, yet it was recently used to brand a Bitcoin competitor.',
         category: 'CELEBRITY',
         pointValue: 3
@@ -121,6 +130,7 @@ describe("Card Reducers", () => {
         {
           name: 'Doge',
           description:
+          // eslint-disable-next-line
             'An Internet meme that shows a Shiba Inu surrounded by colorful Comic Sans text that describes its inner monologue, such as "Wow," "Concern," and "so scare." There is much confuse over the name\'s pronunciation, yet it was recently used to brand a Bitcoin competitor.',
           category: 'CELEBRITY',
           pointValue: 3
@@ -128,6 +138,7 @@ describe("Card Reducers", () => {
         {
           name: 'Blacula',
           description:
+          // eslint-disable-next-line
             'The title character from a horror film about an 18th century African prince turned vampire. Locked in a coffin for two centuries by Count Dracula, the box was purchased as part of an estate by two interior decorators who accidentally set him loose in 705 Los Angeles.',
           category: 'FICTIONAL CHARACTER',
           pointValue: 4
@@ -139,6 +150,7 @@ describe("Card Reducers", () => {
         card: {
           name: 'Blacula',
           description:
+          // eslint-disable-next-line
             'The title character from a horror film about an 18th century African prince turned vampire. Locked in a coffin for two centuries by Count Dracula, the box was purchased as part of an estate by two interior decorators who accidentally set him loose in 705 Los Angeles.',
           category: 'FICTIONAL CHARACTER',
           pointValue: 4
@@ -148,6 +160,7 @@ describe("Card Reducers", () => {
       expect(discardedCards([{
         name: 'Doge',
         description:
+        // eslint-disable-next-line
           'An Internet meme that shows a Shiba Inu surrounded by colorful Comic Sans text that describes its inner monologue, such as "Wow," "Concern," and "so scare." There is much confuse over the name\'s pronunciation, yet it was recently used to brand a Bitcoin competitor.',
         category: 'CELEBRITY',
         pointValue: 3
@@ -160,6 +173,7 @@ describe("Card Reducers", () => {
         {
           name: 'Blacula',
           description:
+          // eslint-disable-next-line
             'The title character from a horror film about an 18th century African prince turned vampire. Locked in a coffin for two centuries by Count Dracula, the box was purchased as part of an estate by two interior decorators who accidentally set him loose in 705 Los Angeles.',
           category: 'FICTIONAL CHARACTER',
           pointValue: 4
@@ -178,11 +192,11 @@ describe("Card Reducers", () => {
       };
 
       const mockClearAction = {
-        type: 'CLEAR_DISCARDED_CARDS',
+        type: 'CLEAR_DISCARDED_CARDS'
       };
 
-      expect(discardedCards([], mockAddAction)).toEqual(expectedAdd)
-      expect(discardedCards([], mockClearAction)).toEqual([])
+      expect(discardedCards([], mockAddAction)).toEqual(expectedAdd);
+      expect(discardedCards([], mockClearAction)).toEqual([]);
     });
 
   });

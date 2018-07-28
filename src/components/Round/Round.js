@@ -19,7 +19,6 @@ export class Round extends Component {
     }
 
     this.props.updateTeamTimer('counting');
-    this.props.countDown();
   };
 
   shuffleCards = cards => {

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Card from '../Card/Card';
 import Round from '../Round/Round';
 import Next from '../Next/Next';
-import Finish from '../Finish/Finish'
+import Finish from '../Finish/Finish';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import * as actions from '../../actions';
