@@ -80,7 +80,7 @@ app.delete('/api/v1/cards/:id', (request, response) => {
 });
 
 app.listen(app.get('port'), () => {
-  /* eslint-disable-next-line */
+  // eslint-disable-next-line
   console.log(`${app.locals.title} is running on ${app.get('port')}`);
 });
 
