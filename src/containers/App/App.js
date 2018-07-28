@@ -9,7 +9,7 @@ import Round from '../../components/Round/Round';
 import Next from '../../components/Next/Next';
 import Instructions from '../../components/Instructions/Instructions';
 import Loading from '../../components/Loading/Loading';
-import Finish from '../../components/Finish/Finish'
+import Finish from '../../components/Finish/Finish';
 import indexedDB from '../../indexedBD';
 import * as actions from '../../actions';
 import * as api from '../../api/api';
