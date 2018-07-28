@@ -10,7 +10,7 @@ export class Instructions extends Component {
   handleBackButton = e => {
     e.preventDefault();
 
-    this.props.history.push('/')
+    this.props.history.push('/');
   };
 
   render() {
@@ -73,7 +73,11 @@ export class Instructions extends Component {
           free not to keep score at all. It’s fun to play competitively, but not
           necessary with the right group.
         </p>
-        <button className="back-button" type="submit" onClick={this.handleBackButton}>
+        <button
+          className="back-button"
+          type="submit"
+          onClick={this.handleBackButton}
+        >
           BACK
         </button>
       </div>

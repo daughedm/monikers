@@ -11,10 +11,9 @@ export class Loading extends Component {
 
   render() {
     return (
-      <div className="loading"> 
-        <img className="logo-lockup" src={logolockup}/>
-        <img className="loading-gif" src={loadingGif}/>
-
+      <div className="loading">
+        <img className="logo-lockup" src={logolockup} />
+        <img className="loading-gif" src={loadingGif} />
       </div>
     );
   }
