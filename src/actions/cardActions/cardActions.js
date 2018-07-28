@@ -3,6 +3,10 @@ export const numOfCards = number => ({
   number
 });
 
+export const clearNumOfCards = () => ({
+  type: 'CLEAR_NUM_OF_CARDS'
+});
+
 export const addCard = card => ({
   type: 'ADD_CARD',
   card

@@ -6,7 +6,11 @@ import {
   teamOneScore,
   teamTwoScore,
   updateTeamTimer,
-  addTeamNames
+  addTeamNames,
+  clearScore,
+  clearCurrentTeam,
+  clearCurrentRound,
+  clearTeamNames
 } from './gameActions/gameActions';
 
 import {
@@ -14,7 +18,8 @@ import {
   discardedCards,
   addCard,
   numOfCards,
-  clearDiscardedCards
+  clearDiscardedCards,
+  clearNumOfCards
 } from './cardActions/cardActions';
 
 export {
@@ -30,5 +35,10 @@ export {
   updateActiveCards,
   updateTeamTimer,
   numOfCards,
-  addTeamNames
+  addTeamNames,
+  clearScore,
+  clearNumOfCards,
+  clearCurrentTeam,
+  clearCurrentRound,
+  clearTeamNames
 };
