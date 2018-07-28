@@ -189,3 +189,29 @@
   }
 }
 
+@media (min-width: 375px) {
+  .card-container {
+    height: 475px;
+    margin: 30px auto;
+    padding: 30px 30px 0 30px;
+  }
+
+  .description {
+    color: #555;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+  }
+
+  .dashed-line {
+    margin: 30px auto;
+  }
+
+  .buttons-container {
+    bottom: 35px;
+  }
+  
+  .category {
+    font-size: 1.1rem;
+  }
+
+}
