@@ -106,7 +106,7 @@ Round.propTypes = {
   discardedCards: PropTypes.array,
   updateTeamTimer: PropTypes.func.isRequired,
   currentTeam: PropTypes.func.isRequired,
-  currentTimer: PropTypes.func.isRequired,
+  currentTimer: PropTypes.func,
   updateActiveCards: PropTypes.func.isRequired,
   clearDiscardedCards: PropTypes.func.isRequired
 };

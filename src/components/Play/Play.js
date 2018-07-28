@@ -141,11 +141,22 @@ export const mapDispatchToProps = dispatch => ({
 });
 
 Play.propTypes = {
-  activeCards: PropTypes.array.isRequired,
+  activeCards: PropTypes.array,
   discardPile: PropTypes.array,
-  currTeam: PropTypes.string.isRequired,
-  teamNames: PropTypes.array.isRequired,
-  teamTimer: PropTypes.string.isRequired
+  currTeam: PropTypes.string,
+  teamNames: PropTypes.array,
+  teamTimer: PropTypes.string,
+  twoScore: PropTypes.number,
+  oneScore: PropTypes.number,
+  currRound: PropTypes.number,
+  updateActiveCards: PropTypes.func.isRequired,
+  discardedCards: PropTypes.func.isRequired,
+  addCard: PropTypes.fun.isRequired,
+  teamOneScore: PropTypes.func.isRequired,
+  teamTwoScore: PropTypes.func.isRequired,
+  currentTeam: PropTypes.func.isRequired,
+  updateTeamTimer: PropTypes.func.isRequired,
+  currentRound: PropTypes.func.isRequired
 };
 
 export default connect(

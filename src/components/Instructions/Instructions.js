@@ -5,8 +5,6 @@ import * as actions from '../../actions/index';
 import './Instructions.css';
 
 export class Instructions extends Component {
-  componentDidMount() {}
-
   handleBackButton = e => {
     e.preventDefault();
 
@@ -81,11 +79,9 @@ export class Instructions extends Component {
   }
 }
 
-export const mapStateToProps = state => ({});
-
-export const mapDispatchToProps = dispatch => ({});
-
-Instructions.propTypes = {};
+Instructions.propTypes = {
+  history: PropTypes.object.isRequired
+};
 
 export default connect(
   mapStateToProps,

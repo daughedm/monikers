@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import PropTypes from 'prop-types';
 
 export class Card extends Component {
   constructor() {
@@ -50,6 +51,8 @@ export const mapStateToProps = state => ({
   activeCards: state.activeCards
 });
 
-Card.propTypes = {};
+Card.propTypes = {
+  activeCards: PropTypes.array
+};
 
 export default connect(mapStateToProps)(Card);
