@@ -13,12 +13,13 @@ export class Next extends Component {
   startTimer = e => {
     e.preventDefault();
     this.props.updateTeamTimer('counting');
+    this.props.countDown();
   };
 
   render() {
     const { currTeam, activeCards, teamNames } = this.props;
     let teamColor;
-    
+
     if (currTeam === teamNames[0]) {
       teamColor = { color: '#00B4EF'};
     } else {
@@ -60,7 +61,8 @@ Next.propTypes = {
   teamNames: PropTypes.array,
   activeCards: PropTypes.array,
   updateTeamTimer: PropTypes.func.isRequired,
-  currentTeam: PropTypes.func.isRequired
+  currentTeam: PropTypes.func.isRequired,
+  countDown: PropTypes.func.isRequired
 };
 
 export default connect(

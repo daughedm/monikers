@@ -19,6 +19,7 @@ export class Round extends Component {
     }
 
     this.props.updateTeamTimer('counting');
+    this.props.countDown();
   };
 
   shuffleCards = cards => {
@@ -93,7 +94,7 @@ export const mapDispatchToProps = dispatch => ({
   currentTeam: team => dispatch(actions.currentTeam(team)),
   currentRound: roundNumber => dispatch(actions.currentRound(roundNumber)),
   updateActiveCards: cards => dispatch(actions.updateActiveCards(cards)),
-  clearDiscardedCards: cards => dispatch(actions.clearDiscardedCards(cards))
+  clearDiscardedCards: cards => dispatch(actions.clearDiscardedCards(cards)),
 });
 
 Round.propTypes = {
@@ -107,7 +108,8 @@ Round.propTypes = {
   currentTeam: PropTypes.func.isRequired,
   currentTimer: PropTypes.func,
   updateActiveCards: PropTypes.func.isRequired,
-  clearDiscardedCards: PropTypes.func.isRequired
+  clearDiscardedCards: PropTypes.func.isRequired,
+  countDown: PropTypes.func.isRequired
 };
 
 export default connect(

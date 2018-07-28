@@ -36,8 +36,8 @@ export class Play extends Component {
 
   handleGotIt = e => {
     e.preventDefault();
-    const {currTeam, teamNames, activeCards, teamOneScore, 
-      teamTwoScore, discardedCards, updateActiveCards, currentRound, 
+    const {currTeam, teamNames, activeCards, teamOneScore,
+      teamTwoScore, discardedCards, updateActiveCards, currentRound,
       updateTeamTimer, currentTeam} = this.props;
 
     if (currTeam === teamNames[0]) {
@@ -151,7 +151,7 @@ Play.propTypes = {
   currRound: PropTypes.number,
   updateActiveCards: PropTypes.func.isRequired,
   discardedCards: PropTypes.func.isRequired,
-  addCard: PropTypes.fun.isRequired,
+  addCard: PropTypes.func.isRequired,
   teamOneScore: PropTypes.func.isRequired,
   teamTwoScore: PropTypes.func.isRequired,
   currentTeam: PropTypes.func.isRequired,
