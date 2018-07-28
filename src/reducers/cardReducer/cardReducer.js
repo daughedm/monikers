@@ -2,6 +2,8 @@ export const numCards = (state = -1, action) => {
   switch (action.type) {
   case 'NUM_OF_CARDS':
     return action.number;
+  case 'CLEAR_NUM_OF_CARDS':
+    return -1;
   default:
     return state;
   }
