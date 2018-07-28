@@ -53,6 +53,10 @@ export class Round extends Component {
 
     return (
       <div className="background-monikers">
+        <div className="flex">
+          <h5 className="scores blue">{teamNames[0]} : {teamOneScore}</h5>
+          <h5 className="scores purple">{teamNames[1]} : {teamTwoScore}</h5>
+        </div>
         <div className="round-transition">
           <h2 className="round-headline">{round}</h2>
           <div className="dashed-line" />

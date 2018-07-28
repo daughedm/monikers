@@ -1,6 +1,6 @@
 .round-transition {
   width: 85%;
-  margin: 25px auto;
+  margin: 40px auto 25px auto;
   background-color: #FFF;
   background-size: 75%;
   border-radius: 15px;
@@ -50,5 +50,34 @@
   -webkit-box-shadow: 0px 2px 12px 0px rgba(0,0,0,0.37);
   -moz-box-shadow: 0px 2px 12px 0px rgba(0,0,0,0.37);
   box-shadow: 0px 2px 12px 0px rgba(0,0,0,0.37);
+}
+
+.flex {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between; 
+  background-color: #FFF;
+}
+
+.scores {
+  display: inline-block;
+  margin: 15px auto 15px auto;
+  
+}
+
+.blue {
+  color: #00B4EF;
+  font-size: 1.1rem;
+  font-weight: 600;
+
+}
+
+.purple {
+  color: #866AAD;
+  font-size: 1.1rem;
+  font-weight: 600;
 }
 
