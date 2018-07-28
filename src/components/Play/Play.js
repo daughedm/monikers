@@ -17,7 +17,7 @@ export class Play extends Component {
     };
   }
 
-  handleGotIt = e => {
+  handleGotIt = async e => {
     e.preventDefault();
     const { activeCards, discardedCards, updateActiveCards } = this.props;
 
@@ -26,7 +26,7 @@ export class Play extends Component {
     const newCards = activeCards.slice(1);
     updateActiveCards(newCards);
 
-    this.updateScore();
+    await this.updateScore();
 
     if (activeCards.length === 1) {
       this.updateRound();
@@ -45,6 +45,7 @@ export class Play extends Component {
 
   countDown = () => {
     const { updateTeamTimer, currTeam, currentTeam, teamNames } = this.props;
+
     let count = 60;
     let timer = setInterval(() => {
       count--;
@@ -52,7 +53,7 @@ export class Play extends Component {
       if (count === 0) {
         updateTeamTimer('stopped');
         clearInterval(this.state.timer);
-        currTeam === this.props.teamNames[0]
+        currTeam === teamNames[0]
           ? currentTeam(teamNames[1])
           : currentTeam(teamNames[0]);
         clearInterval(timer);
@@ -91,17 +92,8 @@ export class Play extends Component {
     updateTeamTimer('stopped');
     clearInterval(this.state.timer);
 
-    console.log('%c oneScore: ', 'background: #000; color: #bada55', oneScore);
-    console.log('%c twoScore: ', 'background: #000; color: #bada55', twoScore);
-
     const determineCurrTeam =
       oneScore <= twoScore ? teamNames[0] : teamNames[1];
-
-    console.log(
-      '%c determineCurrTeam: ',
-      'background: #000; color: #bada55',
-      determineCurrTeam
-    );
 
     currentTeam(determineCurrTeam);
   };
