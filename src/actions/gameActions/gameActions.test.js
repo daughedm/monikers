@@ -1,5 +1,5 @@
 import {
-  getTeamNames,
+  addTeamNames,
   currentTeam,
   currentRound,
   teamOneScore,
@@ -8,21 +8,21 @@ import {
 } from './gameActions.js';
 
 describe('Game Actions', () => {
-  describe('getTeamNames', () => {
+  describe('addTeamNames', () => {
     it('has a type of TEAM_NAMES', () => {
       const teamName = ['team one', 'team two'];
 
-      const actual = getTeamNames(teamName);
+      const actual = addTeamNames(teamName);
 
       expect(actual).toEqual({
-        type: 'TEAM_NAMES',
+        type: 'ADD_TEAM_NAME',
         teamName
       });
     });
   });
 
-  describe("currentTeam", () => {
-    it("has a type of CURRENT_TEAM", () => {
+  describe('currentTeam', () => {
+    it('has a type of CURRENT_TEAM', () => {
       const teamName = 'team one';
 
       const actual = currentTeam(teamName);
@@ -34,8 +34,8 @@ describe('Game Actions', () => {
     });
   });
 
-  describe("currentRound", () => {
-    it("has a type of CURRENT_ROUND", () => {
+  describe('currentRound', () => {
+    it('has a type of CURRENT_ROUND', () => {
       const roundNumber = 2;
 
       const actual = currentRound(roundNumber);
@@ -47,8 +47,8 @@ describe('Game Actions', () => {
     });
   });
 
-  describe("teamOneScore", () => {
-    it("has a type of TEAM_ONE_SCORE", () => {
+  describe('teamOneScore', () => {
+    it('has a type of TEAM_ONE_SCORE', () => {
       const points = 33;
 
       const actual = teamOneScore(points);
@@ -60,8 +60,8 @@ describe('Game Actions', () => {
     });
   });
 
-  describe("teamTwoScore", () => {
-    it("has a type of TEAM_TWO_SCORE", () => {
+  describe('teamTwoScore', () => {
+    it('has a type of TEAM_TWO_SCORE', () => {
       const points = 70;
 
       const actual = teamTwoScore(points);
@@ -73,8 +73,8 @@ describe('Game Actions', () => {
     });
   });
 
-  describe("updateTeamTimer", () => {
-    it("has a type of UPDATE_TEAM_TIMER", () => {
+  describe('updateTeamTimer', () => {
+    it('has a type of UPDATE_TEAM_TIMER', () => {
       const teamTimer = 'stopped';
 
       const actual = updateTeamTimer(teamTimer);
