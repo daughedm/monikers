@@ -9,7 +9,7 @@ import Round from '../../components/Round/Round';
 import Next from '../../components/Next/Next';
 import Instructions from '../../components/Instructions/Instructions';
 import Loading from '../../components/Loading/Loading';
-import Finish from '../../components/Finish/Finish'
+import Finish from '../../components/Finish/Finish';
 import indexedDB from '../../indexedBD';
 import * as actions from '../../actions';
 import * as api from '../../api/api';
@@ -43,8 +43,6 @@ export class App extends Component {
   }
 }
 
-export const mapStateToProps = state => ({});
-
 export const mapDispatchToProps = dispatch => ({
   addCard: card => dispatch(actions.addCard(card)),
   addTeamNames: teamName => dispatch(actions.addTeamNames(teamName)),
@@ -58,7 +56,14 @@ export const mapDispatchToProps = dispatch => ({
   updateTeamTimer: teamTimer => dispatch(actions.updateTeamTimer(teamTimer))
 });
 
-App.propTypes = {};
+App.propTypes = {
+  addCard: PropTypes.func.isRequired,
+  addTeamNames: PropTypes.func.isRequired,
+  numOfCards: PropTypes.func.isRequired,
+  updateActiveCards: PropTypes.func.isRequired,
+  discardedCards: PropTypes.func.isRequired,
+  history: PropTypes.object.isRequired
+};
 
 export default withRouter(
   connect(

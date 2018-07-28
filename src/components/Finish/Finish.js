@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { withRouter } from 'react-router-dom';
+import PropTypes from 'prop-types';
 import * as actions from '../../actions';
 
 export class Finish extends Component {
@@ -46,6 +47,14 @@ export const mapStateToProps = state => ({
 export const mapDispatchToProps = dispatch => ({
   resetStore: () => dispatch(actions.resetStore())
 });
+
+Finish.propTypes = {
+  teamNames: PropTypes.array,
+  teamOneScore: PropTypes.number,
+  teamTwoScore: PropTypes.number,
+  resetStore: PropTypes.func.isRequired,
+  history: PropTypes.object.isRequired
+};
 
 export default withRouter(
   connect(

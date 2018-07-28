@@ -13,9 +13,6 @@ export class Next extends Component {
   startTimer = e => {
     e.preventDefault();
     this.props.updateTeamTimer('counting');
-    if (this.props.activeCards.length) {
-      this.props.countDown();
-    }
   };
 
   render() {
@@ -57,7 +54,14 @@ export const mapDispatchToProps = dispatch => ({
   currentTeam: team => dispatch(actions.currentTeam(team))
 });
 
-Next.propTypes = {};
+Next.propTypes = {
+  currRound: PropTypes.number,
+  currTeam: PropTypes.string,
+  teamNames: PropTypes.array,
+  activeCards: PropTypes.array,
+  updateTeamTimer: PropTypes.func.isRequired,
+  currentTeam: PropTypes.func.isRequired
+};
 
 export default connect(
   mapStateToProps,

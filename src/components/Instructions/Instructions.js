@@ -1,16 +1,12 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { connect } from 'react-redux';
-import * as actions from '../../actions/index';
 import './Instructions.css';
 
 export class Instructions extends Component {
-  componentDidMount() {}
-
   handleBackButton = e => {
     e.preventDefault();
 
-    this.props.history.push('/')
+    this.props.history.push('/');
   };
 
   render() {
@@ -81,13 +77,8 @@ export class Instructions extends Component {
   }
 }
 
-export const mapStateToProps = state => ({});
+Instructions.propTypes = {
+  history: PropTypes.object.isRequired
+};
 
-export const mapDispatchToProps = dispatch => ({});
-
-Instructions.propTypes = {};
-
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(Instructions);
+export default Instructions;

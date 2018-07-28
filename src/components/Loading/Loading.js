@@ -1,7 +1,4 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-import { connect } from 'react-redux';
-import * as actions from '../../actions';
 import logolockup from '../../assets/Monikers_logo_lockup-02.svg';
 import loadingGif from '../../assets/loading.svg';
 import './Loading.css';
@@ -11,7 +8,7 @@ export class Loading extends Component {
 
   render() {
     return (
-      <div className="loading"> 
+      <div className="loading">
         <img className="logo-lockup" src={logolockup}/>
         <img className="loading-gif" src={loadingGif}/>
 
@@ -20,13 +17,6 @@ export class Loading extends Component {
   }
 }
 
-export const mapStateToProps = state => ({});
-
-export const mapDispatchToProps = dispatch => ({});
-
 Loading.propTypes = {};
 
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(Loading);
+export default Loading;
