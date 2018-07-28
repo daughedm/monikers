@@ -13,7 +13,7 @@ import {
   discardedCards
 } from './cardReducer/cardReducer';
 
-const rootReducer = combineReducers({
+const appReducer = combineReducers({
   teamNames: teamNames,
   numCards: numCards,
   activeCards: activeCards,
@@ -24,5 +24,12 @@ const rootReducer = combineReducers({
   teamTwoScore: teamTwoScore,
   teamTimer: teamTimer
 });
+
+const rootReducer = (state, action) => {
+  if (action.type === 'RESET_STORE') {
+    state = undefined;
+  }
+  return appReducer(state, action);
+};
 
 export default rootReducer;

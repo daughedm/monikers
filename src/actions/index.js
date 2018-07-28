@@ -6,7 +6,8 @@ import {
   teamOneScore,
   teamTwoScore,
   updateTeamTimer,
-  addTeamNames
+  addTeamNames,
+  resetStore
 } from './gameActions/gameActions';
 
 import {
@@ -30,5 +31,6 @@ export {
   updateActiveCards,
   updateTeamTimer,
   numOfCards,
-  addTeamNames
+  addTeamNames,
+  resetStore
 };

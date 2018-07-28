@@ -27,3 +27,7 @@ export const updateTeamTimer = teamTimer => ({
   type: 'UPDATE_TEAM_TIMER',
   teamTimer
 });
+
+export const resetStore = () => ({
+  type: 'RESET_STORE'
+});
