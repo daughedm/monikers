@@ -31,11 +31,12 @@ export class Round extends Component {
   };
 
   render() {
-    const { teamNames, teamOneScore, teamTwoScore, currRound } = this.props;
+    const { teamNames, teamOneScore, teamTwoScore, currRound, currTeam } = this.props;
     const startingTeam =
       teamOneScore <= teamTwoScore ? teamNames[0] : teamNames[1];
     let roundDescription;
     let round;
+    let teamColor;
 
     if (currRound === 1) {
       roundDescription =
@@ -51,6 +52,12 @@ export class Round extends Component {
       round = 'Round Three';
     }
 
+    if (currTeam === teamNames[0]) {
+      teamColor = { color: '#00B4EF'};
+    } else {
+      teamColor = { color: '#866AAD'};
+    }
+
     return (
       <div className="background-monikers">
         <div className="flex">
@@ -63,7 +70,7 @@ export class Round extends Component {
           <p className="round-description">{roundDescription}</p>
           <div className="dashed-line" />
           {/* color changes between blue and red per team */}
-          <h3 className="starting-team">{startingTeam} Starts</h3>
+          <h3 className="starting-team" style={teamColor}>{startingTeam} Starts</h3>
           <button className="start-round-button" onClick={this.handleClick}>
             START ROUND
           </button>

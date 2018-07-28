@@ -19,12 +19,19 @@ export class Next extends Component {
   };
 
   render() {
-    const { currTeam, activeCards } = this.props;
+    const { currTeam, activeCards, teamNames } = this.props;
+    let teamColor;
+    
+    if (currTeam === teamNames[0]) {
+      teamColor = { color: '#00B4EF'};
+    } else {
+      teamColor = { color: '#866AAD'};
+    }
 
     return (
       <div className="background-monikers">
         <div className="team-transition">
-          <h2 className="current-team-headline">{currTeam}, your turn</h2>
+          <h2 className="current-team-headline" style={teamColor}>{currTeam}, your turn</h2>
           <p className="remaining-cards">
             {activeCards.length} Cards Remaining
           </p>
