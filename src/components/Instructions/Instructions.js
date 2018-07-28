@@ -12,7 +12,6 @@ const Instructions = props => {
   return (
     <div className="instructions">
       <h2 className="headline">GETTING STARTED</h2>
-
       <div className="dashed-line-instructions" />
       <p className="body-text">
         Monikers only takes about 5-10 minutes to learn. Start by dividing your
