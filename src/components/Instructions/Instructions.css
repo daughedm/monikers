@@ -17,7 +17,7 @@
 .headline {
   color:#00B4EF;
   text-align: center;
-  margin: 50px;
+  margin: 40px auto 25px auto;
 }
 
 .subtitle {
@@ -33,6 +33,7 @@
   margin: 0 0 10px 0;
   font-weight: 300;
   line-height: 1.4rem;
+  font-size: 0.9rem;
 }
 
 .last-paragraph {

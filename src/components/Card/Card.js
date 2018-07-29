@@ -37,7 +37,6 @@ export class Card extends Component {
         <h3 className="category" style={categoryColor}>
           {activeCards[0].category}
         </h3>
-        {/* this divs colors will change based on category */}
         <div className="circle" style={pointColor}>
           <h1 className="points">{activeCards[0].pointValue}</h1>
         </div>
