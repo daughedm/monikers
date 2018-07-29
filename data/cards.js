@@ -414,8 +414,7 @@ module.exports = [
     pointValue: 1
   },
   {
-    name: 'The lady who spilled coffee on herself',
-    description:
+    name: 'The lady who spilled coffee on herself',    description:
       "A 79-year—old woman who won a lawsuit against the world’s largest fast-food chain after spilling a scalding drink onto her lap while riding in her grandson's 1989 Ford Probe. It soaked into her sweat- pants, causing first-degree burns to her thighs, buttocks, and groin.",
     category: 'CELEBRITY',
     pointValue: 4
@@ -2076,8 +2075,1246 @@ module.exports = [
       'A creature comprised of multiple rodents knotted at the tail, while specimens exist in museums of curiosities, it is unlikely to ever have existed. It is also the name of a character from the Teenage Mutant Ninja Turtles franchise who exerts a telepathic influence over rodents.',
     category: 'ET CETERA',
     pointValue: 3
+  },
+
+  {
+    name: "An Unstoppable Force",
+    description:
+      'One half of a famous paradox that asks what would happen if a thing that cannot be stopped encounters a thing that cannot be moved.',
+    category: 'ET CETERA',
+    pointValue: 3
+  },
+  {
+    name: "A Never Nude",
+    description:
+      'The popular term for a gymnophobic, a person who fear nakedness. The condition was satirized on the show Arrested Development, where the character Tobias Funke would wear cutoff jean shorts at all times. As of 2014, the condition is still not recognized by the DSM.',
+    category: 'ET CETERA',
+    pointValue: 3
+  },
+  {
+    name: "Icarus",
+    description:
+      'An mythical figure in Ancient Greece, who along with his father Daedalus, escape from the Labyrinth with wax wings. He is    warned not to fly too high or too low. Ignoring the warning, the sun melts the wax and he plummets into the sea.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 2
+  },
+  {
+    name: "Kate Bush",
+    description:
+      'An English musician known for her idiosyncratic vocal delivery, literary sensibility, hit singles such as "Wuthering Heights" and "Babooshka." One of her Karate instructors has noted that many of her dance moves owe a debt to her martial arts training.',
+    category: 'CELEBRITY',
+    pointValue: 3
+  },
+  {
+    name: "A Juggalo",
+    description:
+      'A fan of the Insane Clown Posse. These individuals gather in the  woods each year for an annual "Gathering." where they celebrate their shared culture of wrestling, drinking Faygo soda, painting their faces. and listening to horrible, horrible, horrible music.',
+    category: 'ET CETERA',
+    pointValue: 3
+  },
+  {
+    name: "A Child Soldier",
+    description:
+      'A term for a young person involved in armed conflicts, either voluntarily or involuntarily. International conventions exist to limit this activity, yet it remains a widespread practice, with 200,000 to 300,000 young people currently serving in  either rebel and government forces.',
+    category: 'ET CETERA',
+    pointValue: 3
+  },
+  {
+    name: "A Cyberbully",
+    description:
+      'A person who uses social media to launch personal attacks, rumors, or embarrassing photos or videos. Victims have been known to take their own life. Rebecca Black claims to have been a victim after receiving many hateful comments on the YouTube page for her song "Friday."',
+    category: 'ET CETERA',
+    pointValue: 3
+  },
+  {
+    name: "A Doomsday Prepper",
+    description:
+      'The subject of a reality TV show, these individuals plan for their survival following the breakdown of civilization. They likely have a cache of weapons, canned goods for making "bunker stew,” and a belief that drinking one’s own purified urine is not that big of a deal.',
+    category: 'ET CETERA',
+    pointValue: 3
+  },
+  {
+    name: "The Robber from Settlers of Catan",
+    description:
+      'A piece from the 1995 board game by Klaus Teuber. In the game\'s lore, it is the fictional island\'s most villainous character. Beginning on the desert hex, it soon begins stealing cards and siphoning resources at the direction of any player who roll a 7.',
+    category: 'ET CETERA',
+    pointValue: 4
+  },
+  {
+    name: "Werner Herzog",
+    description:
+      'A German director, whose films often feature his own philosophical narration ("I believe the common denominator of the universe is not harmony. but chaos, hostility, and murder.”) He was once shot with an air rifle during an interview and continued as if nothing happened.',
+    category: 'CELEBRITY',
+    pointValue: 3
+  },
+  {
+    name: "David Hasselhoff",
+    description:
+      'An actor and musician who starred in Knight Rider and Baywatch. His daughter once recorded a video of him, shirtless and drunk, trying to eat a hamburger on the ﬂoor of a Las Vegas hotel room, while she lectured him on the importance of  sobriety. Germans love him.',
+    category: 'CELEBRITY',
+    pointValue: 1
+  },
+  {
+    name: "Marie Antoinette",
+    description:
+      'The Queen of France, who was guillotined during the French Revolution. Her last words were "Pardon me sir, I meant not to do it.” after stepping on her executioner\'s foot. There is no evidence that she spoke the phrase most associated with her. "Let them eat cake."',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 2
+  },
+  {
+    name: "Dolph Lundgren",
+    description:
+      'An actor, director, martial artist. and chemical engineer. He played Ivan Drago in Rocky IV and He-Man opposite Frank Langella. After earning his masters degree, he turned down a Fulbright Scholarship to MIT to become Grace Jones\'s bodyguard.',
+    category: 'CELEBRITY',
+    pointValue: 3
+  },
+  {
+    name: "Right Said Fred",
+    description:
+      'A London—based band formed by the Fairbrassin brothers in 1989, who are famous for their hit, "I\'m Too Sexy.” which pokes fun at the fashion industry with such notable lines as “Yeah on the catwalk, yeah / I shake my little tush on the catwalk."',
+    category: 'CELEBRITY',
+    pointValue: 3
+  },
+  {
+    name: "Your Own Shadow",
+    description:
+      'The two dimensional silhouette caused by your body blocking a light source. Peter Pan\'s famously ran away from him. Some particularly cowardly people are afraid of them.',
+    category: 'ET CETERA',
+    pointValue: 3
+  },
+  {
+    name: "The Jesus",
+    description:
+      'An amateur bowler and alleged pederast in the Coen Brothers film The Big Lebowski. Played by John Turturro, he speaks with a heavy Cuban accent, paints his pinky fingers red, wears a hairnet, refers to himself in the third person, and is not to be fucked with.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 3
+  },
+  {
+    name: "A Flautist",
+    description:
+      'A musician who performs using a reedless wind instrument. First used in 1860. this term is sometimes considered dated among players of the instrument. Notable performers include Sir James Galway, Jethro Tull‘s Ian Anderson, and Michelle Flaherty from American Pie.',
+    category: 'ET CETERA',
+    pointValue: 3
+  },
+  {
+    name: "A Coke Mule",
+    description:
+      'A person who smuggles illicit drugs across national borders. While methods vary. one involves swallowing latex balloons filled with the substance, which is later recovered in their feces. Detection of this method is difficult and is often only found on x-ray.',
+    category: 'ET CETERA',
+    pointValue: 3
+  },
+  {
+    name: "Greg Louganis",
+    description:
+      'A diver who hit his head on the board during the 1988 Olympic Games. It was later revealed that he was HIV positive at the time, though there was no chance of other athletes contracting the disease from the chlorinated water. Mario Lopez played him in a 1997 biopic.',
+    category: 'CELEBRITY',
+    pointValue: 3
+  },
+  {
+    name: "General Butt Naked",
+    description:
+      'A former leader for the Liberian warlord Roosevelt Johnson. He claimed that before battle "we would get drunk and drugged up,sacrifice a teenager, drink the blood, then strip down to our shoes and go into battle wearing colorful wigs and carrying imaginary purses."',
+    category: 'CELEBRITY',
+    pointValue: 3
+  },
+  {
+    name: "The Ego",
+    description:
+      'One of the the three parts of Sigmund Freud\'s model of the psyche that constitute mental life. It plays an executive function, mediating between raw instinct and external reality, such as your ability to delay immediate pleasure for long term objectives.',
+    category: 'ET CETERA',
+    pointValue: 3
+  },
+  {
+    name: "A Pufferfish",
+    description:
+      'One of the most infamous and deadly culinary dishes. Known as Fugu in Japan, its preparation is strictly controlled, because its liver, ovaries, and eyes contain fatal levels of tetrodotoxin. These areas must be carefully removed to avoid asphyxiation and death.',
+    category: 'ET CETERA',
+    pointValue: 3
+  },
+  {
+    name: "Nyan Cat",
+    description:
+      'A cartoon feline with the body of a Pop-Tart. It is depicted flying in space with a rainbow trail, accompanied by an upbeat song with the Japanese word for "Meow" as its lyrics. A popular variation has users syncing the video to Slipknot‘s song "Psychosocial."',
+    category: 'FICTIONAL CHARACTER ',
+    pointValue: 3
+  },
+  {
+    name: "A Manic Pixie Dream Girl",
+    description:
+      'Described by Nathan Rabin as a "bubbly, shallow creature that exists solely in the imaginations of sensitive writer—directors to teach young men to embrace life and its infinite mysteries.” Examples include Natalie Portman in Garden State and Zooey Deschanel in everything.',
+    category: 'ET CETERA',
+    pointValue: 3
+  },
+  {
+    name: "Ms. Pac-Man",
+    description:
+      'The hero of a 1982 arcade game, who navigates mazes and eats pellets, power pellets. and fruit while avoiding ghosts. One of gaming‘s first female protagonists, the only visible difference between her and her male counterpart is a pixelated red bow.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 2
+  },
+  {
+    name: "Pharell’s hat",
+    description:
+      'The infamous head covering of the rapper, producer, and guest performer on "Blurred Lines.” Created for Vivienne Westwood\'s 1982-1983 collection, it was inspired by "Peruvian women wearing bowler hats, full skirts, dancing with their babies tied on their back."',
+    category: 'CELEBRITY',
+    pointValue: 3
+  },
+  {
+    name: "A Blue Man",
+    description:
+      'A member of a music collective starring a trio of humanoids played by musicians wearing bald caps and makeup. To meet demand, dozens of new performers have been recruited, a process satirized on the show Arrested Development with the would-be recruit Tobias Filnke.',
+    category: 'ET CETERA',
+    pointValue: 3
+  },
+  {
+    name: "A Basic Bitch",
+    description:
+      'A putdown that describes a woman with a dull personality or lack of style. The term originated in hip hop and was featured in a comedy sketch of a doctor diagnosing the condition, which includes symptoms such as owning scented candles and ordering Pumpkin Spice lattes.',
+    category: 'ET CETERA',
+    pointValue: 3
+  },
+  {
+    name: "A Bottom",
+    description:
+      'In gay culture, a person who prefers penetration during intercourse, usually through the anus. A survey of nearly 56,000 profiles on gay.com found that 32% of US respondents preferred bottom, 26% preferred top, and 42% preferred the versatile role.',
+    category: 'ET CETERA',
+    pointValue: 3
+  },
+  {
+    name: "A Nigerian Prince",
+    description:
+      'A West African practitioner of a "419 scam," otherwise known as advance—fee fraud. Victims receive email messages from a person claiming to be displaced royalty who needs their help transferring funds out of their country in exchange for future payment.',
+    category: 'ET CETERA',
+    pointValue: 3
+  },
+  {
+    name: "MySpace Tom",
+    description:
+      'Cofounder of the world‘s most popular social networking site-before Facebook. He became instantly recognizable because all users who joined the site would automatically "friend" him. He sold the site for $580M to Rupert Murdoch\'s News Corporation.',
+    category: 'CELEBRITY',
+    pointValue: 3
+  },
+  {
+    name: "Sinéad O’Connor",
+    description:
+      'An Irish musician who sought controversy on many occasions, most famously on a 1992 episode of SNL. where she protested the  Catholic church\'s sexual abuse scandal by tearing up a photo of Pope John Paul II and saying "Fight the real enemy."',
+    category: 'CELEBRITY',
+    pointValue: 3
+  },
+  {
+    name: "Afro Ninja",
+    description:
+      'The star of one of the first viral videos. In an audition, he planned to do a backflip followed by a display of nunchuck skills. Suffering from jet lag, he fell flat on his face, staggered to his feet, and while still attempting to showcase his nunchuck skills, stumbled off screen.',
+    category: 'CELEBRITY',
+    pointValue: 3
+  },
+  {
+    name: "A Cosplayer",
+    description:
+      'A costumed roleplayer who appears in public as a fictional character. Dress is often inspired by manga, anime. comic books, video games, and films—really anything from nerd culture. While not synonymous, there is some overlap with LARPers, Furries. and reenactors.',
+    category: 'ET CETERA',
+    pointValue: 4
+  },
+  {
+    name: "David After Dentist",
+    description:
+      'The 7-year—old star of a YouTube video where he deals with the effects of anesthesia. The child asks of his amused clad. "Is this real life" and fearfully demands to know whether it\'s "going to be forever" after observing that he feels funny and that his father has four eyes.',
+    category: 'CELEBRITY',
+    pointValue: 3
+  },
+  {
+    name: "Steve Irwin, the Crocodile Hunter",
+    description:
+      'An Australian conservationist and media personality known for his khaki shorts, accent, and trademark expression "Crikey.” He was killed in 2006 by a stingray striking him in his lungs and heart with its barb during the filming of a documentary titled Ocean‘s Deadliest.',
+    category: 'CELEBRITY',
+    pointValue: 2
+  },
+  {
+    name: "A nOOb",
+    description:
+      'A term for a beginner or novice at an activity, often used in reference to internet activity, such as online gaming or computer hacking. The term is spelled using Ieetspeak, the alphabet that uses alternative ASCII characters as a replacement for Latin letters.',
+    category: 'ET CETERA',
+    pointValue: 3
+  },
+  {
+    name: "An Eager Beaver",
+    description:
+      'An idiom for an extremely enthusiastic or hard working person that supposedly originated among Canadian soldiers in World War II. The term derives from the aquatic, dam-building rodents, who terraformed much of North America with their wooden tructures.',
+    category: 'ET CETERA',
+    pointValue: 3
+  },
+  {
+    name: "Dick Armey",
+    description:
+      'Texas who was an important part of the Republican Revolution of the 90s and one of the co—creators of the infamous Contract with America. But for the purposes of this game, he really just has a very funny name.',
+    category: 'CELEBRITY',
+    pointValue: 3
+  },
+  {
+    name: "Cindy Sherman",
+    description:
+      'A photographer and filmmaker, whose work often portrays herself in a series of costumes ranging from simple to outlandish. Through her photography, she is thought to be calling attention to the representation of women in society, media, and the arts.',
+    category: 'CELEBRITY',
+    pointValue: 4
+  },
+  {
+    name: "Punxsutawney Phil",
+    description:
+      'A clairvoyant Pennsylvania groundhog, who uses the appearance of his own shadow to predict whether spring will arrive early or whether there will be six more weeks of winter. His predictions have been correct 39% of the time, less than random guessing.',  
+    category: 'CELEBRITY',
+    pointValue: 2
+  },
+  {
+    name: "Keyboard Cat",
+    description:
+      'The internet moniker of Fatso, a feline wearing a blue shirt and being manipulated to look like she was playing an instrument. The performance dates back to 1984, meaning that while she is Iong-dead, she continues to "play off" millions.',
+    category: 'CELEBRITY',
+    pointValue: 3
+  },
+  {
+    name: "Dolly the Sheep",
+    description:
+      'The first mammal to be cloned from an adult stem cell. Taken from a mammary gland, she proved that a cell from a specific body part could be used to replicate a new individual. She died at 6.5 years old of progressive lung disease, which is fairly common to her species.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 2
+  },
+  {
+    name: "Little Mikey",
+    description:
+      'A boy from a Quaker Oats TV commercial that ran for over 12 years, beginning in 1972. The character spawned an urban legend  that the actor from the commercial. John Gilchrist, died from ingesting a lethal combination of Pop Rocks and soda. He did not.',
+    category: 'CELEBRITY',
+    pointValue: 3
+  },
+  {
+    name: "Michael J. Fox",
+    description:
+      'An actor who played Marty McFly in the Back to the Future franchise and the Reaganite Alex P. Keaton on Family Ties. In 2000,he semi—retired due to a Parkinson\'s disease diagnosis, but he continues to act and is an outspoken advocate for others with the disease.',
+    category: 'CELEBRITY',
+    pointValue: 1
+  },
+  {
+    name: "Jackson Galaxy",
+    description:
+      'A cat behaviorist, MFA, and host of the TV show My Cat from Hell. In the show, he is depicted as a traveling rock star who helps pet owners solve issues like scratching, peeing, and territorial behavior. He employs an idiosyncratic set of strategizes to befriend cats.',
+    category: 'CELEBRITY',
+    pointValue: 3
+  },
+  {
+    name: "Benjamin Button",
+    description:
+      'The title character who ages in reverse from a short story by F. Scott Fitzgerald and film adaptation by David Fincher. He is born as a 70-year-old man capable of speech and as time passes, grows younger instead of older.',
+    category: 'FICTIONAL',
+    pointValue: 2
+  },
+  {
+    name: "The Elephant Man",
+    description:
+      'The stage name of Joseph Merrick, an Englishman with severe deformities who was exhibited as a freak before befriending a doctor who took him in and gave him a relatively good life. He loved theater and collected flowers. David Lynch made a biopic loosely based on him.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 2
+  },
+  {
+    name: "Goose",
+    description:
+      'The best friend, wingman, homoerotic volleyball partner, and Radar Intercept Officer for Maverick in the film Top Gun. Played by Anthony Edwards, he was tragically killed during a training exercise when he broke his neck ejecting from a F-14 aircraft.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 3
+  },
+  {
+    name: "The Lawnmower Man",
+    description:
+      'A simple-minded gardener from a Stephen King short story and film adaptation. He gains telepathic powers by being forced to play weird 90s virtual reality games. He eventually escapes capture by converting hi5 consciousness into pure energy.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 3
+  },
+  {
+    name: "Aaron Burr",
+    description:
+      'The 3rd Vice President of the US, who shot Alexander Hamilton in a duel. He was famously the answer to question posed in a 1993 commercial directed by Michael Bay for the Got Milk? campaign, where a historian is unable to answer because his mouth is clogged with peanut butter.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 2
+  },
+  {
+    name: "Nicolas Cage",
+    description:
+      'An actor known for his range, prolific work ethic, and self described "Nouveau Shamanic” acting style. Appearing in such films as Moonstruck, Adaptation, and Bad Lieutenant: Port of Call New Orleans, he is known for his manic, non-naturalistic performances.',
+    category: 'CELEBRITY',
+    pointValue: 2
+  },
+  {
+    name: "Commander William T. Riker",
+    description:
+      'The Enterprise\'s first officer on Star Trek: The Next Generation. He is referred to as “Number One” by Captain Picard and often sits down by whipping one leg over the back of a chair. An unofficial Twitter account documents his perverted Google search history.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 3
+  },
+  {
+    name: "The Zodiac Killer",
+    description:
+      'A serial murderer whose identity is still unknown. His name is a reference to letters sent by him to newspapers that included a 408 character cipher, which he claimed revealed his identity. In one possible decoding, he claims that his victims will be his slaves in the afterlife.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 4
+  },
+  {
+    name: "Miss Havisham",
+    description:
+      'The original spinster from the novel Great Expectations. On the day of her wedding, she discovered that she had been defrauded by her betrothed. Heartbroken. from that day she lived alone in her mansion, shunned company, and never removed her wedding dress.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 3
+  },
+  {
+    name: "Quetzalcoatl",
+    description:
+      'An ancient Mesoamerican god and flying reptile whose name means "feathered serpent.” It has been claimed since the 16th century that Aztec leader Montezuma II believed the appearance of Spanish conquistador Herna’n Cortes signaled his return.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 3
+  },
+  {
+    name: "E. Honda",
+    description:
+      'A sumo wrestler from the Street Fighter video game series. His character possesses above—average strength but below—average speed, except when executing his Hundred Violent Sumo Hands move, commonly known as the Hundred Hand Slap. His blood type is A.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 2
+  },
+  {
+    name: "Bees!",
+    description:
+      'Flying, communal insects that are found on every continent except Antarctica. They often live in large hives knows as colonies, with a queen, workers, and drones. Many species of these produce honey, which humans harvest in a series of hives known as an apiary.',
+    category: 'ET CETERA',
+    pointValue: 3
+  },
+  {
+    name: "Mother Brain",
+    description:
+      'The antagonist of the Metroid video game franchise. She is typically depicted as a brain in a vat with spikes and a single eyeball, though she sometimes transforms into a bipedal monster that looks kind of like an old lady. She also appeared in the Captain N cartoon series.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 3
+  },
+  {
+    name: "Carlton Banks",
+    description:
+      'The Fresh Prince of BeI-Air\'s cousin and Uncle Phil’s heir. Played by Alfonso Ribeiro. he is depicted as a preppy young Republican. who is probably best known for his spazzy dance to Tom Jones\'s song "It\'s Not Unusual" and being slapped on the back of the head.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 3
+  },
+  {
+    name: "Gizmo",
+    description:
+      'A fuzzy pet from the Gremlins horror-comedy franchise. His owners were implored by Mr. Wing to follow three simple rules in caring for their Mogwai: (1) Do not expose him to bright light; (2) Do not get him wet; and (3) Do not feed him after midnight.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 3
+  },
+  {
+    name: "Balki Bartokomous",
+    description:
+      'A character from the sitcom Perfect Strangers. He is a rustic from the island of Mypos. who Cousin Larry acclimates to big city Chicago. Features of the character include celebrating with the "dance of joy" and exclaiming "Don‘t be ridiculous" when it is he who is being ridiculous.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 3
+  },
+  {
+    name: "Slender Man",
+    description:
+      'A character and internet meme that stalks children. often shown as a tall figure in a gray suit with a featureless face. He allegedly inspired two 12-year-old Wisconsin girls to stab a classmate 19 times. One claimed that he watches her. can read minds, and can teleport.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 3
+  },
+  {
+    name: "Manti Te'o’s girlfriend",
+    description:
+      'The fictional. deceased paramour of the Notre Dame linebacker, who had supposedly died the same day as his grandmother. When it was revealed that the woman (aka Lennay Kekua aka Ronaiah Tuiasosopo) never existed, he was forced to admit that he had been catfished.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 3
+  },
+  {
+    name: "Greedo",
+    description:
+      'A bounty hunter from the Star Wars franchise. In the original 1977 version of his confrontation with Han Solo at Chalmun\'s Spaceport Cantina. Han shoots and kills him before he fires a shot. In the film‘s rerelease, he takes the first shot and misses, leading to the meme "Han shot first.”',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 3
+  },
+  {
+    name: "A Freckleface",
+    description:
+      'A schoolyard taunt that calls attention to a person with a fair complexion that possesses clusters of darker spots comprised of concentrated melanin on the front surface of their head. The condition is exacerbated by exposure to the sun.',
+    category: 'ET CETERA',
+    pointValue: 3
+  },
+  {
+    name: "Stefon",
+    description:
+      'A guest correspondent on SNL‘s Weekend Update. He recommends New York\'s hottest clubs, followed by a description of their outlandish patrons like Black George Washington, sunburned drifters with soap sud beards, sherpas, and guys with afros in graduation caps.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 3
+  },
+  {
+    name: "Godot",
+    description:
+      'The title character of Samuel Beckett’s absurdist play, who Vladimir and Estragon wait for. Beckett claimed that his name derived from the French slang term for boot. Americans typically mispronounce the name by emphasizing its second syllable.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 3
+  },
+  {
+    name: "Colonel Angus",
+    description:
+      'A character from an SNL skit played by Christopher Walken. The humor is derived from the character\'s gag name that refers to performing oral sex on a woman, e.g. "Sometimes [he] just rubs you the wrong way" and his stated preference for the Deep South.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 3
+  },
+  {
+    name: "Chris Hadfield",
+    description:
+      'A Canadian astronaut who became the face of NASA while commanding the ISS in 2013. He has a vast social media following, one of the most popular Reddit AMAs of all time, and a hit YouTube video of him covering Bowie\'s "Space Oddity" while literally in space.',
+    category: 'CELEBRITY',
+    pointValue: 3
+  },
+  {
+    name: "Admiral Ackbar",
+    description:
+      'A fish-like humanoid who commanded the Rebel Alliance‘s fleet in Star Wars: Episode Vl. He planned a sneak attack on the second Death Star as it orbited the forest moon of Endor. Imperial forces knew of the impending assault, leading to his iconic line "It’s a trap!"',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 3
+  },
+  {
+    name: "Stephen Hawking",
+    description:
+      'A theoretical physicist and cosmologist who made major contributions to the field of general relativity. He has a motor neuron disease that leaves him almost entirely paralyzed. He communicates exclusively through a speech generating device.',
+    category: 'ET CETERA FICTIONAL CHARACTER CELEBRITY HISTORICAL FIGURE',
+    pointValue: 1
+  },
+  {
+    name: "Florida Man",
+    description:
+      'The combined exploits of folks from the Sunshine State, collected in a popular Twitter profile. Examples include someone who "Disguises Himself As \'The Sun\'. Steals Logo Towel" and someone who “Accidentally Shoots Himself in the Head While Celebrating New Year\'s Eve."',
+    category: 'ET CETERA',
+    pointValue: 3
+  },
+  {
+    name: "Raskolnikov",
+    description:
+      'The lead character in Dostoyevsky\'s novel Crime and Punishment. Impoverished in St. Petersburg, he murders a pawnbroker with an axe, which he justifies through a theory that some people have the right to commit murder. He confesses his crime and is exiled to Siberia.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 3
+  },
+  {
+    name: "Duck Hunt Dog",
+    description:
+      'Your canine companion in an NES game where you used the system’s Zapper light gun to shoot waterfowl as they emerge from bushes. While ostensibly meant to be to fetch your kills. this character‘s primary role was to laugh at your pitiful performance.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 3
+  },
+  {
+    name: "King Hippo",
+    description:
+      'A boxer from Nintendo‘s Punch—Outll franchise. He is depicted as an obese, tan, large-mouthed man wearing a crown and boxer shorts. He wears two bandages in an X pattern over his navel, suggesting his weak point. He cannot recover from being knocked down.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 3
+  },
+  {
+    name: "Hester Prynne",
+    description:
+      'The protagonist of Nathaniel Hawthorne\'s The Scarlet Letter. Set in 17th century New England, she has an affair and conceives a child with the minister of her church. After being found guilty of adultery. she is forced to wear a scarlet "A" on her dress as a signal of shame.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 3
+  },
+  {
+    name: "The Last Unicorn",
+    description:
+      'The single-horned title character from an 805 animated film, who discovers that she is the only remaining member of her species. Voiced by Mia Farrow. she is pursued by a creature called the Red Bull. Defeating him, she returns her kind back into the world.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 4
+  },
+  {
+    name: "Not a Dick",
+    description:
+      'A person who avoids acting like an inconsiderate jerk. Or anything in the world outside the slang word for male genitalia. Or a person who goes by any other name than the nickname for Richard.',
+    category: 'ET CETERA',
+    pointValue: 3
+  },
+  {
+    name: "Samson",
+    description:
+      'A Biblical hero and proto-suicide bomber, who once slew an entire army with the jawbone of an ass. God commanded him not to cut his hair, but his lover Delilah was bribed into shaving it. leading to his imprisonment, blinding, and suicide by pulling down a Philistine temple.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 3
+  },
+  {
+    name: "A Highlander",
+    description:
+      'An immortal, broadsword-wielding character from an 805 action film. The film\'s tagline, "There can be only one." refers to a contest to gain each other’s power and knowledge through defeating and then beheading their rivals in a duel—a process referred to as Quickening.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 2
+  },
+  {
+    name: "Rasputin",
+    description:
+      'A Russian occultist and advisor to Tsar Nicolas II, who wielded extraordinary power over the Romanov family. He was assassinated by a group of nobles in 1916, and his body was recovered from the Neva River having been poisoned, shot, beaten. and drowned.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 3
+  },
+  {
+    name: "David Foster Wallace",
+    description:
+      'A writer best known for his novel Infinite Jest and essays on American culture.‘ Suffering from depression, 2 he hanged himself in 2008 after ceasing to take the antidepressant phenelzine.',
+    category: 'CELEBRITY',
+    pointValue: 4
+  },
+  {
+    name: "Dr. Zaius",
+    description:
+      'An orangutan from the Planet of the Apes. Living in the East Coast Ape City during the 40th century, he paradoxically serves as Minister of Science and Chief Defender of the Faith. He was immortalized in a song from The Simpsons that parodies Falco‘s "Rock Me Amadeus."',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 3
+  },
+  {
+    name: "Marcel Marceau",
+    description:
+      'The most famous mime in history, who frequently performed under the name Bip the Clown. He referred to his craft as "the art of silence," creating many of the quintessential mime performances, including Walking in the Wind and Trapped in a Box.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 3
+  },
+  {
+    name: "A Honey Badger",
+    description:
+      'An animal, native to South Africa and related to the weasel, made popular by a YouTube video narrated by "Randall." This animal is now almost always described as "Badass" and "Cra-zy." Furthermore, it’s often noted that this animal don’t care or really doesn‘t give a shit.',
+    category: 'ET CETERA',
+    pointValue: 3
+  },
+  {
+    name: "Sneezing Baby Panda",
+    description:
+      'The subject of a viral video first uploaded on YouTube in 2006 and emblematic of cute culture. It stars a mother and infant from the fuzzy, bear-Iike species. The infant expels air from its nose to the surprise of the mother. The video has been viewed more than 200 million times.',
+    category: 'CELEBRITY',
+    pointValue: 3
+  },
+  {
+    name: "Howard Hughes",
+    description:
+      'A business magnate and aviator, who set world air speed records and created the failed "Spruce Goose." He suffered from extreme germophobia and 0CD. leading to rumors of him refusing to cut his hair, wearing tissue boxes as shoes, and storing his urine in jars.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 3
+  },
+  {
+    name: "Ham",
+    description:
+      'One of Noah’s sons from the Hebrew Bible, who was allegedly cursed in the Book of Genesis for seeing "the nakedness of his father" after Noah had passed out drunk in a tent. Because his name translates to black or burnt, this curse was later used to explain dark skin pigmentation.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 3
+  },
+  {
+    name: "Brian Boitano",
+    description:
+      'A figure skater who won Olympic gold in 1988, but is perhaps now most famous as a semi-recurring character in the South Park franchise. In their feature film, the boys parody him as inspirational figure with a song that references “What Would Jesus Do?"',
+    category: 'CELEBRITY',
+    pointValue: 1234
+  },
+  {
+    name: "Lisa “Left Eye” Lopes",
+    description:
+      'A member of TLC who died in a car crash days after her chauffeur killed a boy walking on the side of the road. She wore glasses with a condom covering one of the lenses, and burned down her own mansion by setting fire to her abusive boyfriend\'s shoes.',
+    category: 'CELEBRITY',
+    pointValue: 2
+  },
+  {
+    name: "Royal Tenenbaum",
+    description:
+      'The patriarch of Wes Anderson’s 2001 film about an eccentric, troubled New York family. Played by Gene Hackman, he is a disbarred lawyer, former convict, unapologetic racist, absentee father, and 17-year resident of the Lindbergh Palace Hotel.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 3
+  },
+  {
+    name: "Archimedes",
+    description:
+      'most famous for determining the volume of objects with irregular shapes. The legend is that he solved the problem after noticing the level of the water change during a bath. He sprung out naked and took to the streets shouting "Eureka!"',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 3
+  },
+  {
+    name: "Lady Godiva",
+    description:
+      'A noble who rode naked on a horse through the streets of Coventry in order to relieve the town of the excessive taxation of her husband. She asked all residents to stay home and shut their windows. Only a tailor disregarded her order, who became known as Peeping Tom.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 3
+  },
+  {
+    name: "The Earl of Sandwich",
+    description:
+      'The title of John Montagu, the 18th century British noble who invented using two slices of bread as a wrapper for food. The legend is that he was an avid gambler who did not have time for meals between card games, so would have servants bring him meat between slices of bread.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 3
+  },
+  {
+    name: "Carl Sagan",
+    description:
+      'An astronomer and public intellectual best known for hosting the PBS series Cosmos. He is easily identified by his strange vocal delivery of words like "billions." He was also responsible for curating the Pioneer plaque and the Golden Record for the Voyager spacecraft.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 3
+  },
+  {
+    name: "Jacob the Jeweler",
+    description:
+      'Purveyor of bling to the rich and famous. He supplied Kanye West\'s Jesus Piece—and was asked by Kanye, in "Diamonds from Sierra Leone" not to lie about the source of his diamonds. He was sentenced to prison for his connection to the Detroit-based Black Mafia Family.',
+    category: 'CELEBRITY',
+    pointValue: 4
+  },
+  {
+    name: "LeVar Burton",
+    description:
+      'An actor who played the blind, VlSOR-wearing Chief Engineer Geordi La Forge on Star Trek: The Next Generation. He is also the driving force behind Reading Rainbow. which recently raised slightly more than Monikers on Kickstarter ($5.4M).',
+    category: 'CELEBRITY',
+    pointValue: 2
+  },
+  {
+    name: "Zelda Fitzgerald",
+    description:
+      'A Jazz Age novelist and wife of the author of The Great Gatsby, who described her as the "first American Flapper." They were also one of the first celebrity couples of the 20th century, and their marriage was notorious for its alcoholism,recriminations, and instability.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 3
+  },
+  {
+    name: "Harriet Tubman",
+    description:
+      'An escaped slave who became a prominent abolitionist and spy during the Civil War. She rescued more than 70 slaves with the help of the Underground Railroad, earning her the nickname "Moses." Later in her life she became a prominent figure in the suffrage movement.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 3
+  },
+  {
+    name: "The Prophet Muhammad (PBUH)",
+    description:
+      'The religious figure who unified the Arabian Peninsula under Islam. He claimed to have received a revelation from God in a cave and began preaching a new religion. Visual depictions of Muhammad usually show him with a veiled face or represented as a flame.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 3
+  },
+  {
+    name: "Charles Ponzi",
+    description:
+      'A con man whose name is synonymous with a famous scam where a swindler pays returns to investors using money paid by new investors. He made millions using this technique, and after spending time in prison, he fled to Florida and sold swampland as valuable real estate.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 3
+  },
+  {
+    name: "Uncle Ben",
+    description:
+      'The actually pretty racist mascot of a top-selling rice brand. Wearing a tuxedo and bow tie. this character’s name references a term commonly used in the American South to denote older male servants. In 2007, the company "promoted" the character to chairman of the board.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 2
+  },
+  {
+    name: "Dick Cheney’s pacemaker",
+    description:
+      'The device regulating the heart rhythms of the 46th Vice President of the US, who was infamous for expanding the powers of his office as well as shooting his best friend in the face. He had its wireless services disabled to prevent terrorists from  potentially interfering with it.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 3
+  },
+  {
+    name: "Frida Kahlo",
+    description:
+      'A Mexican painter and feminist icon known for her vivid, tropical seIf-portraits. She is easily identified by her prominent unibrow. She was married to Mexican painter Diego Rivera, but had numerous affairs with men and women, including Josephine Baker.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 3
+  },
+  {
+    name: "Mrs. O’Leary’s Cow",
+    description:
+      'The farm animal blamed for the Great Chicago Fire of 1871, who allegedly knocked over a lantern while being milked. The bovine and its owner were posthumously exonerated, though not before inspiring Brian Wilson to write a song about its pyrokinetic abilities.',
+    category: 'ET CETERA FICTIONAL CHARACTER CELEBRITY HISTORICAL FIGURE',
+    pointValue: 1234
+  },
+  {
+    name: "Sisyphus",
+    description:
+      'An Ancient Greek king who Zeus punished for his hubris by forcing him to roll a boulder up a hill, only to see it roll back down and be forced to repeat this process endlessly. The myth of his struggle was used for philosophical purposes by Albert Camus.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 3
+  },
+  {
+    name: "Archduke Franz Ferdinand",
+    description:
+      'The presumptive heir to the Austro-Hungarian Empire until his assassination in 1914. This acted as the catalyst for the beginning of World War I. He was an avid hunter, keeping a diary of nearly 300,000 kills—100,000 of which were displayed at his castle in Konopisté.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 3
+  },
+  {
+    name: "A Bear",
+    description:
+      'In gay culture, a large, hairy, and often hyper—masculine man. It was likely first popularized as a term in the 1979 article "Who\'s Who in the 200?" which categorized gay men as one of 7 types of animals. Subcategories of this include cubs, ewoks, and grizzlies.',
+    category: 'ET CETERA',
+    pointValue: 1
+  },
+  {
+    name: "John Wayne Gacy, Jr.",
+    description:
+      'A serial killer who raped and murdered more than 30 teenage boys in the 70s, storing their remains in the crawlspace of his Chicago home. He was well-liked in the community, appearing at charity events and children‘s parties dressed as his character Pogo the Clown.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 3
+  },
+  {
+    name: "Clarence Thomas",
+    description:
+      'A Supreme Court Justice who is known for never questioning appellants during oral arguments. His appointment was clouded by  allegations of his sexual harassment, such as asking "Who has put pubic hair on my Coke?" and referencing the porn star Long Dong Silver.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 3
+  },
+  {
+    name: "André the Giant",
+    description:
+      'A 7\'4", 520 lb. Frenchman who was the first wrestler inducted into the WWE Hall of Fame. He played the rhyming Turkish wrestler Fezzik in The Princess Bride. His ability to consume alcohol was so legendary that doctors used it to baseline how much anesthesia to administer him.',
+    category: 'CELEBRITY',
+    pointValue: 1
+  },
+  {
+    name: "Mama Cass",
+    description:
+      'The stage name of Ellen Naomi Cohen, a member of the band that performed hits like "California Dreamin” and "Monday Monday.”She struggled with obesity most of her life, and it was long rumored that she died by choking on either a ham sandwich or a chicken bone.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 3
+  },
+  {
+    name: "Eva Braun",
+    description:
+      'The long—time lover and short-time wife of Adolf Hitler. They married less than 2 days before she killed herself with a cyanide capsule while Hitler shot himself in the head with his Walther PPK pistol. Their bodies were then set on fire as Russian forces bombarded Berlin.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 3
+  },
+  {
+    name: "The Lindbergh Baby",
+    description:
+      'The infant son of the first aviator to fly solo across the Atlantic. He was kidnapped in what was called the "Crime of the Century.” The investigation lasted over two years, culminating in the execution by electric chair of Bruno Hauptmann, who maintained his innocence.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 3
+  },
+  {
+    name: "A Mall Santa",
+    description:
+      'In the weeks leading up to Christmas, shopping complexes often employ this person to play a fat, jolly, gift—giving figure. A "grotto" is usually set up where children can pose for photographs while sitting on his lap and requesting presents.',
+    category: 'ET CETERA FICTIONAL CHARACTER CELEBRITY HISTORICAL FIGURE',
+    pointValue: 1234
+  },
+  {
+    name: "Gregor Samsa",
+    description:
+      'A character from Franz Kafka\'s novella The Metamorphosis, who wakes up one day to find himself transformed into a large insect. He slowly loses his ability to communicate, becomes a burden on his family, and eventually wills himself to die somehow.',
+    category: 'ET CETERA FICTIONAL CHARACTER CELEBRITY HISTORICAL FIGURE',
+    pointValue: 1234
+  },
+  {
+    name: "Joyce Carol Oates",
+    description:
+      'An American novelist, playwright, and Princeton professor: Her works in "In a Region of Ice" and "A Garden of Earthly Delights" and nearly 40 other novels. Born in 1938, she still writes in longhand and her productivity and discipline are legendary among writers.',
+    category: 'ET CETERA FICTIONAL CHARACTER CELEBRITY HISTORICAL FIGURE',
+    pointValue: 1234
+  },
+  {
+    name: "Vidal Sassoon",
+    description:
+      'A hairdresser who created the iconic wedge bob cut of the 60s. He parlayed his fame into an international brand of beauty products that included salons, shampoos, conditioners, and commercials featuring the tagline "If you don’t look good, we don\'t look good."',
+    category: 'ET CETERA FICTIONAL CHARACTER CELEBRITY HISTORICAL FIGURE',
+    pointValue: 1234
+  },
+  {
+    name: "A Bassoonist",
+    description:
+      'A person who plays a large double reeded woodwind. Despite its warm, dark tone, it is often considered one of the most obscure instruments in the modern orchestra. Among its most famous passages is the Grandfather\'s Theme in Sergei Prokofiev\'s Peter and the Wolf.',
+    category: 'ET CETERA FICTIONAL CHARACTER CELEBRITY HISTORICAL FIGURE',
+    pointValue: 1234
+  },
+  {
+    name: "John Philip Sousa",
+    description:
+      'A composer and conductor known as "The March King.” He created many marches still in use today, such as "The Stars and Stripes Forever." He also designed a large brass instrument that wraps around the body of the musician, which he named after himself.',
+    category: 'ET CETERA FICTIONAL CHARACTER CELEBRITY HISTORICAL FIGURE',
+    pointValue: 1234
+  },
+  {
+    name: "The Stay Puft Marshmallow Man",
+    description:
+      'A monster from the Ghostbusters franchise made of spongy candy and wearing a sailor hat and red neckerchief as he rampages through New York. Dan Aykroyd described him as "harmless and puff and cute, but given the right circumstances, everything can become evil."',
+    category: 'ET CETERA FICTIONAL CHARACTER CELEBRITY HISTORICAL FIGURE',
+    pointValue: 1234
+  },
+  {
+    name: "Grizzly Man (Timothy Treadwell)",
+    description:
+      'The eccentric subject of a Werner Herzog documentary, who lived with Alaskan bears for 13 summers and was "in love with [his]animal friends." In 2003, he and his girlfriend were killed and eaten by one of the bears—the first such death in the park\'s history.',
+    category: 'ET CETERA FICTIONAL CHARACTER CELEBRITY HISTORICAL FIGURE',
+    pointValue: 1234
+  },
+  {
+    name: "Typhoid Mary",
+    description:
+      'A New York City cook and laundress, who is believed to have infected over 50 people with a deadly bacterial disease. She herself displayed no symptoms of infection and was quarantined against her will for nearly three decades until her death at 70.',
+    category: 'ET CETERA FICTIONAL CHARACTER CELEBRITY HISTORICAL FIGURE',
+    pointValue: 1234
+  },
+  {
+    name: "Grizzly Adams",
+    description:
+      'A legendary 19th century mountain man, who was famous for fighting and capturing bears. During a “play fight" with one of his bears. his scalp was dislodged, leaving the brain tissue permanently exposed. He died after a monkey bit into the open    wound, causing an infection.',
+    category: 'ET CETERA FICTIONAL CHARACTER CELEBRITY HISTORICAL FIGURE',
+    pointValue: 1234
+  },
+  {
+    name: "A LARPer",
+    description:
+      'A person who assumes the persona of a character in a fictional setting, often created by them. The concept was inspired by Dungeons & Dragons and other early roleplaying games. but spans genres from high fantasy to steampunk to zombie apocalypse.',
+    category: 'ET CETERA FICTIONAL CHARACTER CELEBRITY HISTORICAL FIGURE',
+    pointValue: 1234
+  },
+  {
+    name: "Marion Barry",
+    description:
+      'The former mayor of Washington, DC. who narrowly suffered an electoral defeat after a videotape leaked of him smoking crack. He was later reelected mayor after serving six months in federal prison. He is currently on the DC City Council and remains a controversial figure.',
+    category: 'ET CETERA FICTIONAL CHARACTER CELEBRITY HISTORICAL FIGURE',
+    pointValue: 1234
+  },
+  {
+    name: "Patient Zero",
+    description:
+      'The medical term for Gaétan Dugas, a Canadian flight attendant who was among a group of homosexual men that traveled widely and were very sexually active, facilitating the early spread of the virus. This term now refers to the first case of a condition more generally.',
+    category: 'ET CETERA FICTIONAL CHARACTER CELEBRITY HISTORICAL FIGURE',
+    pointValue: 1234
+  },
+  {
+    name: "Johnnie Cochran",
+    description:
+      'A lawyer who gained international fame for his successful defense of O.J. Simpson during his murder trial. He is often associated with the phrase "If it doesn\'t fit. you must acquit," referring to the murderer’s gloves that was supposedly too small for Simpson\'s hand.',
+    category: 'ET CETERA FICTIONAL CHARACTER CELEBRITY HISTORICAL FIGURE',
+    pointValue: 1234
+  },
+  {
+    name: "Sweeney Todd",
+    description:
+      'A legendary Victorian murderer also known as The Demon Barber of Fleet Street. He has a lever in his shop that drops customers through a trapdoor, who he finishes off with a razor. Hi5 accomplice, Mrs. Lovett, helps dispose of the bodies by baking them into savory pies.',
+    category: 'ET CETERA FICTIONAL CHARACTER CELEBRITY HISTORICAL FIGURE',
+    pointValue: 1234
+  },
+  {
+    name: "The Alien from Allen",
+    description:
+      'The extraterrestrial from a famous action-horror film series. Sometimes referred to as a Xenomorph, these creatures are organized around a single queen, which gives birth to creatures that follow a lifecycle from egg to facehugger to chestburster to adult.',
+    category: 'ET CETERA FICTIONAL CHARACTER CELEBRITY HISTORICAL FIGURE',
+    pointValue: 1234
+  },
+  {
+    name: "Juan Valdez",
+    description:
+      'The fictional mascot of the National Federation of Coffee Growers of Colombia. With his mule Conchita, he is a national symbol for Colombian coffee. Played by Carlos Sénchez and others, his tagline, iDisfrute de un buen café! has been widely parodied in pop culture.',
+    category: 'ET CETERA FICTIONAL CHARACTER CELEBRITY HISTORICAL FIGURE',
+    pointValue: 1234
+  },
+  {
+    name: "A Chimney Sweep",
+    description:
+      'A member of an old timey profession who cleared ash and soot from the area that provides ventilation for a fireplace. This practice once involved significant child labor, since they were the only ones small enough to fit into the space. Most began their training at age six.',
+    category: 'ET CETERA FICTIONAL CHARACTER CELEBRITY HISTORICAL FIGURE',
+    pointValue: 1234
+  },
+  {
+    name: "Ghost Dog",
+    description:
+      'The title character from a film by Jim Jarmusch about a freelance hitman employed by the Mafia, who strictly follows Hagakure, the code of the samurai. The film itself is a blend of the samurai and gangster genres, with a soundtrack produced by RZA of the Wu-Tang Clan.',
+    category: 'ET CETERA FICTIONAL CHARACTER CELEBRITY HISTORICAL FIGURE',
+    pointValue: 1234
+  },
+  {
+    name: "Terri Schiavo",
+    description:
+      'The subject of a prolonged legal case over whether to terminate life support. Diagnosed as being in a persistent vegetative state by her doctors, her husband and parents battled over whether to remove her feeding tube, despite her having signed a “do not resuscitate" order.',
+    category: 'ET CETERA FICTIONAL CHARACTER CELEBRITY HISTORICAL FIGURE',
+    pointValue: 1234
+  },
+  {
+    name: "Terry Richardson",
+    description:
+      'A pervy fashion photographer known for his candid style, glasses, and thumbs up gesture. He often shows his subjects against a white background, sometimes posing with them. He has been accused of making inappropriate sexual advances several times in his career.',
+    category: 'ET CETERA FICTIONAL CHARACTER CELEBRITY HISTORICAL FIGURE',
+    pointValue: 1234
+  },
+  {
+    name: "Marina Abramovié",
+    description:
+      'An artist known for her physically demanding performance pieces. In The Artist is Present, she sat staring at museumgoers silently for two months. Over her career, she has been groped. scalded. nearly stabbed, nearly raped, and nearly shot during performances.',
+    category: 'ET CETERA FICTIONAL CHARACTER CELEBRITY HISTORICAL FIGURE',
+    pointValue: 1234
+  },
+  {
+    name: "Mike Hunt",
+    description:
+      'A gag name that references female genitalia, used to trick a person into saying it without knowledge of the double meaning. While popularized by the film Porky’s, its first use was by Jim Davidson & John Elmo in their series of prank calls to Jersey City\'s Tube Bar in the 70s.',
+    category: 'ET CETERA FICTIONAL CHARACTER CELEBRITY HISTORICAL FIGURE',
+    pointValue: 1234
+  },
+  {
+    name: "R. Kelly",
+    description:
+      'An R&B musician who recorded "I Believe I Can Fly” and "Trapped in the Closet." In 2002, a video leaked of him allegedly urinating on an underage girl. according a 21—count indictment. He was found not guilty, though many still believe him to be a sexual predator.',
+    category: 'ET CETERA FICTIONAL CHARACTER CELEBRITY HISTORICAL FIGURE',
+    pointValue: 1234
+  },
+  {
+    name: "She-Hulk",
+    description:
+      'A superhero from the Marvel Comics universe, who gained her powers after receiving a blood transfusion from her cousin. Dr. Bruce Banner. Like him, she transforms into a green, raging creature. Unlike him, she is able to retain her reason and personality while doing so.',
+    category: 'ET CETERA FICTIONAL CHARACTER CELEBRITY HISTORICAL FIGURE',
+    pointValue: 1234
+  },
+  {
+    name: "Guy who threw shoes at George W. Bush",
+    description:
+      'A journalist who shouted "This is a farewell kiss from the Iraqi people, you dog" and hurled his footwear at the 43rd US president, who narrowly avoided the projectiles by ducking under his podium. A copper statue of the footwear was erected in Tikrit to commemorate the event.',
+    category: 'ET CETERA FICTIONAL CHARACTER CELEBRITY HISTORICAL FIGURE',
+    pointValue: 1234
+  },
+  {
+    name: "Colton Burpo",
+    description:
+      'The subject of the book Heaven is for Real: A Little Boy\'s Astounding Story of His Trip to Heaven and Back. He claims to have had visions of Jesus riding a rainbow-colored horse while in surgery. Skeptics claim that it was the result of hallucinations under anesthesia.',
+    category: 'ET CETERA FICTIONAL CHARACTER CELEBRITY HISTORICAL FIGURE',
+    pointValue: 1234
+  },
+  {
+    name: "Joan of Arc",
+    description:
+      'The Maid of Orléans and 15th century martyr who claimed God instructed her to take back France from the English. After predicting several military outcomes, she was given a substantial role in strategic decision-making. She was eventually captured and burned at the stake.',
+    category: 'ET CETERA FICTIONAL CHARACTER CELEBRITY HISTORICAL FIGURE',
+    pointValue: 1234
+  },
+  {
+    name: "Area Man",
+    description:
+      'A stock character in banal headlines from The Onion. He believes, for instance, that his "Intelligence Probably Just Too Intimidating For Most Women," that he “Could Eat," and that he is a "Passionate Defender Of What He Imagines Constitution To Be."',
+    category: 'ET CETERA FICTIONAL CHARACTER CELEBRITY HISTORICAL FIGURE',
+    pointValue: 1234
+  },
+  {
+    name: "Schrodinger’s Cat",
+    description:
+      'A thought experiment where this feline is both alive and dead due to quantum entanglement. It was originally used to critique an interpretation of quantum mechanics, but now appears often in popular culture, ranging from A Serious Man to Yu-Gi-Oh! GX.',
+    category: 'ET CETERA FICTIONAL CHARACTER CELEBRITY HISTORICAL FIGURE',
+    pointValue: 1234
+  },
+  {
+    name: "A Top",
+    description:
+      'In gay culture. a person who tends to prefer the penetrating role, either in oral or anal sex. In a survey of nearly 56,000 profiles on gay.com, researchers found that 32% of US respondents preferred bottom, 42% preferred versatile, and 26% preferred this role.',
+    category: 'ET CETERA',
+    pointValue: 1234
+  },
+  {
+    name: "Jack Skellington",
+    description:
+      'The Pumpkin King of Halloween Town from the film The Nightmare Before Christmas. He organizes all Halloween festivities and one year becomes obsessed with taking over Christmas as well. He appears as a gangly skeleton dressed in a pin-striped suit and bat bow tie.',
+    category: 'ET CETERA FICTIONAL CHARACTER CELEBRITY HISTORICAL FIGURE',
+    pointValue: 1234
+  },
+  {
+    name: "Mr. Wizard",
+    description:
+      'The eponymous host of a children’s science show, who Bill Nye credited with creating a generation of US scientists. A popular YouTube supercut shows him being “a dick" to kids on the show, sarcastically asking questions like "Haven‘t you ever seen a sliced banana before?"',
+    category: 'ET CETERA FICTIONAL CHARACTER CELEBRITY HISTORICAL FIGURE',
+    pointValue: 1234
+  },
+  {
+    name: "Monica Lewinsky",
+    description:
+      'A White House intern who had an affair with Bill Clinton during his second term. She famously kept a blue dress that had the president\'s semen on it, which was used in an investigation that led to his impeachment. She later became a spokesperson for Jenny Craig.',
+    category: 'ET CETERA FICTIONAL CHARACTER CELEBRITY HISTORICAL FIGURE',
+    pointValue: 1234
+  },
+  {
+    name: "A Power Bottom",
+    description:
+      'In gay culture, a controversial term that sometimes refers to a partner who can receive penetration for a long time, sometimes to a partner who is looking for an especially well-endowed top, and sometimes to a partner who just prefers being a bottom.',
+    category: 'ET CETERA FICTIONAL CHARACTER CELEBRITY HISTORICAL FIGURE',
+    pointValue: 1234
+  },
+  {
+    name: "Double Rainbow Guy",
+    description:
+      'The moniker of Paul "Yosemitebear" Vasquez, a one—time MMA fighter (0-1) and YouTube star who reacts to prismatic light. noting that there are two of them and that they are “so intense." As he breaks down into tears he asks "What does this mean?"',
+    category: 'ET CETERA FICTIONAL CHARACTER CELEBRITY HISTORICAL FIGURE',
+    pointValue: 1234
+  },
+  {
+    name: "Kindergarten Cop",
+    description:
+      'The title character from a 1990 comedy about a detective who goes undercover at an elementary school and discovers his love of teaching. Played by Arnold Schwarzenegger, the film is famous for the line "It‘s not a tumor!" which he delivers in his thick Austrian accent.',
+    category: 'ET CETERA FICTIONAL CHARACTER CELEBRITY HISTORICAL FIGURE',
+    pointValue: 1234
+  },
+  {
+    name: "Jack Kevorkian",
+    description:
+      'A doctor and euthanasia activist who was nicknamed "Dr. Death" during his trial for second-degree murder of terminally ill patients who sought his assistance. He was also a jazz flautist and composer, and released the album A Very Still Life on the label Lucid Subjazz in 1997.',
+    category: 'ET CETERA FICTIONAL CHARACTER CELEBRITY HISTORICAL FIGURE',
+    pointValue: 1234
+  },
+  {
+    name: "Grumpy Cat",
+    description:
+      'The internet name for Tardar Sauce, a feline who gained celebrity due to her permanently negative expression. Her owner attributes her appearance to feline dwarfism as well as an underbite. In 2013, she appeared on the front pages of The Wall Street Journal & NY Magazine.',
+    category: 'ET CETERA FICTIONAL CHARACTER CELEBRITY HISTORICAL FIGURE',
+    pointValue: 1234
+  },
+  {
+    name: "Fabio",
+    description:
+      'A long-haired Italian model who posed for countless romance novel covers. He entered the realm of seIf—parody as the spokesman for I Can’t Believe It\'s Not Butter. He also released an album of soliloquies on love and killed a seagull with his face while riding a roller coaster.',
+    category: 'ET CETERA FICTIONAL CHARACTER CELEBRITY HISTORICAL FIGURE',
+    pointValue: 1234
+  },
+  {
+    name: "Deepak Chopra",
+    description:
+      'A teacher of alternative medicine and Transcendental Meditation, who mixes a vague understanding of physics with more standard new age practices. Arguably the world\'s most famous guru, he has been referred to as "the David Beckham of personal/spiritual growth."',
+    category: 'ET CETERA FICTIONAL CHARACTER CELEBRITY HISTORICAL FIGURE',
+    pointValue: 1234
+  },
+  {
+    name: "Jiro",
+    description:
+      'A Japanese sushi master and subject of a 2011 documentary bearing his name. His 10-seat bar is one of the most difficult restaurants in the world to get a reservation, despite the 20-course tasting menu costing ¥30,000 (nearly $300) and being located in a Tokyo subway station.',
+    category: 'ET CETERA FICTIONAL CHARACTER CELEBRITY HISTORICAL FIGURE',
+    pointValue: 1234
+  },
+  {
+    name: "David Caruso",
+    description:
+      'An actor best known as Lieutenant Horatio Caine on the CBS series CSI: Miami. At the beginning of each show, he delivers a quippy one—liner while simultaneously putting on his trademark sunglasses before the show cuts to its theme song, "Won’t Get Fooled Again."',
+    category: 'ET CETERA FICTIONAL CHARACTER CELEBRITY HISTORICAL FIGURE',
+    pointValue: 1234
+  },
+  {
+    name: "Joey Chestnut",
+    description:
+      'A competitive eater best known for dethroning Kobayashi as the world’s top hot dog eater by using Kobayashi’s own strategies against him. As of 2014. he holds the world record of eating 69 hot dogs and buns (HDB). He also holds a similar record for deep fried asparagus.',
+    category: 'ET CETERA FICTIONAL CHARACTER CELEBRITY HISTORICAL FIGURE',
+    pointValue: 1234
+  },
+  {
+    name: "8 Maids-a-Milking",
+    description:
+      'An octet that appears in the song "The Twelve Days of Christmas,” an English Christmas carol that lists a series of gifts given by "my true love” on each of those days. These individuals, who tend to dairy cows, are first presented on the eighth day of Christmas.',
+    category: 'ET CETERA FICTIONAL CHARACTER CELEBRITY HISTORICAL FIGURE',
+    pointValue: 1234
+  },
+  {
+    name: "John Wayne Bobbitt",
+    description:
+      'An abusive husband whose wife cut off his penis. He made every effort to profit from the incident, starring in several porn movies centered around his reattached member and starting a band called The Severed Parts. He continued to abuse women in subsequent relationships.',
+    category: 'ET CETERA FICTIONAL CHARACTER CELEBRITY HISTORICAL FIGURE',
+    pointValue: 1234
+  },
+  {
+    name: "Wilford Brimley",
+    description:
+      'An actor known for his walrus-like white mustache and pronunciation of the word "Diabetes.” He played an old grump in Cocoon and several other films in the 80s. He was also a spokesperson for a range of old-people products, like Quaker Oats and Diabeetus supplies.',
+    category: 'ET CETERA FICTIONAL CHARACTER CELEBRITY HISTORICAL FIGURE',
+    pointValue: 1234
+  },
+  {
+    name: "John McAfee",
+    description:
+      'The creator of annoying anti—virus software, who in 2012 fled Belize for Guatemala under suspicion of murder. Vice Media accidentally gave away his location and he was deported to the US. He is often photographed shirtless with young women and assault weapons.',
+    category: 'ET CETERA FICTIONAL CHARACTER CELEBRITY HISTORICAL FIGURE',
+    pointValue: 1234
+  },
+  {
+    name: "Feminist Ryan Gosling",
+    description:
+      'A meme of the actor who played Noah in The Notebook and stomped on a man‘s head until it exploded in Drive, showing him in deep thought with captions of "Hey girl," followed by empowering yet seductive quips like "I stood with Wendy Davis, but I’d lie down anywhere with you."',
+    category: 'ET CETERA FICTIONAL CHARACTER CELEBRITY HISTORICAL FIGURE',
+    pointValue: 1234
+  },
+  {
+    name: "A Boss",
+    description:
+      'An internet catchphrase that signals a person being like one of these, normally used after completing an activity with particular skill. The term originated in a song by Slim Thug and was featured in a subsequent parody version from the comedy group The Lonely Island.',
+    category: 'ET CETERA FICTIONAL CHARACTER CELEBRITY HISTORICAL FIGURE',
+    pointValue: 1234
+  },
+  {
+    name: "Chris Farley",
+    description:
+      'An overweight comedian known for his iconic roles on TV and film. He portrayed a guy who "lives in a van down by the river,” a "fat guy in a little coat," and sometimes just a guy who falls down and breaks things. He died of a cocaine and morphine overdose at 33.',
+    category: 'ET CETERA FICTIONAL CHARACTER CELEBRITY HISTORICAL FIGURE',
+    pointValue: 1234
+  },
+  {
+    name: "A Reptilian",
+    description:
+      'A humanoid common in conspiracy theories about a race of shape-shifting lizard people who control governments around the world. On a 2011 radio show, Louis CK, once repeatedly asked former US Secretary of Defense Donald Rumsfeld if he was one of these.',
+    category: 'ET CETERA FICTIONAL CHARACTER CELEBRITY HISTORICAL FIGURE',
+    pointValue: 1234
+  },
+  {
+    name: "The black guy from The Shining (Scatman Crothers)",
+    description:
+      'An actor famous for his role in Chico and the Man as well as Stanley Kubrick’s 1980 horror film, where he plays the telepathic chef and erotic art connoisseur Dick Hallorann. Late in the film, he is killed by an axe blow to the chest by the psychopathic writer Jack Torrance.',
+    category: 'ET CETERA FICTIONAL CHARACTER CELEBRITY HISTORICAL FIGURE',
+    pointValue: 1234
+  },
+  {
+    name: "A Booth Babe",
+    description:
+      'A promotional model. often a scantily clad woman. who is paid to interact with potential costumers at conventions and other public events. Nintendo infamously demoed its 3DS console by chaining them to bikini-wearing members of this profession.',
+    category: 'ET CETERA FICTIONAL CHARACTER CELEBRITY HISTORICAL FIGURE',
+    pointValue: 1234
+  },
+  {
+    name: "Lil Bub",
+    description:
+      'A cat celebrity known for her "perma-kitten" appearance, whose tongue hangs out because of a short lower jaw and toothlessness. Her appetite is unaffected. Her owner, Mike. studied reiki to care for her and calls her "a fantastic waddler."',
+    category: 'ET CETERA FICTIONAL CHARACTER CELEBRITY HISTORICAL FIGURE',
+    pointValue: 1234
+  },
+  {
+    name: "Xena, Warrior Princess",
+    description:
+      'The title character of the cult classic TV show starring New Zealand actor Lucy Lawless. The show was a spinoff of Hercules: The Legendary Journeys and featured her weekly adventures and pursuit of the “greater good" in a mythological version of Ancient Greece.',
+    category: 'ET CETERA FICTIONAL CHARACTER CELEBRITY HISTORICAL FIGURE',
+    pointValue: 1234
+  },
+  {
+    name: "Ruth Bader Ginsburg",
+    description:
+      'A Supreme Court Justice known for her advocacy for women’s rights and collection ofjabots, a lace neck ruffle. She has a fervid online following, with tumblrs dedicated to images of her with captions such as "Notorious" and "All them fives need to listen when a ten is talking."',
+    category: 'ET CETERA FICTIONAL CHARACTER CELEBRITY HISTORICAL FIGURE',
+    pointValue: 1234
+  },
+  {
+    name: "Grimace",
+    description:
+      'Initially a villain in the McDonaldland universe, this purple monster was retconned as a loveable hero. He also appears in a meme featuring a crudely drawn version posing seductively and asking Ronald McDonald if he wants some "McNuggies."',
+    category: 'ET CETERA FICTIONAL CHARACTER CELEBRITY HISTORICAL FIGURE',
+    pointValue: 1234
+  },
+  {
+    name: "Banksy",
+    description:
+      'The pseudonym of a mysterious UK graffiti artist. His work uses stencils to depict satirical characters, often interacting with the environment. Though nominated for an Academy Award as a documentary, his film Exit Through the Gift Shop is now widely accepted as a hoax.',
+    category: 'ET CETERA FICTIONAL CHARACTER CELEBRITY HISTORICAL FIGURE',
+    pointValue: 1234
+  },
+  {
+    name: "Joaquin Phoenix’s forehead",
+    description:
+      'An area of the head of the actor known for his roles in Gladiator, Walk the Line, and I’m Still Here. In 2014, a video was uploaded to YouTube showing that the creases on the actor’s forehead, when viewed upside down, form a funny little face.',
+    category: 'ET CETERA FICTIONAL CHARACTER CELEBRITY HISTORICAL FIGURE',
+    pointValue: 1234
+  },
+  {
+    name: "Sad Keanu",
+    description:
+      'A 2010 meme based on a photo of the actor known for his starring roles in Speed. Point Break. The Matrix. and other blockbusters. He is shown sitting on a bench by himself, eating a sandwich, and looking forlorn. The action figure of this comes in two sizes: Teeny and Little.',
+    category: 'ET CETERA FICTIONAL CHARACTER CELEBRITY HISTORICAL FIGURE',
+    pointValue: 1234
+  },
+  {
+    name: "Octopussy",
+    description:
+      'The title character and Bond girl in the 13th film of the series. She leads a cephalopod cult and circus troupe from a floating palace in Udaipur, India, which is inexplicably part of an Afghan plot to force European disarmament by using a nuclear weapon.',
+    category: 'ET CETERA FICTIONAL CHARACTER CELEBRITY HISTORICAL FIGURE',
+    pointValue: 1234
   }
-
-
 ];
 /* eslint-disable */
