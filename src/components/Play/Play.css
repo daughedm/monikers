@@ -189,3 +189,49 @@
   }
 }
 
+@media (min-width: 375px) {
+  .card-container {
+    height: 71%;
+    margin: 30px auto;
+    padding: 30px 30px 0 30px;
+  }
+
+  .description {
+    color: #555;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+  }
+
+  .dashed-line {
+    margin: 30px auto;
+  }
+
+  .buttons-container {
+    bottom: 5%;
+  }
+  
+  .category {
+    font-size: 1.1rem;
+  }
+
+}
+
+@media (min-width: 411px) {
+  
+.pass-button {
+  height: 45px;
+}
+
+.got-it-button {
+  height: 45px;
+}
+
+.current-team {
+  margin: 15px 0 15px 0;
+}
+
+.current-round {
+  margin: 15px 0 15px 0;
+
+}
+}

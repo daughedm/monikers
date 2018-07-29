@@ -33,12 +33,12 @@ export class Next extends Component {
       <div className="background-monikers">
         <div className="team-transition">
           <h2 className="current-team-headline" style={teamColor}>
-            {currTeam}, your turn
+            {currTeam}, <br/> your turn
           </h2>
           <p className="remaining-cards">
             {activeCards.length} Cards Remaining
           </p>
-          <div className="dashed-line" />
+          <div className="dashed-line-next" />
           <button className="start-turn-button" onClick={this.startTimer}>
             START
           </button>
