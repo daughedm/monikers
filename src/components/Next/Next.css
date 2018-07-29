@@ -45,3 +45,20 @@
   font-size: 1.2rem;
   text-align: center;
 }
+
+.dashed-line-next {
+  border-bottom: 2px dotted #999;
+  width: 40%;
+  margin: 30px auto;
+}
+
+@media (min-width: 360px) {
+  .current-team-headline {
+    font-size: 2.2rem;
+  }
+
+  .start-turn-button {
+    height: 45px;
+  }
+  
+}

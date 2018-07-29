@@ -60,6 +60,7 @@
   display: flex;
   justify-content: space-between; 
   background-color: #FFF;
+  border-bottom:3px solid #00B4EF;
 }
 
 .scores {
@@ -81,3 +82,21 @@
   font-weight: 600;
 }
 
+@media (min-width: 410px) {
+  .round-transition {
+    width: 80%;
+    padding: 20px 30px 40px 30px;
+  }
+
+  .start-round-button {
+    height: 45px;
+  }
+
+  .blue {
+    font-size: 1.2rem;
+  }
+  
+  .purple {
+    font-size: 1.2rem;
+  }
+}
