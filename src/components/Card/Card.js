@@ -14,20 +14,18 @@ export class Card extends Component {
 
     if (activeCards[0].pointValue === 1) {
       pointColor = { backgroundColor: 'rgba(76, 189, 159, 1)' };
+      categoryColor = { color: 'rgba(76, 189, 159, 1)' };
+
     } else if (activeCards[0].pointValue === 2) {
       pointColor = { backgroundColor: '#00B4EF' };
+      categoryColor = { color: '#00B4EF' };
+
     } else if (activeCards[0].pointValue === 3) {
       pointColor = { backgroundColor: '#866AAD' };
+      categoryColor = { color: '#866AAD' };
+
     } else if (activeCards[0].pointValue === 4) {
       pointColor = { backgroundColor: 'rgba(239, 83, 63, 1)' };
-    }
-    if (activeCards[0].pointValue === 1) {
-      categoryColor = { color: 'rgba(76, 189, 159, 1)' };
-    } else if (activeCards[0].pointValue === 2) {
-      categoryColor = { color: '#00B4EF' };
-    } else if (activeCards[0].pointValue === 3) {
-      categoryColor = { color: '#866AAD' };
-    } else if (activeCards[0].pointValue === 4) {
       categoryColor = { color: 'rgba(239, 83, 63, 1)' };
     }
 
