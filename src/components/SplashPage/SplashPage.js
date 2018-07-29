@@ -19,6 +19,11 @@ const SplashPage = () => {
               HOW TO PLAY
             </NavLink>
           </button>
+          <button className="buy-button">
+            <a className="navlink" href="http://www.monikersgame.com/">
+              BUY THE GAME
+            </a>
+          </button>
         </div>
       </div>
     </div>
