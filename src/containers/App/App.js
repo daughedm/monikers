@@ -22,9 +22,11 @@ export class App extends Component {
   }
 
   cardsPGtoIDB = async () => {
-    const cardsPG = await api.getCards();
-    indexedDB.allCards.clear();
-    indexedDB.allCards.bulkAdd(cardsPG);
+    if (navigator.onLine) {
+      const cardsPG = await api.getCards();
+      indexedDB.allCards.clear();
+      indexedDB.allCards.bulkAdd(cardsPG);
+    }
   };
 
   render() {
