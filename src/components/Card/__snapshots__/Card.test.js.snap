@@ -308,7 +308,7 @@ ShallowWrapper {
               "category": "CELEBRITY",
               "description": "An Internet meme that shows a Shiba Inu surrounded by colorful Comic Sans text that describes its inner monologue, such as \\"Wow,\\" \\"Concern,\\" and \\"so scare.\\" There is much confuse over the name's pronunciation, yet it was recently used to brand a Bitcoin competitor.",
               "name": "Doge",
-              "pointValue": 3,
+              "pointValue": 1,
             },
           ]
     }
@@ -343,7 +343,7 @@ ShallowWrapper {
           className="category"
           style={
                     Object {
-                              "color": "#866AAD",
+                              "color": "rgba(76, 189, 159, 1)",
                             }
           }
 >
@@ -353,14 +353,14 @@ ShallowWrapper {
           className="circle"
           style={
                     Object {
-                              "backgroundColor": "#866AAD",
+                              "backgroundColor": "rgba(76, 189, 159, 1)",
                             }
           }
 >
           <h1
                     className="points"
           >
-                    3
+                    1
           </h1>
 </div>,
       ],
@@ -411,7 +411,7 @@ ShallowWrapper {
           "children": "CELEBRITY",
           "className": "category",
           "style": Object {
-            "color": "#866AAD",
+            "color": "rgba(76, 189, 159, 1)",
           },
         },
         "ref": null,
@@ -426,11 +426,11 @@ ShallowWrapper {
           "children": <h1
             className="points"
 >
-            3
+            1
 </h1>,
           "className": "circle",
           "style": Object {
-            "backgroundColor": "#866AAD",
+            "backgroundColor": "rgba(76, 189, 159, 1)",
           },
         },
         "ref": null,
@@ -439,11 +439,11 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": 3,
+            "children": 1,
             "className": "points",
           },
           "ref": null,
-          "rendered": 3,
+          "rendered": 1,
           "type": "h1",
         },
         "type": "div",
@@ -475,7 +475,7 @@ ShallowWrapper {
             className="category"
             style={
                         Object {
-                                    "color": "#866AAD",
+                                    "color": "rgba(76, 189, 159, 1)",
                                   }
             }
 >
@@ -485,14 +485,14 @@ ShallowWrapper {
             className="circle"
             style={
                         Object {
-                                    "backgroundColor": "#866AAD",
+                                    "backgroundColor": "rgba(76, 189, 159, 1)",
                                   }
             }
 >
             <h1
                         className="points"
             >
-                        3
+                        1
             </h1>
 </div>,
         ],
@@ -543,7 +543,7 @@ ShallowWrapper {
             "children": "CELEBRITY",
             "className": "category",
             "style": Object {
-              "color": "#866AAD",
+              "color": "rgba(76, 189, 159, 1)",
             },
           },
           "ref": null,
@@ -558,11 +558,11 @@ ShallowWrapper {
             "children": <h1
               className="points"
 >
-              3
+              1
 </h1>,
             "className": "circle",
             "style": Object {
-              "backgroundColor": "#866AAD",
+              "backgroundColor": "rgba(76, 189, 159, 1)",
             },
           },
           "ref": null,
@@ -571,11 +571,11 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": 3,
+              "children": 1,
               "className": "points",
             },
             "ref": null,
-            "rendered": 3,
+            "rendered": 1,
             "type": "h1",
           },
           "type": "div",
@@ -902,7 +902,7 @@ ShallowWrapper {
               "category": "CELEBRITY",
               "description": "An Internet meme that shows a Shiba Inu surrounded by colorful Comic Sans text that describes its inner monologue, such as \\"Wow,\\" \\"Concern,\\" and \\"so scare.\\" There is much confuse over the name's pronunciation, yet it was recently used to brand a Bitcoin competitor.",
               "name": "Doge",
-              "pointValue": 2,
+              "pointValue": 3,
             },
           ]
     }
@@ -937,7 +937,7 @@ ShallowWrapper {
           className="category"
           style={
                     Object {
-                              "color": "#00B4EF",
+                              "color": "#866AAD",
                             }
           }
 >
@@ -947,14 +947,14 @@ ShallowWrapper {
           className="circle"
           style={
                     Object {
-                              "backgroundColor": "#00B4EF",
+                              "backgroundColor": "#866AAD",
                             }
           }
 >
           <h1
                     className="points"
           >
-                    2
+                    3
           </h1>
 </div>,
       ],
@@ -1005,7 +1005,7 @@ ShallowWrapper {
           "children": "CELEBRITY",
           "className": "category",
           "style": Object {
-            "color": "#00B4EF",
+            "color": "#866AAD",
           },
         },
         "ref": null,
@@ -1020,11 +1020,11 @@ ShallowWrapper {
           "children": <h1
             className="points"
 >
-            2
+            3
 </h1>,
           "className": "circle",
           "style": Object {
-            "backgroundColor": "#00B4EF",
+            "backgroundColor": "#866AAD",
           },
         },
         "ref": null,
@@ -1033,11 +1033,11 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": 2,
+            "children": 3,
             "className": "points",
           },
           "ref": null,
-          "rendered": 2,
+          "rendered": 3,
           "type": "h1",
         },
         "type": "div",
@@ -1069,7 +1069,7 @@ ShallowWrapper {
             className="category"
             style={
                         Object {
-                                    "color": "#00B4EF",
+                                    "color": "#866AAD",
                                   }
             }
 >
@@ -1079,14 +1079,14 @@ ShallowWrapper {
             className="circle"
             style={
                         Object {
-                                    "backgroundColor": "#00B4EF",
+                                    "backgroundColor": "#866AAD",
                                   }
             }
 >
             <h1
                         className="points"
             >
-                        2
+                        3
             </h1>
 </div>,
         ],
@@ -1137,7 +1137,7 @@ ShallowWrapper {
             "children": "CELEBRITY",
             "className": "category",
             "style": Object {
-              "color": "#00B4EF",
+              "color": "#866AAD",
             },
           },
           "ref": null,
@@ -1152,11 +1152,11 @@ ShallowWrapper {
             "children": <h1
               className="points"
 >
-              2
+              3
 </h1>,
             "className": "circle",
             "style": Object {
-              "backgroundColor": "#00B4EF",
+              "backgroundColor": "#866AAD",
             },
           },
           "ref": null,
@@ -1165,11 +1165,11 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": 2,
+              "children": 3,
               "className": "points",
             },
             "ref": null,
-            "rendered": 2,
+            "rendered": 3,
             "type": "h1",
           },
           "type": "div",
@@ -1199,7 +1199,7 @@ ShallowWrapper {
               "category": "CELEBRITY",
               "description": "An Internet meme that shows a Shiba Inu surrounded by colorful Comic Sans text that describes its inner monologue, such as \\"Wow,\\" \\"Concern,\\" and \\"so scare.\\" There is much confuse over the name's pronunciation, yet it was recently used to brand a Bitcoin competitor.",
               "name": "Doge",
-              "pointValue": 2,
+              "pointValue": 4,
             },
           ]
     }
@@ -1234,7 +1234,7 @@ ShallowWrapper {
           className="category"
           style={
                     Object {
-                              "color": "#00B4EF",
+                              "color": "rgba(239, 83, 63, 1)",
                             }
           }
 >
@@ -1244,14 +1244,14 @@ ShallowWrapper {
           className="circle"
           style={
                     Object {
-                              "backgroundColor": "#00B4EF",
+                              "backgroundColor": "rgba(239, 83, 63, 1)",
                             }
           }
 >
           <h1
                     className="points"
           >
-                    2
+                    4
           </h1>
 </div>,
       ],
@@ -1302,7 +1302,7 @@ ShallowWrapper {
           "children": "CELEBRITY",
           "className": "category",
           "style": Object {
-            "color": "#00B4EF",
+            "color": "rgba(239, 83, 63, 1)",
           },
         },
         "ref": null,
@@ -1317,11 +1317,11 @@ ShallowWrapper {
           "children": <h1
             className="points"
 >
-            2
+            4
 </h1>,
           "className": "circle",
           "style": Object {
-            "backgroundColor": "#00B4EF",
+            "backgroundColor": "rgba(239, 83, 63, 1)",
           },
         },
         "ref": null,
@@ -1330,11 +1330,11 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": 2,
+            "children": 4,
             "className": "points",
           },
           "ref": null,
-          "rendered": 2,
+          "rendered": 4,
           "type": "h1",
         },
         "type": "div",
@@ -1366,7 +1366,7 @@ ShallowWrapper {
             className="category"
             style={
                         Object {
-                                    "color": "#00B4EF",
+                                    "color": "rgba(239, 83, 63, 1)",
                                   }
             }
 >
@@ -1376,14 +1376,14 @@ ShallowWrapper {
             className="circle"
             style={
                         Object {
-                                    "backgroundColor": "#00B4EF",
+                                    "backgroundColor": "rgba(239, 83, 63, 1)",
                                   }
             }
 >
             <h1
                         className="points"
             >
-                        2
+                        4
             </h1>
 </div>,
         ],
@@ -1434,7 +1434,7 @@ ShallowWrapper {
             "children": "CELEBRITY",
             "className": "category",
             "style": Object {
-              "color": "#00B4EF",
+              "color": "rgba(239, 83, 63, 1)",
             },
           },
           "ref": null,
@@ -1449,11 +1449,11 @@ ShallowWrapper {
             "children": <h1
               className="points"
 >
-              2
+              4
 </h1>,
             "className": "circle",
             "style": Object {
-              "backgroundColor": "#00B4EF",
+              "backgroundColor": "rgba(239, 83, 63, 1)",
             },
           },
           "ref": null,
@@ -1462,11 +1462,11 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": 2,
+              "children": 4,
               "className": "points",
             },
             "ref": null,
-            "rendered": 2,
+            "rendered": 4,
             "type": "h1",
           },
           "type": "div",
