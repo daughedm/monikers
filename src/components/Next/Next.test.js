@@ -1,7 +1,17 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import Next from './Next';
+import { shallow } from 'enzyme';
+import { Next, mapStateToProps, mapDispatchToProps } from './Next';
 
-it('renders without crashing', () => {
-  expect(true).toEqual(true)
+describe('next', () => {
+  let next;
+  let mockProps;
+
+  beforeEach(() => {
+    mockProps = {};
+    next = shallow(<Next {...mockProps} />);
+  });
+
+  it('matches the snapshot', () => {
+    expect(next).toMatchSnapshot();
+  });
 });
