@@ -12,6 +12,6 @@ export const makeFetch = async (url, options) => {
 };
 
 export const getCards = async () => {
-  const url = 'http://localhost:3001/api/v1/cards';
+  const url = '/api/v1/cards';
   return await makeFetch(url);
 };
