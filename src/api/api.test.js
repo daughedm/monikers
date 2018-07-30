@@ -1,17 +1,4 @@
-import { makeFetch, getCards } from './api';
-// jest.mock('./api', () => {
-//   return {
-//     makeFetch: jest.fn(data => {
-//       new Promise((resolve, reject) => {
-//         if (data) {
-//           resolve(data);
-//         } else {
-//           reject();
-//         }
-//       });
-//     })
-//   };
-// });
+import * as api from './api';
 
 describe('makeFetch', () => {
   beforeEach(() => {
@@ -30,7 +17,7 @@ describe('makeFetch', () => {
     const url = 'www.example.com';
     const options = {};
 
-    await makeFetch(url, options);
+    await api.makeFetch(url, options);
 
     expect(window.fetch).toHaveBeenCalledTimes(1);
     expect(window.fetch).toHaveBeenLastCalledWith(url, {});
@@ -46,7 +33,7 @@ describe('makeFetch', () => {
     );
 
     const expected = Error(`Network request failed. (error: 500)`);
-    await expect(makeFetch()).rejects.toEqual(expected);
+    await expect(api.makeFetch()).rejects.toEqual(expected);
   });
 
   it('throws an error if fetch fails', async () => {
@@ -55,14 +42,25 @@ describe('makeFetch', () => {
       .mockImplementation(() => Promise.reject(Error('mock error')));
     const expected = Error('Network request failed. (error: mock error)');
 
-    await expect(makeFetch()).rejects.toEqual(expected);
+    await expect(api.makeFetch()).rejects.toEqual(expected);
   });
 });
 
 describe('getCards', () => {
   it.skip('calls makeFetch', async () => {
-    await getCards();
+    const simulatedResponse = { data: 'simulated response' };
 
-    expect(makeFetch).toHaveBeenCalledTimes(1);
+    const mock = jest.spyOn(api, 'makeFetch');
+    mock.mockImplementationOnce(() => Promise.resolve(simulatedResponse));
+
+    const result = await api.getCards();
+
+    expect(result).toEqual(simulatedResponse);
+    expect(mock).toHaveBeenCalledTimes(1);
+    expect(mock).toHaveBeenCalledWith('http://localhost:3001/api/v1/cards');
+
+    mock.mockRestore();
   });
 });
+
+// mock.mockImplementationOnce(() => Promise.resolve(simulatedResponse));
