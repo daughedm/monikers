@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import { withRouter } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import * as actions from '../../actions';
+import './Finish.css';
 
 export class Finish extends Component {
   handleSubmit = e => {
@@ -14,21 +15,34 @@ export class Finish extends Component {
   render() {
     const { teamNames, teamOneScore, teamTwoScore } = this.props;
     const winningTeam = teamOneScore > teamTwoScore ? 0 : 1;
+    let teamColor;
+
+    if (winningTeam === teamNames[0]) {
+      teamColor = { color: '#00B4EF' };
+    } else {
+      teamColor = { color: '#866AAD' };
+    }
+
     return (
       <div className="background-monikers">
-        <div className="round-transition">
-          <h2 className="round-headline">
-            Team {teamNames[winningTeam]} wins!
+        <div className="finish-transition">
+        <h2 className="win-headline" style={teamColor}>
+            {teamNames[winningTeam]}
+          </h2>
+          <h2 className="win-headline-two">
+           WINS!
           </h2>
           <div className="dashed-line" />
           <button
-            className="start-button"
+            className="start-newgame-button"
             type="submit"
             onClick={this.handleSubmit}
           >
             NEW GAME
           </button>
         </div>
+        <div className="animation-one"></div>
+        <div className="animation-two"></div>
       </div>
     );
   }
