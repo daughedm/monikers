@@ -20,7 +20,7 @@ describe('Card', () => {
   });
 
   it('matches the snapshot if point value is 1', () => {
-    mockProps.activeCards.pointValue = 1;
+    mockProps.activeCards[0].pointValue = 1;
     card = shallow(<Card {...mockProps} />);
     expect(card).toMatchSnapshot();
   });
@@ -32,13 +32,13 @@ describe('Card', () => {
   });
 
   it('matches the snapshot if point value is 3', () => {
-    mockProps.activeCards.pointValue = 3;
+    mockProps.activeCards[0].pointValue = 3;
     card = shallow(<Card {...mockProps} />);
     expect(card).toMatchSnapshot();
   });
 
   it('matches the snapshot if point value is 4', () => {
-    mockProps.activeCards.pointValue = 4;
+    mockProps.activeCards[0].pointValue = 4;
     card = shallow(<Card {...mockProps} />);
     expect(card).toMatchSnapshot();
   });
