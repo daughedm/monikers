@@ -8,7 +8,7 @@ describe('Instructions', () => {
 
   beforeEach(() => {
     mockProps = {
-      history: { push: jest.fn }
+      history: { push: jest.fn() }
     };
     instructions = shallow(<Instructions {...mockProps} />);
   });
@@ -18,7 +18,7 @@ describe('Instructions', () => {
   });
 
   describe('handleBackButton', () => {
-    it.skip('is called on click of back-button', () => {
+    it('is called on click of back-button', () => {
       const handleBackButton = jest.fn();
 
       instructions.find('.back-button').simulate('click', {
