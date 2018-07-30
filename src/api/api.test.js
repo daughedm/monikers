@@ -62,5 +62,3 @@ describe('getCards', () => {
     mock.mockRestore();
   });
 });
-
-// mock.mockImplementationOnce(() => Promise.resolve(simulatedResponse));
