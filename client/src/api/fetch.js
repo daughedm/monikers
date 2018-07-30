@@ -2,6 +2,12 @@ export const makeFetch = async (url, options) => {
   try {
     const response = await fetch(url, options);
 
+
+
+//jgjh
+
+
+
     if (!response.ok) {
       throw new Error(`${response.status}`);
     }
