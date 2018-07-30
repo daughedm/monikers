@@ -18,7 +18,7 @@ describe('Instructions', () => {
   });
 
   describe('handleBackButton', () => {
-    it('is called on click of back-button', () => {
+    it.skip('is called on click of back-button', () => {
       const handleBackButton = jest.fn();
 
       instructions.find('.back-button').simulate('click', {
