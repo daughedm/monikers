@@ -1,3 +1,4 @@
+import * as fetch from './fetch';
 import * as api from './api';
 
 describe('makeFetch', () => {
@@ -17,7 +18,7 @@ describe('makeFetch', () => {
     const url = 'www.example.com';
     const options = {};
 
-    await api.makeFetch(url, options);
+    await fetch.makeFetch(url, options);
 
     expect(window.fetch).toHaveBeenCalledTimes(1);
     expect(window.fetch).toHaveBeenLastCalledWith(url, {});
@@ -33,7 +34,7 @@ describe('makeFetch', () => {
     );
 
     const expected = Error(`Network request failed. (error: 500)`);
-    await expect(api.makeFetch()).rejects.toEqual(expected);
+    await expect(fetch.makeFetch()).rejects.toEqual(expected);
   });
 
   it('throws an error if fetch fails', async () => {
@@ -42,17 +43,16 @@ describe('makeFetch', () => {
       .mockImplementation(() => Promise.reject(Error('mock error')));
     const expected = Error('Network request failed. (error: mock error)');
 
-    await expect(api.makeFetch()).rejects.toEqual(expected);
+    await expect(fetch.makeFetch()).rejects.toEqual(expected);
   });
 });
 
 describe('getCards', () => {
-  it.skip('calls makeFetch', async () => {
+  it('calls makeFetch', async () => {
     const simulatedResponse = { data: 'simulated response' };
+    const mock = jest.spyOn(fetch, 'makeFetch');
 
-    const mock = jest.spyOn(api, 'makeFetch');
-    mock.mockImplementationOnce(() => Promise.resolve(simulatedResponse));
-
+    mock.mockReturnValue(Promise.resolve(simulatedResponse));
     const result = await api.getCards();
 
     expect(result).toEqual(simulatedResponse);
