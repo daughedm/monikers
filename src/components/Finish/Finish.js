@@ -26,7 +26,7 @@ export class Finish extends Component {
     return (
       <div className="background-monikers">
         <div className="finish-transition">
-        <h2 className="win-headline" style={teamColor}>
+          <h2 className="win-headline" style={teamColor}>
             {teamNames[winningTeam]}
           </h2>
           <h2 className="win-headline-two">
