@@ -111,7 +111,7 @@ export const mapDispatchToProps = dispatch => ({
   currentTeam: team => dispatch(actions.currentTeam(team)),
   currentRound: roundNumber => dispatch(actions.currentRound(roundNumber)),
   updateActiveCards: cards => dispatch(actions.updateActiveCards(cards)),
-  clearDiscardedCards: cards => dispatch(actions.clearDiscardedCards(cards)),
+  clearDiscardedCards: cards => dispatch(actions.clearDiscardedCards(cards))
 });
 
 Round.propTypes = {

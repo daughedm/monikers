@@ -5,9 +5,9 @@ import {
   discardedCards
 } from './cardActions.js';
 
-describe("Card Actions", () => {
-  describe("numOfCards", () => {
-    it("has a type of NUM_OF_CARDS", () => {
+describe('Card Actions', () => {
+  describe('numOfCards', () => {
+    it('has a type of NUM_OF_CARDS', () => {
       const number = 45;
 
       const actual = numOfCards(number);
@@ -19,8 +19,8 @@ describe("Card Actions", () => {
     });
   });
 
-  describe("addCard", () => {
-    it("has a type of ADD_CARD", () => {
+  describe('addCard', () => {
+    it('has a type of ADD_CARD', () => {
       const cards = [
         {
           name: 'Doge',
@@ -54,8 +54,8 @@ describe("Card Actions", () => {
     });
   });
 
-  describe("updateActiveCards", () => {
-    it("has a type of UPDATE_ACTIVE_CARDS", () => {
+  describe('updateActiveCards', () => {
+    it('has a type of UPDATE_ACTIVE_CARDS', () => {
       const cards = [
         {
           name: 'A Furry',
@@ -82,7 +82,7 @@ describe("Card Actions", () => {
     });
   });
 
-  describe("discardedCards", () => {
+  describe('discardedCards', () => {
     it("has a type of 'DISCARDED_CARDS'", () => {
       const card = {
         name: 'Blacula',

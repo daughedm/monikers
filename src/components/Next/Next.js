@@ -5,10 +5,6 @@ import * as actions from '../../actions';
 import './Next.css';
 
 export class Next extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   startTimer = e => {
     e.preventDefault();
     const { updateTeamTimer, activeCards, countDown } = this.props;
@@ -33,7 +29,7 @@ export class Next extends Component {
       <div className="background-monikers">
         <div className="team-transition">
           <h2 className="current-team-headline" style={teamColor}>
-            {currTeam}, <br/> your turn
+            {currTeam}, <br /> your turn
           </h2>
           <p className="remaining-cards">
             {activeCards.length} Cards Remaining

@@ -5,10 +5,6 @@ import PropTypes from 'prop-types';
 import * as actions from '../../actions';
 
 export class Finish extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   handleSubmit = e => {
     e.preventDefault();
     this.props.resetStore();
