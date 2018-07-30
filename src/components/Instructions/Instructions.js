@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import './Instructions.css';
 
 const Instructions = props => {
@@ -68,7 +67,10 @@ const Instructions = props => {
           free not to keep score at all. It’s fun to play competitively, but not
           necessary with the right group.
         </p>
-        <p>Monikers is available for free under a Creative Commons BY-NC-SA 4.0 license.</p>
+        <p>
+          Monikers is available for free under a Creative Commons BY-NC-SA 4.0
+          license.
+        </p>
         <button
           className="back-button"
           type="submit"
