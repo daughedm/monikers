@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
 const cors = require('express-cors');
+const path = require('path');
 
 const environment = process.env.NODE_ENV || 'development';
 const configuration = require('./knexfile')[environment];
@@ -9,6 +10,9 @@ const database = require('knex')(configuration);
 
 app.set('port', process.env.PORT || 3001);
 app.locals.title = 'Monikers';
+
+
+app.use(express.static(path.join(__dirname, 'client/build')));
 
 app.use(bodyParser.json());
 app.use(cors());

@@ -10,8 +10,3 @@ export const makeFetch = async (url, options) => {
     throw new Error(`Network request failed. (error: ${error.message})`);
   }
 };
-
-export const getCards = async () => {
-  const url = '/api/v1/cards';
-  return await makeFetch(url);
-};

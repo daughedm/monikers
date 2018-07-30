@@ -1,0 +1,871 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Instructions matches the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Instructions
+    history={
+        Object {
+            "push": [Function],
+          }
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="instructions"
+>
+        <h2
+                className="headline"
+        >
+                GETTING STARTED
+        </h2>
+        <div
+                className="dashed-line-instructions"
+        />
+        <p
+                className="body-text"
+        >
+                Monikers only takes about 5-10 minutes to learn. Start by dividing your group into 2 teams.
+        </p>
+        <p
+                className="body-text"
+        >
+                Choose the number of cards for your deck. For lower amounts of players (4-6) choose around 40 cards. For larger groups (6+) select around 60 cards.
+        </p>
+        <p
+                className="body-text last-paragraph "
+        >
+                Next, create your team names and hit START GAME. The team that is prompted will be the first team to go.
+        </p>
+        <h2
+                className="subtitle "
+        >
+                HOW TO PLAY
+        </h2>
+        <p
+                className="body-text"
+        >
+                A person from the starting team has 60 seconds to get their team to guess as many names as possible from the deck by giving clues about the person’s identity, (If you’re playing with more than 10 people, 30—45 seconds is probably better) There’s no limit to the number of guesses. Skipping is allowed and highly encouraged in all rounds.
+        </p>
+        <p
+                className="body-text"
+        >
+                Teams take turns giving clues, Each player should take a turn giving clues before any teammates repeat. Go in clockwise order or feel free to use some other system.
+        </p>
+        <p
+                className="body-text last-paragraph"
+        >
+                A round ends when all cards from the deck have been guessed correctly. The team with the lowest score begins the next round.
+        </p>
+        <h2
+                className="subtitle"
+        >
+                RULES FOR EACH ROUND
+        </h2>
+        <p
+                className="body-text"
+        >
+                Monikers has 3 rounds. Each has a restriction on how players are allowed to give clues:
+        </p>
+        <p
+                className="body-text"
+        >
+                ROUND 1 You can use any words, sounds, or gestures except the name itself, including the clue text on the card, If you say any part of the name, you have to skip that card this turn.
+        </p>
+        <p
+                className="body-text"
+        >
+                ROUND 2 Use only one word, which can be anything except the name itself, You can repeat that word as many times as you like, but no sounds or gestures.
+        </p>
+        <p
+                className="body-text last-paragraph"
+        >
+                ROUND 3 Just charades. No words. Sound effects are OK.
+        </p>
+        <h2
+                className="subtitle"
+        >
+                ENDING THE GAME
+        </h2>
+        <p
+                className="body-text"
+        >
+                The team with the highest total score after 3 rounds wins. But feel free not to keep score at all. It’s fun to play competitively, but not necessary with the right group.
+        </p>
+        <p>
+                Monikers is available for free under a Creative Commons BY-NC-SA 4.0 license.
+        </p>
+        <button
+                className="back-button"
+                onClick={[Function]}
+                type="submit"
+        >
+                BACK
+        </button>
+</div>,
+      "className": "background-wrapper",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h2
+            className="headline"
+>
+            GETTING STARTED
+</h2>,
+          <div
+            className="dashed-line-instructions"
+/>,
+          <p
+            className="body-text"
+>
+            Monikers only takes about 5-10 minutes to learn. Start by dividing your group into 2 teams.
+</p>,
+          <p
+            className="body-text"
+>
+            Choose the number of cards for your deck. For lower amounts of players (4-6) choose around 40 cards. For larger groups (6+) select around 60 cards.
+</p>,
+          <p
+            className="body-text last-paragraph "
+>
+            Next, create your team names and hit START GAME. The team that is prompted will be the first team to go.
+</p>,
+          <h2
+            className="subtitle "
+>
+            HOW TO PLAY
+</h2>,
+          <p
+            className="body-text"
+>
+            A person from the starting team has 60 seconds to get their team to guess as many names as possible from the deck by giving clues about the person’s identity, (If you’re playing with more than 10 people, 30—45 seconds is probably better) There’s no limit to the number of guesses. Skipping is allowed and highly encouraged in all rounds.
+</p>,
+          <p
+            className="body-text"
+>
+            Teams take turns giving clues, Each player should take a turn giving clues before any teammates repeat. Go in clockwise order or feel free to use some other system.
+</p>,
+          <p
+            className="body-text last-paragraph"
+>
+            A round ends when all cards from the deck have been guessed correctly. The team with the lowest score begins the next round.
+</p>,
+          <h2
+            className="subtitle"
+>
+            RULES FOR EACH ROUND
+</h2>,
+          <p
+            className="body-text"
+>
+            Monikers has 3 rounds. Each has a restriction on how players are allowed to give clues:
+</p>,
+          <p
+            className="body-text"
+>
+            ROUND 1 You can use any words, sounds, or gestures except the name itself, including the clue text on the card, If you say any part of the name, you have to skip that card this turn.
+</p>,
+          <p
+            className="body-text"
+>
+            ROUND 2 Use only one word, which can be anything except the name itself, You can repeat that word as many times as you like, but no sounds or gestures.
+</p>,
+          <p
+            className="body-text last-paragraph"
+>
+            ROUND 3 Just charades. No words. Sound effects are OK.
+</p>,
+          <h2
+            className="subtitle"
+>
+            ENDING THE GAME
+</h2>,
+          <p
+            className="body-text"
+>
+            The team with the highest total score after 3 rounds wins. But feel free not to keep score at all. It’s fun to play competitively, but not necessary with the right group.
+</p>,
+          <p>
+            Monikers is available for free under a Creative Commons BY-NC-SA 4.0 license.
+</p>,
+          <button
+            className="back-button"
+            onClick={[Function]}
+            type="submit"
+>
+            BACK
+</button>,
+        ],
+        "className": "instructions",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "GETTING STARTED",
+            "className": "headline",
+          },
+          "ref": null,
+          "rendered": "GETTING STARTED",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "dashed-line-instructions",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Monikers only takes about 5-10 minutes to learn. Start by dividing your group into 2 teams.",
+            "className": "body-text",
+          },
+          "ref": null,
+          "rendered": "Monikers only takes about 5-10 minutes to learn. Start by dividing your group into 2 teams.",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Choose the number of cards for your deck. For lower amounts of players (4-6) choose around 40 cards. For larger groups (6+) select around 60 cards.",
+            "className": "body-text",
+          },
+          "ref": null,
+          "rendered": "Choose the number of cards for your deck. For lower amounts of players (4-6) choose around 40 cards. For larger groups (6+) select around 60 cards.",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Next, create your team names and hit START GAME. The team that is prompted will be the first team to go.",
+            "className": "body-text last-paragraph ",
+          },
+          "ref": null,
+          "rendered": "Next, create your team names and hit START GAME. The team that is prompted will be the first team to go.",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "HOW TO PLAY",
+            "className": "subtitle ",
+          },
+          "ref": null,
+          "rendered": "HOW TO PLAY",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "A person from the starting team has 60 seconds to get their team to guess as many names as possible from the deck by giving clues about the person’s identity, (If you’re playing with more than 10 people, 30—45 seconds is probably better) There’s no limit to the number of guesses. Skipping is allowed and highly encouraged in all rounds.",
+            "className": "body-text",
+          },
+          "ref": null,
+          "rendered": "A person from the starting team has 60 seconds to get their team to guess as many names as possible from the deck by giving clues about the person’s identity, (If you’re playing with more than 10 people, 30—45 seconds is probably better) There’s no limit to the number of guesses. Skipping is allowed and highly encouraged in all rounds.",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Teams take turns giving clues, Each player should take a turn giving clues before any teammates repeat. Go in clockwise order or feel free to use some other system.",
+            "className": "body-text",
+          },
+          "ref": null,
+          "rendered": "Teams take turns giving clues, Each player should take a turn giving clues before any teammates repeat. Go in clockwise order or feel free to use some other system.",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "A round ends when all cards from the deck have been guessed correctly. The team with the lowest score begins the next round.",
+            "className": "body-text last-paragraph",
+          },
+          "ref": null,
+          "rendered": "A round ends when all cards from the deck have been guessed correctly. The team with the lowest score begins the next round.",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "RULES FOR EACH ROUND",
+            "className": "subtitle",
+          },
+          "ref": null,
+          "rendered": "RULES FOR EACH ROUND",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Monikers has 3 rounds. Each has a restriction on how players are allowed to give clues:",
+            "className": "body-text",
+          },
+          "ref": null,
+          "rendered": "Monikers has 3 rounds. Each has a restriction on how players are allowed to give clues:",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "ROUND 1 You can use any words, sounds, or gestures except the name itself, including the clue text on the card, If you say any part of the name, you have to skip that card this turn.",
+            "className": "body-text",
+          },
+          "ref": null,
+          "rendered": "ROUND 1 You can use any words, sounds, or gestures except the name itself, including the clue text on the card, If you say any part of the name, you have to skip that card this turn.",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "ROUND 2 Use only one word, which can be anything except the name itself, You can repeat that word as many times as you like, but no sounds or gestures.",
+            "className": "body-text",
+          },
+          "ref": null,
+          "rendered": "ROUND 2 Use only one word, which can be anything except the name itself, You can repeat that word as many times as you like, but no sounds or gestures.",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "ROUND 3 Just charades. No words. Sound effects are OK.",
+            "className": "body-text last-paragraph",
+          },
+          "ref": null,
+          "rendered": "ROUND 3 Just charades. No words. Sound effects are OK.",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "ENDING THE GAME",
+            "className": "subtitle",
+          },
+          "ref": null,
+          "rendered": "ENDING THE GAME",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "The team with the highest total score after 3 rounds wins. But feel free not to keep score at all. It’s fun to play competitively, but not necessary with the right group.",
+            "className": "body-text",
+          },
+          "ref": null,
+          "rendered": "The team with the highest total score after 3 rounds wins. But feel free not to keep score at all. It’s fun to play competitively, but not necessary with the right group.",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Monikers is available for free under a Creative Commons BY-NC-SA 4.0 license.",
+          },
+          "ref": null,
+          "rendered": "Monikers is available for free under a Creative Commons BY-NC-SA 4.0 license.",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "BACK",
+            "className": "back-button",
+            "onClick": [Function],
+            "type": "submit",
+          },
+          "ref": null,
+          "rendered": "BACK",
+          "type": "button",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="instructions"
+>
+          <h2
+                    className="headline"
+          >
+                    GETTING STARTED
+          </h2>
+          <div
+                    className="dashed-line-instructions"
+          />
+          <p
+                    className="body-text"
+          >
+                    Monikers only takes about 5-10 minutes to learn. Start by dividing your group into 2 teams.
+          </p>
+          <p
+                    className="body-text"
+          >
+                    Choose the number of cards for your deck. For lower amounts of players (4-6) choose around 40 cards. For larger groups (6+) select around 60 cards.
+          </p>
+          <p
+                    className="body-text last-paragraph "
+          >
+                    Next, create your team names and hit START GAME. The team that is prompted will be the first team to go.
+          </p>
+          <h2
+                    className="subtitle "
+          >
+                    HOW TO PLAY
+          </h2>
+          <p
+                    className="body-text"
+          >
+                    A person from the starting team has 60 seconds to get their team to guess as many names as possible from the deck by giving clues about the person’s identity, (If you’re playing with more than 10 people, 30—45 seconds is probably better) There’s no limit to the number of guesses. Skipping is allowed and highly encouraged in all rounds.
+          </p>
+          <p
+                    className="body-text"
+          >
+                    Teams take turns giving clues, Each player should take a turn giving clues before any teammates repeat. Go in clockwise order or feel free to use some other system.
+          </p>
+          <p
+                    className="body-text last-paragraph"
+          >
+                    A round ends when all cards from the deck have been guessed correctly. The team with the lowest score begins the next round.
+          </p>
+          <h2
+                    className="subtitle"
+          >
+                    RULES FOR EACH ROUND
+          </h2>
+          <p
+                    className="body-text"
+          >
+                    Monikers has 3 rounds. Each has a restriction on how players are allowed to give clues:
+          </p>
+          <p
+                    className="body-text"
+          >
+                    ROUND 1 You can use any words, sounds, or gestures except the name itself, including the clue text on the card, If you say any part of the name, you have to skip that card this turn.
+          </p>
+          <p
+                    className="body-text"
+          >
+                    ROUND 2 Use only one word, which can be anything except the name itself, You can repeat that word as many times as you like, but no sounds or gestures.
+          </p>
+          <p
+                    className="body-text last-paragraph"
+          >
+                    ROUND 3 Just charades. No words. Sound effects are OK.
+          </p>
+          <h2
+                    className="subtitle"
+          >
+                    ENDING THE GAME
+          </h2>
+          <p
+                    className="body-text"
+          >
+                    The team with the highest total score after 3 rounds wins. But feel free not to keep score at all. It’s fun to play competitively, but not necessary with the right group.
+          </p>
+          <p>
+                    Monikers is available for free under a Creative Commons BY-NC-SA 4.0 license.
+          </p>
+          <button
+                    className="back-button"
+                    onClick={[Function]}
+                    type="submit"
+          >
+                    BACK
+          </button>
+</div>,
+        "className": "background-wrapper",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h2
+              className="headline"
+>
+              GETTING STARTED
+</h2>,
+            <div
+              className="dashed-line-instructions"
+/>,
+            <p
+              className="body-text"
+>
+              Monikers only takes about 5-10 minutes to learn. Start by dividing your group into 2 teams.
+</p>,
+            <p
+              className="body-text"
+>
+              Choose the number of cards for your deck. For lower amounts of players (4-6) choose around 40 cards. For larger groups (6+) select around 60 cards.
+</p>,
+            <p
+              className="body-text last-paragraph "
+>
+              Next, create your team names and hit START GAME. The team that is prompted will be the first team to go.
+</p>,
+            <h2
+              className="subtitle "
+>
+              HOW TO PLAY
+</h2>,
+            <p
+              className="body-text"
+>
+              A person from the starting team has 60 seconds to get their team to guess as many names as possible from the deck by giving clues about the person’s identity, (If you’re playing with more than 10 people, 30—45 seconds is probably better) There’s no limit to the number of guesses. Skipping is allowed and highly encouraged in all rounds.
+</p>,
+            <p
+              className="body-text"
+>
+              Teams take turns giving clues, Each player should take a turn giving clues before any teammates repeat. Go in clockwise order or feel free to use some other system.
+</p>,
+            <p
+              className="body-text last-paragraph"
+>
+              A round ends when all cards from the deck have been guessed correctly. The team with the lowest score begins the next round.
+</p>,
+            <h2
+              className="subtitle"
+>
+              RULES FOR EACH ROUND
+</h2>,
+            <p
+              className="body-text"
+>
+              Monikers has 3 rounds. Each has a restriction on how players are allowed to give clues:
+</p>,
+            <p
+              className="body-text"
+>
+              ROUND 1 You can use any words, sounds, or gestures except the name itself, including the clue text on the card, If you say any part of the name, you have to skip that card this turn.
+</p>,
+            <p
+              className="body-text"
+>
+              ROUND 2 Use only one word, which can be anything except the name itself, You can repeat that word as many times as you like, but no sounds or gestures.
+</p>,
+            <p
+              className="body-text last-paragraph"
+>
+              ROUND 3 Just charades. No words. Sound effects are OK.
+</p>,
+            <h2
+              className="subtitle"
+>
+              ENDING THE GAME
+</h2>,
+            <p
+              className="body-text"
+>
+              The team with the highest total score after 3 rounds wins. But feel free not to keep score at all. It’s fun to play competitively, but not necessary with the right group.
+</p>,
+            <p>
+              Monikers is available for free under a Creative Commons BY-NC-SA 4.0 license.
+</p>,
+            <button
+              className="back-button"
+              onClick={[Function]}
+              type="submit"
+>
+              BACK
+</button>,
+          ],
+          "className": "instructions",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "GETTING STARTED",
+              "className": "headline",
+            },
+            "ref": null,
+            "rendered": "GETTING STARTED",
+            "type": "h2",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "dashed-line-instructions",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Monikers only takes about 5-10 minutes to learn. Start by dividing your group into 2 teams.",
+              "className": "body-text",
+            },
+            "ref": null,
+            "rendered": "Monikers only takes about 5-10 minutes to learn. Start by dividing your group into 2 teams.",
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Choose the number of cards for your deck. For lower amounts of players (4-6) choose around 40 cards. For larger groups (6+) select around 60 cards.",
+              "className": "body-text",
+            },
+            "ref": null,
+            "rendered": "Choose the number of cards for your deck. For lower amounts of players (4-6) choose around 40 cards. For larger groups (6+) select around 60 cards.",
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Next, create your team names and hit START GAME. The team that is prompted will be the first team to go.",
+              "className": "body-text last-paragraph ",
+            },
+            "ref": null,
+            "rendered": "Next, create your team names and hit START GAME. The team that is prompted will be the first team to go.",
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "HOW TO PLAY",
+              "className": "subtitle ",
+            },
+            "ref": null,
+            "rendered": "HOW TO PLAY",
+            "type": "h2",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "A person from the starting team has 60 seconds to get their team to guess as many names as possible from the deck by giving clues about the person’s identity, (If you’re playing with more than 10 people, 30—45 seconds is probably better) There’s no limit to the number of guesses. Skipping is allowed and highly encouraged in all rounds.",
+              "className": "body-text",
+            },
+            "ref": null,
+            "rendered": "A person from the starting team has 60 seconds to get their team to guess as many names as possible from the deck by giving clues about the person’s identity, (If you’re playing with more than 10 people, 30—45 seconds is probably better) There’s no limit to the number of guesses. Skipping is allowed and highly encouraged in all rounds.",
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Teams take turns giving clues, Each player should take a turn giving clues before any teammates repeat. Go in clockwise order or feel free to use some other system.",
+              "className": "body-text",
+            },
+            "ref": null,
+            "rendered": "Teams take turns giving clues, Each player should take a turn giving clues before any teammates repeat. Go in clockwise order or feel free to use some other system.",
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "A round ends when all cards from the deck have been guessed correctly. The team with the lowest score begins the next round.",
+              "className": "body-text last-paragraph",
+            },
+            "ref": null,
+            "rendered": "A round ends when all cards from the deck have been guessed correctly. The team with the lowest score begins the next round.",
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "RULES FOR EACH ROUND",
+              "className": "subtitle",
+            },
+            "ref": null,
+            "rendered": "RULES FOR EACH ROUND",
+            "type": "h2",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Monikers has 3 rounds. Each has a restriction on how players are allowed to give clues:",
+              "className": "body-text",
+            },
+            "ref": null,
+            "rendered": "Monikers has 3 rounds. Each has a restriction on how players are allowed to give clues:",
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "ROUND 1 You can use any words, sounds, or gestures except the name itself, including the clue text on the card, If you say any part of the name, you have to skip that card this turn.",
+              "className": "body-text",
+            },
+            "ref": null,
+            "rendered": "ROUND 1 You can use any words, sounds, or gestures except the name itself, including the clue text on the card, If you say any part of the name, you have to skip that card this turn.",
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "ROUND 2 Use only one word, which can be anything except the name itself, You can repeat that word as many times as you like, but no sounds or gestures.",
+              "className": "body-text",
+            },
+            "ref": null,
+            "rendered": "ROUND 2 Use only one word, which can be anything except the name itself, You can repeat that word as many times as you like, but no sounds or gestures.",
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "ROUND 3 Just charades. No words. Sound effects are OK.",
+              "className": "body-text last-paragraph",
+            },
+            "ref": null,
+            "rendered": "ROUND 3 Just charades. No words. Sound effects are OK.",
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "ENDING THE GAME",
+              "className": "subtitle",
+            },
+            "ref": null,
+            "rendered": "ENDING THE GAME",
+            "type": "h2",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "The team with the highest total score after 3 rounds wins. But feel free not to keep score at all. It’s fun to play competitively, but not necessary with the right group.",
+              "className": "body-text",
+            },
+            "ref": null,
+            "rendered": "The team with the highest total score after 3 rounds wins. But feel free not to keep score at all. It’s fun to play competitively, but not necessary with the right group.",
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Monikers is available for free under a Creative Commons BY-NC-SA 4.0 license.",
+            },
+            "ref": null,
+            "rendered": "Monikers is available for free under a Creative Commons BY-NC-SA 4.0 license.",
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "BACK",
+              "className": "back-button",
+              "onClick": [Function],
+              "type": "submit",
+            },
+            "ref": null,
+            "rendered": "BACK",
+            "type": "button",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
