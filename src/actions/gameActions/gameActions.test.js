@@ -92,7 +92,7 @@ describe('Game Actions', () => {
       const actual = resetStore();
 
       expect(actual).toEqual({
-        type: 'UPDATE_TEAM_TIMER'
+        type: 'RESET_STORE'
       });
     });
   });
