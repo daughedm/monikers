@@ -4,7 +4,8 @@ import {
   currentRound,
   teamOneScore,
   teamTwoScore,
-  updateTeamTimer
+  updateTeamTimer,
+  resetStore
 } from './gameActions.js';
 
 describe('Game Actions', () => {
@@ -82,6 +83,16 @@ describe('Game Actions', () => {
       expect(actual).toEqual({
         type: 'UPDATE_TEAM_TIMER',
         teamTimer
+      });
+    });
+  });
+
+  describe('resetStore', () => {
+    it('has a type of RESET_STORE', () => {
+      const actual = resetStore();
+
+      expect(actual).toEqual({
+        type: 'UPDATE_TEAM_TIMER'
       });
     });
   });
