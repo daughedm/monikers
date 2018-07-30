@@ -1,0 +1,104 @@
+.animation-two {
+  background-image: url('../../assets/monikers_furry_one-01.svg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 600px;
+  position: absolute;
+  bottom: -600px;
+  width: 100%;
+  animation: person 10s infinite;
+}
+
+.animation-one {
+  background-image: url('../../assets/furry-one-noBG-02.svg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 600px;
+  width: 100%;
+  position: absolute;
+  bottom: -600px;
+  animation: furry 10s infinite;
+}
+
+.win-headline {
+  text-align: center;
+  font-size: 4rem;
+  margin: 0;
+}
+
+.win-headline-two {
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 0;
+  color: #555;
+}
+
+.start-newgame-button {
+  width: 100%;
+  height: 40px;
+  color: #FFF;
+  background-color: rgba(76, 189, 159, 1);
+  border: 1px solid #FFF;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-top: 0;
+  -webkit-box-shadow: 0px 2px 12px 0px rgba(0,0,0,0.37);
+  -moz-box-shadow: 0px 2px 12px 0px rgba(0,0,0,0.37);
+  box-shadow: 0px 2px 12px 0px rgba(0,0,0,0.37);
+}
+
+.finish-transition {
+  width: 85%;
+  margin: 40px auto 25px auto;
+  background-color: #FFF;
+  background-size: 75%;
+  border-radius: 15px;
+  padding: 40px 20px 40px 20px;
+  -webkit-box-shadow: 0px 2px 12px 0px rgba(0,0,0,0.37);
+  -moz-box-shadow: 0px 2px 12px 0px rgba(0,0,0,0.37);
+  box-shadow: 0px 2px 12px 0px rgba(0,0,0,0.37);
+}
+
+@keyframes furry {
+  0%   {
+    bottom: -600px;
+  }
+  25%  {
+    bottom: -350px;
+  }
+
+  50%  {
+    bottom: -600px;
+  }
+  100% {
+    bottom: -600px;
+  }
+}
+
+@keyframes person {
+  0%   {
+    bottom: -600px;
+  }
+ 
+
+  50%  {
+    bottom: -600px;
+  }
+  75%  {
+    bottom: -350px;
+  }
+  100% {
+    bottom: -600px;
+  }
+}
+
+@media (min-width: 410px) {
+  .finish-transition {
+    width: 80%;
+    padding: 40px 30px 40px 30px;
+  }
+
+  .start-newgame-button {
+    height: 45px;
+  }
+}
