@@ -1,0 +1,1486 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card matches the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Card
+    activeCards={
+        Array [
+            Object {
+              "category": "CELEBRITY",
+              "description": "An Internet meme that shows a Shiba Inu surrounded by colorful Comic Sans text that describes its inner monologue, such as \\"Wow,\\" \\"Concern,\\" and \\"so scare.\\" There is much confuse over the name's pronunciation, yet it was recently used to brand a Bitcoin competitor.",
+              "name": "Doge",
+              "pointValue": 3,
+            },
+          ]
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h1
+          className="card-title"
+>
+          Doge
+</h1>,
+        <p
+          className="description"
+>
+          An Internet meme that shows a Shiba Inu surrounded by colorful Comic Sans text that describes its inner monologue, such as "Wow," "Concern," and "so scare." There is much confuse over the name's pronunciation, yet it was recently used to brand a Bitcoin competitor.
+</p>,
+        <div
+          className="dashed-line"
+/>,
+        <h3
+          className="category"
+          style={
+                    Object {
+                              "color": "#866AAD",
+                            }
+          }
+>
+          CELEBRITY
+</h3>,
+        <div
+          className="circle"
+          style={
+                    Object {
+                              "backgroundColor": "#866AAD",
+                            }
+          }
+>
+          <h1
+                    className="points"
+          >
+                    3
+          </h1>
+</div>,
+      ],
+      "className": "card-container",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Doge",
+          "className": "card-title",
+        },
+        "ref": null,
+        "rendered": "Doge",
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "An Internet meme that shows a Shiba Inu surrounded by colorful Comic Sans text that describes its inner monologue, such as \\"Wow,\\" \\"Concern,\\" and \\"so scare.\\" There is much confuse over the name's pronunciation, yet it was recently used to brand a Bitcoin competitor.",
+          "className": "description",
+        },
+        "ref": null,
+        "rendered": "An Internet meme that shows a Shiba Inu surrounded by colorful Comic Sans text that describes its inner monologue, such as \\"Wow,\\" \\"Concern,\\" and \\"so scare.\\" There is much confuse over the name's pronunciation, yet it was recently used to brand a Bitcoin competitor.",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "dashed-line",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "CELEBRITY",
+          "className": "category",
+          "style": Object {
+            "color": "#866AAD",
+          },
+        },
+        "ref": null,
+        "rendered": "CELEBRITY",
+        "type": "h3",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <h1
+            className="points"
+>
+            3
+</h1>,
+          "className": "circle",
+          "style": Object {
+            "backgroundColor": "#866AAD",
+          },
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": 3,
+            "className": "points",
+          },
+          "ref": null,
+          "rendered": 3,
+          "type": "h1",
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1
+            className="card-title"
+>
+            Doge
+</h1>,
+          <p
+            className="description"
+>
+            An Internet meme that shows a Shiba Inu surrounded by colorful Comic Sans text that describes its inner monologue, such as "Wow," "Concern," and "so scare." There is much confuse over the name's pronunciation, yet it was recently used to brand a Bitcoin competitor.
+</p>,
+          <div
+            className="dashed-line"
+/>,
+          <h3
+            className="category"
+            style={
+                        Object {
+                                    "color": "#866AAD",
+                                  }
+            }
+>
+            CELEBRITY
+</h3>,
+          <div
+            className="circle"
+            style={
+                        Object {
+                                    "backgroundColor": "#866AAD",
+                                  }
+            }
+>
+            <h1
+                        className="points"
+            >
+                        3
+            </h1>
+</div>,
+        ],
+        "className": "card-container",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Doge",
+            "className": "card-title",
+          },
+          "ref": null,
+          "rendered": "Doge",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "An Internet meme that shows a Shiba Inu surrounded by colorful Comic Sans text that describes its inner monologue, such as \\"Wow,\\" \\"Concern,\\" and \\"so scare.\\" There is much confuse over the name's pronunciation, yet it was recently used to brand a Bitcoin competitor.",
+            "className": "description",
+          },
+          "ref": null,
+          "rendered": "An Internet meme that shows a Shiba Inu surrounded by colorful Comic Sans text that describes its inner monologue, such as \\"Wow,\\" \\"Concern,\\" and \\"so scare.\\" There is much confuse over the name's pronunciation, yet it was recently used to brand a Bitcoin competitor.",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "dashed-line",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "CELEBRITY",
+            "className": "category",
+            "style": Object {
+              "color": "#866AAD",
+            },
+          },
+          "ref": null,
+          "rendered": "CELEBRITY",
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <h1
+              className="points"
+>
+              3
+</h1>,
+            "className": "circle",
+            "style": Object {
+              "backgroundColor": "#866AAD",
+            },
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": 3,
+              "className": "points",
+            },
+            "ref": null,
+            "rendered": 3,
+            "type": "h1",
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`Card matches the snapshot if point value is 1 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Card
+    activeCards={
+        Array [
+            Object {
+              "category": "CELEBRITY",
+              "description": "An Internet meme that shows a Shiba Inu surrounded by colorful Comic Sans text that describes its inner monologue, such as \\"Wow,\\" \\"Concern,\\" and \\"so scare.\\" There is much confuse over the name's pronunciation, yet it was recently used to brand a Bitcoin competitor.",
+              "name": "Doge",
+              "pointValue": 3,
+            },
+          ]
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h1
+          className="card-title"
+>
+          Doge
+</h1>,
+        <p
+          className="description"
+>
+          An Internet meme that shows a Shiba Inu surrounded by colorful Comic Sans text that describes its inner monologue, such as "Wow," "Concern," and "so scare." There is much confuse over the name's pronunciation, yet it was recently used to brand a Bitcoin competitor.
+</p>,
+        <div
+          className="dashed-line"
+/>,
+        <h3
+          className="category"
+          style={
+                    Object {
+                              "color": "#866AAD",
+                            }
+          }
+>
+          CELEBRITY
+</h3>,
+        <div
+          className="circle"
+          style={
+                    Object {
+                              "backgroundColor": "#866AAD",
+                            }
+          }
+>
+          <h1
+                    className="points"
+          >
+                    3
+          </h1>
+</div>,
+      ],
+      "className": "card-container",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Doge",
+          "className": "card-title",
+        },
+        "ref": null,
+        "rendered": "Doge",
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "An Internet meme that shows a Shiba Inu surrounded by colorful Comic Sans text that describes its inner monologue, such as \\"Wow,\\" \\"Concern,\\" and \\"so scare.\\" There is much confuse over the name's pronunciation, yet it was recently used to brand a Bitcoin competitor.",
+          "className": "description",
+        },
+        "ref": null,
+        "rendered": "An Internet meme that shows a Shiba Inu surrounded by colorful Comic Sans text that describes its inner monologue, such as \\"Wow,\\" \\"Concern,\\" and \\"so scare.\\" There is much confuse over the name's pronunciation, yet it was recently used to brand a Bitcoin competitor.",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "dashed-line",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "CELEBRITY",
+          "className": "category",
+          "style": Object {
+            "color": "#866AAD",
+          },
+        },
+        "ref": null,
+        "rendered": "CELEBRITY",
+        "type": "h3",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <h1
+            className="points"
+>
+            3
+</h1>,
+          "className": "circle",
+          "style": Object {
+            "backgroundColor": "#866AAD",
+          },
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": 3,
+            "className": "points",
+          },
+          "ref": null,
+          "rendered": 3,
+          "type": "h1",
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1
+            className="card-title"
+>
+            Doge
+</h1>,
+          <p
+            className="description"
+>
+            An Internet meme that shows a Shiba Inu surrounded by colorful Comic Sans text that describes its inner monologue, such as "Wow," "Concern," and "so scare." There is much confuse over the name's pronunciation, yet it was recently used to brand a Bitcoin competitor.
+</p>,
+          <div
+            className="dashed-line"
+/>,
+          <h3
+            className="category"
+            style={
+                        Object {
+                                    "color": "#866AAD",
+                                  }
+            }
+>
+            CELEBRITY
+</h3>,
+          <div
+            className="circle"
+            style={
+                        Object {
+                                    "backgroundColor": "#866AAD",
+                                  }
+            }
+>
+            <h1
+                        className="points"
+            >
+                        3
+            </h1>
+</div>,
+        ],
+        "className": "card-container",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Doge",
+            "className": "card-title",
+          },
+          "ref": null,
+          "rendered": "Doge",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "An Internet meme that shows a Shiba Inu surrounded by colorful Comic Sans text that describes its inner monologue, such as \\"Wow,\\" \\"Concern,\\" and \\"so scare.\\" There is much confuse over the name's pronunciation, yet it was recently used to brand a Bitcoin competitor.",
+            "className": "description",
+          },
+          "ref": null,
+          "rendered": "An Internet meme that shows a Shiba Inu surrounded by colorful Comic Sans text that describes its inner monologue, such as \\"Wow,\\" \\"Concern,\\" and \\"so scare.\\" There is much confuse over the name's pronunciation, yet it was recently used to brand a Bitcoin competitor.",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "dashed-line",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "CELEBRITY",
+            "className": "category",
+            "style": Object {
+              "color": "#866AAD",
+            },
+          },
+          "ref": null,
+          "rendered": "CELEBRITY",
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <h1
+              className="points"
+>
+              3
+</h1>,
+            "className": "circle",
+            "style": Object {
+              "backgroundColor": "#866AAD",
+            },
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": 3,
+              "className": "points",
+            },
+            "ref": null,
+            "rendered": 3,
+            "type": "h1",
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`Card matches the snapshot if point value is 2 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Card
+    activeCards={
+        Array [
+            Object {
+              "category": "CELEBRITY",
+              "description": "An Internet meme that shows a Shiba Inu surrounded by colorful Comic Sans text that describes its inner monologue, such as \\"Wow,\\" \\"Concern,\\" and \\"so scare.\\" There is much confuse over the name's pronunciation, yet it was recently used to brand a Bitcoin competitor.",
+              "name": "Doge",
+              "pointValue": 2,
+            },
+          ]
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h1
+          className="card-title"
+>
+          Doge
+</h1>,
+        <p
+          className="description"
+>
+          An Internet meme that shows a Shiba Inu surrounded by colorful Comic Sans text that describes its inner monologue, such as "Wow," "Concern," and "so scare." There is much confuse over the name's pronunciation, yet it was recently used to brand a Bitcoin competitor.
+</p>,
+        <div
+          className="dashed-line"
+/>,
+        <h3
+          className="category"
+          style={
+                    Object {
+                              "color": "#00B4EF",
+                            }
+          }
+>
+          CELEBRITY
+</h3>,
+        <div
+          className="circle"
+          style={
+                    Object {
+                              "backgroundColor": "#00B4EF",
+                            }
+          }
+>
+          <h1
+                    className="points"
+          >
+                    2
+          </h1>
+</div>,
+      ],
+      "className": "card-container",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Doge",
+          "className": "card-title",
+        },
+        "ref": null,
+        "rendered": "Doge",
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "An Internet meme that shows a Shiba Inu surrounded by colorful Comic Sans text that describes its inner monologue, such as \\"Wow,\\" \\"Concern,\\" and \\"so scare.\\" There is much confuse over the name's pronunciation, yet it was recently used to brand a Bitcoin competitor.",
+          "className": "description",
+        },
+        "ref": null,
+        "rendered": "An Internet meme that shows a Shiba Inu surrounded by colorful Comic Sans text that describes its inner monologue, such as \\"Wow,\\" \\"Concern,\\" and \\"so scare.\\" There is much confuse over the name's pronunciation, yet it was recently used to brand a Bitcoin competitor.",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "dashed-line",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "CELEBRITY",
+          "className": "category",
+          "style": Object {
+            "color": "#00B4EF",
+          },
+        },
+        "ref": null,
+        "rendered": "CELEBRITY",
+        "type": "h3",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <h1
+            className="points"
+>
+            2
+</h1>,
+          "className": "circle",
+          "style": Object {
+            "backgroundColor": "#00B4EF",
+          },
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": 2,
+            "className": "points",
+          },
+          "ref": null,
+          "rendered": 2,
+          "type": "h1",
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1
+            className="card-title"
+>
+            Doge
+</h1>,
+          <p
+            className="description"
+>
+            An Internet meme that shows a Shiba Inu surrounded by colorful Comic Sans text that describes its inner monologue, such as "Wow," "Concern," and "so scare." There is much confuse over the name's pronunciation, yet it was recently used to brand a Bitcoin competitor.
+</p>,
+          <div
+            className="dashed-line"
+/>,
+          <h3
+            className="category"
+            style={
+                        Object {
+                                    "color": "#00B4EF",
+                                  }
+            }
+>
+            CELEBRITY
+</h3>,
+          <div
+            className="circle"
+            style={
+                        Object {
+                                    "backgroundColor": "#00B4EF",
+                                  }
+            }
+>
+            <h1
+                        className="points"
+            >
+                        2
+            </h1>
+</div>,
+        ],
+        "className": "card-container",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Doge",
+            "className": "card-title",
+          },
+          "ref": null,
+          "rendered": "Doge",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "An Internet meme that shows a Shiba Inu surrounded by colorful Comic Sans text that describes its inner monologue, such as \\"Wow,\\" \\"Concern,\\" and \\"so scare.\\" There is much confuse over the name's pronunciation, yet it was recently used to brand a Bitcoin competitor.",
+            "className": "description",
+          },
+          "ref": null,
+          "rendered": "An Internet meme that shows a Shiba Inu surrounded by colorful Comic Sans text that describes its inner monologue, such as \\"Wow,\\" \\"Concern,\\" and \\"so scare.\\" There is much confuse over the name's pronunciation, yet it was recently used to brand a Bitcoin competitor.",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "dashed-line",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "CELEBRITY",
+            "className": "category",
+            "style": Object {
+              "color": "#00B4EF",
+            },
+          },
+          "ref": null,
+          "rendered": "CELEBRITY",
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <h1
+              className="points"
+>
+              2
+</h1>,
+            "className": "circle",
+            "style": Object {
+              "backgroundColor": "#00B4EF",
+            },
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": 2,
+              "className": "points",
+            },
+            "ref": null,
+            "rendered": 2,
+            "type": "h1",
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`Card matches the snapshot if point value is 3 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Card
+    activeCards={
+        Array [
+            Object {
+              "category": "CELEBRITY",
+              "description": "An Internet meme that shows a Shiba Inu surrounded by colorful Comic Sans text that describes its inner monologue, such as \\"Wow,\\" \\"Concern,\\" and \\"so scare.\\" There is much confuse over the name's pronunciation, yet it was recently used to brand a Bitcoin competitor.",
+              "name": "Doge",
+              "pointValue": 2,
+            },
+          ]
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h1
+          className="card-title"
+>
+          Doge
+</h1>,
+        <p
+          className="description"
+>
+          An Internet meme that shows a Shiba Inu surrounded by colorful Comic Sans text that describes its inner monologue, such as "Wow," "Concern," and "so scare." There is much confuse over the name's pronunciation, yet it was recently used to brand a Bitcoin competitor.
+</p>,
+        <div
+          className="dashed-line"
+/>,
+        <h3
+          className="category"
+          style={
+                    Object {
+                              "color": "#00B4EF",
+                            }
+          }
+>
+          CELEBRITY
+</h3>,
+        <div
+          className="circle"
+          style={
+                    Object {
+                              "backgroundColor": "#00B4EF",
+                            }
+          }
+>
+          <h1
+                    className="points"
+          >
+                    2
+          </h1>
+</div>,
+      ],
+      "className": "card-container",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Doge",
+          "className": "card-title",
+        },
+        "ref": null,
+        "rendered": "Doge",
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "An Internet meme that shows a Shiba Inu surrounded by colorful Comic Sans text that describes its inner monologue, such as \\"Wow,\\" \\"Concern,\\" and \\"so scare.\\" There is much confuse over the name's pronunciation, yet it was recently used to brand a Bitcoin competitor.",
+          "className": "description",
+        },
+        "ref": null,
+        "rendered": "An Internet meme that shows a Shiba Inu surrounded by colorful Comic Sans text that describes its inner monologue, such as \\"Wow,\\" \\"Concern,\\" and \\"so scare.\\" There is much confuse over the name's pronunciation, yet it was recently used to brand a Bitcoin competitor.",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "dashed-line",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "CELEBRITY",
+          "className": "category",
+          "style": Object {
+            "color": "#00B4EF",
+          },
+        },
+        "ref": null,
+        "rendered": "CELEBRITY",
+        "type": "h3",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <h1
+            className="points"
+>
+            2
+</h1>,
+          "className": "circle",
+          "style": Object {
+            "backgroundColor": "#00B4EF",
+          },
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": 2,
+            "className": "points",
+          },
+          "ref": null,
+          "rendered": 2,
+          "type": "h1",
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1
+            className="card-title"
+>
+            Doge
+</h1>,
+          <p
+            className="description"
+>
+            An Internet meme that shows a Shiba Inu surrounded by colorful Comic Sans text that describes its inner monologue, such as "Wow," "Concern," and "so scare." There is much confuse over the name's pronunciation, yet it was recently used to brand a Bitcoin competitor.
+</p>,
+          <div
+            className="dashed-line"
+/>,
+          <h3
+            className="category"
+            style={
+                        Object {
+                                    "color": "#00B4EF",
+                                  }
+            }
+>
+            CELEBRITY
+</h3>,
+          <div
+            className="circle"
+            style={
+                        Object {
+                                    "backgroundColor": "#00B4EF",
+                                  }
+            }
+>
+            <h1
+                        className="points"
+            >
+                        2
+            </h1>
+</div>,
+        ],
+        "className": "card-container",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Doge",
+            "className": "card-title",
+          },
+          "ref": null,
+          "rendered": "Doge",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "An Internet meme that shows a Shiba Inu surrounded by colorful Comic Sans text that describes its inner monologue, such as \\"Wow,\\" \\"Concern,\\" and \\"so scare.\\" There is much confuse over the name's pronunciation, yet it was recently used to brand a Bitcoin competitor.",
+            "className": "description",
+          },
+          "ref": null,
+          "rendered": "An Internet meme that shows a Shiba Inu surrounded by colorful Comic Sans text that describes its inner monologue, such as \\"Wow,\\" \\"Concern,\\" and \\"so scare.\\" There is much confuse over the name's pronunciation, yet it was recently used to brand a Bitcoin competitor.",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "dashed-line",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "CELEBRITY",
+            "className": "category",
+            "style": Object {
+              "color": "#00B4EF",
+            },
+          },
+          "ref": null,
+          "rendered": "CELEBRITY",
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <h1
+              className="points"
+>
+              2
+</h1>,
+            "className": "circle",
+            "style": Object {
+              "backgroundColor": "#00B4EF",
+            },
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": 2,
+              "className": "points",
+            },
+            "ref": null,
+            "rendered": 2,
+            "type": "h1",
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`Card matches the snapshot if point value is 4 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Card
+    activeCards={
+        Array [
+            Object {
+              "category": "CELEBRITY",
+              "description": "An Internet meme that shows a Shiba Inu surrounded by colorful Comic Sans text that describes its inner monologue, such as \\"Wow,\\" \\"Concern,\\" and \\"so scare.\\" There is much confuse over the name's pronunciation, yet it was recently used to brand a Bitcoin competitor.",
+              "name": "Doge",
+              "pointValue": 2,
+            },
+          ]
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h1
+          className="card-title"
+>
+          Doge
+</h1>,
+        <p
+          className="description"
+>
+          An Internet meme that shows a Shiba Inu surrounded by colorful Comic Sans text that describes its inner monologue, such as "Wow," "Concern," and "so scare." There is much confuse over the name's pronunciation, yet it was recently used to brand a Bitcoin competitor.
+</p>,
+        <div
+          className="dashed-line"
+/>,
+        <h3
+          className="category"
+          style={
+                    Object {
+                              "color": "#00B4EF",
+                            }
+          }
+>
+          CELEBRITY
+</h3>,
+        <div
+          className="circle"
+          style={
+                    Object {
+                              "backgroundColor": "#00B4EF",
+                            }
+          }
+>
+          <h1
+                    className="points"
+          >
+                    2
+          </h1>
+</div>,
+      ],
+      "className": "card-container",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Doge",
+          "className": "card-title",
+        },
+        "ref": null,
+        "rendered": "Doge",
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "An Internet meme that shows a Shiba Inu surrounded by colorful Comic Sans text that describes its inner monologue, such as \\"Wow,\\" \\"Concern,\\" and \\"so scare.\\" There is much confuse over the name's pronunciation, yet it was recently used to brand a Bitcoin competitor.",
+          "className": "description",
+        },
+        "ref": null,
+        "rendered": "An Internet meme that shows a Shiba Inu surrounded by colorful Comic Sans text that describes its inner monologue, such as \\"Wow,\\" \\"Concern,\\" and \\"so scare.\\" There is much confuse over the name's pronunciation, yet it was recently used to brand a Bitcoin competitor.",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "dashed-line",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "CELEBRITY",
+          "className": "category",
+          "style": Object {
+            "color": "#00B4EF",
+          },
+        },
+        "ref": null,
+        "rendered": "CELEBRITY",
+        "type": "h3",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <h1
+            className="points"
+>
+            2
+</h1>,
+          "className": "circle",
+          "style": Object {
+            "backgroundColor": "#00B4EF",
+          },
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": 2,
+            "className": "points",
+          },
+          "ref": null,
+          "rendered": 2,
+          "type": "h1",
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1
+            className="card-title"
+>
+            Doge
+</h1>,
+          <p
+            className="description"
+>
+            An Internet meme that shows a Shiba Inu surrounded by colorful Comic Sans text that describes its inner monologue, such as "Wow," "Concern," and "so scare." There is much confuse over the name's pronunciation, yet it was recently used to brand a Bitcoin competitor.
+</p>,
+          <div
+            className="dashed-line"
+/>,
+          <h3
+            className="category"
+            style={
+                        Object {
+                                    "color": "#00B4EF",
+                                  }
+            }
+>
+            CELEBRITY
+</h3>,
+          <div
+            className="circle"
+            style={
+                        Object {
+                                    "backgroundColor": "#00B4EF",
+                                  }
+            }
+>
+            <h1
+                        className="points"
+            >
+                        2
+            </h1>
+</div>,
+        ],
+        "className": "card-container",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Doge",
+            "className": "card-title",
+          },
+          "ref": null,
+          "rendered": "Doge",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "An Internet meme that shows a Shiba Inu surrounded by colorful Comic Sans text that describes its inner monologue, such as \\"Wow,\\" \\"Concern,\\" and \\"so scare.\\" There is much confuse over the name's pronunciation, yet it was recently used to brand a Bitcoin competitor.",
+            "className": "description",
+          },
+          "ref": null,
+          "rendered": "An Internet meme that shows a Shiba Inu surrounded by colorful Comic Sans text that describes its inner monologue, such as \\"Wow,\\" \\"Concern,\\" and \\"so scare.\\" There is much confuse over the name's pronunciation, yet it was recently used to brand a Bitcoin competitor.",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "dashed-line",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "CELEBRITY",
+            "className": "category",
+            "style": Object {
+              "color": "#00B4EF",
+            },
+          },
+          "ref": null,
+          "rendered": "CELEBRITY",
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <h1
+              className="points"
+>
+              2
+</h1>,
+            "className": "circle",
+            "style": Object {
+              "backgroundColor": "#00B4EF",
+            },
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": 2,
+              "className": "points",
+            },
+            "ref": null,
+            "rendered": 2,
+            "type": "h1",
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
