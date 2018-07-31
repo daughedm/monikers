@@ -17,7 +17,7 @@
     "start": "node server.js",
     "heroku-postbuild": "cd client && npm i && npm run build",
     "lint": "./node_modules/eslint/bin/eslint.js ./client/src/ server.js",
-    "test": "nyc mocha"
+    "test": "mocha"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.6",
