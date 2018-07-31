@@ -1,4 +1,13 @@
-import { teamNames, currentTeam, currentRound, teamOneScore, teamTwoScore, teamTimer } from './gameReducer';
+/* eslint-disable max-len */
+
+import {
+  teamNames,
+  currentTeam,
+  currentRound,
+  teamOneScore,
+  teamTwoScore,
+  teamTimer
+} from './gameReducer';
 
 describe('Game reducers', () => {
   describe('teamNames', () => {
@@ -18,12 +27,12 @@ describe('Game reducers', () => {
     });
   });
 
-  describe("currentTeam", () => {
-    it("should return default state when no action passed", () => {
+  describe('currentTeam', () => {
+    it('should return default state when no action passed', () => {
       expect(currentTeam('', {})).toEqual('');
     });
 
-    it("should return the current team", () => {
+    it('should return the current team', () => {
       const expected = 'team two';
 
       const mockAction = {
@@ -35,12 +44,12 @@ describe('Game reducers', () => {
     });
   });
 
-  describe("currentRound", () => {
-    it("should return default state when no action passed", () => {
+  describe('currentRound', () => {
+    it('should return default state when no action passed', () => {
       expect(currentRound(1, {})).toEqual(1);
     });
 
-    it("should increase the current round number by one", () => {
+    it('should increase the current round number by one', () => {
       const expected = 3;
 
       const mockAction = {
@@ -52,8 +61,8 @@ describe('Game reducers', () => {
     });
   });
 
-  describe("teamOneScore", () => {
-    it("should return default state when no action passed", () => {
+  describe('teamOneScore', () => {
+    it('should return default state when no action passed', () => {
       expect(teamOneScore(0, {})).toEqual(0);
     });
 
@@ -69,8 +78,8 @@ describe('Game reducers', () => {
     });
   });
 
-  describe("teamTwoScore", () => {
-    it("should return default state when no action passed", () => {
+  describe('teamTwoScore', () => {
+    it('should return default state when no action passed', () => {
       expect(teamTwoScore(0, {})).toEqual(0);
     });
 
@@ -86,12 +95,12 @@ describe('Game reducers', () => {
     });
   });
 
-  describe("teamTimer", () => {
-    it("should return default state when no action passed", () => {
+  describe('teamTimer', () => {
+    it('should return default state when no action passed', () => {
       expect(teamTimer('pregame', {})).toEqual('pregame');
     });
 
-    it("should return current round time", () => {
+    it('should return current round time', () => {
       const expected = 'counting';
 
       const mockAction = {
