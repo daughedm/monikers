@@ -287,3 +287,55 @@ a {
     height: 45px;
   }
 }
+
+@media (min-width: 620px) {
+  .button-wrapper {
+    width: 70%;
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .start-game-button {
+    width: 30%;
+    margin: 0;
+  }
+  
+  .instructions-button {
+    width: 30%;
+    margin: 0;
+  }
+
+  .buy-button {
+    width: 30%;
+    margin: 0;
+  }
+
+  .background-furry {
+    background-image: none;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: right 50% bottom;
+    height: 100vh;
+   
+  }
+  
+  .splash-page {
+    background-image: url('../../assets/monikers_furry_two-02-02.svg');
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: right 50% bottom;
+    height: 100vh;
+    animation: none;
+    width: 680px;
+    margin: auto;
+  }
+
+  .logo-lockup {
+    display: block;
+    margin: auto;
+    padding: 60px 0 40px 0;
+    width: 40%;
+  }
+}

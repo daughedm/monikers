@@ -124,30 +124,32 @@ export class Play extends Component {
       return <Finish />;
     } else {
       return (
-        <div className="play">
-          <div className="game-info-container">
-            <h3 className="current-team" style={teamColor}>
-              {currTeam}
-            </h3>
-            <h3 className="current-round" style={teamColor}>
-              Round {currRound}
-            </h3>
-          </div>
-          <div className="timer" />
-          {activeCards.length && <Card />}
-          <div className="buttons-container">
-            <button
-              className="pass-button ripple-pass"
-              onClick={this.handleSkipped}
-            >
-              Pass
-            </button>
-            <button
-              className="got-it-button ripple-got-it"
-              onClick={this.handleGotIt}
-            >
-              Got It
-            </button>
+        <div className="background-image">
+          <div className="play">
+            <div className="game-info-container">
+              <h3 className="current-team" style={teamColor}>
+                {currTeam}
+              </h3>
+              <h3 className="current-round" style={teamColor}>
+                Round {currRound}
+              </h3>
+            </div>
+            <div className="timer" />
+            {activeCards.length && <Card />}
+            <div className="buttons-container">
+              <button
+                className="pass-button ripple-pass"
+                onClick={this.handleSkipped}
+              >
+                Pass
+              </button>
+              <button
+                className="got-it-button ripple-got-it"
+                onClick={this.handleGotIt}
+              >
+                Got It
+              </button>
+            </div>
           </div>
         </div>
       );

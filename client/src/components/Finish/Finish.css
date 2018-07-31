@@ -102,3 +102,11 @@
     height: 45px;
   }
 }
+
+@media (min-width: 620px) {
+
+  .finish-transition {
+    width: 400px;
+    padding: 20px 50px 40px;
+  }
+}

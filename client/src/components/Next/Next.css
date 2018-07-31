@@ -62,3 +62,11 @@
   }
   
 }
+
+@media (min-width: 620px) {
+
+  .team-transition {
+    width: 400px;
+    padding: 20px 50px 40px;
+  }
+}
