@@ -1,7 +1,7 @@
 # Monikers
 
 ---
-![Monikers PWA](https://imgur.com/a/8HdbVwZ "Monikers PWA")
+[Monikers](https://i.imgur.com/Qo1ioPv.gifv)
 
 ## Synopsis
 
