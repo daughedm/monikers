@@ -80,6 +80,7 @@ export class Setup extends Component {
         <form action="" onSubmit={this.handleSubmit}>
           <h3 className="label-name">Team One</h3>
           <input
+            autoComplete="off"
             className="input-field"
             type="text"
             name="teamOne"
@@ -88,6 +89,7 @@ export class Setup extends Component {
           />
           <h3 className="label-name">Team Two</h3>
           <input
+            autoComplete="off"
             className="input-field"
             type="text"
             name="teamTwo"
