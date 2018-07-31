@@ -106,3 +106,13 @@ input {
     height: 45px;
   }
 }
+
+@media (min-width: 620px) {
+  .wrapper {
+    width: 400px;
+    margin: auto;
+    padding: 30px 0;
+  }
+
+
+}
