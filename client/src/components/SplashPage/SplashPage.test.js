@@ -1,9 +1,17 @@
 /* eslint-disable max-len */
 
 import React from 'react';
-import ReactDOM from 'react-dom';
-import SplashPage from './SplashPage';
+import { shallow } from 'enzyme';
+import SplashPage from './splashPage';
 
-it('renders without crashing', () => {
-  expect(true).toEqual(true);
+describe('splashPage', () => {
+  let splashPage;
+
+  beforeEach(() => {
+    splashPage = shallow(<SplashPage />);
+  });
+
+  it('matches the snapshot', () => {
+    expect(splashPage).toMatchSnapshot();
+  });
 });
