@@ -1,0 +1,2341 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`round matches the snapshot if currRound === 1 & currTeam === teamNames[0] 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Round
+    clearDiscardedCards={[Function]}
+    countDown={[Function]}
+    currRound={1}
+    currTeam="team1"
+    currentTeam={[Function]}
+    currentTimer={[Function]}
+    discardedCards={
+        Array [
+            Object {
+              "category": "ET CETERA",
+              "description": "A virus that causes hemorrhagic fever, typically acquired by contact with an infected monkey, fruit bat, or person. Its most severe symptoms can include bleeding from the eyes, nose, ears, mouth, and rectum. There is no specific treatment for the disease.",
+              "name": "Ebola",
+              "pointValue": 2,
+            },
+            Object {
+              "category": "CELEBRITY",
+              "description": "A Japanese competitive eater who shocked the world in 2001 by eating 50 hot dogs and buns (HDB) in 12 minutes at Nathan's Hot Dog Eating Contest, doubling the previous record. He once lost a hot dog eating contest (no buns) to a 1089 lb. Kodiak bear (31-50).",
+              "name": "Kobayashi",
+              "pointValue": 2,
+            },
+          ]
+    }
+    teamNames={
+        Array [
+            "team1",
+            "team2",
+          ]
+    }
+    teamOneScore={0}
+    teamTwoScore={0}
+    updateActiveCards={[Function]}
+    updateTeamTimer={[Function]}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="flex"
+>
+          <h5
+                    className="scores blue"
+          >
+                    team1
+                     : 
+                    0
+          </h5>
+          <h5
+                    className="scores purple"
+          >
+                    team2
+                     : 
+                    0
+          </h5>
+</div>,
+        <div
+          className="round-transition"
+>
+          <h2
+                    className="round-headline"
+          >
+                    Round One
+          </h2>
+          <div
+                    className="dashed-line"
+          />
+          <p
+                    className="round-description"
+          >
+                    Describe the name using any words, sounds, or gestures except the name itself
+          </p>
+          <div
+                    className="dashed-line"
+          />
+          <h3
+                    className="starting-team"
+                    style={
+                              Object {
+                                        "color": "#00B4EF",
+                                      }
+                    }
+          >
+                    team1
+                     Starts
+          </h3>
+          <button
+                    className="start-round-button"
+                    onClick={[Function]}
+          >
+                    START ROUND
+          </button>
+</div>,
+      ],
+      "className": "background-monikers",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h5
+              className="scores blue"
+>
+              team1
+               : 
+              0
+</h5>,
+            <h5
+              className="scores purple"
+>
+              team2
+               : 
+              0
+</h5>,
+          ],
+          "className": "flex",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "team1",
+                " : ",
+                0,
+              ],
+              "className": "scores blue",
+            },
+            "ref": null,
+            "rendered": Array [
+              "team1",
+              " : ",
+              0,
+            ],
+            "type": "h5",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "team2",
+                " : ",
+                0,
+              ],
+              "className": "scores purple",
+            },
+            "ref": null,
+            "rendered": Array [
+              "team2",
+              " : ",
+              0,
+            ],
+            "type": "h5",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h2
+              className="round-headline"
+>
+              Round One
+</h2>,
+            <div
+              className="dashed-line"
+/>,
+            <p
+              className="round-description"
+>
+              Describe the name using any words, sounds, or gestures except the name itself
+</p>,
+            <div
+              className="dashed-line"
+/>,
+            <h3
+              className="starting-team"
+              style={
+                            Object {
+                                          "color": "#00B4EF",
+                                        }
+              }
+>
+              team1
+               Starts
+</h3>,
+            <button
+              className="start-round-button"
+              onClick={[Function]}
+>
+              START ROUND
+</button>,
+          ],
+          "className": "round-transition",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Round One",
+              "className": "round-headline",
+            },
+            "ref": null,
+            "rendered": "Round One",
+            "type": "h2",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "dashed-line",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Describe the name using any words, sounds, or gestures except the name itself",
+              "className": "round-description",
+            },
+            "ref": null,
+            "rendered": "Describe the name using any words, sounds, or gestures except the name itself",
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "dashed-line",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "team1",
+                " Starts",
+              ],
+              "className": "starting-team",
+              "style": Object {
+                "color": "#00B4EF",
+              },
+            },
+            "ref": null,
+            "rendered": Array [
+              "team1",
+              " Starts",
+            ],
+            "type": "h3",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "START ROUND",
+              "className": "start-round-button",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "START ROUND",
+            "type": "button",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="flex"
+>
+            <h5
+                        className="scores blue"
+            >
+                        team1
+                         : 
+                        0
+            </h5>
+            <h5
+                        className="scores purple"
+            >
+                        team2
+                         : 
+                        0
+            </h5>
+</div>,
+          <div
+            className="round-transition"
+>
+            <h2
+                        className="round-headline"
+            >
+                        Round One
+            </h2>
+            <div
+                        className="dashed-line"
+            />
+            <p
+                        className="round-description"
+            >
+                        Describe the name using any words, sounds, or gestures except the name itself
+            </p>
+            <div
+                        className="dashed-line"
+            />
+            <h3
+                        className="starting-team"
+                        style={
+                                    Object {
+                                                "color": "#00B4EF",
+                                              }
+                        }
+            >
+                        team1
+                         Starts
+            </h3>
+            <button
+                        className="start-round-button"
+                        onClick={[Function]}
+            >
+                        START ROUND
+            </button>
+</div>,
+        ],
+        "className": "background-monikers",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h5
+                className="scores blue"
+>
+                team1
+                 : 
+                0
+</h5>,
+              <h5
+                className="scores purple"
+>
+                team2
+                 : 
+                0
+</h5>,
+            ],
+            "className": "flex",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "team1",
+                  " : ",
+                  0,
+                ],
+                "className": "scores blue",
+              },
+              "ref": null,
+              "rendered": Array [
+                "team1",
+                " : ",
+                0,
+              ],
+              "type": "h5",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "team2",
+                  " : ",
+                  0,
+                ],
+                "className": "scores purple",
+              },
+              "ref": null,
+              "rendered": Array [
+                "team2",
+                " : ",
+                0,
+              ],
+              "type": "h5",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h2
+                className="round-headline"
+>
+                Round One
+</h2>,
+              <div
+                className="dashed-line"
+/>,
+              <p
+                className="round-description"
+>
+                Describe the name using any words, sounds, or gestures except the name itself
+</p>,
+              <div
+                className="dashed-line"
+/>,
+              <h3
+                className="starting-team"
+                style={
+                                Object {
+                                                "color": "#00B4EF",
+                                              }
+                }
+>
+                team1
+                 Starts
+</h3>,
+              <button
+                className="start-round-button"
+                onClick={[Function]}
+>
+                START ROUND
+</button>,
+            ],
+            "className": "round-transition",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Round One",
+                "className": "round-headline",
+              },
+              "ref": null,
+              "rendered": "Round One",
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "dashed-line",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Describe the name using any words, sounds, or gestures except the name itself",
+                "className": "round-description",
+              },
+              "ref": null,
+              "rendered": "Describe the name using any words, sounds, or gestures except the name itself",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "dashed-line",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "team1",
+                  " Starts",
+                ],
+                "className": "starting-team",
+                "style": Object {
+                  "color": "#00B4EF",
+                },
+              },
+              "ref": null,
+              "rendered": Array [
+                "team1",
+                " Starts",
+              ],
+              "type": "h3",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "START ROUND",
+                "className": "start-round-button",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "START ROUND",
+              "type": "button",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`round matches the snapshot if currRound === 2 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Round
+    clearDiscardedCards={[Function]}
+    countDown={[Function]}
+    currRound={2}
+    currTeam="team1"
+    currentTeam={[Function]}
+    currentTimer={[Function]}
+    discardedCards={
+        Array [
+            Object {
+              "category": "ET CETERA",
+              "description": "A virus that causes hemorrhagic fever, typically acquired by contact with an infected monkey, fruit bat, or person. Its most severe symptoms can include bleeding from the eyes, nose, ears, mouth, and rectum. There is no specific treatment for the disease.",
+              "name": "Ebola",
+              "pointValue": 2,
+            },
+            Object {
+              "category": "CELEBRITY",
+              "description": "A Japanese competitive eater who shocked the world in 2001 by eating 50 hot dogs and buns (HDB) in 12 minutes at Nathan's Hot Dog Eating Contest, doubling the previous record. He once lost a hot dog eating contest (no buns) to a 1089 lb. Kodiak bear (31-50).",
+              "name": "Kobayashi",
+              "pointValue": 2,
+            },
+          ]
+    }
+    teamNames={
+        Array [
+            "team1",
+            "team2",
+          ]
+    }
+    teamOneScore={0}
+    teamTwoScore={0}
+    updateActiveCards={[Function]}
+    updateTeamTimer={[Function]}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="flex"
+>
+          <h5
+                    className="scores blue"
+          >
+                    team1
+                     : 
+                    0
+          </h5>
+          <h5
+                    className="scores purple"
+          >
+                    team2
+                     : 
+                    0
+          </h5>
+</div>,
+        <div
+          className="round-transition"
+>
+          <h2
+                    className="round-headline"
+          >
+                    Round Two
+          </h2>
+          <div
+                    className="dashed-line"
+          />
+          <p
+                    className="round-description"
+          >
+                    Describe the name using only one word, which can be anything except the name itself
+          </p>
+          <div
+                    className="dashed-line"
+          />
+          <h3
+                    className="starting-team"
+                    style={
+                              Object {
+                                        "color": "#00B4EF",
+                                      }
+                    }
+          >
+                    team1
+                     Starts
+          </h3>
+          <button
+                    className="start-round-button"
+                    onClick={[Function]}
+          >
+                    START ROUND
+          </button>
+</div>,
+      ],
+      "className": "background-monikers",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h5
+              className="scores blue"
+>
+              team1
+               : 
+              0
+</h5>,
+            <h5
+              className="scores purple"
+>
+              team2
+               : 
+              0
+</h5>,
+          ],
+          "className": "flex",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "team1",
+                " : ",
+                0,
+              ],
+              "className": "scores blue",
+            },
+            "ref": null,
+            "rendered": Array [
+              "team1",
+              " : ",
+              0,
+            ],
+            "type": "h5",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "team2",
+                " : ",
+                0,
+              ],
+              "className": "scores purple",
+            },
+            "ref": null,
+            "rendered": Array [
+              "team2",
+              " : ",
+              0,
+            ],
+            "type": "h5",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h2
+              className="round-headline"
+>
+              Round Two
+</h2>,
+            <div
+              className="dashed-line"
+/>,
+            <p
+              className="round-description"
+>
+              Describe the name using only one word, which can be anything except the name itself
+</p>,
+            <div
+              className="dashed-line"
+/>,
+            <h3
+              className="starting-team"
+              style={
+                            Object {
+                                          "color": "#00B4EF",
+                                        }
+              }
+>
+              team1
+               Starts
+</h3>,
+            <button
+              className="start-round-button"
+              onClick={[Function]}
+>
+              START ROUND
+</button>,
+          ],
+          "className": "round-transition",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Round Two",
+              "className": "round-headline",
+            },
+            "ref": null,
+            "rendered": "Round Two",
+            "type": "h2",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "dashed-line",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Describe the name using only one word, which can be anything except the name itself",
+              "className": "round-description",
+            },
+            "ref": null,
+            "rendered": "Describe the name using only one word, which can be anything except the name itself",
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "dashed-line",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "team1",
+                " Starts",
+              ],
+              "className": "starting-team",
+              "style": Object {
+                "color": "#00B4EF",
+              },
+            },
+            "ref": null,
+            "rendered": Array [
+              "team1",
+              " Starts",
+            ],
+            "type": "h3",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "START ROUND",
+              "className": "start-round-button",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "START ROUND",
+            "type": "button",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="flex"
+>
+            <h5
+                        className="scores blue"
+            >
+                        team1
+                         : 
+                        0
+            </h5>
+            <h5
+                        className="scores purple"
+            >
+                        team2
+                         : 
+                        0
+            </h5>
+</div>,
+          <div
+            className="round-transition"
+>
+            <h2
+                        className="round-headline"
+            >
+                        Round Two
+            </h2>
+            <div
+                        className="dashed-line"
+            />
+            <p
+                        className="round-description"
+            >
+                        Describe the name using only one word, which can be anything except the name itself
+            </p>
+            <div
+                        className="dashed-line"
+            />
+            <h3
+                        className="starting-team"
+                        style={
+                                    Object {
+                                                "color": "#00B4EF",
+                                              }
+                        }
+            >
+                        team1
+                         Starts
+            </h3>
+            <button
+                        className="start-round-button"
+                        onClick={[Function]}
+            >
+                        START ROUND
+            </button>
+</div>,
+        ],
+        "className": "background-monikers",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h5
+                className="scores blue"
+>
+                team1
+                 : 
+                0
+</h5>,
+              <h5
+                className="scores purple"
+>
+                team2
+                 : 
+                0
+</h5>,
+            ],
+            "className": "flex",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "team1",
+                  " : ",
+                  0,
+                ],
+                "className": "scores blue",
+              },
+              "ref": null,
+              "rendered": Array [
+                "team1",
+                " : ",
+                0,
+              ],
+              "type": "h5",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "team2",
+                  " : ",
+                  0,
+                ],
+                "className": "scores purple",
+              },
+              "ref": null,
+              "rendered": Array [
+                "team2",
+                " : ",
+                0,
+              ],
+              "type": "h5",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h2
+                className="round-headline"
+>
+                Round Two
+</h2>,
+              <div
+                className="dashed-line"
+/>,
+              <p
+                className="round-description"
+>
+                Describe the name using only one word, which can be anything except the name itself
+</p>,
+              <div
+                className="dashed-line"
+/>,
+              <h3
+                className="starting-team"
+                style={
+                                Object {
+                                                "color": "#00B4EF",
+                                              }
+                }
+>
+                team1
+                 Starts
+</h3>,
+              <button
+                className="start-round-button"
+                onClick={[Function]}
+>
+                START ROUND
+</button>,
+            ],
+            "className": "round-transition",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Round Two",
+                "className": "round-headline",
+              },
+              "ref": null,
+              "rendered": "Round Two",
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "dashed-line",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Describe the name using only one word, which can be anything except the name itself",
+                "className": "round-description",
+              },
+              "ref": null,
+              "rendered": "Describe the name using only one word, which can be anything except the name itself",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "dashed-line",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "team1",
+                  " Starts",
+                ],
+                "className": "starting-team",
+                "style": Object {
+                  "color": "#00B4EF",
+                },
+              },
+              "ref": null,
+              "rendered": Array [
+                "team1",
+                " Starts",
+              ],
+              "type": "h3",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "START ROUND",
+                "className": "start-round-button",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "START ROUND",
+              "type": "button",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`round matches the snapshot if currRound === 3 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Round
+    clearDiscardedCards={[Function]}
+    countDown={[Function]}
+    currRound={3}
+    currTeam="team1"
+    currentTeam={[Function]}
+    currentTimer={[Function]}
+    discardedCards={
+        Array [
+            Object {
+              "category": "ET CETERA",
+              "description": "A virus that causes hemorrhagic fever, typically acquired by contact with an infected monkey, fruit bat, or person. Its most severe symptoms can include bleeding from the eyes, nose, ears, mouth, and rectum. There is no specific treatment for the disease.",
+              "name": "Ebola",
+              "pointValue": 2,
+            },
+            Object {
+              "category": "CELEBRITY",
+              "description": "A Japanese competitive eater who shocked the world in 2001 by eating 50 hot dogs and buns (HDB) in 12 minutes at Nathan's Hot Dog Eating Contest, doubling the previous record. He once lost a hot dog eating contest (no buns) to a 1089 lb. Kodiak bear (31-50).",
+              "name": "Kobayashi",
+              "pointValue": 2,
+            },
+          ]
+    }
+    teamNames={
+        Array [
+            "team1",
+            "team2",
+          ]
+    }
+    teamOneScore={0}
+    teamTwoScore={0}
+    updateActiveCards={[Function]}
+    updateTeamTimer={[Function]}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="flex"
+>
+          <h5
+                    className="scores blue"
+          >
+                    team1
+                     : 
+                    0
+          </h5>
+          <h5
+                    className="scores purple"
+          >
+                    team2
+                     : 
+                    0
+          </h5>
+</div>,
+        <div
+          className="round-transition"
+>
+          <h2
+                    className="round-headline"
+          >
+                    Round Three
+          </h2>
+          <div
+                    className="dashed-line"
+          />
+          <p
+                    className="round-description"
+          >
+                    Describe the name using just charades. No words. Sound effects are OK.
+          </p>
+          <div
+                    className="dashed-line"
+          />
+          <h3
+                    className="starting-team"
+                    style={
+                              Object {
+                                        "color": "#00B4EF",
+                                      }
+                    }
+          >
+                    team1
+                     Starts
+          </h3>
+          <button
+                    className="start-round-button"
+                    onClick={[Function]}
+          >
+                    START ROUND
+          </button>
+</div>,
+      ],
+      "className": "background-monikers",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h5
+              className="scores blue"
+>
+              team1
+               : 
+              0
+</h5>,
+            <h5
+              className="scores purple"
+>
+              team2
+               : 
+              0
+</h5>,
+          ],
+          "className": "flex",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "team1",
+                " : ",
+                0,
+              ],
+              "className": "scores blue",
+            },
+            "ref": null,
+            "rendered": Array [
+              "team1",
+              " : ",
+              0,
+            ],
+            "type": "h5",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "team2",
+                " : ",
+                0,
+              ],
+              "className": "scores purple",
+            },
+            "ref": null,
+            "rendered": Array [
+              "team2",
+              " : ",
+              0,
+            ],
+            "type": "h5",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h2
+              className="round-headline"
+>
+              Round Three
+</h2>,
+            <div
+              className="dashed-line"
+/>,
+            <p
+              className="round-description"
+>
+              Describe the name using just charades. No words. Sound effects are OK.
+</p>,
+            <div
+              className="dashed-line"
+/>,
+            <h3
+              className="starting-team"
+              style={
+                            Object {
+                                          "color": "#00B4EF",
+                                        }
+              }
+>
+              team1
+               Starts
+</h3>,
+            <button
+              className="start-round-button"
+              onClick={[Function]}
+>
+              START ROUND
+</button>,
+          ],
+          "className": "round-transition",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Round Three",
+              "className": "round-headline",
+            },
+            "ref": null,
+            "rendered": "Round Three",
+            "type": "h2",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "dashed-line",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Describe the name using just charades. No words. Sound effects are OK.",
+              "className": "round-description",
+            },
+            "ref": null,
+            "rendered": "Describe the name using just charades. No words. Sound effects are OK.",
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "dashed-line",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "team1",
+                " Starts",
+              ],
+              "className": "starting-team",
+              "style": Object {
+                "color": "#00B4EF",
+              },
+            },
+            "ref": null,
+            "rendered": Array [
+              "team1",
+              " Starts",
+            ],
+            "type": "h3",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "START ROUND",
+              "className": "start-round-button",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "START ROUND",
+            "type": "button",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="flex"
+>
+            <h5
+                        className="scores blue"
+            >
+                        team1
+                         : 
+                        0
+            </h5>
+            <h5
+                        className="scores purple"
+            >
+                        team2
+                         : 
+                        0
+            </h5>
+</div>,
+          <div
+            className="round-transition"
+>
+            <h2
+                        className="round-headline"
+            >
+                        Round Three
+            </h2>
+            <div
+                        className="dashed-line"
+            />
+            <p
+                        className="round-description"
+            >
+                        Describe the name using just charades. No words. Sound effects are OK.
+            </p>
+            <div
+                        className="dashed-line"
+            />
+            <h3
+                        className="starting-team"
+                        style={
+                                    Object {
+                                                "color": "#00B4EF",
+                                              }
+                        }
+            >
+                        team1
+                         Starts
+            </h3>
+            <button
+                        className="start-round-button"
+                        onClick={[Function]}
+            >
+                        START ROUND
+            </button>
+</div>,
+        ],
+        "className": "background-monikers",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h5
+                className="scores blue"
+>
+                team1
+                 : 
+                0
+</h5>,
+              <h5
+                className="scores purple"
+>
+                team2
+                 : 
+                0
+</h5>,
+            ],
+            "className": "flex",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "team1",
+                  " : ",
+                  0,
+                ],
+                "className": "scores blue",
+              },
+              "ref": null,
+              "rendered": Array [
+                "team1",
+                " : ",
+                0,
+              ],
+              "type": "h5",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "team2",
+                  " : ",
+                  0,
+                ],
+                "className": "scores purple",
+              },
+              "ref": null,
+              "rendered": Array [
+                "team2",
+                " : ",
+                0,
+              ],
+              "type": "h5",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h2
+                className="round-headline"
+>
+                Round Three
+</h2>,
+              <div
+                className="dashed-line"
+/>,
+              <p
+                className="round-description"
+>
+                Describe the name using just charades. No words. Sound effects are OK.
+</p>,
+              <div
+                className="dashed-line"
+/>,
+              <h3
+                className="starting-team"
+                style={
+                                Object {
+                                                "color": "#00B4EF",
+                                              }
+                }
+>
+                team1
+                 Starts
+</h3>,
+              <button
+                className="start-round-button"
+                onClick={[Function]}
+>
+                START ROUND
+</button>,
+            ],
+            "className": "round-transition",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Round Three",
+                "className": "round-headline",
+              },
+              "ref": null,
+              "rendered": "Round Three",
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "dashed-line",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Describe the name using just charades. No words. Sound effects are OK.",
+                "className": "round-description",
+              },
+              "ref": null,
+              "rendered": "Describe the name using just charades. No words. Sound effects are OK.",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "dashed-line",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "team1",
+                  " Starts",
+                ],
+                "className": "starting-team",
+                "style": Object {
+                  "color": "#00B4EF",
+                },
+              },
+              "ref": null,
+              "rendered": Array [
+                "team1",
+                " Starts",
+              ],
+              "type": "h3",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "START ROUND",
+                "className": "start-round-button",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "START ROUND",
+              "type": "button",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`round matches the snapshot if currTeam === teamNames[1] 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Round
+    clearDiscardedCards={[Function]}
+    countDown={[Function]}
+    currRound={1}
+    currTeam="team2"
+    currentTeam={[Function]}
+    currentTimer={[Function]}
+    discardedCards={
+        Array [
+            Object {
+              "category": "ET CETERA",
+              "description": "A virus that causes hemorrhagic fever, typically acquired by contact with an infected monkey, fruit bat, or person. Its most severe symptoms can include bleeding from the eyes, nose, ears, mouth, and rectum. There is no specific treatment for the disease.",
+              "name": "Ebola",
+              "pointValue": 2,
+            },
+            Object {
+              "category": "CELEBRITY",
+              "description": "A Japanese competitive eater who shocked the world in 2001 by eating 50 hot dogs and buns (HDB) in 12 minutes at Nathan's Hot Dog Eating Contest, doubling the previous record. He once lost a hot dog eating contest (no buns) to a 1089 lb. Kodiak bear (31-50).",
+              "name": "Kobayashi",
+              "pointValue": 2,
+            },
+          ]
+    }
+    teamNames={
+        Array [
+            "team1",
+            "team2",
+          ]
+    }
+    teamOneScore={0}
+    teamTwoScore={0}
+    updateActiveCards={[Function]}
+    updateTeamTimer={[Function]}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="flex"
+>
+          <h5
+                    className="scores blue"
+          >
+                    team1
+                     : 
+                    0
+          </h5>
+          <h5
+                    className="scores purple"
+          >
+                    team2
+                     : 
+                    0
+          </h5>
+</div>,
+        <div
+          className="round-transition"
+>
+          <h2
+                    className="round-headline"
+          >
+                    Round One
+          </h2>
+          <div
+                    className="dashed-line"
+          />
+          <p
+                    className="round-description"
+          >
+                    Describe the name using any words, sounds, or gestures except the name itself
+          </p>
+          <div
+                    className="dashed-line"
+          />
+          <h3
+                    className="starting-team"
+                    style={
+                              Object {
+                                        "color": "#866AAD",
+                                      }
+                    }
+          >
+                    team2
+                     Starts
+          </h3>
+          <button
+                    className="start-round-button"
+                    onClick={[Function]}
+          >
+                    START ROUND
+          </button>
+</div>,
+      ],
+      "className": "background-monikers",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h5
+              className="scores blue"
+>
+              team1
+               : 
+              0
+</h5>,
+            <h5
+              className="scores purple"
+>
+              team2
+               : 
+              0
+</h5>,
+          ],
+          "className": "flex",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "team1",
+                " : ",
+                0,
+              ],
+              "className": "scores blue",
+            },
+            "ref": null,
+            "rendered": Array [
+              "team1",
+              " : ",
+              0,
+            ],
+            "type": "h5",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "team2",
+                " : ",
+                0,
+              ],
+              "className": "scores purple",
+            },
+            "ref": null,
+            "rendered": Array [
+              "team2",
+              " : ",
+              0,
+            ],
+            "type": "h5",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h2
+              className="round-headline"
+>
+              Round One
+</h2>,
+            <div
+              className="dashed-line"
+/>,
+            <p
+              className="round-description"
+>
+              Describe the name using any words, sounds, or gestures except the name itself
+</p>,
+            <div
+              className="dashed-line"
+/>,
+            <h3
+              className="starting-team"
+              style={
+                            Object {
+                                          "color": "#866AAD",
+                                        }
+              }
+>
+              team2
+               Starts
+</h3>,
+            <button
+              className="start-round-button"
+              onClick={[Function]}
+>
+              START ROUND
+</button>,
+          ],
+          "className": "round-transition",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Round One",
+              "className": "round-headline",
+            },
+            "ref": null,
+            "rendered": "Round One",
+            "type": "h2",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "dashed-line",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Describe the name using any words, sounds, or gestures except the name itself",
+              "className": "round-description",
+            },
+            "ref": null,
+            "rendered": "Describe the name using any words, sounds, or gestures except the name itself",
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "dashed-line",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "team2",
+                " Starts",
+              ],
+              "className": "starting-team",
+              "style": Object {
+                "color": "#866AAD",
+              },
+            },
+            "ref": null,
+            "rendered": Array [
+              "team2",
+              " Starts",
+            ],
+            "type": "h3",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "START ROUND",
+              "className": "start-round-button",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "START ROUND",
+            "type": "button",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="flex"
+>
+            <h5
+                        className="scores blue"
+            >
+                        team1
+                         : 
+                        0
+            </h5>
+            <h5
+                        className="scores purple"
+            >
+                        team2
+                         : 
+                        0
+            </h5>
+</div>,
+          <div
+            className="round-transition"
+>
+            <h2
+                        className="round-headline"
+            >
+                        Round One
+            </h2>
+            <div
+                        className="dashed-line"
+            />
+            <p
+                        className="round-description"
+            >
+                        Describe the name using any words, sounds, or gestures except the name itself
+            </p>
+            <div
+                        className="dashed-line"
+            />
+            <h3
+                        className="starting-team"
+                        style={
+                                    Object {
+                                                "color": "#866AAD",
+                                              }
+                        }
+            >
+                        team2
+                         Starts
+            </h3>
+            <button
+                        className="start-round-button"
+                        onClick={[Function]}
+            >
+                        START ROUND
+            </button>
+</div>,
+        ],
+        "className": "background-monikers",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h5
+                className="scores blue"
+>
+                team1
+                 : 
+                0
+</h5>,
+              <h5
+                className="scores purple"
+>
+                team2
+                 : 
+                0
+</h5>,
+            ],
+            "className": "flex",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "team1",
+                  " : ",
+                  0,
+                ],
+                "className": "scores blue",
+              },
+              "ref": null,
+              "rendered": Array [
+                "team1",
+                " : ",
+                0,
+              ],
+              "type": "h5",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "team2",
+                  " : ",
+                  0,
+                ],
+                "className": "scores purple",
+              },
+              "ref": null,
+              "rendered": Array [
+                "team2",
+                " : ",
+                0,
+              ],
+              "type": "h5",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h2
+                className="round-headline"
+>
+                Round One
+</h2>,
+              <div
+                className="dashed-line"
+/>,
+              <p
+                className="round-description"
+>
+                Describe the name using any words, sounds, or gestures except the name itself
+</p>,
+              <div
+                className="dashed-line"
+/>,
+              <h3
+                className="starting-team"
+                style={
+                                Object {
+                                                "color": "#866AAD",
+                                              }
+                }
+>
+                team2
+                 Starts
+</h3>,
+              <button
+                className="start-round-button"
+                onClick={[Function]}
+>
+                START ROUND
+</button>,
+            ],
+            "className": "round-transition",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Round One",
+                "className": "round-headline",
+              },
+              "ref": null,
+              "rendered": "Round One",
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "dashed-line",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Describe the name using any words, sounds, or gestures except the name itself",
+                "className": "round-description",
+              },
+              "ref": null,
+              "rendered": "Describe the name using any words, sounds, or gestures except the name itself",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "dashed-line",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "team2",
+                  " Starts",
+                ],
+                "className": "starting-team",
+                "style": Object {
+                  "color": "#866AAD",
+                },
+              },
+              "ref": null,
+              "rendered": Array [
+                "team2",
+                " Starts",
+              ],
+              "type": "h3",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "START ROUND",
+                "className": "start-round-button",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "START ROUND",
+              "type": "button",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
