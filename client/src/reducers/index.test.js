@@ -1,3 +1,5 @@
+/* eslint-disable max-len */
+
 import { createStore } from 'redux';
 import rootReducer from './index';
 import * as cardReducer from './cardReducer/cardReducer';

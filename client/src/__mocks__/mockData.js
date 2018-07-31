@@ -1,4 +1,4 @@
-/* eslint-disable */
+/* eslint-disable max-len */
 
 export const activeCard = {
   name: 'Doge',

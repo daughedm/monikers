@@ -29,9 +29,7 @@ export class Finish extends Component {
           <h2 className="win-headline" style={teamColor}>
             {teamNames[winningTeam]}
           </h2>
-          <h2 className="win-headline-two">
-           WINS!
-          </h2>
+          <h2 className="win-headline-two">WINS!</h2>
           <div className="dashed-line" />
           <button
             className="start-newgame-button"
@@ -41,8 +39,8 @@ export class Finish extends Component {
             NEW GAME
           </button>
         </div>
-        <div className="animation-one"></div>
-        <div className="animation-two"></div>
+        <div className="animation-one" />
+        <div className="animation-two" />
       </div>
     );
   }

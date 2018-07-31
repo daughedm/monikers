@@ -1,0 +1,727 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`finish matches the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Finish
+    history={
+        Object {
+            "push": [Function],
+          }
+    }
+    resetStore={[Function]}
+    teamNames={
+        Array [
+            "team1",
+            "team2",
+          ]
+    }
+    teamOneScore={1}
+    teamTwoScore={2}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="finish-transition"
+>
+          <h2
+                    className="win-headline"
+                    style={
+                              Object {
+                                        "color": "#866AAD",
+                                      }
+                    }
+          >
+                    team2
+          </h2>
+          <h2
+                    className="win-headline-two"
+          >
+                    WINS!
+          </h2>
+          <div
+                    className="dashed-line"
+          />
+          <button
+                    className="start-newgame-button"
+                    onClick={[Function]}
+                    type="submit"
+          >
+                    NEW GAME
+          </button>
+</div>,
+        <div
+          className="animation-one"
+/>,
+        <div
+          className="animation-two"
+/>,
+      ],
+      "className": "background-monikers",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h2
+              className="win-headline"
+              style={
+                            Object {
+                                          "color": "#866AAD",
+                                        }
+              }
+>
+              team2
+</h2>,
+            <h2
+              className="win-headline-two"
+>
+              WINS!
+</h2>,
+            <div
+              className="dashed-line"
+/>,
+            <button
+              className="start-newgame-button"
+              onClick={[Function]}
+              type="submit"
+>
+              NEW GAME
+</button>,
+          ],
+          "className": "finish-transition",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "team2",
+              "className": "win-headline",
+              "style": Object {
+                "color": "#866AAD",
+              },
+            },
+            "ref": null,
+            "rendered": "team2",
+            "type": "h2",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "WINS!",
+              "className": "win-headline-two",
+            },
+            "ref": null,
+            "rendered": "WINS!",
+            "type": "h2",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "dashed-line",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "NEW GAME",
+              "className": "start-newgame-button",
+              "onClick": [Function],
+              "type": "submit",
+            },
+            "ref": null,
+            "rendered": "NEW GAME",
+            "type": "button",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "animation-one",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "animation-two",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="finish-transition"
+>
+            <h2
+                        className="win-headline"
+                        style={
+                                    Object {
+                                                "color": "#866AAD",
+                                              }
+                        }
+            >
+                        team2
+            </h2>
+            <h2
+                        className="win-headline-two"
+            >
+                        WINS!
+            </h2>
+            <div
+                        className="dashed-line"
+            />
+            <button
+                        className="start-newgame-button"
+                        onClick={[Function]}
+                        type="submit"
+            >
+                        NEW GAME
+            </button>
+</div>,
+          <div
+            className="animation-one"
+/>,
+          <div
+            className="animation-two"
+/>,
+        ],
+        "className": "background-monikers",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h2
+                className="win-headline"
+                style={
+                                Object {
+                                                "color": "#866AAD",
+                                              }
+                }
+>
+                team2
+</h2>,
+              <h2
+                className="win-headline-two"
+>
+                WINS!
+</h2>,
+              <div
+                className="dashed-line"
+/>,
+              <button
+                className="start-newgame-button"
+                onClick={[Function]}
+                type="submit"
+>
+                NEW GAME
+</button>,
+            ],
+            "className": "finish-transition",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "team2",
+                "className": "win-headline",
+                "style": Object {
+                  "color": "#866AAD",
+                },
+              },
+              "ref": null,
+              "rendered": "team2",
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "WINS!",
+                "className": "win-headline-two",
+              },
+              "ref": null,
+              "rendered": "WINS!",
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "dashed-line",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "NEW GAME",
+                "className": "start-newgame-button",
+                "onClick": [Function],
+                "type": "submit",
+              },
+              "ref": null,
+              "rendered": "NEW GAME",
+              "type": "button",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "animation-one",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "animation-two",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`finish matches the snapshot if teamOneScore is higher 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Finish
+    history={
+        Object {
+            "push": [Function],
+          }
+    }
+    resetStore={[Function]}
+    teamNames={
+        Array [
+            "team1",
+            "team2",
+          ]
+    }
+    teamOneScore={3}
+    teamTwoScore={2}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="finish-transition"
+>
+          <h2
+                    className="win-headline"
+                    style={
+                              Object {
+                                        "color": "#866AAD",
+                                      }
+                    }
+          >
+                    team1
+          </h2>
+          <h2
+                    className="win-headline-two"
+          >
+                    WINS!
+          </h2>
+          <div
+                    className="dashed-line"
+          />
+          <button
+                    className="start-newgame-button"
+                    onClick={[Function]}
+                    type="submit"
+          >
+                    NEW GAME
+          </button>
+</div>,
+        <div
+          className="animation-one"
+/>,
+        <div
+          className="animation-two"
+/>,
+      ],
+      "className": "background-monikers",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h2
+              className="win-headline"
+              style={
+                            Object {
+                                          "color": "#866AAD",
+                                        }
+              }
+>
+              team1
+</h2>,
+            <h2
+              className="win-headline-two"
+>
+              WINS!
+</h2>,
+            <div
+              className="dashed-line"
+/>,
+            <button
+              className="start-newgame-button"
+              onClick={[Function]}
+              type="submit"
+>
+              NEW GAME
+</button>,
+          ],
+          "className": "finish-transition",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "team1",
+              "className": "win-headline",
+              "style": Object {
+                "color": "#866AAD",
+              },
+            },
+            "ref": null,
+            "rendered": "team1",
+            "type": "h2",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "WINS!",
+              "className": "win-headline-two",
+            },
+            "ref": null,
+            "rendered": "WINS!",
+            "type": "h2",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "dashed-line",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "NEW GAME",
+              "className": "start-newgame-button",
+              "onClick": [Function],
+              "type": "submit",
+            },
+            "ref": null,
+            "rendered": "NEW GAME",
+            "type": "button",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "animation-one",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "animation-two",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="finish-transition"
+>
+            <h2
+                        className="win-headline"
+                        style={
+                                    Object {
+                                                "color": "#866AAD",
+                                              }
+                        }
+            >
+                        team1
+            </h2>
+            <h2
+                        className="win-headline-two"
+            >
+                        WINS!
+            </h2>
+            <div
+                        className="dashed-line"
+            />
+            <button
+                        className="start-newgame-button"
+                        onClick={[Function]}
+                        type="submit"
+            >
+                        NEW GAME
+            </button>
+</div>,
+          <div
+            className="animation-one"
+/>,
+          <div
+            className="animation-two"
+/>,
+        ],
+        "className": "background-monikers",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h2
+                className="win-headline"
+                style={
+                                Object {
+                                                "color": "#866AAD",
+                                              }
+                }
+>
+                team1
+</h2>,
+              <h2
+                className="win-headline-two"
+>
+                WINS!
+</h2>,
+              <div
+                className="dashed-line"
+/>,
+              <button
+                className="start-newgame-button"
+                onClick={[Function]}
+                type="submit"
+>
+                NEW GAME
+</button>,
+            ],
+            "className": "finish-transition",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "team1",
+                "className": "win-headline",
+                "style": Object {
+                  "color": "#866AAD",
+                },
+              },
+              "ref": null,
+              "rendered": "team1",
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "WINS!",
+                "className": "win-headline-two",
+              },
+              "ref": null,
+              "rendered": "WINS!",
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "dashed-line",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "NEW GAME",
+                "className": "start-newgame-button",
+                "onClick": [Function],
+                "type": "submit",
+              },
+              "ref": null,
+              "rendered": "NEW GAME",
+              "type": "button",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "animation-one",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "animation-two",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

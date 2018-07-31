@@ -1,7 +1,17 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import Loading from './Loading';
+/* eslint-disable max-len */
 
-it('renders without crashing', () => {
-  expect(true).toEqual(true)
+import React from 'react';
+import { shallow } from 'enzyme';
+import Loading from './loading';
+
+describe('loading', () => {
+  let loading;
+
+  beforeEach(() => {
+    loading = shallow(<Loading />);
+  });
+
+  it('matches the snapshot', () => {
+    expect(loading).toMatchSnapshot();
+  });
 });
