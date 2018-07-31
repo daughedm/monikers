@@ -26,8 +26,8 @@ describe('Client routes', () => {
       .get('/api/v1/badpath')
       .end((err, response) => {
         response.should.have.status(404);
+        done();
       });
-    done();
   });
 });
 
