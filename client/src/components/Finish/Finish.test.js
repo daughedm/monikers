@@ -4,6 +4,7 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import { Finish, mapStateToProps, mapDispatchToProps } from './Finish';
 import * as actions from '../../actions/';
+
 describe('finish', () => {
   let finish;
   let mockProps;
