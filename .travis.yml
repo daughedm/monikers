@@ -10,6 +10,6 @@ notifications:
 deploy:
   provider: heroku
   api_key:
-    secure: insert key here
-  app: monikers?????????????
+    secure: Izg1fIXXEXZWyqFENd4mIti0s+3iVhA4baTR3WpLV5KVqmjAY8a8hpVrYdP1imfNCRbnrvjdtfXiZ0U1/F9A4VQmdPehSE8vm/MYCWWgVjJxnSe+A0Ig04QglWrT7Q/NtSv9wKwP/boDQg/anibrZedYClLisLo0fEe8SY7gntJJMKn+vLvshnswAPUwYaPukdW9vyzi1xXnvam1yoXUgz1+Rmo/6xxkDrEDZeAbOXCySeD82/sjToqhRvORIoidS2l6+m+q3vRJu/L5f/0OdUrhKo2wm+/ObgII7VY+FxSoqi5KHeofLhkDpbOjiybZeViO62HHnmh6jFCDMzbcq36YzrOeNqoJwP1SKFJFq+kDkFky9JgjxyHG55ST3CGXO6Z6nXL9IAHkCac0Sp7Pv2O44b47ztSSy68BSp4oyU1U7bgGyhMyDdxH0MwIWdAGPnEe3Z8WK3myW8Z4UmF70y26Je6xKz4DUwqRfzSy3fAsh7V9/+rJB+/ckpRV4xFy1YwrWFItrnPOMjMuS+agWKIUS8uIOewvHFo0llXQR4rkU1DNaYeIuom6zLTwPyMOT4GYnQLY5ISoFCEAhawUvOsuOnZ74DbqhRhi7ubG3eog0nn2GbYIeqU8i+YRvykE7pzzxAupjjTIhyJGGiTUspoNAuGusx9+rbgfmHFevNY=
+  app: monikers
   skip_cleanup: true
