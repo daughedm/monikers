@@ -1,3 +1,5 @@
+/* eslint-disable max-len */
+
 import * as fetch from './fetch';
 import * as api from './api';
 
@@ -57,7 +59,7 @@ describe('getCards', () => {
 
     expect(result).toEqual(simulatedResponse);
     expect(mock).toHaveBeenCalledTimes(1);
-    expect(mock).toHaveBeenCalledWith('http://localhost:3001/api/v1/cards');
+    expect(mock).toHaveBeenCalledWith('/api/v1/cards');
 
     mock.mockRestore();
   });
