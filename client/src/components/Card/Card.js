@@ -23,7 +23,7 @@ export class Card extends Component {
     }
 
     return (
-      <div className="card-container">
+      <div className="card-container animated slideInRight">
         <h1 className="card-title">{activeCards[0].name}</h1>
         <p className="description">{activeCards[0].description}</p>
         <div className="dashed-line" />
