@@ -1674,7 +1674,7 @@ module.exports = [
   {
     name: 'The Sorcerer’s Apprentice',
     description:
-      'The assistant to a wizard in Disney’s Fantasia. Played by Mickey Mouse, he enchants a broom to fetch water. Unable to control the magic. a flood ensues. Each time he attempts to destroy the broom and end the spell, it splits in half and continues its work at double pace.',
+      'The assistant to a wizard in Disney’s Fantasia. Played by Mickey Mouse, he enchants a broom to fetch water. Unable to control the magic, a flood ensues. Each time he attempts to destroy the broom to end the spell, it splits and continues its work at double pace.',
     category: 'FICTIONAL CHARACTER',
     pointValue: 2
   },

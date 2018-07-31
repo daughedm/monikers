@@ -7,6 +7,7 @@
     "dexie": "^2.0.4",
     "express": "^4.16.3",
     "express-cors": "0.0.3",
+    "express-sslify": "^1.2.0",
     "knex": "^0.15.1",
     "pg": "^7.4.3"
   },

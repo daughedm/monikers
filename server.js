@@ -3,6 +3,7 @@ const app = express();
 const bodyParser = require('body-parser');
 const cors = require('express-cors');
 const path = require('path');
+const enforce = require('express-sslify');
 
 const environment = process.env.NODE_ENV || 'development';
 const configuration = require('./knexfile')[environment];
@@ -10,6 +11,8 @@ const database = require('knex')(configuration);
 
 app.set('port', process.env.PORT || 3001);
 app.locals.title = 'Monikers';
+
+app.use(enforce.HTTPS({ trustProtoHeader: true }))
 
 app.use(express.static(path.join(__dirname, 'client/build')));
 
