@@ -1,8 +1,11 @@
+/* eslint-disable max-len */
+
 import {
   numOfCards,
   addCard,
   updateActiveCards,
-  discardedCards
+  discardedCards,
+  clearDiscardedCards
 } from './cardActions.js';
 
 describe('Card Actions', () => {
@@ -83,7 +86,7 @@ describe('Card Actions', () => {
   });
 
   describe('discardedCards', () => {
-    it("has a type of 'DISCARDED_CARDS'", () => {
+    it('has a type of DISCARDED_CARDS', () => {
       const card = {
         name: 'Blacula',
         description:
@@ -96,6 +99,25 @@ describe('Card Actions', () => {
 
       expect(actual).toEqual({
         type: 'DISCARDED_CARDS',
+        card
+      });
+    });
+  });
+
+  describe('clearDiscardedCards', () => {
+    it('has a type of CLEAR_DISCARDED_CARDS', () => {
+      const card = {
+        name: 'Blacula',
+        description:
+          'The title character from a horror film about an 18th century African prince turned vampire. Locked in a coffin for two centuries by Count Dracula, the box was purchased as part of an estate by two interior decorators who accidentally set him loose in 705 Los Angeles.',
+        category: 'FICTIONAL CHARACTER',
+        pointValue: 4
+      };
+
+      const actual = clearDiscardedCards(card);
+
+      expect(actual).toEqual({
+        type: 'CLEAR_DISCARDED_CARDS',
         card
       });
     });
