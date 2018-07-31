@@ -1,0 +1,565 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`splashPage matches the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SplashPage />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="splash-page"
+>
+        <img
+                alt="logolockup"
+                className="logo-lockup animated bounceIn"
+                src="Monikers_logo_lockup-02.svg"
+        />
+        <div
+                className="button-wrapper"
+        >
+                <button
+                        className="start-game-button"
+                >
+                        <NavLink
+                                activeClassName="active"
+                                aria-current="page"
+                                className="navlink"
+                                to="/setup"
+                        >
+                                NEW GAME
+                        </NavLink>
+                </button>
+                <button
+                        className="instructions-button"
+                >
+                        <NavLink
+                                activeClassName="active"
+                                aria-current="page"
+                                className="navlink"
+                                to="/instructions"
+                        >
+                                HOW TO PLAY
+                        </NavLink>
+                </button>
+                <button
+                        className="buy-button"
+                >
+                        <a
+                                className="navlink"
+                                href="http://www.monikersgame.com/"
+                        >
+                                BUY THE GAME
+                        </a>
+                </button>
+        </div>
+</div>,
+      "className": "background-furry",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <img
+            alt="logolockup"
+            className="logo-lockup animated bounceIn"
+            src="Monikers_logo_lockup-02.svg"
+/>,
+          <div
+            className="button-wrapper"
+>
+            <button
+                        className="start-game-button"
+            >
+                        <NavLink
+                                    activeClassName="active"
+                                    aria-current="page"
+                                    className="navlink"
+                                    to="/setup"
+                        >
+                                    NEW GAME
+                        </NavLink>
+            </button>
+            <button
+                        className="instructions-button"
+            >
+                        <NavLink
+                                    activeClassName="active"
+                                    aria-current="page"
+                                    className="navlink"
+                                    to="/instructions"
+                        >
+                                    HOW TO PLAY
+                        </NavLink>
+            </button>
+            <button
+                        className="buy-button"
+            >
+                        <a
+                                    className="navlink"
+                                    href="http://www.monikersgame.com/"
+                        >
+                                    BUY THE GAME
+                        </a>
+            </button>
+</div>,
+        ],
+        "className": "splash-page",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "alt": "logolockup",
+            "className": "logo-lockup animated bounceIn",
+            "src": "Monikers_logo_lockup-02.svg",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "img",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <button
+                className="start-game-button"
+>
+                <NavLink
+                                activeClassName="active"
+                                aria-current="page"
+                                className="navlink"
+                                to="/setup"
+                >
+                                NEW GAME
+                </NavLink>
+</button>,
+              <button
+                className="instructions-button"
+>
+                <NavLink
+                                activeClassName="active"
+                                aria-current="page"
+                                className="navlink"
+                                to="/instructions"
+                >
+                                HOW TO PLAY
+                </NavLink>
+</button>,
+              <button
+                className="buy-button"
+>
+                <a
+                                className="navlink"
+                                href="http://www.monikersgame.com/"
+                >
+                                BUY THE GAME
+                </a>
+</button>,
+            ],
+            "className": "button-wrapper",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <NavLink
+                  activeClassName="active"
+                  aria-current="page"
+                  className="navlink"
+                  to="/setup"
+>
+                  NEW GAME
+</NavLink>,
+                "className": "start-game-button",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "activeClassName": "active",
+                  "aria-current": "page",
+                  "children": "NEW GAME",
+                  "className": "navlink",
+                  "to": "/setup",
+                },
+                "ref": null,
+                "rendered": "NEW GAME",
+                "type": [Function],
+              },
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <NavLink
+                  activeClassName="active"
+                  aria-current="page"
+                  className="navlink"
+                  to="/instructions"
+>
+                  HOW TO PLAY
+</NavLink>,
+                "className": "instructions-button",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "activeClassName": "active",
+                  "aria-current": "page",
+                  "children": "HOW TO PLAY",
+                  "className": "navlink",
+                  "to": "/instructions",
+                },
+                "ref": null,
+                "rendered": "HOW TO PLAY",
+                "type": [Function],
+              },
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <a
+                  className="navlink"
+                  href="http://www.monikersgame.com/"
+>
+                  BUY THE GAME
+</a>,
+                "className": "buy-button",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "BUY THE GAME",
+                  "className": "navlink",
+                  "href": "http://www.monikersgame.com/",
+                },
+                "ref": null,
+                "rendered": "BUY THE GAME",
+                "type": "a",
+              },
+              "type": "button",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="splash-page"
+>
+          <img
+                    alt="logolockup"
+                    className="logo-lockup animated bounceIn"
+                    src="Monikers_logo_lockup-02.svg"
+          />
+          <div
+                    className="button-wrapper"
+          >
+                    <button
+                              className="start-game-button"
+                    >
+                              <NavLink
+                                        activeClassName="active"
+                                        aria-current="page"
+                                        className="navlink"
+                                        to="/setup"
+                              >
+                                        NEW GAME
+                              </NavLink>
+                    </button>
+                    <button
+                              className="instructions-button"
+                    >
+                              <NavLink
+                                        activeClassName="active"
+                                        aria-current="page"
+                                        className="navlink"
+                                        to="/instructions"
+                              >
+                                        HOW TO PLAY
+                              </NavLink>
+                    </button>
+                    <button
+                              className="buy-button"
+                    >
+                              <a
+                                        className="navlink"
+                                        href="http://www.monikersgame.com/"
+                              >
+                                        BUY THE GAME
+                              </a>
+                    </button>
+          </div>
+</div>,
+        "className": "background-furry",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <img
+              alt="logolockup"
+              className="logo-lockup animated bounceIn"
+              src="Monikers_logo_lockup-02.svg"
+/>,
+            <div
+              className="button-wrapper"
+>
+              <button
+                            className="start-game-button"
+              >
+                            <NavLink
+                                          activeClassName="active"
+                                          aria-current="page"
+                                          className="navlink"
+                                          to="/setup"
+                            >
+                                          NEW GAME
+                            </NavLink>
+              </button>
+              <button
+                            className="instructions-button"
+              >
+                            <NavLink
+                                          activeClassName="active"
+                                          aria-current="page"
+                                          className="navlink"
+                                          to="/instructions"
+                            >
+                                          HOW TO PLAY
+                            </NavLink>
+              </button>
+              <button
+                            className="buy-button"
+              >
+                            <a
+                                          className="navlink"
+                                          href="http://www.monikersgame.com/"
+                            >
+                                          BUY THE GAME
+                            </a>
+              </button>
+</div>,
+          ],
+          "className": "splash-page",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "logolockup",
+              "className": "logo-lockup animated bounceIn",
+              "src": "Monikers_logo_lockup-02.svg",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <button
+                  className="start-game-button"
+>
+                  <NavLink
+                                    activeClassName="active"
+                                    aria-current="page"
+                                    className="navlink"
+                                    to="/setup"
+                  >
+                                    NEW GAME
+                  </NavLink>
+</button>,
+                <button
+                  className="instructions-button"
+>
+                  <NavLink
+                                    activeClassName="active"
+                                    aria-current="page"
+                                    className="navlink"
+                                    to="/instructions"
+                  >
+                                    HOW TO PLAY
+                  </NavLink>
+</button>,
+                <button
+                  className="buy-button"
+>
+                  <a
+                                    className="navlink"
+                                    href="http://www.monikersgame.com/"
+                  >
+                                    BUY THE GAME
+                  </a>
+</button>,
+              ],
+              "className": "button-wrapper",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <NavLink
+                    activeClassName="active"
+                    aria-current="page"
+                    className="navlink"
+                    to="/setup"
+>
+                    NEW GAME
+</NavLink>,
+                  "className": "start-game-button",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "activeClassName": "active",
+                    "aria-current": "page",
+                    "children": "NEW GAME",
+                    "className": "navlink",
+                    "to": "/setup",
+                  },
+                  "ref": null,
+                  "rendered": "NEW GAME",
+                  "type": [Function],
+                },
+                "type": "button",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <NavLink
+                    activeClassName="active"
+                    aria-current="page"
+                    className="navlink"
+                    to="/instructions"
+>
+                    HOW TO PLAY
+</NavLink>,
+                  "className": "instructions-button",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "activeClassName": "active",
+                    "aria-current": "page",
+                    "children": "HOW TO PLAY",
+                    "className": "navlink",
+                    "to": "/instructions",
+                  },
+                  "ref": null,
+                  "rendered": "HOW TO PLAY",
+                  "type": [Function],
+                },
+                "type": "button",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <a
+                    className="navlink"
+                    href="http://www.monikersgame.com/"
+>
+                    BUY THE GAME
+</a>,
+                  "className": "buy-button",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "BUY THE GAME",
+                    "className": "navlink",
+                    "href": "http://www.monikersgame.com/",
+                  },
+                  "ref": null,
+                  "rendered": "BUY THE GAME",
+                  "type": "a",
+                },
+                "type": "button",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

@@ -52,14 +52,17 @@ export class Round extends Component {
 
     if (currRound === 1) {
       roundDescription =
+        // eslint-disable-next-line max-len
         'Describe the name using any words, sounds, or gestures except the name itself';
       round = 'Round One';
     } else if (currRound === 2) {
       roundDescription =
+        // eslint-disable-next-line max-len
         'Describe the name using only one word, which can be anything except the name itself';
       round = 'Round Two';
     } else if (currRound === 3) {
       roundDescription =
+        // eslint-disable-next-line max-len
         'Describe the name using just charades. No words. Sound effects are OK.';
       round = 'Round Three';
     }
@@ -84,7 +87,6 @@ export class Round extends Component {
           <div className="dashed-line" />
           <p className="round-description">{roundDescription}</p>
           <div className="dashed-line" />
-          {/* color changes between blue and red per team */}
           <h3 className="starting-team" style={teamColor}>
             {currTeam} Starts
           </h3>

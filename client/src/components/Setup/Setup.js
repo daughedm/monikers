@@ -17,8 +17,6 @@ export class Setup extends Component {
     };
   }
 
-  componentDidMount() {}
-
   getActiveCards = async numberOfCards => {
     const { addCard } = this.props;
     const numberOfCardsInIDB = await indexedDB.allCards.count();

@@ -1,0 +1,605 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`setup matches the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Setup
+    addCard={[Function]}
+    addTeamNames={[Function]}
+    currentTeam={[Function]}
+    getTeamNames={[Function]}
+    history={
+        Object {
+            "push": [Function],
+          }
+    }
+    numCards={2}
+    numOfCards={[Function]}
+    teamNames={
+        Array [
+            "team1",
+            "team2",
+          ]
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <img
+          alt="Monikers logo"
+          className="logo"
+          src="Monikers_logo_lockup-02.svg"
+/>,
+        <h2
+          className="game-setup-headline"
+>
+          Game Setup
+</h2>,
+        <form
+          action=""
+          onSubmit={[Function]}
+>
+          <h3
+                    className="label-name"
+          >
+                    Team One
+          </h3>
+          <input
+                    className="input-field"
+                    name="teamOne"
+                    onChange={[Function]}
+                    placeholder="Enter team name"
+                    type="text"
+          />
+          <h3
+                    className="label-name"
+          >
+                    Team Two
+          </h3>
+          <input
+                    className="input-field"
+                    name="teamTwo"
+                    onChange={[Function]}
+                    placeholder="Enter team name"
+                    type="text"
+          />
+          <h3
+                    className="label-name"
+          >
+                    Number of Cards
+          </h3>
+          <input
+                    className="input-field"
+                    max="60"
+                    min="30"
+                    name="numCards"
+                    onChange={[Function]}
+                    placeholder="Enter number 30-60"
+                    type="number"
+          />
+          <button
+                    className="start-button"
+                    type="submit"
+          >
+                    START GAME
+          </button>
+          <button
+                    className="back-button"
+                    onClick={[Function]}
+                    type="submit"
+          >
+                    BACK
+          </button>
+</form>,
+      ],
+      "className": "wrapper",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "alt": "Monikers logo",
+          "className": "logo",
+          "src": "Monikers_logo_lockup-02.svg",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "img",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Game Setup",
+          "className": "game-setup-headline",
+        },
+        "ref": null,
+        "rendered": "Game Setup",
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "action": "",
+          "children": Array [
+            <h3
+              className="label-name"
+>
+              Team One
+</h3>,
+            <input
+              className="input-field"
+              name="teamOne"
+              onChange={[Function]}
+              placeholder="Enter team name"
+              type="text"
+/>,
+            <h3
+              className="label-name"
+>
+              Team Two
+</h3>,
+            <input
+              className="input-field"
+              name="teamTwo"
+              onChange={[Function]}
+              placeholder="Enter team name"
+              type="text"
+/>,
+            <h3
+              className="label-name"
+>
+              Number of Cards
+</h3>,
+            <input
+              className="input-field"
+              max="60"
+              min="30"
+              name="numCards"
+              onChange={[Function]}
+              placeholder="Enter number 30-60"
+              type="number"
+/>,
+            <button
+              className="start-button"
+              type="submit"
+>
+              START GAME
+</button>,
+            <button
+              className="back-button"
+              onClick={[Function]}
+              type="submit"
+>
+              BACK
+</button>,
+          ],
+          "onSubmit": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Team One",
+              "className": "label-name",
+            },
+            "ref": null,
+            "rendered": "Team One",
+            "type": "h3",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "input-field",
+              "name": "teamOne",
+              "onChange": [Function],
+              "placeholder": "Enter team name",
+              "type": "text",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Team Two",
+              "className": "label-name",
+            },
+            "ref": null,
+            "rendered": "Team Two",
+            "type": "h3",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "input-field",
+              "name": "teamTwo",
+              "onChange": [Function],
+              "placeholder": "Enter team name",
+              "type": "text",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Number of Cards",
+              "className": "label-name",
+            },
+            "ref": null,
+            "rendered": "Number of Cards",
+            "type": "h3",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "input-field",
+              "max": "60",
+              "min": "30",
+              "name": "numCards",
+              "onChange": [Function],
+              "placeholder": "Enter number 30-60",
+              "type": "number",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "START GAME",
+              "className": "start-button",
+              "type": "submit",
+            },
+            "ref": null,
+            "rendered": "START GAME",
+            "type": "button",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "BACK",
+              "className": "back-button",
+              "onClick": [Function],
+              "type": "submit",
+            },
+            "ref": null,
+            "rendered": "BACK",
+            "type": "button",
+          },
+        ],
+        "type": "form",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <img
+            alt="Monikers logo"
+            className="logo"
+            src="Monikers_logo_lockup-02.svg"
+/>,
+          <h2
+            className="game-setup-headline"
+>
+            Game Setup
+</h2>,
+          <form
+            action=""
+            onSubmit={[Function]}
+>
+            <h3
+                        className="label-name"
+            >
+                        Team One
+            </h3>
+            <input
+                        className="input-field"
+                        name="teamOne"
+                        onChange={[Function]}
+                        placeholder="Enter team name"
+                        type="text"
+            />
+            <h3
+                        className="label-name"
+            >
+                        Team Two
+            </h3>
+            <input
+                        className="input-field"
+                        name="teamTwo"
+                        onChange={[Function]}
+                        placeholder="Enter team name"
+                        type="text"
+            />
+            <h3
+                        className="label-name"
+            >
+                        Number of Cards
+            </h3>
+            <input
+                        className="input-field"
+                        max="60"
+                        min="30"
+                        name="numCards"
+                        onChange={[Function]}
+                        placeholder="Enter number 30-60"
+                        type="number"
+            />
+            <button
+                        className="start-button"
+                        type="submit"
+            >
+                        START GAME
+            </button>
+            <button
+                        className="back-button"
+                        onClick={[Function]}
+                        type="submit"
+            >
+                        BACK
+            </button>
+</form>,
+        ],
+        "className": "wrapper",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "alt": "Monikers logo",
+            "className": "logo",
+            "src": "Monikers_logo_lockup-02.svg",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "img",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Game Setup",
+            "className": "game-setup-headline",
+          },
+          "ref": null,
+          "rendered": "Game Setup",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "action": "",
+            "children": Array [
+              <h3
+                className="label-name"
+>
+                Team One
+</h3>,
+              <input
+                className="input-field"
+                name="teamOne"
+                onChange={[Function]}
+                placeholder="Enter team name"
+                type="text"
+/>,
+              <h3
+                className="label-name"
+>
+                Team Two
+</h3>,
+              <input
+                className="input-field"
+                name="teamTwo"
+                onChange={[Function]}
+                placeholder="Enter team name"
+                type="text"
+/>,
+              <h3
+                className="label-name"
+>
+                Number of Cards
+</h3>,
+              <input
+                className="input-field"
+                max="60"
+                min="30"
+                name="numCards"
+                onChange={[Function]}
+                placeholder="Enter number 30-60"
+                type="number"
+/>,
+              <button
+                className="start-button"
+                type="submit"
+>
+                START GAME
+</button>,
+              <button
+                className="back-button"
+                onClick={[Function]}
+                type="submit"
+>
+                BACK
+</button>,
+            ],
+            "onSubmit": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Team One",
+                "className": "label-name",
+              },
+              "ref": null,
+              "rendered": "Team One",
+              "type": "h3",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "input-field",
+                "name": "teamOne",
+                "onChange": [Function],
+                "placeholder": "Enter team name",
+                "type": "text",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Team Two",
+                "className": "label-name",
+              },
+              "ref": null,
+              "rendered": "Team Two",
+              "type": "h3",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "input-field",
+                "name": "teamTwo",
+                "onChange": [Function],
+                "placeholder": "Enter team name",
+                "type": "text",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Number of Cards",
+                "className": "label-name",
+              },
+              "ref": null,
+              "rendered": "Number of Cards",
+              "type": "h3",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "input-field",
+                "max": "60",
+                "min": "30",
+                "name": "numCards",
+                "onChange": [Function],
+                "placeholder": "Enter number 30-60",
+                "type": "number",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "START GAME",
+                "className": "start-button",
+                "type": "submit",
+              },
+              "ref": null,
+              "rendered": "START GAME",
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "BACK",
+                "className": "back-button",
+                "onClick": [Function],
+                "type": "submit",
+              },
+              "ref": null,
+              "rendered": "BACK",
+              "type": "button",
+            },
+          ],
+          "type": "form",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
