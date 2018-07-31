@@ -12,7 +12,9 @@ const database = require('knex')(configuration);
 app.set('port', process.env.PORT || 3001);
 app.locals.title = 'Monikers';
 
-app.use(enforce.HTTPS({ trustProtoHeader: true }))
+if (process.env.NODE_ENV === 'production') {
+  app.use(enforce.HTTPS({ trustProtoHeader: true }));
+}
 
 app.use(express.static(path.join(__dirname, 'client/build')));
 
@@ -25,6 +27,10 @@ app.use(function(req, res, next) {
     'Origin, X-Requested-With, Content-Type, Accept'
   );
   next();
+});
+
+app.get('/', (request, response) => {
+  response.status(200);
 });
 
 app.get('/api/v1/cards', (request, response) => {
@@ -90,4 +96,4 @@ app.listen(app.get('port'), () => {
   console.log(`${app.locals.title} is running on ${app.get('port')}`);
 });
 
-module.exports = { app, database };
+module.exports = app;
