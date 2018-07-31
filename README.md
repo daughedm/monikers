@@ -1,7 +1,7 @@
 # Monikers
 
 ---
-![Monikers](https://i.imgur.com/Qo1ioPv.gif)
+![Monikers](http://www.giphy.com/gifs/uVDhBr6CeBbQWKDesU)
 
 
 ## Synopsis
