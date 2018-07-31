@@ -852,7 +852,7 @@ module.exports = [
   {
     name: 'The Yellow Power Ranger',
     description:
-      'A hero from the 905 children’s show that featured a team of teenagers that fought off aliens by transforming into superheroes and piloting robots called Zords. The show was often accused of racism for aligning each character‘s uniform color with the actor’s ethnicity.',
+      'A hero from the 90s children’s show that featured a team of teenagers that fought off aliens by transforming into superheroes and piloting robots called Zords. The show was accused of racism for aligning each character‘s uniform color with their ethnicity.',
     category: 'FICTIONAL CHARACTER',
     pointValue: 2
   },
@@ -873,7 +873,7 @@ module.exports = [
   {
     name: 'The one-armed drummer from Def Leppard',
     description:
-      'The percussionist for the popular 80s hair metal band known for hits like "Love Bites" and "Pour Some Sugar on Me." He is best known for continuing to record and perform using a specially designed kit following the amputation of a limb after a drag racing accident.',
+      'The percussionist for the popular 80s hair metal band known for hits like "Love Bites" and "Pour Some Sugar on Me." He is best known for continuing to record and perform using a specially designed kit following the amputation of a limb.',
     category: 'CELEBRITY',
     pointValue: 4
   },
@@ -1674,7 +1674,7 @@ module.exports = [
   {
     name: 'The Sorcerer’s Apprentice',
     description:
-      'The assistant to a wizard in Disney’s Fantasia. Played by Mickey Mouse, he enchants a broom to fetch water. Unable to control the magic, a flood ensues. Each time he attempts to destroy the broom to end the spell, it splits and continues its work at double pace.',
+      'An assistant to a wizard in Fantasia. Played by Mickey Mouse, he enchants a broom to fetch water. Unable to control the magic, a flood ensues. Each time he attempts to destroy the broom to end the spell, it splits and continues its work at double pace.',
     category: 'FICTIONAL CHARACTER',
     pointValue: 2
   },
@@ -1723,7 +1723,7 @@ module.exports = [
   {
     name: 'The Boy Who Cried Wolf',
     description:
-      'A shepherd from Aesop‘s Fables who tricked villagers by raising false alarm about his sheep being attacked. When a legitimate threat occurs, the villagers do not respond and the flock is devoured. The fable appears to have little effect on the likelihood of lying among children.',
+      'A shepherd from Aesop‘s Fables who tricked villagers by raising false alarm about his sheep being attacked. When a real threat occurs, the villagers do not respond and the flock is devoured. The fable appears to have little effect on the amount children lie.',
     category: 'FICTIONAL CHARACTER',
     pointValue: 4
   },
@@ -3249,9 +3249,9 @@ module.exports = [
     pointValue: 4
   },
   {
-    name: 'The black guy from The Shining (Scatman Crothers)',
+    name: 'Scatman Crothers',
     description:
-      'An actor famous for his role in Chico and the Man as well as Stanley Kubrick’s 1980 horror film, where he plays the telepathic chef and erotic art connoisseur Dick Hallorann. Late in the film, he is killed by an axe blow to the chest by the psychopathic writer Jack Torrance.',
+      'An actor famous for his role in Chico and the Man as well as Stanley Kubrick’s 1980 horror film, where he plays the telepathic chef and erotic art connoisseur Dick Hallorann. Late in the film, he is killed by an axe blow to the chest. by the psychopathic writer Jack Torrance.',
     category: 'CELEBRITY',
     pointValue: 4
   },
