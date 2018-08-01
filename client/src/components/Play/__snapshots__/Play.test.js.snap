@@ -1,0 +1,540 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`play matches the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Play
+    activeCards={
+        Array [
+            Object {
+              "category": "CELEBRITY",
+              "description": "An Internet meme that shows a Shiba Inu surrounded by colorful Comic Sans text that describes its inner monologue, such as \\"Wow,\\" \\"Concern,\\" and \\"so scare.\\" There is much confuse over the name's pronunciation, yet it was recently used to brand a Bitcoin competitor.",
+              "name": "Doge",
+              "pointValue": 3,
+            },
+          ]
+    }
+    addCard={[Function]}
+    currRound={1}
+    currTeam="team1"
+    currentRound={[Function]}
+    currentTeam={[Function]}
+    discardPile={
+        Array [
+            Object {
+              "category": "ET CETERA",
+              "description": "A virus that causes hemorrhagic fever, typically acquired by contact with an infected monkey, fruit bat, or person. Its most severe symptoms can include bleeding from the eyes, nose, ears, mouth, and rectum. There is no specific treatment for the disease.",
+              "name": "Ebola",
+              "pointValue": 2,
+            },
+            Object {
+              "category": "CELEBRITY",
+              "description": "A Japanese competitive eater who shocked the world in 2001 by eating 50 hot dogs and buns (HDB) in 12 minutes at Nathan's Hot Dog Eating Contest, doubling the previous record. He once lost a hot dog eating contest (no buns) to a 1089 lb. Kodiak bear (31-50).",
+              "name": "Kobayashi",
+              "pointValue": 2,
+            },
+          ]
+    }
+    discardedCards={[Function]}
+    oneScore={0}
+    teamNames={
+        Array [
+            "team1",
+            "team2",
+          ]
+    }
+    teamOneScore={[Function]}
+    teamTimer="stopped"
+    teamTwoScore={[Function]}
+    twoScore={1}
+    updateActiveCards={[Function]}
+    updateTeamTimer={[Function]}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "countDown": [Function],
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "countDown": [Function],
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`play matches the snapshot if activeCards.length === 0 && currRound <= 3 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Play
+    activeCards={Array []}
+    addCard={[Function]}
+    currRound={1}
+    currTeam="team2"
+    currentRound={[Function]}
+    currentTeam={[Function]}
+    discardPile={
+        Array [
+            Object {
+              "category": "ET CETERA",
+              "description": "A virus that causes hemorrhagic fever, typically acquired by contact with an infected monkey, fruit bat, or person. Its most severe symptoms can include bleeding from the eyes, nose, ears, mouth, and rectum. There is no specific treatment for the disease.",
+              "name": "Ebola",
+              "pointValue": 2,
+            },
+            Object {
+              "category": "CELEBRITY",
+              "description": "A Japanese competitive eater who shocked the world in 2001 by eating 50 hot dogs and buns (HDB) in 12 minutes at Nathan's Hot Dog Eating Contest, doubling the previous record. He once lost a hot dog eating contest (no buns) to a 1089 lb. Kodiak bear (31-50).",
+              "name": "Kobayashi",
+              "pointValue": 2,
+            },
+          ]
+    }
+    discardedCards={[Function]}
+    oneScore={0}
+    teamNames={
+        Array [
+            "team1",
+            "team2",
+          ]
+    }
+    teamOneScore={[Function]}
+    teamTimer="stopped"
+    teamTwoScore={[Function]}
+    twoScore={1}
+    updateActiveCards={[Function]}
+    updateTeamTimer={[Function]}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "countDown": [Function],
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "countDown": [Function],
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`play matches the snapshot if currRound === 4 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Play
+    activeCards={
+        Array [
+            Object {
+              "category": "CELEBRITY",
+              "description": "An Internet meme that shows a Shiba Inu surrounded by colorful Comic Sans text that describes its inner monologue, such as \\"Wow,\\" \\"Concern,\\" and \\"so scare.\\" There is much confuse over the name's pronunciation, yet it was recently used to brand a Bitcoin competitor.",
+              "name": "Doge",
+              "pointValue": 3,
+            },
+          ]
+    }
+    addCard={[Function]}
+    currRound={4}
+    currTeam="team1"
+    currentRound={[Function]}
+    currentTeam={[Function]}
+    discardPile={
+        Array [
+            Object {
+              "category": "ET CETERA",
+              "description": "A virus that causes hemorrhagic fever, typically acquired by contact with an infected monkey, fruit bat, or person. Its most severe symptoms can include bleeding from the eyes, nose, ears, mouth, and rectum. There is no specific treatment for the disease.",
+              "name": "Ebola",
+              "pointValue": 2,
+            },
+            Object {
+              "category": "CELEBRITY",
+              "description": "A Japanese competitive eater who shocked the world in 2001 by eating 50 hot dogs and buns (HDB) in 12 minutes at Nathan's Hot Dog Eating Contest, doubling the previous record. He once lost a hot dog eating contest (no buns) to a 1089 lb. Kodiak bear (31-50).",
+              "name": "Kobayashi",
+              "pointValue": 2,
+            },
+          ]
+    }
+    discardedCards={[Function]}
+    oneScore={0}
+    teamNames={
+        Array [
+            "team1",
+            "team2",
+          ]
+    }
+    teamOneScore={[Function]}
+    teamTimer="stopped"
+    teamTwoScore={[Function]}
+    twoScore={1}
+    updateActiveCards={[Function]}
+    updateTeamTimer={[Function]}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {},
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {},
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`play matches the snapshot if currTeam !== teamNames[0] 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Play
+    activeCards={
+        Array [
+            Object {
+              "category": "CELEBRITY",
+              "description": "An Internet meme that shows a Shiba Inu surrounded by colorful Comic Sans text that describes its inner monologue, such as \\"Wow,\\" \\"Concern,\\" and \\"so scare.\\" There is much confuse over the name's pronunciation, yet it was recently used to brand a Bitcoin competitor.",
+              "name": "Doge",
+              "pointValue": 3,
+            },
+          ]
+    }
+    addCard={[Function]}
+    currRound={1}
+    currTeam="team2"
+    currentRound={[Function]}
+    currentTeam={[Function]}
+    discardPile={
+        Array [
+            Object {
+              "category": "ET CETERA",
+              "description": "A virus that causes hemorrhagic fever, typically acquired by contact with an infected monkey, fruit bat, or person. Its most severe symptoms can include bleeding from the eyes, nose, ears, mouth, and rectum. There is no specific treatment for the disease.",
+              "name": "Ebola",
+              "pointValue": 2,
+            },
+            Object {
+              "category": "CELEBRITY",
+              "description": "A Japanese competitive eater who shocked the world in 2001 by eating 50 hot dogs and buns (HDB) in 12 minutes at Nathan's Hot Dog Eating Contest, doubling the previous record. He once lost a hot dog eating contest (no buns) to a 1089 lb. Kodiak bear (31-50).",
+              "name": "Kobayashi",
+              "pointValue": 2,
+            },
+          ]
+    }
+    discardedCards={[Function]}
+    oneScore={0}
+    teamNames={
+        Array [
+            "team1",
+            "team2",
+          ]
+    }
+    teamOneScore={[Function]}
+    teamTimer="stopped"
+    teamTwoScore={[Function]}
+    twoScore={1}
+    updateActiveCards={[Function]}
+    updateTeamTimer={[Function]}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "countDown": [Function],
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "countDown": [Function],
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`play matches the snapshot if teamTimer === pregame 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Play
+    activeCards={
+        Array [
+            Object {
+              "category": "CELEBRITY",
+              "description": "An Internet meme that shows a Shiba Inu surrounded by colorful Comic Sans text that describes its inner monologue, such as \\"Wow,\\" \\"Concern,\\" and \\"so scare.\\" There is much confuse over the name's pronunciation, yet it was recently used to brand a Bitcoin competitor.",
+              "name": "Doge",
+              "pointValue": 3,
+            },
+          ]
+    }
+    addCard={[Function]}
+    currRound={1}
+    currTeam="team1"
+    currentRound={[Function]}
+    currentTeam={[Function]}
+    discardPile={
+        Array [
+            Object {
+              "category": "ET CETERA",
+              "description": "A virus that causes hemorrhagic fever, typically acquired by contact with an infected monkey, fruit bat, or person. Its most severe symptoms can include bleeding from the eyes, nose, ears, mouth, and rectum. There is no specific treatment for the disease.",
+              "name": "Ebola",
+              "pointValue": 2,
+            },
+            Object {
+              "category": "CELEBRITY",
+              "description": "A Japanese competitive eater who shocked the world in 2001 by eating 50 hot dogs and buns (HDB) in 12 minutes at Nathan's Hot Dog Eating Contest, doubling the previous record. He once lost a hot dog eating contest (no buns) to a 1089 lb. Kodiak bear (31-50).",
+              "name": "Kobayashi",
+              "pointValue": 2,
+            },
+          ]
+    }
+    discardedCards={[Function]}
+    oneScore={0}
+    teamNames={
+        Array [
+            "team1",
+            "team2",
+          ]
+    }
+    teamOneScore={[Function]}
+    teamTimer="pregame"
+    teamTwoScore={[Function]}
+    twoScore={1}
+    updateActiveCards={[Function]}
+    updateTeamTimer={[Function]}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "countDown": [Function],
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "countDown": [Function],
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`play matches the snapshot if teamTimer === stopped && currRound <= 3 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Play
+    activeCards={
+        Array [
+            Object {
+              "category": "CELEBRITY",
+              "description": "An Internet meme that shows a Shiba Inu surrounded by colorful Comic Sans text that describes its inner monologue, such as \\"Wow,\\" \\"Concern,\\" and \\"so scare.\\" There is much confuse over the name's pronunciation, yet it was recently used to brand a Bitcoin competitor.",
+              "name": "Doge",
+              "pointValue": 3,
+            },
+          ]
+    }
+    addCard={[Function]}
+    currRound={1}
+    currTeam="team1"
+    currentRound={[Function]}
+    currentTeam={[Function]}
+    discardPile={
+        Array [
+            Object {
+              "category": "ET CETERA",
+              "description": "A virus that causes hemorrhagic fever, typically acquired by contact with an infected monkey, fruit bat, or person. Its most severe symptoms can include bleeding from the eyes, nose, ears, mouth, and rectum. There is no specific treatment for the disease.",
+              "name": "Ebola",
+              "pointValue": 2,
+            },
+            Object {
+              "category": "CELEBRITY",
+              "description": "A Japanese competitive eater who shocked the world in 2001 by eating 50 hot dogs and buns (HDB) in 12 minutes at Nathan's Hot Dog Eating Contest, doubling the previous record. He once lost a hot dog eating contest (no buns) to a 1089 lb. Kodiak bear (31-50).",
+              "name": "Kobayashi",
+              "pointValue": 2,
+            },
+          ]
+    }
+    discardedCards={[Function]}
+    oneScore={0}
+    teamNames={
+        Array [
+            "team1",
+            "team2",
+          ]
+    }
+    teamOneScore={[Function]}
+    teamTimer="stopped"
+    teamTwoScore={[Function]}
+    twoScore={1}
+    updateActiveCards={[Function]}
+    updateTeamTimer={[Function]}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "countDown": [Function],
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "countDown": [Function],
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

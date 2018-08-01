@@ -65,7 +65,7 @@ describe('finish', () => {
         teamTwoScore: actions.teamTwoScore
       };
       const expected = {
-        activeCards: actions.activeCards,
+        teamNames: actions.teamNames,
         teamOneScore: actions.teamOneScore,
         teamTwoScore: actions.teamTwoScore
       };
