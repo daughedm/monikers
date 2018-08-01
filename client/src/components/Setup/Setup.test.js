@@ -6,6 +6,7 @@ import { Setup, mapStateToProps, mapDispatchToProps } from './Setup';
 import indexedDB from '../../indexedBD';
 jest.mock('../../indexedBD.js');
 import * as mockData from '../../__mocks__/mockData';
+import * as actions from '../../actions';
 
 describe('setup', () => {
   let setup;
@@ -153,6 +154,60 @@ describe('setup', () => {
 
       expect(mockProps.history.push).toHaveBeenCalledTimes(1);
       expect(mockProps.history.push).toHaveBeenCalledWith('/');
+    });
+  });
+
+  describe('mapStateToProps', () => {
+    it('maps state properties to props', () => {
+      const mockState = {
+        teamNames: actions.teamNames,
+        numCards: actions.numCards
+      };
+      const expected = {
+        teamNames: actions.teamNames,
+        numCards: actions.numCards
+      };
+      const mappedProps = mapStateToProps(mockState);
+
+      expect(mappedProps).toEqual(expected);
+    });
+  });
+
+  describe('mapDispatchToProps', () => {
+    it('calls dispatch with the correct params on numOfCards', () => {
+      const mockDispatch = jest.fn();
+      const number = 30;
+      const mappedProps = mapDispatchToProps(mockDispatch);
+      const mockAction = actions.numOfCards(number);
+      mappedProps.numOfCards(number);
+      expect(mockDispatch).toHaveBeenCalledWith(mockAction);
+    });
+
+    it('calls dispatch with the correct params on currentTeam', () => {
+      const mockDispatch = jest.fn();
+      const team = 'team1';
+      const mappedProps = mapDispatchToProps(mockDispatch);
+      const mockAction = actions.currentTeam(team);
+      mappedProps.currentTeam(team);
+      expect(mockDispatch).toHaveBeenCalledWith(mockAction);
+    });
+
+    it('calls dispatch with the correct params on addCard', () => {
+      const mockDispatch = jest.fn();
+      const card = {};
+      const mappedProps = mapDispatchToProps(mockDispatch);
+      const mockAction = actions.addCard(card);
+      mappedProps.addCard(card);
+      expect(mockDispatch).toHaveBeenCalledWith(mockAction);
+    });
+
+    it('calls dispatch with the correct params on addTeamNames', () => {
+      const mockDispatch = jest.fn();
+      const teamName = 'team1';
+      const mappedProps = mapDispatchToProps(mockDispatch);
+      const mockAction = actions.addTeamNames(teamName);
+      mappedProps.addTeamNames(teamName);
+      expect(mockDispatch).toHaveBeenCalledWith(mockAction);
     });
   });
 });
