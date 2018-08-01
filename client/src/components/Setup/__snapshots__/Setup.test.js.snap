@@ -56,6 +56,7 @@ ShallowWrapper {
                     Team One
           </h3>
           <input
+                    autoComplete="off"
                     className="input-field"
                     name="teamOne"
                     onChange={[Function]}
@@ -68,6 +69,7 @@ ShallowWrapper {
                     Team Two
           </h3>
           <input
+                    autoComplete="off"
                     className="input-field"
                     name="teamTwo"
                     onChange={[Function]}
@@ -145,6 +147,7 @@ ShallowWrapper {
               Team One
 </h3>,
             <input
+              autoComplete="off"
               className="input-field"
               name="teamOne"
               onChange={[Function]}
@@ -157,6 +160,7 @@ ShallowWrapper {
               Team Two
 </h3>,
             <input
+              autoComplete="off"
               className="input-field"
               name="teamTwo"
               onChange={[Function]}
@@ -212,6 +216,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
+              "autoComplete": "off",
               "className": "input-field",
               "name": "teamOne",
               "onChange": [Function],
@@ -239,6 +244,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
+              "autoComplete": "off",
               "className": "input-field",
               "name": "teamTwo",
               "onChange": [Function],
@@ -338,6 +344,7 @@ ShallowWrapper {
                         Team One
             </h3>
             <input
+                        autoComplete="off"
                         className="input-field"
                         name="teamOne"
                         onChange={[Function]}
@@ -350,6 +357,7 @@ ShallowWrapper {
                         Team Two
             </h3>
             <input
+                        autoComplete="off"
                         className="input-field"
                         name="teamTwo"
                         onChange={[Function]}
@@ -427,6 +435,7 @@ ShallowWrapper {
                 Team One
 </h3>,
               <input
+                autoComplete="off"
                 className="input-field"
                 name="teamOne"
                 onChange={[Function]}
@@ -439,6 +448,7 @@ ShallowWrapper {
                 Team Two
 </h3>,
               <input
+                autoComplete="off"
                 className="input-field"
                 name="teamTwo"
                 onChange={[Function]}
@@ -494,6 +504,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
+                "autoComplete": "off",
                 "className": "input-field",
                 "name": "teamOne",
                 "onChange": [Function],
@@ -521,6 +532,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
+                "autoComplete": "off",
                 "className": "input-field",
                 "name": "teamTwo",
                 "onChange": [Function],

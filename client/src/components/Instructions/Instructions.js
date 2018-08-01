@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './Instructions.css';
 
 const Instructions = props => {
@@ -81,6 +82,10 @@ const Instructions = props => {
       </div>
     </div>
   );
+};
+
+Instructions.propTypes = {
+  history: PropTypes.object.isRequired
 };
 
 export default Instructions;

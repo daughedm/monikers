@@ -3,9 +3,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import { Setup, mapStateToProps, mapDispatchToProps } from './Setup';
-import indexedDB from '../../indexedBD';
-jest.mock('../../indexedBD.js');
-import * as mockData from '../../__mocks__/mockData';
 import * as actions from '../../actions';
 
 describe('setup', () => {
@@ -32,12 +29,12 @@ describe('setup', () => {
 
   describe('getActiveCards', () => {
     it.skip('calls addCard', async () => {
-      const indexedDB = {
-        allCards: {
-          count: jest.fn(),
-          toArray: jest.fn().mockImplementation(() => mockData.cards)
-        }
-      };
+      // const indexedDB = {
+      //   allCards: {
+      //     count: jest.fn(),
+      //     toArray: jest.fn().mockImplementation(() => mockData.cards)
+      //   }
+      // };
 
       setup.instance().getActiveCards(mockProps.numCards);
 
