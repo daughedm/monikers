@@ -67,7 +67,7 @@ ShallowWrapper {
           </h1>
 </div>,
       ],
-      "className": "card-container",
+      "className": "card-container animated slideInRight",
     },
     "ref": null,
     "rendered": Array [
@@ -199,7 +199,7 @@ ShallowWrapper {
             </h1>
 </div>,
         ],
-        "className": "card-container",
+        "className": "card-container animated slideInRight",
       },
       "ref": null,
       "rendered": Array [
@@ -364,7 +364,7 @@ ShallowWrapper {
           </h1>
 </div>,
       ],
-      "className": "card-container",
+      "className": "card-container animated slideInRight",
     },
     "ref": null,
     "rendered": Array [
@@ -496,7 +496,7 @@ ShallowWrapper {
             </h1>
 </div>,
         ],
-        "className": "card-container",
+        "className": "card-container animated slideInRight",
       },
       "ref": null,
       "rendered": Array [
@@ -661,7 +661,7 @@ ShallowWrapper {
           </h1>
 </div>,
       ],
-      "className": "card-container",
+      "className": "card-container animated slideInRight",
     },
     "ref": null,
     "rendered": Array [
@@ -793,7 +793,7 @@ ShallowWrapper {
             </h1>
 </div>,
         ],
-        "className": "card-container",
+        "className": "card-container animated slideInRight",
       },
       "ref": null,
       "rendered": Array [
@@ -958,7 +958,7 @@ ShallowWrapper {
           </h1>
 </div>,
       ],
-      "className": "card-container",
+      "className": "card-container animated slideInRight",
     },
     "ref": null,
     "rendered": Array [
@@ -1090,7 +1090,7 @@ ShallowWrapper {
             </h1>
 </div>,
         ],
-        "className": "card-container",
+        "className": "card-container animated slideInRight",
       },
       "ref": null,
       "rendered": Array [
@@ -1255,7 +1255,7 @@ ShallowWrapper {
           </h1>
 </div>,
       ],
-      "className": "card-container",
+      "className": "card-container animated slideInRight",
     },
     "ref": null,
     "rendered": Array [
@@ -1387,7 +1387,7 @@ ShallowWrapper {
             </h1>
 </div>,
         ],
-        "className": "card-container",
+        "className": "card-container animated slideInRight",
       },
       "ref": null,
       "rendered": Array [
