@@ -12,7 +12,7 @@ const database = require('knex')(configuration);
 app.set('port', process.env.PORT || 3001);
 app.locals.title = 'Monikers';
 
-app.use(enforce.HTTPS({ trustProtoHeader: true }))
+app.use(enforce.HTTPS({ trustProtoHeader: true }));
 
 app.use(express.static(path.join(__dirname, 'client/build')));
 
