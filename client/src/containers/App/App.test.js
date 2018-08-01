@@ -4,10 +4,7 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import App from './app';
 import * as api from '../../api/api';
-import * as mockData from '../../__mocks__/mockData';
 jest.mock('../../api/api.js');
-import indexedDB from '../../indexedBD';
-jest.mock('../../indexedBD.js');
 
 describe('app', () => {
   let app;
