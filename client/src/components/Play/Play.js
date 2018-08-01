@@ -6,7 +6,6 @@ import Finish from '../Finish/Finish';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import * as actions from '../../actions';
-
 import './Play.css';
 
 export class Play extends Component {
