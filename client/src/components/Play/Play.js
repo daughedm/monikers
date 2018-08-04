@@ -42,6 +42,15 @@ export class Play extends Component {
     addCard(activeCards[0]);
   };
 
+  skipCardAfterTurn = () => {
+    const { addCard, updateActiveCards, activeCards } = this.props;
+
+    const newCards = activeCards.slice(1);
+    updateActiveCards(newCards);
+
+    addCard(activeCards[0]);
+  }
+
   countDown = () => {
     const { updateTeamTimer, currTeam, currentTeam, teamNames } = this.props;
 
@@ -55,6 +64,7 @@ export class Play extends Component {
         currTeam === teamNames[0]
           ? currentTeam(teamNames[1])
           : currentTeam(teamNames[0]);
+        this.skipCardAfterTurn();
         clearInterval(timer);
       }
     }, 1000);
