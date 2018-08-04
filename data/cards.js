@@ -2707,7 +2707,7 @@ module.exports = [
     description:
       'A figure skater who won Olympic gold in 1988, but is perhaps now most famous as a semi-recurring character in the South Park franchise. In their feature film, the boys parody him as inspirational figure with a song that references “What Would Jesus Do?"',
     category: 'CELEBRITY',
-    pointValue: 1234
+    pointValue: 3
   },
   {
     name: 'Lisa “Left Eye” Lopes',
@@ -3092,7 +3092,7 @@ module.exports = [
     description:
       'A thought experiment where this feline is both alive and dead due to quantum entanglement. It was originally used to critique an interpretation of quantum mechanics, but now appears often in popular culture, ranging from A Serious Man to Yu-Gi-Oh! GX.',
     category: 'HISTORICAL FIGURE',
-    pointValue: 1234
+    pointValue: 3
   },
   {
     name: 'A Top',
