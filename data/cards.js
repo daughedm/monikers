@@ -3809,375 +3809,256 @@ module.exports = [
     pointValue: 3
   },
   {
-    name: '',
+    name: 'Angela Lansbury',
     description:
-      '',
-    category: '',
+      'An actor famous for her starring role as Jessica Fletcher in the hit mystery series Murder, She Wrote. She also became a gay culture icon from her starring role in the Broadway musical Mame.',
+    category: 'CELEBRITY',
+    pointValue: 2
+  },
+  {
+    name: 'A boa constrictor',
+    description:
+      'A large, nonpoisonous snake that kills prey by wrapping its muscular body around them and squeezing until they suffocate. They are often hunted and kept in captivity because of their ornate skin patterns, which has resulted in some subspecies becoming endangered.',
+    category: 'ET CETERA',
+    pointValue: 1
+  },
+  {
+    name: 'A turducken',
+    description:
+      'A chicken stuffed inside a duck stuffed inside a turkey. A 19th century Indian precursor to the dish involved a sparrow inside a quail inside a grouse inside a chicken inside a turkey inside a goat inside a whole, skinned camel.',
+    category: 'ET CETERA',
+    pointValue: 2
+  },
+  {
+    name: 'Left Shark',
+    description:
+      'A dancer dressed as a cuddly version of a deadly fish, who performed alongside Katy Perry at a Super Bowl halftime show. The character became famous after poorly performing its routine on stage, especially in camparison to its partner on the right.',
+    category: 'CELEBRITY',
+    pointValue: 1
+  },
+  {
+    name: 'Mr. Mom',
+    description:
+      'The title character in 1983 comedy starring Michael Keaton. In the film, Keatons\'s character is fired and becomes the primary caretaker to their children, leading to zany scenarios like watching men try to buy items at the grocery store.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 3
+  },
+  {
+    name: 'The cake boss',
+    description:
+      'The moniker of chef Buddy Valastro, owner of Carlo\'s Bakery and star of a reality television show about his efforts to create elaborate desserts. A parody of the character by Paul F. Tompkins has supernatural powers that allow him to see the future.',
+    category: 'CELEBRITY',
+    pointValue: 2
+  },
+  {
+    name: 'Resting bitch face',
+    description:
+      'A term for the condition where a person, usually a woman, has a neutral expression that some interpret as negative, angry, or upset. A 2015 study found that people with a resemblance to an angry expression were more likely to be preceived as untrustworthy.',
+    category: 'ET CETERA',
     pointValue: 4
   },
   {
-    name: '',
+    name: 'A straight Tetis piece',
     description:
-      '',
-    category: '',
+      'A tall, single columned block from the classic Soviet video game. The 4 x 1 shpe is often called an I-Block, Line Piece, or I-tetronimo, and is the only way to clear four lines simultaneous, which results in a bonus to the player\'s score.',
+    category: 'ET CETERA',
+    pointValue: 2
+  },
+  {
+    name: 'Madame Tussaud',
+    description:
+      'The namesake of an international chain of wax museums that began with her first sculpture of Voltaire in 1777. The museums now contain hundreds of creepy wax representations of famous celebrities and historical figures that definitely don\'t come to life when you\'re not looking.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 3
+  },
+  {
+    name: 'Ozymandias',
+    description:
+      'The title character of a sonnet by Percy Bysshe Shelley, who used the character to reflect that even great individuals and empires fade into oblivion. The name also inspired the internet startup Ozy Media, whose founder believes the poem should encourage you to "dream big."',
+    category: 'HISTORICAL FIGURE',
     pointValue: 4
   },
   {
-    name: '',
+    name: 'Terrible 2\'s Jesus',
     description:
-      '',
-    category: '',
+      'The son of God as a toddler, specifically during his period of development that was characterized by temper tantrums, saying the word "no," and just really humiliating Mary that one time at the supermarket.',
+    category: 'ET CETERA',
     pointValue: 4
   },
   {
-    name: '',
+    name: 'Poo emoji',
     description:
-      '',
-    category: '',
+      'The unicode character U+1F4A9, a pictoral depiction of a tiny, smiling pile of feces. It is regarded as one of the world\'s most popular visual forms, along with Women with Bunny Ears, Heavy Black Heart, and Smiling Cat Face With Heart-Shaped Eyes.',
+    category: 'ET CETERA',
+    pointValue: 1
+  },
+  {
+    name: 'Gluten',
+    description:
+      'A protein found in wheat, which makes it elastic, helps it rise, and gives it a chewy texture. Individuals with celiac disease have adverse reactions to the protein, and Paleo dieters often believe it to be toxic to all humans and the source of many modern diseases.',
+    category: 'ET CETERA',
+    pointValue: 3
+  },
+  {
+    name: 'A Reiki master',
+    description:
+      'A practitioner of an alternative form of medicine, which supposedly transfers "universal energy" through the hands of the practitioner onto the subject without direct contact. There is no empirical evidence that the practice is medically effective or that "universal energy" even exists.',
+    category: 'ET CETERA',
     pointValue: 4
   },
   {
-    name: '',
+    name: 'A robot butler',
     description:
-      '',
-    category: '',
+      'A mechanical servant that manages your houshold. They are often depicted in media about the future, such as the character Rosie on the Jetsons. In 2014, a Japanese company intorduced Pepper-kun, who could supposedly recognize and respond to human emotions.',
+    category: 'ET CETERA',
+    pointValue: 2
+  },
+  {
+    name: 'A men\'s rights advocate',
+    description:
+      'A member of a male liberation movement that organizes around the perceived discrimination in areas such as family law, circumcision, and compulsory military service—though their activities tend to focus on harrassing and bullying others about video games for some reason.',
+    category: 'ET CETERA',
+    pointValue: 2
+  },
+  {
+    name: 'Michael Caine',
+    description:
+      'An Academy Award winning actor known for his distinctive Cockney accent. He is often impersonated using phrases like "A lot of people don\'t know that" and "She was only 16 years old." His recent roles include playing Alfred in the Christopher Nolan Batman films.',
+    category: 'CELEBRITY',
+    pointValue: 1
+  },
+  {
+    name: 'MacGyver',
+    description:
+      'The title character from the 80s TV show about a secret agent who makes clever little devices out of whatever\'s around. These include a defibrulator (candle sticks, microphone wire, rubber mat) and a catapult (branches. rock, twine, rosary beads).',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 1
+  },
+  {
+    name: 'Butthole Surfers',
+    description:
+      'An American rock band that developed a cult following in the 80s and scored a hit with "Pepper" in 1996. The band\'s name describes a jerky extreme sportsman by using an adjective that is slang for a person\'s anus.',
+    category: 'CELEBRITY',
+    pointValue: 2
+  },
+  {
+    name: 'A wet blanket',
+    description:
+      'A term for a person who dampens enthusiasm, is habitually negitive, or ruins the good times of others. When not being described as a soaked bed covering, this type of person is often referred to as a killjoy, party pooper, or a real stick in the mud.',
+    category: 'ET CETERA',
+    pointValue: 3
+  },
+  {
+    name: 'Marcel the Shell',
+    description:
+      'The title character of a stop-motion short film about the anthropomorphic outer case of a mollusk. Voiced by Jenny Slate, he has a French-sounding name but, oddly, an American accent? He has shoes on, wears a lentil for a hat, and skis on his toenails from a man.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 3
+  },
+  {
+    name: 'Walt Disney\'s frozen head',
+    description:
+      'The severed, chilled top part of the world-famous artist and entrepreneur who created Hollywood\'s most famous animated films. Contrary to popular belief, he was not preserved through cryogenics and his body is definitely not stored under the Pirates of the Caribbean ride.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 3
+  },
+  {
+    name: 'Oysters, clams, and cockles!',
+    description:
+      'Three varieties of mollusc that are apparently quite popular on the docks of Braavos. Arya Stark shouts the name of these delicacies as she pushes her seafood card in a frankly convoluted and implausible quest to get closer to her assassination target.',
+    category: 'ET CETERA',
     pointValue: 4
   },
   {
-    name: '',
+    name: 'A Tribble',
     description:
-      '',
-    category: '',
+      'A fictional alien species from the Star Trek franchise. Seemingly harmless purring furballs, their prodigious breeding once threatened to overrun the Enterprise. They have also been a scourage to the Klingon Empire, descimating the food stocks of several planets.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 1
+  },
+  {
+    name: 'Air Bud',
+    description:
+      'The title character of a 1997 family comedy about a Golden Retriever who can play basketball. The actor who player the talented K-9 also appeared on America\'s Funniest home Videos, The Late Show with David Letterman, and played Comet on ABC\'s Full House.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 1
+  },
+  {
+    name: 'The Cryptkeeper',
+    description:
+      'An animated corse who hosted a late night horror show on HBO. Episodes began with him emerging from a coffin and cackling uncontrollably. He was also known for introducing segments with terrible puns, such as "Frights, camera, action!"',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 2
+  },
+  {
+    name: 'Jigglypuff',
+    description:
+      'A pink, gelatinous Pokémon with big blue eyes and a cute little tuft of hair. It uses its eyes to hypnotize opponents, then puts them to sleep with a lullaby. It evolves from Igglybuff (with high friendship) and evolves to Wigglytuff (when exposed to a Moon Stone).',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 1
+  },
+  {
+    name: 'The man who mistook his wife for a hat',
+    description:
+      'The subject of a book by the neurologist Oliver Sacks about "Dr P.," a person with visual agnosia, or the inability to recognize objects visually. In the case study, Sacks witnesses Dr P. confuse his spouse for a head covering. The condition is the result of severe brain damage.',
+    category: 'HISTORICAL FIGURE',
     pointValue: 4
   },
   {
-    name: '',
+    name: 'The octopus that predicted the World Cup (Paul)',
     description:
-      '',
-    category: '',
+      'A cephalopod who many believed was able to foretell the result of a 2010 international soccer competition. His keepers presented him with two boxes of food, identical except with a different nation\'s flag on it. He correctly chose the winner in all seven matches he divined.',
+    category: 'HISTORICAL FIGURE',
     pointValue: 4
   },
   {
-    name: '',
+    name: 'The fish that eat your foot skin as a pedicure',
     description:
-      '',
-    category: '',
+      'Aquatic animals that are used in a spa treatment, where they feed on the outer layer of customers\' lower extremities in order to treat conditions such as psoriasis. The CDC "is not aware of any published reports on illness" resulting from this process.',
+    category: 'ET CETERA',
     pointValue: 4
   },
   {
-    name: '',
+    name: 'The Spanish woman who botched repainting of Jesus',
     description:
-      '',
-    category: '',
+      'An amateur artist who attempted to restore a painting of the Son of God. The work, "Ecce Homo," was rechristened by the internet to "Ecco Mono," or Behold the Monkey, because of its resemblance to a "crayon sketch of a very hairy monkey in an ill-fitting tunic."',
+    category: 'CELEBRITY',
     pointValue: 4
   },
   {
-    name: '',
+    name: 'The trillions of bacteria on your body right now',
     description:
-      '',
-    category: '',
+      'The innumerable microorganisms that are currently living and dying in and around the person readig this card. The largest concentration, weighing around 1-2 pounds, is found in the vast, gross, smelly wilderness of your intestinal tract.',
+    category: 'ET CETERA',
     pointValue: 4
   },
   {
-    name: '',
+    name: 'The guy who asked a German cannibal to eat him',
     description:
-      '',
-    category: '',
+      'The person who willingly offered to be consumed by a central European member of a fetish site. The victim\'s penish was first amputated, and before he died , the two attempted to share the dish—though its preparation was botched and eventually was served to a dog.',
+    category: 'CELEBRITY',
     pointValue: 4
   },
   {
-    name: '',
+    name: 'The North Korean General executed with an anti-aircraft gun',
     description:
-      '',
-    category: '',
+      'A military leader who was reportedly put to death by Kim Jong-un for falling asleep at a military rally. While initial reports claimed that he was killed with a large weapon typically used to shoot down airplanes, it remains unclear if any part of the story is true.',
+    category: 'CELEBRITY',
     pointValue: 4
   },
   {
-    name: '',
+    name: 'The enormous pile of garbage floating in the Pacific Ocean',
     description:
-      '',
-    category: '',
-    pointValue: 4
+      'A collection of plastic marine debris located approximately between 135°W to 155°W and 35°N and 42°N. Size estimates range from the size of Texas to twice the size of the continental United States. While predicted by scientists, it was first discovered by a racing boat captain.',
+    category: 'ET CETERA',
+    pointValue: 3
   },
   {
-    name: '',
+    name: 'The guy who waved ISIS flag covered in dildos',
     description:
-      '',
-    category: '',
-    pointValue: 4
-  },
-  {
-    name: '',
-    description:
-      '',
-    category: '',
-    pointValue: 4
-  },
-  {
-    name: '',
-    description:
-      '',
-    category: '',
-    pointValue: 4
-  },
-  {
-    name: '',
-    description:
-      '',
-    category: '',
-    pointValue: 4
-  },
-  {
-    name: '',
-    description:
-      '',
-    category: '',
-    pointValue: 4
-  },
-  {
-    name: '',
-    description:
-      '',
-    category: '',
-    pointValue: 4
-  },
-  {
-    name: '',
-    description:
-      '',
-    category: '',
-    pointValue: 4
-  },
-  {
-    name: '',
-    description:
-      '',
-    category: '',
-    pointValue: 4
-  },
-  {
-    name: '',
-    description:
-      '',
-    category: '',
-    pointValue: 4
-  },
-  {
-    name: '',
-    description:
-      '',
-    category: '',
-    pointValue: 4
-  },
-  {
-    name: '',
-    description:
-      '',
-    category: '',
-    pointValue: 4
-  },
-  {
-    name: '',
-    description:
-      '',
-    category: '',
-    pointValue: 4
-  },
-  {
-    name: '',
-    description:
-      '',
-    category: '',
-    pointValue: 4
-  },
-  {
-    name: '',
-    description:
-      '',
-    category: '',
-    pointValue: 4
-  },
-  {
-    name: '',
-    description:
-      '',
-    category: '',
-    pointValue: 4
-  },
-  {
-    name: '',
-    description:
-      '',
-    category: '',
-    pointValue: 4
-  },
-  {
-    name: '',
-    description:
-      '',
-    category: '',
-    pointValue: 4
-  },
-  {
-    name: '',
-    description:
-      '',
-    category: '',
-    pointValue: 4
-  },
-  {
-    name: '',
-    description:
-      '',
-    category: '',
-    pointValue: 4
-  },
-  {
-    name: '',
-    description:
-      '',
-    category: '',
-    pointValue: 4
-  },
-  {
-    name: '',
-    description:
-      '',
-    category: '',
-    pointValue: 4
-  },
-  {
-    name: '',
-    description:
-      '',
-    category: '',
-    pointValue: 4
-  },
-  {
-    name: '',
-    description:
-      '',
-    category: '',
-    pointValue: 4
-  },
-  {
-    name: '',
-    description:
-      '',
-    category: '',
-    pointValue: 4
-  },
-  {
-    name: '',
-    description:
-      '',
-    category: '',
-    pointValue: 4
-  },
-  {
-    name: '',
-    description:
-      '',
-    category: '',
-    pointValue: 4
-  },
-  {
-    name: '',
-    description:
-      '',
-    category: '',
-    pointValue: 4
-  },
-  {
-    name: '',
-    description:
-      '',
-    category: '',
-    pointValue: 4
-  },
-  {
-    name: '',
-    description:
-      '',
-    category: '',
-    pointValue: 4
-  },
-  {
-    name: '',
-    description:
-      '',
-    category: '',
-    pointValue: 4
-  },
-  {
-    name: '',
-    description:
-      '',
-    category: '',
-    pointValue: 4
-  },
-  {
-    name: '',
-    description:
-      '',
-    category: '',
-    pointValue: 4
-  },
-  {
-    name: '',
-    description:
-      '',
-    category: '',
-    pointValue: 4
-  },
-  {
-    name: '',
-    description:
-      '',
-    category: '',
-    pointValue: 4
-  },
-  {
-    name: '',
-    description:
-      '',
-    category: '',
-    pointValue: 4
-  },
-  {
-    name: '',
-    description:
-      '',
-    category: '',
-    pointValue: 4
-  },
-  {
-    name: '',
-    description:
-      '',
-    category: '',
-    pointValue: 4
-  },
-  {
-    name: '',
-    description:
-      '',
-    category: '',
-    pointValue: 4
-  },
-  {
-    name: '',
-    description:
-      '',
-    category: '',
-    pointValue: 4
-  },
-  {
-    name: '',
-    description:
-      '',
-    category: '',
-    pointValue: 4
+      'At a 20115 gay rights rally in London, CNN ran a segment that this person was seen unfurling and displaying the banner of the radical Islamist group. The artist, Paul Coombs, claims to have flown it because "[this organization] is deserving of mockery and disrespect."',
+    category: 'CELEBRITY',
+    pointValue: 3
   }
 ];
 /* eslint-disable */
