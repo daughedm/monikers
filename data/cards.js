@@ -3459,74 +3459,340 @@ module.exports = [
     pointValue: 3
   },
   {
-    name: '',
+    name: 'Robert Durst',
     description:
-      '',
-    category: 'FICTIONAL CHARACTER ET CETERA HISTORICAL FIGURE CELEBRITY',
+      'Heir to a real estate fortune, who has been a suspect in multiple murders. He was the title subject in the Jinx, where in the climactic final episode he was recorded on a hot mic whispering to himself in the bathroom, "What the hell did I do?" Killed them all, of course.',
+    category: 'CELEBRITY',
+    pointValue: 3
+  },
+  {
+    name: 'The hive mind',
+    description:
+      'THe apparent collective conciousness that emerges in colonies of social insects, or is speculated about in science fiction narritives, with examples ranging from The Borg in the Star Trek franchise to Xenomorphs in the Alien franchise.',
+    category: 'ET CETERA',
+    pointValue: 3
+  },
+  {
+    name: 'Jamiroquai',
+    description:
+      'A British band most famous for their hit "Virtual Insanity." In the music video, the lead singer Jay Kay wears an oversized fuzzy black hat and dances on a moving floor. Kay is perhaps best known for his wide array of headgear, including a mirrored feather headdress.',
+    category: 'CELEBRITY',
+    pointValue: 2
+  },
+  {
+    name: 'An ASMR whisperer',
+    description:
+      'A person who creates videos for people who experience Autonomous Sensory Meridian Response. These creators typically trigger their audience\'s condition with quiet vocal sounds and crinkling paper. Some have trademarked triggers, e.g. their use of the word "stipple."',
+    category: 'ET CETERA',
+    pointValue: 3
+  },
+  {
+    name: 'The Thong Song',
+    description:
+      'A hit music track by the R&B artist Sisqó about a style of underwear and bikini bottom that leaves the wearer\'s buttocks mostly uncovered. The director of the infamous music video perhaps best summarizes the content: "I listen to it, and I say, well, this song is about asses."',
+    category: 'ET CETERA',
+    pointValue: 2
+  },
+  {
+    name: 'Pluto',
+    description:
+      'A planetary body beyond Neptune that was once considered the ninth planet in the Solar System. It was reclassified as a "dwarf planet" in 2006 by a bunch of scientist killjoys at the international Astronomical Union. Thanks, jerks.',
+    category: 'ET CETERA',
+    pointValue: 1
+  },
+  {
+    name: 'Dell Dude',
+    description:
+      'The nickname of an annoying neighbor-boy who enthusiastically tried to sell you a personal ccomputer from the brand that was popular in the 2000\'s. He is best known for his infamous catchphrase as well as his striking resemblance to the philosopher David Barnett.',
+    category: 'CELEBRITY',
+    pointValue: 3
+  },
+  {
+    name: 'A stock photography model',
+    description:
+      'A person photographed for use in various advertisements, often in different poses and with props. There are often a handful of stipulations about how the person will be represented, such as not being depicted in HIV or STD pharmaceutical ads.',
+    category: 'ET CETERA',
+    pointValue: 3
+  },
+  {
+    name: 'Allison Bechdel',
+    description:
+      'A cartoonist best known for the comic Dykes to Watch Out For. She is also famous for a "test" named after her, in which a film\'s gender bias is assessed with the following criteria: (1) has at least two women in it, (2) who talk to eachother; (3) about something besides a man.',
+    category: 'CELEBRITY',
+    pointValue: 3
+  },
+  {
+    name: 'Matthew McConaughey',
+    description:
+      'An actor and stoner sex symbol who became a star with his role in Dazed and Confused. In recent years, he transitioned from failed romcom star to one of America\'s most praised actors, starring in True Detective and delivering such banal platitudes as "Time is a flat circle."',
+    category: 'CELEBRITY',
+    pointValue: 1
+  },
+  {
+    name: 'Chicken Fingers',
+    description:
+      'Strips of meat made from the pectoralis minor muscles of poultry. They are typically prepared by coating the meat in a breading, deep-frying it, and serving them alongside various dipping sauces, such as ranch, barbecue, and honey mustard.',
+    category: 'ET CETERA',
+    pointValue: 1
+  },
+  {
+    name: 'Ayn Rand',
+    description:
+      'The author of The Fountainhead, Atlas Shrugged, and at least one letter to the editors of Cat Fancy magazine. Her personal philosophy, objectivism, is popular amonst libertarians, horrible political candidates, and angsty teenagers who honestly don\'t know any better.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 2
+  },
+  {
+    name: 'Steve Bartman',
+    description:
+      'The Chicago Cubs fan who deflected a foul ball that many believe Cubs Moisés Alou would have caught during the Game 6 of the 2003 NLCS. He went into hiding after the Cubs went on to lose the series and has declined to speak about the incident in the years since.',
+    category: 'CELEBRITY',
+    pointValue: 2
+  },
+  {
+    name: 'A guy with really great hair',
+    description:
+      'The threadlike strands on his head are just gorgeous. How does he do it?',
+    category: 'ET CETERA',
+    pointValue: 3
+  },
+  {
+    name: 'Wolf Blitzer',
+    description:
+      'The host of CNN\'s The Situation Room, he is a celebrity journalist and common target for satarists for his particular brand of around-the-clock coverage. He was famously mocked for his attempt to conduct interviews via hologram during the 2008 elections.',
+    category: 'CELEBRITY',
+    pointValue: 1
+  },
+  {
+    name: 'Elon Musk',
+    description:
+      'An entrepreneur and inventor sometimes referred to as the real-life Tony Stark. He founded SpaceX and cofounded Paypal and Tesla Motors. One of his more outrageous projects is the construction of a Hyperloop, which is basically a pneumatic tube for transporting people.',
+    category: 'CELEBRITY',
+    pointValue: 2
+  },
+  {
+    name: 'Lil B',
+    description:
+      'A prolific Oakland rapper who once created more than 125 Myspace profiles. In 2015, he released an emoji app, helped create a vegan emoji app despite not being vegan, and put a curse on the Houstan Rockets after James Harden didn\'t credit him for creating "the cooking dance."',
+    category: 'CELEBRITY',
+    pointValue: 2
+  },
+  {
+    name: '1000 origami cranes',
+    description:
+      'Ten hundred pieces of paper folded in the shape of a long-necked wading bird. A Japanese legend claims that making them will result in eternal good luck, rather than just one wish. As such, they are a frequent gift to friends and family.',
+    category: 'ET CETERA',
+    pointValue: 3
+  },
+  {
+    name: 'Soylent',
+    description:
+      'A meal replacement product, which "meets all nutritional requirements for an average adult." Its tagline is, inexplicably, "Free Your Body" and its name is derived from a 1973 science fiction film, where the green product in question was actually made from people.',
+    category: 'ET CETERA',
+    pointValue: 3
+  },
+  {
+    name: 'The smoking baby',
+    description:
+      'An Indonesian toddler who became famous when a video was posted of him casually consuming cigarettes. At 2, he allegedly when through 40 per day. His mother reports that he stopped cold turkey, though now subsists on a diet of junk food and condensed milk.',
+    category: 'CELEBRITY',
+    pointValue: 1
+  },
+  {
+    name: 'IKEA Monkey',
+    description:
+      'The nickname of a Japnese snow macaque who was found roaming unattended inside the Swedish furniture chain wearing a thick shearling coat. He was sent to Story Book Farm Primate Sanctuary, though over the years, his owner has lobbied for his return.',
+    category: 'CELEBRITY',
+    pointValue: 2
+  },
+  {
+    name: 'Clay Davis',
+    description:
+      'A Maryland State Senator on the HBO series The Wire. Played by Isiah Whitlock Jr., he is depicted as charmingly corrupt and is most associated with his famous catchphrase, "Sheeeeeeeee-it".',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 4
+  },
+  {
+    name: 'Dr. Oz',
+    description:
+      'A surgeon and TV personality, who has been criticized by the medical community for giving non-medically supported health advice. Examples include curing restless leg syndrome by sleeping with a bar of lavender soap and warning about high arsenic levels in apple juice.',
+    category: 'CELEBRITY',
+    pointValue: 1
+  },
+  {
+    name: 'James Lipton',
+    description:
+      'The host of Inside the Actor\'s Studio, known for his distinctive, intonation and affable if at times kiss-ass way with famous actors. Notable questions he has asked include "What do we have to look forward to in Shrek the Third?" and "What attracts you to odd hats?"',
+    category: 'CELEBRITY',
+    pointValue: 3
+  },
+  {
+    name: 'A thigh gap',
+    description:
+      'A space between the top of a person\'s legs that has become a beauty ideal in some communities. Because it is often physically unattainable, it\'s pursuit has led to extreme dieting, eating disorders, and surgery – often encouraged by pro-anorexia "thinspiration" blogs.',
+    category: 'ET CETERA',
+    pointValue: 3
+  },
+  {
+    name: 'A mechanical bull',
+    description:
+      'A machine that recreates the experience of riding a bucking animal. They are typically used recreationally or in training for rodeos. While injuries are rare, most devices contain pressurized airbags, padding bodies, and bucking motion controls.',
+    category: 'ET CETERA',
+    pointValue: 1
+  },
+  {
+    name: 'A cuckoo clock',
+    description:
+      'A stationary device for telling time that features a small automation bird that reveals itself, chirps, and moves with the tolling of each hour. Dating back to the 18th century, the device has remained unchanged for over 300 years.',
+    category: 'ET CETERA',
+    pointValue: 1
+  },
+  {
+    name: 'A brain in a vat',
+    description:
+      'A thought experiment that is used to challenge our beliefs about knowledge, reality, and perception. In the scenario, a person is reduced to just their mental organ suspendeded in goo, which recieves electrical impulses that simulate their normal, pre-goo existence in every regard.',
+    category: 'ET CETERA',
+    pointValue: 3
+  },
+  {
+    name: 'You biological father',
+    description:
+      'Your male parent. Specifically, the person whose seed was used in your creation, typically through the process of scheduled and repeated sexual intercourse with your mother, rather than through adoption or another non-genetic relationship.',
+    category: 'ET CETERA',
+    pointValue: 4
+  },
+  {
+    name: 'The Official Fleshlight',
+    description:
+      'A sex toy created by Interactive Life Forms LLC. The artifical vagina product was created to look like an oversized flashlight, and is offered in several colors (including limited edition "Avatar" blue), and is available in three orifices: vulva, anus, and mouth.',
+    category: 'ET CETERA',
+    pointValue: 2
+  },
+  {
+    name: 'Wilma Mankiller',
+    description:
+      'The first woman to be elected chief of the Cherokee Nation. In 2015, she was one of four finalists to replace Andrew Jackson on the U.S. $20 bill. The other finalists were more familiar household names: Eleanor Roosevelt, Harriet Tubman, and Rosa Parks.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 4
+  },
+  {
+    name: 'Job',
+    description:
+      'A biblical prophet renowned for his patience. After losing his children, wealth, and property, he searches for the answer to why God would test his character. He is eventually rewarded by God, with his health, family, and wealth retored and lives to be at least 140 years old.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 2
+  },
+  {
+    name: 'The Hindenburg',
+    description:
+      'A German airship that exploded over New Jersey in 1937. The incident was captured on newsreel, including radio reporter Herbert Morrisons\'s famous commentary, "Oh, the humanity!" The explosion was a public relations disaster for the airship industry.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 1
+  },
+  {
+    name: 'Ken Burns',
+    description:
+      'The documentary filmmaker famous for jazz, The Civil War, Baseball, and many others that focus on American history and culture. He is also associated with a panning and zooming effect, which he uses to make photographs appear more dynamic on video.',
+    category: 'CELEBRITY',
     pointValue: 3
   },
   {
     name: '',
     description:
       '',
-    category: 'FICTIONAL CHARACTER ET CETERA HISTORICAL FIGURE CELEBRITY',
-    pointValue: 3
+    category: '',
+    pointValue: 4
   },
   {
     name: '',
     description:
       '',
-    category: 'FICTIONAL CHARACTER ET CETERA HISTORICAL FIGURE CELEBRITY',
-    pointValue: 3
+    category: '',
+    pointValue: 4
   },
   {
     name: '',
     description:
       '',
-    category: 'FICTIONAL CHARACTER ET CETERA HISTORICAL FIGURE CELEBRITY',
-    pointValue: 3
+    category: '',
+    pointValue: 4
   },
   {
     name: '',
     description:
       '',
-    category: 'FICTIONAL CHARACTER ET CETERA HISTORICAL FIGURE CELEBRITY',
-    pointValue: 3
+    category: '',
+    pointValue: 4
   },
   {
     name: '',
     description:
       '',
-    category: 'FICTIONAL CHARACTER ET CETERA HISTORICAL FIGURE CELEBRITY',
-    pointValue: 3
+    category: '',
+    pointValue: 4
   },
   {
     name: '',
     description:
       '',
-    category: 'FICTIONAL CHARACTER ET CETERA HISTORICAL FIGURE CELEBRITY',
-    pointValue: 3
+    category: '',
+    pointValue: 4
   },
   {
     name: '',
     description:
       '',
-    category: 'FICTIONAL CHARACTER ET CETERA HISTORICAL FIGURE CELEBRITY',
-    pointValue: 3
+    category: '',
+    pointValue: 4
   },
   {
     name: '',
     description:
       '',
-    category: 'FICTIONAL CHARACTER ET CETERA HISTORICAL FIGURE CELEBRITY',
-    pointValue: 3
+    category: '',
+    pointValue: 4
   },
   {
     name: '',
     description:
       '',
-    category: 'FICTIONAL CHARACTER ET CETERA HISTORICAL FIGURE CELEBRITY',
-    pointValue: 3
+    category: '',
+    pointValue: 4
+  },
+  {
+    name: '',
+    description:
+      '',
+    category: '',
+    pointValue: 4
+  },
+  {
+    name: '',
+    description:
+      '',
+    category: '',
+    pointValue: 4
+  },
+  {
+    name: '',
+    description:
+      '',
+    category: '',
+    pointValue: 4
+  },
+  {
+    name: '',
+    description:
+      '',
+    category: '',
+    pointValue: 4
+  },
+  {
+    name: '',
+    description:
+      '',
+    category: '',
+    pointValue: 4
   },
 ];
 /* eslint-disable */
