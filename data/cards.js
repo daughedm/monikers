@@ -3317,6 +3317,216 @@ module.exports = [
       'The title character and Bond girl in the 13th film of the series. She leads a cephalopod cult and circus troupe from a floating palace in Udaipur, India, which is inexplicably part of an Afghan plot to force European disarmament by using a nuclear weapon.',
     category: 'FICTIONAL CHARACTER',
     pointValue: 3
-  }
+  },
+  {
+    name: 'All the single ladies',
+    description:
+      'Every woman who is either unmarried or not involved in a long-term relationship, as described in Beyoncé\'s 2008 song. In the song, she laments the inability of men to propose marriage, and suggests that "if you like it then you should put a ring on it."',
+    category: 'ET CETERA',
+    pointValue: 1
+  },
+  {
+    name: 'A dingo',
+    description:
+      'A free-ranging dog found in Australia. In 1980, one killed the baby of Lindy Chamberlain. Ms. Chamberlin\'s statement, that the animal "ate my baby," was popularized by Meryl Streep in the 1988 film Evil Angels. The line remains widely parodied to this day.',
+    category: 'ET CETERA',
+    pointValue: 2
+  },
+  {
+    name: 'General Tso',
+    description:
+      'A Chinese military leader, who is most famous for the sweet, spicy, deep-fried dish that bears his name – although there is no evidence that he ever ate it himself. One theory is that the recipe originated from a Hunan dish called "ancestral meeting hall chicken".',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 1
+  },
+  {
+    name: 'A piñata',
+    description:
+      'A decorative container made from papier-mâché that is filled with candy and broken at a party. While associated with Mexico, similar traditions include India\'s "pot breaking with blindfolds," Denmark\'s "hit the cat out of the barrel," and Catalonia\'s "make the log defecate."',
+    category: 'ET CETERA',
+    pointValue: 1
+  },
+  {
+    name: 'Guv\'na',
+    description:
+      'An informal name sometimes used in a British greeting, otern used in reference to someone perceived as holding higher social status. It is also typically preceded by the word "Ello" and is associated with Cockney speakers',
+    category: 'ET CETERA',
+    pointValue: 2
+  },
+  {
+    name: 'Ol\' Dirty Bastard',
+    description:
+      'The moniker of Russel Jones, a rapper and founding member of the Wu-Tang Clan. His solo career peaked with the hit "Got Your Money." He died five years later from a drug overdose, having consumed a lethal combination of cocaine and the pain reliever tramadol.',
+    category: 'CELEBRITY',
+    pointValue: 2
+  },
+  {
+    name: 'Eggplant Wizard',
+    description:
+      'An aubergine-shaped, cyclopian enemy in the kid Icarus series of video games. It\'s special ability turns the protagonist, Pit, into a man-sized version of this purple vegetable. While this does disable all the forms of attack, it does not inhibit his ability to move around and dodge.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 3
+  },
+  {
+    name: 'Vagina dentata',
+    description:
+      'The latin term for a folk belief that a woman\'s reproductive organ contains teeth. The concept, and its implied connection between sexual intercourse and castration, was central to Freud\'s description of the cannibalistic stage of the infantile libido.',
+    category: 'ET CETERA',
+    pointValue: 3
+  },
+  {
+    name: 'Meatloaf',
+    description:
+      'The moniker of the musician Micheal Aday. His song "I\'d Do Anything for Love" is often believed to be about his refusal to perform cunnilingus. His stage name is also a reference to the food made out of bread and ground meats that is typically covered in ketchup',
+    category: 'CELEBRITY',
+    pointValue: 1
+  },
+  {
+    name: 'A Jabberwocky',
+    description:
+      'The title character of a nonsense poem by Lewis Carroll that begins: Twas brillig, and the slithy toves Did gyre and gimble in the wabe; All mimsy were the borogoves, And the mome raths outgrabe.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 3
+  },
+  {
+    name: 'Wavy Tube Man',
+    description:
+      'An inflatable device consisting of a long, hollow piece of fabric shaped like a person and attached to a fan. Also known as an airdancer, when the fan is turned on, the fabric move around in a spastic dancing motion. They were originally invented for the 1996 Olympics.',
+    category: 'ET CETERA',
+    pointValue: 2
+  },
+  {
+    name: 'A pound of flesh',
+    description:
+      'The interest demanded by the moneylender Shylock in Shakespeare\'s The Merchant of Venice. When the character Antonio defaults on a loan, he demands this amount of tissue from next to his heart in revenge for being insulted and spat upon earlier in the play.',
+    category: 'ET CETERA',
+    pointValue: 2
+  },
+  {
+    name: 'The Lady of the Lake',
+    description:
+      'The moniker of the creature or creatures who rule Avalon in Arthurian legend. Some of her many roles include giving King Arthur the sword Excaliber, enchanting Merlin, and testing Sonic the Hedghog\'s worthiness to become a knight.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 1
+  },
+  {
+    name: 'A hug from myself',
+    description:
+      'An embrace of one\'s own',
+    category: 'ET CETERA',
+    pointValue: 4
+  },
+  {
+    name: 'Tommy John',
+    description:
+      'A baseball player and nameake of a famous surgical procedure—ulnar collateral ligament reconstruction—where a ligament in the elbow is replaced with a tendon from the forearm. The procedure is associated mostly with major league baseball pitchers.',
+    category: 'CELEBRITY',
+    pointValue: 2
+  },
+  {
+    name: 'Lionel Ritchie',
+    description:
+      'One of the best-selling musicians of all time. He is perhaps most remembered for the video to his hit 1984 song "Hello," where a blind woman sculpts a bust of his head from clay, while he asks "Is it me you\'re looking for?"',
+    category: 'CELEBRITY',
+    pointValue: 2
+  },
+  {
+    name: 'John Cage',
+    description:
+      'An avant garde composer most famous for the piece 4\'33\". In it, musicians do not produce sound, leading to the misunderstanding that the piece is about silence. The actual intent is to encourage listeners to observe the sounds of the performace environment.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 3
+  },
+  {
+    name: 'Hieronymus Bosch',
+    description:
+      'A 15th century Dutch painter, who depicted fantastical images of hell. His most famous painting, The Garden of Earthly Delights, is a triptych that includes, among other things, a "600-year-old butt song from Hell": sheet music incribed on the ass of a sinner.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 4
+  },
+  {
+    name: 'MacGruber',
+    description:
+      'A character played by Will Forte in a recurring SNL sketch that parodies a special agent who solves problems by making clever devices out of whatever is at hand. In each sketch the character fails to defuse a bomb after becoming distracted by personal issues and dies.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 2
+  },
+  {
+    name: 'A private dick',
+    description:
+      'Old timey slang for the person people hire to solve mysteries for them. The use of the word to mean detective likely comes from either a slang version of the Romany meaning "to look, to see," or the name of J.E. Preston Muddock\'s "Glasgow Detective."',
+    category: 'ET CETERA',
+    pointValue: 3
+  },
+  {
+    name: '',
+    description:
+      '',
+    category: 'FICTIONAL CHARACTER ET CETERA HISTORICAL FIGURE CELEBRITY',
+    pointValue: 3
+  },
+  {
+    name: '',
+    description:
+      '',
+    category: 'FICTIONAL CHARACTER ET CETERA HISTORICAL FIGURE CELEBRITY',
+    pointValue: 3
+  },
+  {
+    name: '',
+    description:
+      '',
+    category: 'FICTIONAL CHARACTER ET CETERA HISTORICAL FIGURE CELEBRITY',
+    pointValue: 3
+  },
+  {
+    name: '',
+    description:
+      '',
+    category: 'FICTIONAL CHARACTER ET CETERA HISTORICAL FIGURE CELEBRITY',
+    pointValue: 3
+  },
+  {
+    name: '',
+    description:
+      '',
+    category: 'FICTIONAL CHARACTER ET CETERA HISTORICAL FIGURE CELEBRITY',
+    pointValue: 3
+  },
+  {
+    name: '',
+    description:
+      '',
+    category: 'FICTIONAL CHARACTER ET CETERA HISTORICAL FIGURE CELEBRITY',
+    pointValue: 3
+  },
+  {
+    name: '',
+    description:
+      '',
+    category: 'FICTIONAL CHARACTER ET CETERA HISTORICAL FIGURE CELEBRITY',
+    pointValue: 3
+  },
+  {
+    name: '',
+    description:
+      '',
+    category: 'FICTIONAL CHARACTER ET CETERA HISTORICAL FIGURE CELEBRITY',
+    pointValue: 3
+  },
+  {
+    name: '',
+    description:
+      '',
+    category: 'FICTIONAL CHARACTER ET CETERA HISTORICAL FIGURE CELEBRITY',
+    pointValue: 3
+  },
+  {
+    name: '',
+    description:
+      '',
+    category: 'FICTIONAL CHARACTER ET CETERA HISTORICAL FIGURE CELEBRITY',
+    pointValue: 3
+  },
 ];
 /* eslint-disable */
