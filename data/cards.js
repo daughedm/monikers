@@ -3697,6 +3697,202 @@ module.exports = [
     pointValue: 3
   },
   {
+    name: '¯\_(ツ)_/¯',
+    description:
+      'The Atlantic: "The symbol encapsulates what it\'s like to be ... on the Internet. With raised arms and a half-turned smile, it exudes the melancholia ... the acceptance, and finally the embrace of knowing that something\'s wrong on the Internet and you can\'t do anything about it."',
+    category: 'ET CETERA',
+    pointValue: 2
+  },
+  {
+    name: 'A Beefeater',
+    description:
+      'The nickname of the Yeomen Warders of Her Majesty\'s Royal Palace and Fortress the Tower of London, and Members of the Sovereign\'s Body Guard of the Yeoman Guard Extraordinary. They give directions to tourists and pose for photos.',
+    category: 'ET CETERA',
+    pointValue: 1
+  },
+  {
+    name: 'Krakatoa',
+    description:
+      'A volcanic island located between Java and Sumatra. It is most famous for an 1883 eruption, which resulted in tsunamis that killed tens of thousands and produced the "loudest sound ever heard in modern history." being audible over 3,000 miles away.',
+    category: 'ET CETERA',
+    pointValue: 3
+  },
+  {
+    name: 'Adnan Syed',
+    description:
+      'The central figure in the podcast Serial, who was convicted of murdering his high school girlfriend. In the show, Sarah Koenig delved into the doubts surrounding his case. The show is one of the most popular podcasts in history and sparked international interest in the case.',
+    category: 'CELEBRITY',
+    pointValue: 2
+  },
+  {
+    name: 'Patti Mayonnaise',
+    description:
+      'The yellow-haired, polka dot-shirted secret love of the cartoon character Doug. She lives with her wheelchair bound father. Her mother died in the same car accident that paralyzed her father. She is an excellent beet-ball player and gets rude when she is hungry.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 3
+  },
+  {
+    name: 'The Doof Warrior',
+    description:
+      'A blind guitarist in the Mad Max franchise, who plays a flame-spewing electric guitar in Immortan Joe\'s militia. According to the universe\'s lore, he was a musical prodigy who was kidnapped and forced to wear his mother\'s face as a mask as he performed.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 4
+  },
+  {
+    name: 'bell hooks',
+    description:
+      'The moniker of the social activist Gloria Jean Watkins. Her work focuses on a postmodern analysis of gender, race, and class. She has been criticized for her willingness to express violent feelings brought on by the indignities she is subjected to as a minority woman.',
+    category: 'CELEBRITY',
+    pointValue: 4
+  },
+  {
+    name: 'Cthulu in love',
+    description:
+      'The cosmic entity created by H.P. Lovecraft that is part octopus, dragon, and human—in a state of deep affection for someone or something.',
+    category: 'ET CETERA',
+    pointValue: 4
+  },
+  {
+    name: 'A fog machine',
+    description:
+      'A device that creates a dense, artificial vapor. They are often used as a special effect at entertainment events, such as rock concerts, magic shows, various WrestlesMania, moster truck rallies, and faked alien invasions.',
+    category: 'ET CETERA',
+    pointValue: 2
+  },
+  {
+    name: 'Jeeves',
+    description:
+      'A fictional character created by P.G. Wodehouse. He is an especially competent valet for the inept and foppish Bertie Wooster. His character has come to represent an ideal for valets and butlers, so much that his name is now nearly synonymous with manservants.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 1
+  },
+  {
+    name: 'The tooth fairy',
+    description:
+      'A fantastical character who gives children money in exchange for the calcified structures in their mouths. The transaction usually involves the child placing the item under their pillow at night, then this character — who is totally not their parent — replaces it with a sum of money.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 1
+  },
+  {
+    name: 'Skynet',
+    description:
+      'A self-aware, killer AI system in the Terminator film franchise. Originally built by defense contractor Cyberdyne Systems, it attempts to destroy the human race in the interests of self-preservation, beginning with a nuclear war that destroyed most of humanity.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 1
+  },
+  {
+    name: 'A Chilean Miner',
+    description:
+      'A victim of an accident in the Atacama Desert in 2010. The workers were trapped 2,300 feet underground for a record 69 days before being rescued one by one via a rescue capsule. The location of the cave-in had long suffered from safety violations.',
+    category: 'CELEBRITY',
+    pointValue: 3
+  },
+  {
+    name: 'A gargoyle',
+    description:
+      'An architectural feature in the form of a grotesque creature. They were originally used to shunt rainwater from buildings, but were also used by the Church to convey the concept of evil. Batman is fond of perching on them and they came to life as characters in a 90s cartoon.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 1
+  },
+  {
+    name: 'A babushka',
+    description:
+      'A Russian word for "grandmother." It can also refer to a woman\'s headscarf, and is associated with Catherine Breshkovsky, a Russian socialist follower of the anarchist Mikhail Bakunin, and "grandmother of the Russian Revolution."',
+    category: 'ET CETERA',
+    pointValue: 3
+  },
+  {
+    name: 'Blossom',
+    description:
+      'The spunky title character of a 90s sitcom. She was especially influential for her Diane Keaton-like fashion sense, which included the revitalisation of floppy hats. Her quirky world was populated by the likes of her brother Joey ("Whoa!") and her best friend Six.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 3
+  },
+  {
+    name: '',
+    description:
+      '',
+    category: '',
+    pointValue: 4
+  },
+  {
+    name: '',
+    description:
+      '',
+    category: '',
+    pointValue: 4
+  },
+  {
+    name: '',
+    description:
+      '',
+    category: '',
+    pointValue: 4
+  },
+  {
+    name: '',
+    description:
+      '',
+    category: '',
+    pointValue: 4
+  },
+  {
+    name: '',
+    description:
+      '',
+    category: '',
+    pointValue: 4
+  },
+  {
+    name: '',
+    description:
+      '',
+    category: '',
+    pointValue: 4
+  },
+  {
+    name: '',
+    description:
+      '',
+    category: '',
+    pointValue: 4
+  },
+  {
+    name: '',
+    description:
+      '',
+    category: '',
+    pointValue: 4
+  },
+  {
+    name: '',
+    description:
+      '',
+    category: '',
+    pointValue: 4
+  },
+  {
+    name: '',
+    description:
+      '',
+    category: '',
+    pointValue: 4
+  },
+  {
+    name: '',
+    description:
+      '',
+    category: '',
+    pointValue: 4
+  },
+  {
+    name: '',
+    description:
+      '',
+    category: '',
+    pointValue: 4
+  },
+  {
     name: '',
     description:
       '',
@@ -3794,5 +3990,194 @@ module.exports = [
     category: '',
     pointValue: 4
   },
+  {
+    name: '',
+    description:
+      '',
+    category: '',
+    pointValue: 4
+  },
+  {
+    name: '',
+    description:
+      '',
+    category: '',
+    pointValue: 4
+  },
+  {
+    name: '',
+    description:
+      '',
+    category: '',
+    pointValue: 4
+  },
+  {
+    name: '',
+    description:
+      '',
+    category: '',
+    pointValue: 4
+  },
+  {
+    name: '',
+    description:
+      '',
+    category: '',
+    pointValue: 4
+  },
+  {
+    name: '',
+    description:
+      '',
+    category: '',
+    pointValue: 4
+  },
+  {
+    name: '',
+    description:
+      '',
+    category: '',
+    pointValue: 4
+  },
+  {
+    name: '',
+    description:
+      '',
+    category: '',
+    pointValue: 4
+  },
+  {
+    name: '',
+    description:
+      '',
+    category: '',
+    pointValue: 4
+  },
+  {
+    name: '',
+    description:
+      '',
+    category: '',
+    pointValue: 4
+  },
+  {
+    name: '',
+    description:
+      '',
+    category: '',
+    pointValue: 4
+  },
+  {
+    name: '',
+    description:
+      '',
+    category: '',
+    pointValue: 4
+  },
+  {
+    name: '',
+    description:
+      '',
+    category: '',
+    pointValue: 4
+  },
+  {
+    name: '',
+    description:
+      '',
+    category: '',
+    pointValue: 4
+  },
+  {
+    name: '',
+    description:
+      '',
+    category: '',
+    pointValue: 4
+  },
+  {
+    name: '',
+    description:
+      '',
+    category: '',
+    pointValue: 4
+  },
+  {
+    name: '',
+    description:
+      '',
+    category: '',
+    pointValue: 4
+  },
+  {
+    name: '',
+    description:
+      '',
+    category: '',
+    pointValue: 4
+  },
+  {
+    name: '',
+    description:
+      '',
+    category: '',
+    pointValue: 4
+  },
+  {
+    name: '',
+    description:
+      '',
+    category: '',
+    pointValue: 4
+  },
+  {
+    name: '',
+    description:
+      '',
+    category: '',
+    pointValue: 4
+  },
+  {
+    name: '',
+    description:
+      '',
+    category: '',
+    pointValue: 4
+  },
+  {
+    name: '',
+    description:
+      '',
+    category: '',
+    pointValue: 4
+  },
+  {
+    name: '',
+    description:
+      '',
+    category: '',
+    pointValue: 4
+  },
+  {
+    name: '',
+    description:
+      '',
+    category: '',
+    pointValue: 4
+  },
+  {
+    name: '',
+    description:
+      '',
+    category: '',
+    pointValue: 4
+  },
+  {
+    name: '',
+    description:
+      '',
+    category: '',
+    pointValue: 4
+  }
 ];
 /* eslint-disable */
