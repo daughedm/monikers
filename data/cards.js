@@ -4621,166 +4621,187 @@ module.exports = [
     pointValue: 4
   },
   {
-    name: '',
+    name: 'Robin Williams',
     description:
-      '',
+      'An iconic comic and actor, who starred in films such as Good Mourning, Vietnam; Dead Poets Society; Aladdin; Good Will Hunting; and Mrs. Doubtfire. Known for his manic personality, he struggled with drug addiction and depression throughout his life.',
+    category: 'CELEBRITY',
+    pointValue: 1
+  },
+  {
+    name: 'Katamari',
+    description:
+      'A magic ball of detritus from a video game bearing its name that allows anything smaller than it to stick to it and cause it to grow. In the game the player character Prince uses the ball to gradually collect enough stuff in the universe so that his God-like father can remake the stars.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 3
+  },
+  {
+    name: 'The world\'s smallest violin',
+    description:
+      'What you use to play the world\'s saddest song. It is typically accompanied by rubbing your thumb and index finger together in imitation of playing this instrument, and is typically deployed to mock someone exaggerating a difficult experience to garner sympathy.',
+    category: 'ET CETERA',
+    pointValue: 2
+  },
+  {
+    name: 'Howard Dean',
+    description:
+      'The former Governer of Vermont who came to national attention during the run for President in 2004. While his campaign pioneered new ways to leverage the internet in political compaigns, he remains most known for an infamous scream he game during an Iowa Caucus rally.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 2
+  },
+  {
+    name: 'The Ark of the Covenant',
+    description:
+      'A wooden chest clad with gold containing the two stone tablets of the Ten Commandments, Aaron\'s rod, and a pot of manna. Though in the first Indiana Jones film, it instead contains face-melting angels that kill Nazis.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 3
+  },
+  {
+    name: 'Mr. Snuffleupagus',
+    description:
+      'Big Bird\'s imaginary friend on the PBS show Sesame Street. Despite being a large, tuskless wooly mammoth, for 16 seasons, no other characters were able to see this character — leading Big Bird to use him as a scapegoat whenever something would go wrong.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 2
+  },
+  {
+    name: 'Mr. Poopy Butthole',
+    description:
+      'A long-time friend of the Smith family from the cartoon Rick & Morty. He is perpetually happy and the Smith family has no bad memories of him. Though his name would suggest a fould scent and disgusting appearance, in reality he is just a tall yellow man in a tophat.',
+    category: 'FICTIONAL CHARACTER',
+    pointValue: 3
+  },
+  {
+    name: 'Tracy Flick',
+    description:
+      'A candidate for high school president from the novel Election. While most would call her an overachiever, she just thinks they\'re jealous. She was prtrayed by Reese Witherspoon in the film adaption with a strong Midwestern accent and clipped speech.',
     category: 'CELEBRITY',
     pointValue: 3
   },
   {
-    name: '',
+    name: 'Nude Tayne',
     description:
-      '',
+      'The Not Suitable For Work beta squence in the Celery Man short starring Paul Rudd. The dancer created in this sequence of the Cinco Identity Generator 2.5 wears only black boots, a gold chain, sunglasses, and a black fedora.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 4
+  },
+  {
+    name: 'The Cherry Poppin\' Daddies',
+    description:
+      'A third-wave ska band that reached mainstream success with their album Zoot Suit Riot during the 90s swing revival. A previous, punk version of the band was famous for its on-stage stunts, notably the use of a "Dildozer," a penis-shaped mower that ejaculated fluid from its hood.',
+    category: 'CELEBRITY',
+    pointValue: 2
+  },
+  {
+    name: 'The 5-second rule',
+    description:
+      'A folk belief that food dropped on the floor is still edible if it is retieved within a short amount of time. There is currently no scientific consensus on whether it is more safe to eat food that has spent only a short amount of time on the floor.',
+    category: 'ET CETERA',
+    pointValue: 2
+  },
+  {
+    name: 'A vestigial tail',
+    description:
+      'A flexible appendage, extending from the coccyx, that is present on human foetusus for 4 weeks during embryogenesis. Very rarely, babies are born with this feature: according to Wikipedia, 23 cases have been reported since 1884—all of which were surgically removed.',
+    category: 'ET CETERA',
+    pointValue: 3
+  },
+  {
+    name: 'Ed Hardy',
+    description:
+      'A clothing designer known as "the Godfather of madern Tattoo." On the website Stuff White People LIke, hating poeple who wear these shirts ranks as #124, and this person\'s clothing is so reviled that, "like Ku Klux Klan robes or Nazi uniforms, it cannot even be worn ironically."',
+    category: 'CELEBRITY',
+    pointValue: 2
+  },
+  {
+    name: 'Henry Wadsworth Longfellow',
+    description:
+      'A 19th-century writer and member of the Fireside Poets. He wrote several lyric poems, including Paul Revere\'s Ride. He was also the first American to translate The Divine Comedy, for which he created the group of writers known as The Dante Club. He has a funny name.',
+    category: 'HISTORICAL FIGURE',
+    pointValue: 4
+  },
+  {
+    name: 'Uma Thurman',
+    description:
+      'An actor famous for her role in The Truth About Cats & Dogs, Batman & Robin, Kill Bill, and Pulp Fiction. In the latter, she plays Mia Wallace, the wife of a mafia boss, who has to have an adrenaline shot injected directly into her heart after overdosing on heroin.',
+    category: 'CELEBRITY',
+    pointValue: 1
+  },
+  {
+    name: 'Dick Butkus',
+    description:
+      'A former NFL linebacker, actor, and broadcaster. He played for the Chicago Bears from 1965-1973 and was inducted into the Pro Football Hall of Fame. He is considered one of the best linebackers in football history. But in the context of this game , he just has a silly, silly name.',
+    category: 'CELEBRITY',
+    pointValue: 2
+  },
+  {
+    name: 'Occam\'s Razor',
+    description:
+      'A problem-solving concept advanced by the 14th century logician and Franciscan friar that roughly means "The simplest explanation is usually the correct one." It is however, merely a heuristic, not a law of the universe and therefore sometimes wrong.',
+    category: 'ET CETERA',
+    pointValue: 2
+  },
+  {
+    name: 'The hitchhiking robot',
+    description:
+      'A mechanical being that traveled across Canada and Europe by asking motorists for a ride. On a trip across the US, its body was found decapitated near Philadelphia. Ironically, its inventors created it as a social experiment about whether these being can trust humans.',
     category: 'CELEBRITY',
     pointValue: 3
   },
   {
-    name: '',
+    name: 'A guy talking to your baby at night through an unsecured baby monitor',
     description:
-      '',
+      'The person who hacked a family\'s radio system designed to listen to their infant. When discovered, the parents overheard such chilling phrases as "Wake up little boy, daddy\'s looking at you," and "Look, someone\'s coming into view."',
+    category: 'ET CETERA',
+    pointValue: 4
+  },
+  {
+    name: 'North American Man/Boy Love Association (NAMBLA)',
+    description:
+      'A pedophile and pederasty advocacy organization. It works to abolishage-of-consent laws and for the release of men imprisioned for sex with underage people where there was no "coercion" (whatever that means).',
+    category: 'ET CETERA',
+    pointValue: 3
+  },
+  {
+    name: 'Cecil the Lion',
+    description:
+      'A famous Zimbabwean cat who was killed by Minnesota dentist and recreational hunter Walter Palmer in 2015. The cat\'s death led to a wave of negative publicity and regulations making it more difficult to US citizen hunters to kill protected species when trophy hunting.',
     category: 'CELEBRITY',
     pointValue: 3
   },
   {
-    name: '',
+    name: 'Slavoj Žižek',
     description:
-      '',
+      'A psychoanalytic and Marxist philosopher whos popularizing work has made him a prominent critic of capitalism. He is now perhaps most famously known for his two documentaries, The Prevert\'s Guide to Cinema and The Pervert\'s Guide to Ideology.',
     category: 'CELEBRITY',
+    pointValue: 4
+  },
+  {
+    name: 'The middle seat',
+    description:
+      'The least desired place to sit while riding on a tain, plane, car, boat, or other mode of transportation—typically because you are scrunched between two or more other human beings. When you sit here, you are often said to be "riding bitch".',
+    category: 'ET CETERA',
+    pointValue: 2
+  },
+  {
+    name: 'The uncanny valley',
+    description:
+      'The effect produced by an image or object that looks and moves almost, but not quite, like a real person. It triggers feelings of revulsion in many people and is most often associated with animatronics and computer-generated graphics.',
+    category: 'ET CETERA',
     pointValue: 3
   },
   {
-    name: '',
+    name: 'Flint, Michigan',
     description:
-      '',
-    category: 'CELEBRITY',
+      'A city in the Great Lakes State. It is often listed among the "Most Dangerous Cities in the US" and recently has been in a public health crisis from high amounts of lead in the local water supply.',
+    category: 'ET CETERA',
     pointValue: 3
   },
   {
-    name: '',
+    name: 'The parasite that eats a fish\'s tongue',
     description:
-      '',
-    category: 'CELEBRITY',
-    pointValue: 3
-  },
-  {
-    name: '',
-    description:
-      '',
-    category: 'CELEBRITY',
-    pointValue: 3
-  },
-  {
-    name: '',
-    description:
-      '',
-    category: 'CELEBRITY',
-    pointValue: 3
-  },
-  {
-    name: '',
-    description:
-      '',
-    category: 'CELEBRITY',
-    pointValue: 3
-  },
-  {
-    name: '',
-    description:
-      '',
-    category: 'CELEBRITY',
-    pointValue: 3
-  },
-  {
-    name: '',
-    description:
-      '',
-    category: 'CELEBRITY',
-    pointValue: 3
-  },
-  {
-    name: '',
-    description:
-      '',
-    category: 'CELEBRITY',
-    pointValue: 3
-  },
-  {
-    name: '',
-    description:
-      '',
-    category: 'CELEBRITY',
-    pointValue: 3
-  },
-  {
-    name: '',
-    description:
-      '',
-    category: 'CELEBRITY',
-    pointValue: 3
-  },
-  {
-    name: '',
-    description:
-      '',
-    category: 'CELEBRITY',
-    pointValue: 3
-  },
-  {
-    name: '',
-    description:
-      '',
-    category: 'CELEBRITY',
-    pointValue: 3
-  },
-  {
-    name: '',
-    description:
-      '',
-    category: 'CELEBRITY',
-    pointValue: 3
-  },
-  {
-    name: '',
-    description:
-      '',
-    category: 'CELEBRITY',
-    pointValue: 3
-  },
-  {
-    name: '',
-    description:
-      '',
-    category: 'CELEBRITY',
-    pointValue: 3
-  },
-  {
-    name: '',
-    description:
-      '',
-    category: 'CELEBRITY',
-    pointValue: 3
-  },
-  {
-    name: '',
-    description:
-      '',
-    category: 'CELEBRITY',
-    pointValue: 3
-  },
-  {
-    name: '',
-    description:
-      '',
-    category: 'CELEBRITY',
-    pointValue: 3
-  },
-  {
-    name: '',
-    description:
-      '',
-    category: 'CELEBRITY',
-    pointValue: 3
-  },
+      'A louse that enters a cold-blooded vertebrate\'s body through the gills and attached itself to the mouth\'s muscular organ. After the organ has fallen off, the louse attaches itself to the remaining stub and replaces the organ, feeding on its host\'s blood and mucus.',
+    category: 'ET CETERA',
+    pointValue: 4
+  }
 
 ];
 /* eslint-disable */
