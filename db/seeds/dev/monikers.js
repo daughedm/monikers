@@ -1,4 +1,4 @@
-const cardData = require('../../../data/cards');
+const cardData = require('../../../data/demoData');
 
 exports.seed = function(knex, Promise) {
   return knex('cards')
