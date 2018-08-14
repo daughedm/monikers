@@ -58,7 +58,7 @@ export class Play extends Component {
           : currentTeam(teamNames[0]);
         clearInterval(timer);
       }
-    }, 1000);
+    }, 600);
     this.setState({ timer });
   };
 
