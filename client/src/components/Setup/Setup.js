@@ -17,26 +17,11 @@ export class Setup extends Component {
     };
   }
 
-  getActiveCards = async numberOfCards => {
+  getActiveCards = async () => {
     const { addCard } = this.props;
-    const numberOfCardsInIDB = await indexedDB.allCards.count();
-    const lowerBound = 1;
-    const upperBound = numberOfCardsInIDB;
-    const uniqueRandomNumbers = [];
-
-    while (uniqueRandomNumbers.length < numberOfCards) {
-      const randomNumber = Math.floor(
-        Math.random() * (upperBound - lowerBound) + lowerBound
-      );
-
-      if (uniqueRandomNumbers.indexOf(randomNumber) === -1) {
-        uniqueRandomNumbers.push(randomNumber);
-      }
-    }
     const allCards = await indexedDB.allCards.toArray();
-    uniqueRandomNumbers.forEach(num => {
-      addCard(allCards[num]);
-    });
+
+    allCards.forEach(card => addCard(card))
   };
 
   handleChange = e => {
@@ -51,7 +36,7 @@ export class Setup extends Component {
     e.preventDefault();
     const { teamOne, teamTwo, numCards } = this.state;
 
-    if (teamOne && teamTwo && numCards >= 30) {
+    if (teamOne && teamTwo && numCards >= 10) {
       await this.storeGameInfo(teamOne, teamTwo, numCards);
       this.getActiveCards(numCards);
       this.props.history.push('/play');
@@ -100,8 +85,8 @@ export class Setup extends Component {
           <input
             className="input-field"
             type="number"
-            min="30"
-            max="60"
+            min="10"
+            max="10"
             placeholder="Enter number 30-60"
             name="numCards"
             onChange={this.handleChange}
