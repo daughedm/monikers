@@ -10,6 +10,7 @@ import Loading from '../../components/Loading/Loading';
 import Finish from '../../components/Finish/Finish';
 import indexedDB from '../../indexedBD';
 import * as api from '../../api/api';
+import cardData from '../../data/cards';
 import './App.css';
 
 class App extends Component {
@@ -19,9 +20,9 @@ class App extends Component {
 
   cardsPGtoIDB = async () => {
     if (navigator.onLine) {
-      const cardsPG = await api.getCards();
+      // const cardsPG = await api.getCards();
       indexedDB.allCards.clear();
-      indexedDB.allCards.bulkAdd(cardsPG);
+      indexedDB.allCards.bulkAdd(cardData);
     }
   };
 
